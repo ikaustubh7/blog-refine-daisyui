@@ -23,6 +23,8 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "@radix-ui/react-popover": "^1.0.7",
+    "@radix-ui/react-slot": "^1.0.2",
     "@refinedev/cli": "^2.16.26",
     "@refinedev/core": "^4.47.2",
     "@refinedev/inferencer": "^4.5.20",
@@ -31,10 +33,19 @@
     "@refinedev/react-router-v6": "^4.5.5",
     "@refinedev/react-table": "^5.6.6",
     "@refinedev/simple-rest": "^5.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "date-fns": "^3.3.1",
+    "file-saver": "^2.0.5",
+    "lucide-react": "^0.349.0",
     "react": "^18.0.0",
+    "react-day-picker": "^8.10.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.8.1",
-    "recharts": "^2.1.9"
+    "recharts": "^2.1.9",
+    "recoil": "^0.7.7",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^18.16.2",

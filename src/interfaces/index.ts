@@ -59,3 +59,16 @@ export type TTab = {
   label: string;
   content: JSX.Element;
 };
+
+export type storeType={
+  id: number;
+  'online store session': number;
+  'net return value': string;
+  'total orders': number;
+  'conversion rate': number;
+  'average order value': string;
+  'gross sales': string;
+  'store search conversion': number;
+  'return rate': number;
+  date: string;
+}
