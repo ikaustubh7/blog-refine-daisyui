@@ -13,7 +13,7 @@ import { useEffect } from 'react';
 
 const ResponsiveLineChart = () => {
 
-  
+
   const { dateRange } = useDateRange();
   const [sortedDataForChart, setSortedDataForChart] = useRecoilState(sortedDataForChartState);
 
@@ -23,17 +23,17 @@ const ResponsiveLineChart = () => {
 
 
 
-  
+
 
   useEffect(() => {
     const fetchData = async () => {
-      
 
-      function convertdate(date: string){
+
+      function convertdate(date: string) {
         const formdate = parse(date, 'dd/MM/yyyy', new Date());
-        
-        return format(formdate,'dd-MM-yyyy' );
-    
+
+        return format(formdate, 'dd-MM-yyyy');
+
       }
       const formattedFromDate = convertdate(dateRange?.from?.toLocaleDateString('en-GB') ?? '');
       const formattedToDate = convertdate(dateRange?.to?.toLocaleDateString('en-GB') ?? '');
@@ -76,7 +76,7 @@ const ResponsiveLineChart = () => {
   }
 
 
-  
+
 
   return (
     <ResponsiveContainer width="100%" height="100%">
