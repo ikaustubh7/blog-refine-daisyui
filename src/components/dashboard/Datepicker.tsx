@@ -15,14 +15,19 @@ import {
 } from "../../ui/popover";
 
 import { useDateRange } from "../../context/Datecontext";
+import { Daterangerecoil } from "../../context/storeDataState";
+import { useRecoilState } from "recoil";
 
 export function DatePickerWithRange({
   className,
 }: React.HTMLAttributes<HTMLDivElement>) {
   const [fromDate, setFromDate] = useState<Date | undefined>(new Date(2022, 3, 20));
-  const [toDate, setToDate] = useState<Date | undefined>(new Date(2023, 3, 20));
+  const [toDate, setToDate] = useState<Date | undefined>(new Date(2022, 8, 20));
 
-  const { setDateRange } = useDateRange();
+  const {dateRange, setDateRange } = useDateRange();
+
+
+  const [daterangerecoil, setDaterangerecoil]=useRecoilState(Daterangerecoil);
 
   useEffect(() => {
     // Update the external date range state/context when fromDate or toDate changes
@@ -31,6 +36,10 @@ export function DatePickerWithRange({
       console.log('Date range changed:', { from: fromDate, to: toDate });
     }
   }, [fromDate, toDate, setDateRange]);
+
+  if (dateRange) {
+    setDaterangerecoil(dateRange);
+  }
 
   // Handler for selecting the "from" date
   const handleSelectFromDate = (selectedDate: Date | undefined) => {

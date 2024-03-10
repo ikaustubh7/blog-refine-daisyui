@@ -5,6 +5,10 @@ import storedataWithMonthYear from '../../mockdata/storedata';
 import { format, parse } from 'date-fns';
 import { sortedDataForChartState } from '../../context/storeDataState';
 import { useRecoilValue , atom, selector, useRecoilState} from 'recoil';
+import Trendicon from '../../ui/Trendicon';
+import PenIcon from '../../ui/PenIcon';
+import PopMenu from './PopMenu';
+import { useState ,useCallback} from 'react';
 
 
 
@@ -27,19 +31,36 @@ let totalIds = [0, 1, 2, 3, 4, 5, 6, 7];
 let currentIds = [0, 1, 2, 3];
 
 
-const currentidState = atom({
+export const currentidState = atom({
   key :'currentidState',
   default:currentIds
 })
 
-const residueidState= selector({
+export const residueidState= selector({
   key:'residueidState',
   get:({get})=>{
     const current = get(currentidState)
-    let  residueIds = totalIds.filter(id => !current.includes(id));
+    let residueIds = totalIds.filter(id => !current.includes(id));
+    if (residueIds.length < 6 && current.length > 3) {
+      residueIds = [...new Set([...residueIds, current[1], current[3]])];
+    }
+    return residueIds;
+
+
+
   }
 })
 
+export const headtitleState= atom ({
+  key:'headtitles',
+  default :headtitles
+})
+
+
+export const clickedCurrent=atom({
+  key:'clickedcurrent',
+  default:0
+})
 
 
 
@@ -48,11 +69,16 @@ const residueidState= selector({
 function StorepanelStats() {
 
 
-    const [current , setCurrent]= useRecoilState(currentidState);
+  const [hoverindex, setHoverindex] = useState<number | null>(null);  
+    const [currentid , setCurrentid]= useRecoilState(currentidState);
+    const [clickedtopic, setClickedtopic ]= useRecoilState(clickedCurrent);
+    
     
     const residueIds = useRecoilValue(residueidState)
+    console.log("residueids are---",residueIds)
 
     const sortedDataForChart = useRecoilValue(sortedDataForChartState);
+    //console.log(sortedDataForChart)
     let propsvalue: {id: number, title: string, firstday: number, value: number, percentagechange: number}[] = []
 
     if (sortedDataForChart.length > 0){
@@ -63,8 +89,9 @@ function StorepanelStats() {
       const title = headtitles[item].title;
       const key = headtitles[item].key;
       const firstday = sortedDataForChart[0][key];
-      const value = sortedDataForChart[sortedDataForChart.length-1][key];
-      const change = value - firstday;
+      const lastday = sortedDataForChart[sortedDataForChart.length-1][key];
+      const value = sortedDataForChart[sortedDataForChart.length-1][key].toLocaleString('en-US')
+      const change = lastday - firstday;
       const percentagechange = Math.round( ((change/firstday)*100) );
       console.log('key is', key);
      
@@ -97,32 +124,96 @@ function StorepanelStats() {
   
   }
 
- // console.log('propsvalue',propsvalue)
+  console.log('propsvalue',propsvalue)
+  console.log('current id--', currentid)
+
+  const handleMouseOver = useCallback((current: number) => {
+    setHoverindex(current);
+  }, []); // Dependencies array is empty, meaning this function is created once
+
+  // Using useCallback to memoize the onMouseLeave handler
+  const handleMouseLeave = useCallback(() => {
+    setHoverindex(null);
+  }, []); // Dependencies array is empty, meaning this function is created once
+
+  // Using useCallback to memoize the onDoubleClick handler
+  const handleDoubleClick = useCallback((current: number) => {
+    setClickedtopic(current);
+  }, []); // Dependencies array is empty, meaning this function is created once
+
     
- function onResidueClick(selectid:number, menuid:number)  {
-      
-    const  indextoremove = current.indexOf(selectid)
-    
-    setCurrent(current.splice(indextoremove,1,menuid))
-
- }
 
 
 
 
 
-
+  if (propsvalue.length==0){
+    return <div>Loading data ...</div>
+  }
 
 
   return (
     <>
-    {Array.from({ length: numberOfElements }).map((_, index) => (
+    {currentid.map((current, index) => (
             <div
               key={index}
-              className="w-[183px] rounded-[10px]   bg-[#F1F1F1]"
+              className="w-[183px] rounded-[10px] h-[60px]   hover:bg-[#F1F1F1]"
+              onMouseOver={() => handleMouseOver(current)}
+          onMouseLeave={handleMouseLeave}
+          onDoubleClick={() => handleDoubleClick(current)}
             >
-              <div className="w-[124px] h-[15px] rounded-sm bg-[#D9D9D9] ml-[9px] mt-[7px] "></div>
-              <div className="w-[152px] h-[20px] rounded-sm bg-[#D9D9D9] mb-[7px] mt-[5px] ml-[9px] mr-[22px]"></div>
+
+
+
+              <div className="flex justify-between   w-[163px]  rounded-sm  ml-[10px] mr-[10px] mt-[5px] h-[23px] "
+              
+              
+              >
+               <span className='text-[12px] font-[Inter] text-[#303030] font-[500] leading-[14.52px]' 
+               
+               
+               > 
+               
+               
+               
+                {propsvalue[current].title}  </span>
+
+
+<span className={`${current === hoverindex ? 'visible hover:bg-[#cac9c7]' : 'invisible'} w-[23px] h-[23px] `}  >
+               
+                <PopMenu  selectid={current}   /> 
+                
+                 </span>
+
+              </div>
+              <div className="flex    w-[152px] h-[20px] rounded-sm bg-[F1F1F1] mb-[5px] mt-[5px] ml-[10px] ">
+
+
+
+               <span className='font-semibold text-[15px] leading-[21.98px] font-[Inter]'  >
+
+
+               { [1, 4, 5].includes(current) ? `$${propsvalue[current].value}` : propsvalue[current].value }
+                 
+                 
+                 
+                  </span> 
+
+
+
+
+
+                <span  className='flex font-[Inter] bg-[#F1F1F1] font-normal text-[10px] leading-[14.65px] items-center place-self-center ml-[5px] ' >
+                <Trendicon value={propsvalue[current].percentagechange < 0 ? false : true} />
+                {Math.abs(propsvalue[current].percentagechange)}  %
+                   
+                
+                
+                
+                 </span>
+
+
+              </div>
             </div>
           ))}
     </>

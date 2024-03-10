@@ -56,6 +56,7 @@ function StorePanel() {
     <div className="grid flex-col py-10 mb-[48px]  justify-items-center  h-[420px]">
       <div>
         <DatePickerWithRange />
+        
       </div>
 
       <div className="w-[793px] h-[276px] bg-white mt-[30px] ml-[22px] p-[10px] gap-[10px] rounded-[10px]  drop-shadow-md ">
@@ -82,7 +83,7 @@ function StorePanel() {
         </div>
 
         {/* 2nd part */}
-        <div className="w-[773px] h-[150px] rounded-[10px] mt-[10px]  bg-[#E3E3E3]">
+        <div className="w-[773px] h-[150px] rounded-[10px] mt-[10px]  bg-white">
           <ResponsiveLineChart/>
         </div>
       </div>

@@ -62,13 +62,13 @@ export type TTab = {
 
 export type storeType={
   id: number;
-  'online store session': number;
-  'net return value': string;
-  'total orders': number;
-  'conversion rate': number;
-  'average order value': string;
-  'gross sales': string;
-  'store search conversion': number;
-  'return rate': number;
+  'online store session': number|string;
+  'net return value': string|number;
+  'total orders': number|string;
+  'conversion rate': number|string;
+  'average order value': string | number ;
+  'gross sales': string  |number;
+  'store search conversion': number|string;
+  'return rate': number|string;
   date: string;
 }
