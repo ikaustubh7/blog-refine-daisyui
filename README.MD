@@ -41,6 +41,7 @@ Data routered through inproject file by manipulating JSON data
 
 implementation:-
 
-Ensured Date Picker not allow selecting Date for which Data is not allowed .
+Ensured Date Picker does not allow selecting DateRange for which Data is not allowed .
+
 Added Reference Lines in Chart to get quick understanding of data .
 
