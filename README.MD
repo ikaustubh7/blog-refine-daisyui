@@ -12,13 +12,12 @@ Project to add Date Picker Integration for data comparison of two time periods
 
 ![Screenshots](https://i.ibb.co/K0W8MJn/Screenshot-2024-03-11-094136.png)
 
-![Screenshots](https://ibb.co/fS0CtkL)
+![Screenshots](https://i.ibb.co/DbK7k9T/Screenshot-2024-03-11-102737.png) 
+![Screenshots](https://i.ibb.co/R3BdHhq/Screenshot-2024-03-11-102758.png)
+![Screenshots](https://i.ibb.co/58NWj3k/Screenshot-2024-03-11-102832.png)
+![Screenshots](https://i.ibb.co/hRNPnVR/Screenshot-2024-03-11-102857.png )
 
-![Screenshots](https://ibb.co/N9mbY1M)
 
-![Screenshots](https://ibb.co/Ph7ZWyM)
-
-![Screenshots](https://ibb.co/VWG7hTW)
 
 ## Quick Start
 
