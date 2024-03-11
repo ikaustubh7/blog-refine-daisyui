@@ -360,10 +360,7 @@ leading-[12px] tracking-normal text-left
   };
 
 
-  const legendStyle={
-    width:'189px',
-    height:'22px'
-  }
+  
   
 
   return (

@@ -27,25 +27,6 @@ function StorePanel() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   if (isLoading) {
     
     
@@ -83,7 +64,7 @@ function StorePanel() {
           </div>
         </div>
 
-        {/* 2nd part */}
+        {/* chart div */}
         <div className={` ${ foldchart?"invisible":"visible"    }           w-[773px] h-[192px] rounded-[10px] mt-[10px]  bg-white    ` }   >
           <ResponsiveLineChart/>
         </div>

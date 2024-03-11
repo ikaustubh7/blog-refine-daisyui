@@ -78,7 +78,7 @@ function StorepanelStats() {
   const [clickedtopic, setClickedtopic] = useRecoilState(clickedCurrent);
 
   const residueIds = useRecoilValue(residueidState);
-  console.log("residueids are---", residueIds);
+  //console.log("residueids are---", residueIds);
 
   const sortedDataForChart = useRecoilValue(
     sortedDataForChartState
@@ -140,17 +140,17 @@ function StorepanelStats() {
 
   const handleMouseOver = useCallback((current: number) => {
     setHoverindex(current);
-  }, []); // Dependencies array is empty, meaning this function is created once
+  }, []); 
 
   // Using useCallback to memoize the onMouseLeave handler
   const handleMouseLeave = useCallback(() => {
     setHoverindex(null);
-  }, []); // Dependencies array is empty, meaning this function is created once
+  }, []); 
 
   // Using useCallback to memoize the onDoubleClick handler
   const handleClick = useCallback((current: number) => {
     setClickedtopic(current);
-  }, []); // Dependencies array is empty, meaning this function is created once
+  }, []); 
 
   if (propsvalue.length == 0) {
     return <div>Loading data ...</div>;
