@@ -208,7 +208,7 @@ const ResponsiveLineChart = () => {
   console.log(oldDateRange);
 
 
-  function subtractYear(dateStr) {
+  function subtractYear(dateStr:string ) {
     const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
                     "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     const [month, year] = dateStr.split(' ');
@@ -242,7 +242,7 @@ const ResponsiveLineChart = () => {
   };
 
   
-  const CustomTooltip = ({ active, payload, label }: { active: boolean, payload: any[], label: string | number }) => {
+  const CustomTooltip = ({ active, payload, label }: { active: boolean, payload: any[], label: string  }) => {
     if (active && payload && payload.length) {
 
           const change =((payload[0].value-payload[1].value)/(payload[1].value)*100).toFixed(0).concat('%')          
@@ -348,8 +348,8 @@ leading-[12px] tracking-normal text-left
 
 
   const spanStyle = {
-    width: '189px',
-    height: '22px',
+    width: '149px',
+    height: '12px',
     backgroundColor: '#F6F6F7',
     fontFamily: 'Inter',
     fontSize: '10px',
@@ -359,6 +359,11 @@ leading-[12px] tracking-normal text-left
     color: '#70707A',
   };
 
+
+  const legendStyle={
+    width:'189px',
+    height:'22px'
+  }
   
 
   return (
@@ -407,7 +412,8 @@ leading-[12px] tracking-normal text-left
 
 
             return (
-              <span
+
+               <span
               style={spanStyle}
                 
               >
@@ -415,7 +421,8 @@ leading-[12px] tracking-normal text-left
           
           
                 {value}
-              </span>
+              </span>  
+              
     );
   }
           

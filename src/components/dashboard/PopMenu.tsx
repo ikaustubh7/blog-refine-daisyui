@@ -7,6 +7,7 @@ import Charticon from "../../ui/Charticon";
 import Questionmarkicon from "../../ui/Questionmarkicon";
 import { currentidState } from "./StorepanelStats";
 import { useRecoilState ,useRecoilValue } from "recoil";
+import { useState } from "react";
 
 
 
@@ -18,13 +19,24 @@ interface PopMenuProps{
 
 
 
+
+
 const PopMenu: React.FC<PopMenuProps> = ({ selectid }) =>{
   const [currentid , setCurrentid]= useRecoilState(currentidState);
     
   const residueIds = useRecoilValue(residueidState);
   const headtitles=useRecoilValue(headtitleState);
+  const [isPopoverOpen, setIsPopoverOpen] = useState(false);
 
-  console.log('residueid--',residueIds)
+  const handlePopoverOpen = () => {
+    setIsPopoverOpen(true);
+  };
+
+  const handlePopoverClose = () => {
+    setIsPopoverOpen(false);
+  };
+
+ // console.log('residueid--',residueIds)
 
   function onResidueClick(selectid:number, menuid:number)  {
     setCurrentid(current => {
@@ -57,12 +69,13 @@ const PopMenu: React.FC<PopMenuProps> = ({ selectid }) =>{
 
   return (
     <Popover>
-      <PopoverTrigger>
+      <PopoverTrigger onClick={handlePopoverOpen}  >
         <PenIcon />
       </PopoverTrigger>
       <PopoverContent
         align={"start"}
-        className="bg-[#FFFFFF] w-[212px] h-[167px] rounded-[10px] p-[5px] space-y-[5px]  "
+        className={`bg-[#FFFFFF] w-[212px] h-[167px] rounded-[10px] p-[5px] space-y-[5px] ${isPopoverOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'} `} onMouseEnter={handlePopoverOpen}
+        onMouseLeave={handlePopoverClose}
       >
 
 
@@ -71,7 +84,7 @@ const PopMenu: React.FC<PopMenuProps> = ({ selectid }) =>{
 
       
 <div className="flex  w-[202px]h-[22px] rounded-[3px]  hover:bg-[#F1F1F1] hover:cursor-pointer   " 
-onClick={()=>onResidueClick(selectid ,item)}  key={index}  >
+onClick={()=>onResidueClick(selectid ,item)}  key={index}                   >
 
 
 

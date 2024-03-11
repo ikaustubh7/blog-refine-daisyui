@@ -166,7 +166,7 @@ function StorepanelStats() {
           }  `}
           onMouseOver={() => handleMouseOver(current)}
           onMouseLeave={handleMouseLeave}
-          onClick={() => handleClick(current)}
+          onDoubleClick={() => handleClick(current)}
         >
           <div className="flex justify-between   w-[163px]  rounded-sm  ml-[10px] mr-[10px] mt-[5px] h-[23px] ">
             <span className="text-[12px] font-[Inter] text-[#303030] font-[500] leading-[14.52px]   ">
@@ -192,7 +192,7 @@ function StorepanelStats() {
             <span
               className=
               
-              {`${ current === hoverindex ? "visible hover:bg-[#cac9c7]" : "invisible"  } w-[23px] h-[23px] `}
+              {`${ current === hoverindex ? "visible hover:bg-[#cac9c7]" : "invisible"  } w-[23px] h-[23px] place-content-center px-1  rounded `}
             >
               <PopMenu selectid={current} />
             </span>
