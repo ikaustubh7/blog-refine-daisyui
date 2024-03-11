@@ -47,13 +47,16 @@ Your application will be accessible at http://localhost:5173
 ###  Libraries used for project:
 
 ReChartJS for charts:-
+![Link](https://recharts.org/en-US/)
 
  * (Good Documentation and Unopininated Library , low learning curve ) *
 
-Recoil for State Management:-
+RecoilJs for State Management:-
+![Link](https://recoiljs.org/)
  * (Least Boiler Code  , quick for implementation ) * 
 
-ShadcnUi for Ui:
+ShadcnUi for Ui:-
+![Link](https://ui.shadcn.com/)
 * ( Great Boiler code to start creating complex Ui with state management  ) * 
 
 Assumptions made for Project:
