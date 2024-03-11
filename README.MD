@@ -28,14 +28,19 @@ ShadcnUi for Ui:-
 [->](https://ui.shadcn.com/)
 * ( Great Boiler code to start creating complex Ui with state management  ) * 
 
-Assumptions made for Project:
+Assumptions made for Project:-
 
 Date used for Project ranges from Year: 2019 to 2024
 
 Default Chart show is for Online store sessions. 
 
+Double Click to check Graph for respective Topic.
+
 Data routered through inproject file by manipulating JSON data
 
 
+implementation:-
 
+Ensured Date Picker not allow selecting Date for which Data is not allowed .
+Added Reference Lines in Chart to get quick understanding of data .
 
