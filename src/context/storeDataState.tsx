@@ -1,6 +1,7 @@
 import { atom, selector } from "recoil";
 import storedataWithMonthYear from "../mockdata/storedata";
 import { DateRange } from "react-day-picker";
+import { storedataType } from "../interfaces";
 
 
 
@@ -10,14 +11,14 @@ export const Daterangerecoil=atom<DateRange>({
 })
 
 
-export const sortedDataForChartState = atom<any>({
+export const sortedDataForChartState = atom<storedataType>({
   key: 'sortedDataForChartState',
-  default: [], 
+  default:undefined
 });
 
-export const oldsortedDataForChartState=atom<any>({
+export const oldsortedDataForChartState=atom<storedataType>({
   key:'oldSortedDataForChartState',
-  default:[],
+  default:undefined
 }
 );
 

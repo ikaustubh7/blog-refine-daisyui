@@ -37,9 +37,7 @@ export function DatePickerWithRange({
     }
   }, [fromDate, toDate, setDateRange]);
 
-  if (dateRange) {
-    setDaterangerecoil(dateRange);
-  }
+ 
 
   // Handler for selecting the "from" date
   const handleSelectFromDate = (selectedDate: Date | undefined) => {
@@ -48,6 +46,10 @@ export function DatePickerWithRange({
       // Optionally, update toDate if it's before fromDate
       if (toDate && selectedDate > toDate) {
         setToDate(undefined);
+      }
+      if (selectedDate && toDate) {
+        setDateRange({ from: selectedDate, to: toDate });
+        setDaterangerecoil({from:selectedDate,to:toDate})
       }
     }
   };
@@ -58,6 +60,16 @@ export function DatePickerWithRange({
       setToDate(selectedDate);
     }
   };
+
+
+
+
+  
+  
+
+
+
+
     const defaultMonth = fromDate ? fromDate : new Date();
   return (
     <div className={cn("grid gap-2", className)}>
@@ -83,6 +95,7 @@ export function DatePickerWithRange({
               initialFocus
               mode="single"
               defaultMonth={fromDate}
+              fromDate={new Date(2018,1,1)}
               toMonth={toDate}
               selected={fromDate}
               onSelect={handleSelectFromDate}

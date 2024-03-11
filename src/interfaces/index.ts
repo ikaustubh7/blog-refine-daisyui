@@ -71,4 +71,23 @@ export type storeType={
   'store search conversion': number|string;
   'return rate': number|string;
   date: string;
+
 }
+
+export type storedataType={
+  id: number;
+  'online store session': number;
+  'net return value': string;
+  'total orders': number;
+  'conversion rate': number;
+  'average order value': number ;
+  'gross sales': number;
+  'store search conversion': number;
+  'return rate': number;
+  date: string;
+  monthYear:string;
+
+}[];
+
+
+

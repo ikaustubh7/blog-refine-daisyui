@@ -53,19 +53,19 @@ function StorePanel() {
   }
 
   return (
-    <div className="grid flex-col py-10 mb-[48px]  justify-items-center  h-[420px]">
+    <div className="grid flex-col py-10 mb-[48px]  justify-items-center bg-white h-[450px]">
       <div>
         <DatePickerWithRange />
         
       </div>
 
-      <div className="w-[793px] h-[276px] bg-white mt-[30px] ml-[22px] p-[10px] gap-[10px] rounded-[10px]  drop-shadow-md ">
-        <div className="flex  w-[773px] h-[54px]  gap-1 ">
+      <div className="w-[793px] h-[282px] bg-white mt-[30px] ml-[22px] p-[10px]  rounded-[10px]    shadow-md ">
+        <div className="flex  w-[773px] h-[60px]   ">
           {/* Render elements dynamically */}
           
           <StorepanelStats/>
 
-          <div className="mt-[18.5px] mb-[18.5px] ml-[9px] ">
+          <div className="mt-[21.5px] mb-[21.5px] bg-white ml-[17.5px] ">
             <svg
               width="11"
               height="7"
@@ -83,7 +83,7 @@ function StorePanel() {
         </div>
 
         {/* 2nd part */}
-        <div className="w-[773px] h-[150px] rounded-[10px] mt-[10px]  bg-white">
+        <div className="w-[773px] h-[192px] rounded-[10px] mt-[10px]  bg-white">
           <ResponsiveLineChart/>
         </div>
       </div>

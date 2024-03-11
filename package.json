@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "@radix-ui/react-hover-card": "^1.0.7",
     "@radix-ui/react-popover": "^1.0.7",
     "@radix-ui/react-slot": "^1.0.2",
     "@refinedev/cli": "^2.16.26",

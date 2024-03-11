@@ -9,6 +9,13 @@ import Trendicon from '../../ui/Trendicon';
 import PenIcon from '../../ui/PenIcon';
 import PopMenu from './PopMenu';
 import { useState ,useCallback} from 'react';
+import { storedataType } from '../../interfaces';
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "../../ui/hover-card"
+
 
 
 
@@ -62,7 +69,9 @@ export const clickedCurrent=atom({
   default:0
 })
 
-
+type SortedDataForChart = storedataType & {
+  [key: string]: number | string;
+};
 
 
 
@@ -77,20 +86,26 @@ function StorepanelStats() {
     const residueIds = useRecoilValue(residueidState)
     console.log("residueids are---",residueIds)
 
-    const sortedDataForChart = useRecoilValue(sortedDataForChartState);
+    const sortedDataForChart = useRecoilValue(sortedDataForChartState)as SortedDataForChart;
     //console.log(sortedDataForChart)
     let propsvalue: {id: number, title: string, firstday: number, value: number, percentagechange: number}[] = []
 
-    if (sortedDataForChart.length > 0){
+    if (sortedDataForChart!==undefined){
     
      for (const item in headtitles){
       
       const id = headtitles[item].id;
       const title = headtitles[item].title;
-      const key = headtitles[item].key;
-      const firstday = sortedDataForChart[0][key];
-      const lastday = sortedDataForChart[sortedDataForChart.length-1][key];
-      const value = sortedDataForChart[sortedDataForChart.length-1][key].toLocaleString('en-US')
+      const key = headtitles[item].key as keyof typeof sortedDataForChart[0]  ;
+
+
+
+
+
+
+      const firstday = Number(sortedDataForChart[0][key]);
+      const lastday = Number(sortedDataForChart[sortedDataForChart.length-1][key]);
+      const value = sortedDataForChart[sortedDataForChart.length-1][key]
       const change = lastday - firstday;
       const percentagechange = Math.round( ((change/firstday)*100) );
       console.log('key is', key);
@@ -105,7 +120,7 @@ function StorepanelStats() {
         id: id,
         title: title,
         firstday: firstday,
-        value: value,
+        value:Number( value),
         percentagechange: percentagechange
       }
       
@@ -113,7 +128,7 @@ function StorepanelStats() {
       titlearray['id'] = id
       titlearray['title'] = title
       titlearray['firstday'] = firstday
-      titlearray['value'] = value
+      titlearray['value'] = Number(value)
       titlearray['percentagechange'] = percentagechange
       propsvalue.push(titlearray)
 
@@ -137,7 +152,7 @@ function StorepanelStats() {
   }, []); // Dependencies array is empty, meaning this function is created once
 
   // Using useCallback to memoize the onDoubleClick handler
-  const handleDoubleClick = useCallback((current: number) => {
+  const handleClick = useCallback((current: number) => {
     setClickedtopic(current);
   }, []); // Dependencies array is empty, meaning this function is created once
 
@@ -157,10 +172,10 @@ function StorepanelStats() {
     {currentid.map((current, index) => (
             <div
               key={index}
-              className="w-[183px] rounded-[10px] h-[60px]   hover:bg-[#F1F1F1]"
+              className={`w-[183px] rounded-[10px] h-[60px]   hover:bg-[#F1F1F1]  ${current=== clickedtopic ? 'bg-[#F1F1F1]':'' }  `}
               onMouseOver={() => handleMouseOver(current)}
           onMouseLeave={handleMouseLeave}
-          onDoubleClick={() => handleDoubleClick(current)}
+          onClick={() => handleClick(current)}
             >
 
 
@@ -176,7 +191,12 @@ function StorepanelStats() {
                
                
                
-                {propsvalue[current].title}  </span>
+                {propsvalue[current].title}         
+                
+                
+                
+                
+                  </span>
 
 
 <span className={`${current === hoverindex ? 'visible hover:bg-[#cac9c7]' : 'invisible'} w-[23px] h-[23px] `}  >
@@ -203,7 +223,7 @@ function StorepanelStats() {
 
 
 
-                <span  className='flex font-[Inter] bg-[#F1F1F1] font-normal text-[10px] leading-[14.65px] items-center place-self-center ml-[5px] ' >
+                <span  className='flex font-[Inter]  font-normal text-[10px] leading-[14.65px] items-center place-self-center ml-[5px] ' >
                 <Trendicon value={propsvalue[current].percentagechange < 0 ? false : true} />
                 {Math.abs(propsvalue[current].percentagechange)}  %
                    
