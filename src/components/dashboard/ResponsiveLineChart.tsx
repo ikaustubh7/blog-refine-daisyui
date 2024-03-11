@@ -369,14 +369,16 @@ leading-[12px] tracking-normal text-left
         data={combinedData}
         margin={{
           top: 5,
-          right: 5,
+          right: 15,
           left: -15,
           bottom: 5,
         }}
       >
         
-        <XAxis dataKey="pv1"      />
+        <XAxis dataKey="pv1"  axisLine={false}  tickLine={false}  />
         <YAxis  hide={false} 
+            tickLine={false}
+        axisLine={false}
         tickFormatter={(value) =>{
           
             if (value >1000){
@@ -426,8 +428,8 @@ leading-[12px] tracking-normal text-left
         <ReferenceLine y={20000}  stroke="#ECF0F1"  />
         
         <ReferenceLine y={25000}  stroke="#ECF0F1"  />
-        <ReferenceLine y={0}  stroke="#FFFFFF"  />
-        <ReferenceLine x={0}  stroke="#FFFFFF"  />
+        <ReferenceLine y={50}  stroke="#ECF0F1"  />
+
 
 
 
