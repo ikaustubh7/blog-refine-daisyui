@@ -1,9 +1,8 @@
 import { storeType } from "../interfaces";
 
-
-  const data =[
+const data = [
   {
-    "id": 1324,
+    id: 1324,
     "online store session": 17071,
     "net return value": "155184.50",
     "total orders": 3466,
@@ -12,11 +11,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18255.02,
     "store search conversion": 71.43,
     "return rate": 26.2,
-    "date": "31-05-2018",
-    "monthYear": "May 2018"
+    date: "31-05-2018",
+    monthYear: "May 2018",
   },
   {
-    "id": 1562,
+    id: 1562,
     "online store session": 12001,
     "net return value": "142161.90",
     "total orders": 3340,
@@ -25,11 +24,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12432.45,
     "store search conversion": 70.93,
     "return rate": 19.55,
-    "date": "01-06-2018",
-    "monthYear": "Jun 2018"
+    date: "01-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1753,
+    id: 1753,
     "online store session": 10092,
     "net return value": "148150.10",
     "total orders": 3057,
@@ -38,11 +37,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16724.64,
     "store search conversion": 79.09,
     "return rate": 17.2,
-    "date": "02-06-2018",
-    "monthYear": "Jun 2018"
+    date: "02-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1660,
+    id: 1660,
     "online store session": 10896,
     "net return value": "130784.60",
     "total orders": 3923,
@@ -51,11 +50,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13738.01,
     "store search conversion": 64.54,
     "return rate": 10.2,
-    "date": "03-06-2018",
-    "monthYear": "Jun 2018"
+    date: "03-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1360,
+    id: 1360,
     "online store session": 14126,
     "net return value": "112511.10",
     "total orders": 4093,
@@ -64,11 +63,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17945.47,
     "store search conversion": 45.3,
     "return rate": 16.18,
-    "date": "05-06-2018",
-    "monthYear": "Jun 2018"
+    date: "05-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1181,
+    id: 1181,
     "online store session": 12545,
     "net return value": "122142.90",
     "total orders": 4817,
@@ -77,11 +76,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10677.97,
     "store search conversion": 51.17,
     "return rate": 28.98,
-    "date": "11-06-2018",
-    "monthYear": "Jun 2018"
+    date: "11-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1822,
+    id: 1822,
     "online store session": 12021,
     "net return value": "182404.20",
     "total orders": 3677,
@@ -90,11 +89,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14995.99,
     "store search conversion": 66.92,
     "return rate": 29.89,
-    "date": "12-06-2018",
-    "monthYear": "Jun 2018"
+    date: "12-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1213,
+    id: 1213,
     "online store session": 15189,
     "net return value": "130417.40",
     "total orders": 4280,
@@ -103,11 +102,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12662.09,
     "store search conversion": 64.07,
     "return rate": 26.34,
-    "date": "13-06-2018",
-    "monthYear": "Jun 2018"
+    date: "13-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1077,
+    id: 1077,
     "online store session": 17201,
     "net return value": "166835.70",
     "total orders": 4853,
@@ -116,11 +115,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17727.07,
     "store search conversion": 42.03,
     "return rate": 10.46,
-    "date": "14-06-2018",
-    "monthYear": "Jun 2018"
+    date: "14-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1860,
+    id: 1860,
     "online store session": 16815,
     "net return value": "180813.60",
     "total orders": 3067,
@@ -129,11 +128,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10046.9,
     "store search conversion": 59.33,
     "return rate": 29.25,
-    "date": "15-06-2018",
-    "monthYear": "Jun 2018"
+    date: "15-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1272,
+    id: 1272,
     "online store session": 19043,
     "net return value": "198426.90",
     "total orders": 3075,
@@ -142,11 +141,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19781.6,
     "store search conversion": 78.94,
     "return rate": 18.2,
-    "date": "16-06-2018",
-    "monthYear": "Jun 2018"
+    date: "16-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1185,
+    id: 1185,
     "online store session": 15612,
     "net return value": "163509.70",
     "total orders": 3870,
@@ -155,11 +154,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10890.27,
     "store search conversion": 66.98,
     "return rate": 11.31,
-    "date": "17-06-2018",
-    "monthYear": "Jun 2018"
+    date: "17-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1354,
+    id: 1354,
     "online store session": 19716,
     "net return value": "179282.00",
     "total orders": 4406,
@@ -168,11 +167,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18499.42,
     "store search conversion": 71.67,
     "return rate": 15.45,
-    "date": "19-06-2018",
-    "monthYear": "Jun 2018"
+    date: "19-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1119,
+    id: 1119,
     "online store session": 18963,
     "net return value": "156286.50",
     "total orders": 4329,
@@ -181,11 +180,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17373.12,
     "store search conversion": 47.94,
     "return rate": 21.98,
-    "date": "20-06-2018",
-    "monthYear": "Jun 2018"
+    date: "20-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1176,
+    id: 1176,
     "online store session": 19001,
     "net return value": "179734.60",
     "total orders": 3414,
@@ -194,11 +193,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14060.06,
     "store search conversion": 66.2,
     "return rate": 20.64,
-    "date": "22-06-2018",
-    "monthYear": "Jun 2018"
+    date: "22-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1006,
+    id: 1006,
     "online store session": 17833,
     "net return value": "118813.90",
     "total orders": 3474,
@@ -207,11 +206,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15341.43,
     "store search conversion": 79.47,
     "return rate": 12.44,
-    "date": "28-06-2018",
-    "monthYear": "Jun 2018"
+    date: "28-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1683,
+    id: 1683,
     "online store session": 18521,
     "net return value": "122032.10",
     "total orders": 3384,
@@ -220,11 +219,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18087.85,
     "store search conversion": 67.09,
     "return rate": 28.21,
-    "date": "29-06-2018",
-    "monthYear": "Jun 2018"
+    date: "29-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1099,
+    id: 1099,
     "online store session": 19904,
     "net return value": "117906.20",
     "total orders": 3289,
@@ -233,11 +232,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12564.88,
     "store search conversion": 37.87,
     "return rate": 26.9,
-    "date": "30-06-2018",
-    "monthYear": "Jun 2018"
+    date: "30-06-2018",
+    monthYear: "Jun 2018",
   },
   {
-    "id": 1428,
+    id: 1428,
     "online store session": 11596,
     "net return value": "184684.50",
     "total orders": 4267,
@@ -246,11 +245,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13034.39,
     "store search conversion": 43.04,
     "return rate": 26.42,
-    "date": "02-07-2018",
-    "monthYear": "Jul 2018"
+    date: "02-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1641,
+    id: 1641,
     "online store session": 17688,
     "net return value": "137851.90",
     "total orders": 3570,
@@ -259,11 +258,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11081.73,
     "store search conversion": 32.49,
     "return rate": 11.41,
-    "date": "04-07-2018",
-    "monthYear": "Jul 2018"
+    date: "04-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1748,
+    id: 1748,
     "online store session": 19291,
     "net return value": "114298.70",
     "total orders": 3782,
@@ -272,11 +271,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17804,
     "store search conversion": 37.83,
     "return rate": 19.45,
-    "date": "05-07-2018",
-    "monthYear": "Jul 2018"
+    date: "05-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1297,
+    id: 1297,
     "online store session": 17914,
     "net return value": "157277.30",
     "total orders": 4759,
@@ -285,11 +284,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10356.2,
     "store search conversion": 24.89,
     "return rate": 24.09,
-    "date": "06-07-2018",
-    "monthYear": "Jul 2018"
+    date: "06-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1229,
+    id: 1229,
     "online store session": 10340,
     "net return value": "196033.20",
     "total orders": 4304,
@@ -298,11 +297,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14206.44,
     "store search conversion": 74.51,
     "return rate": 29.49,
-    "date": "08-07-2018",
-    "monthYear": "Jul 2018"
+    date: "08-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1250,
+    id: 1250,
     "online store session": 12247,
     "net return value": "148505.90",
     "total orders": 4614,
@@ -311,11 +310,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13539.89,
     "store search conversion": 42.83,
     "return rate": 16.06,
-    "date": "09-07-2018",
-    "monthYear": "Jul 2018"
+    date: "09-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1554,
+    id: 1554,
     "online store session": 17496,
     "net return value": "174303.60",
     "total orders": 3814,
@@ -324,11 +323,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15428.89,
     "store search conversion": 69.32,
     "return rate": 26.73,
-    "date": "11-07-2018",
-    "monthYear": "Jul 2018"
+    date: "11-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1452,
+    id: 1452,
     "online store session": 12523,
     "net return value": "129350.00",
     "total orders": 3951,
@@ -337,11 +336,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19973.74,
     "store search conversion": 28.32,
     "return rate": 17.04,
-    "date": "14-07-2018",
-    "monthYear": "Jul 2018"
+    date: "14-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1306,
+    id: 1306,
     "online store session": 12498,
     "net return value": "175131.80",
     "total orders": 3084,
@@ -350,11 +349,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17446.24,
     "store search conversion": 58.95,
     "return rate": 26.67,
-    "date": "15-07-2018",
-    "monthYear": "Jul 2018"
+    date: "15-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1121,
+    id: 1121,
     "online store session": 14581,
     "net return value": "138530.00",
     "total orders": 3607,
@@ -363,11 +362,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14477.24,
     "store search conversion": 73.7,
     "return rate": 27.51,
-    "date": "16-07-2018",
-    "monthYear": "Jul 2018"
+    date: "16-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1791,
+    id: 1791,
     "online store session": 13326,
     "net return value": "180295.80",
     "total orders": 3480,
@@ -376,11 +375,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15147.1,
     "store search conversion": 66.33,
     "return rate": 24.1,
-    "date": "18-07-2018",
-    "monthYear": "Jul 2018"
+    date: "18-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1377,
+    id: 1377,
     "online store session": 10822,
     "net return value": "199227.80",
     "total orders": 4523,
@@ -389,11 +388,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10310.6,
     "store search conversion": 44.98,
     "return rate": 25.87,
-    "date": "20-07-2018",
-    "monthYear": "Jul 2018"
+    date: "20-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1125,
+    id: 1125,
     "online store session": 17903,
     "net return value": "137140.00",
     "total orders": 3433,
@@ -402,11 +401,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19266.89,
     "store search conversion": 24.46,
     "return rate": 17.08,
-    "date": "21-07-2018",
-    "monthYear": "Jul 2018"
+    date: "21-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1146,
+    id: 1146,
     "online store session": 16489,
     "net return value": "170789.40",
     "total orders": 4112,
@@ -415,11 +414,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19097.75,
     "store search conversion": 31.12,
     "return rate": 23.36,
-    "date": "22-07-2018",
-    "monthYear": "Jul 2018"
+    date: "22-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1107,
+    id: 1107,
     "online store session": 12008,
     "net return value": "195525.30",
     "total orders": 3081,
@@ -428,11 +427,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19733.11,
     "store search conversion": 29.09,
     "return rate": 10.49,
-    "date": "23-07-2018",
-    "monthYear": "Jul 2018"
+    date: "23-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1498,
+    id: 1498,
     "online store session": 17624,
     "net return value": "148715.30",
     "total orders": 3718,
@@ -441,11 +440,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12414.38,
     "store search conversion": 39.52,
     "return rate": 22.55,
-    "date": "25-07-2018",
-    "monthYear": "Jul 2018"
+    date: "25-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1401,
+    id: 1401,
     "online store session": 18902,
     "net return value": "194655.80",
     "total orders": 3594,
@@ -454,11 +453,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13297.2,
     "store search conversion": 65.98,
     "return rate": 19.86,
-    "date": "26-07-2018",
-    "monthYear": "Jul 2018"
+    date: "26-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1719,
+    id: 1719,
     "online store session": 10868,
     "net return value": "160741.00",
     "total orders": 4792,
@@ -467,11 +466,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15714.71,
     "store search conversion": 63.06,
     "return rate": 27.12,
-    "date": "30-07-2018",
-    "monthYear": "Jul 2018"
+    date: "30-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1023,
+    id: 1023,
     "online store session": 12901,
     "net return value": "125361.20",
     "total orders": 4478,
@@ -480,11 +479,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11377.5,
     "store search conversion": 31,
     "return rate": 26.92,
-    "date": "31-07-2018",
-    "monthYear": "Jul 2018"
+    date: "31-07-2018",
+    monthYear: "Jul 2018",
   },
   {
-    "id": 1087,
+    id: 1087,
     "online store session": 12603,
     "net return value": "115639.10",
     "total orders": 4438,
@@ -493,11 +492,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18707.95,
     "store search conversion": 48.28,
     "return rate": 14.3,
-    "date": "01-08-2018",
-    "monthYear": "Aug 2018"
+    date: "01-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1266,
+    id: 1266,
     "online store session": 18902,
     "net return value": "153956.10",
     "total orders": 4024,
@@ -506,11 +505,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15129.55,
     "store search conversion": 36.17,
     "return rate": 27.78,
-    "date": "02-08-2018",
-    "monthYear": "Aug 2018"
+    date: "02-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1577,
+    id: 1577,
     "online store session": 17608,
     "net return value": "148966.30",
     "total orders": 3534,
@@ -519,11 +518,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15379.02,
     "store search conversion": 47.4,
     "return rate": 10.44,
-    "date": "05-08-2018",
-    "monthYear": "Aug 2018"
+    date: "05-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1086,
+    id: 1086,
     "online store session": 16949,
     "net return value": "134327.80",
     "total orders": 4457,
@@ -532,11 +531,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11796.96,
     "store search conversion": 71.13,
     "return rate": 21.31,
-    "date": "07-08-2018",
-    "monthYear": "Aug 2018"
+    date: "07-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1162,
+    id: 1162,
     "online store session": 16867,
     "net return value": "121019.00",
     "total orders": 3583,
@@ -545,11 +544,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11860.24,
     "store search conversion": 66.15,
     "return rate": 28.26,
-    "date": "08-08-2018",
-    "monthYear": "Aug 2018"
+    date: "08-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1903,
+    id: 1903,
     "online store session": 16394,
     "net return value": "178199.90",
     "total orders": 4135,
@@ -558,11 +557,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16103.92,
     "store search conversion": 54.55,
     "return rate": 15.6,
-    "date": "10-08-2018",
-    "monthYear": "Aug 2018"
+    date: "10-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1202,
+    id: 1202,
     "online store session": 18374,
     "net return value": "155074.70",
     "total orders": 3222,
@@ -571,11 +570,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10397.39,
     "store search conversion": 38.09,
     "return rate": 14.37,
-    "date": "12-08-2018",
-    "monthYear": "Aug 2018"
+    date: "12-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1357,
+    id: 1357,
     "online store session": 12075,
     "net return value": "135535.80",
     "total orders": 3521,
@@ -584,11 +583,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12776.7,
     "store search conversion": 47.69,
     "return rate": 22.95,
-    "date": "13-08-2018",
-    "monthYear": "Aug 2018"
+    date: "13-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1150,
+    id: 1150,
     "online store session": 13626,
     "net return value": "179545.50",
     "total orders": 3126,
@@ -597,11 +596,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17526.99,
     "store search conversion": 71.53,
     "return rate": 19.05,
-    "date": "14-08-2018",
-    "monthYear": "Aug 2018"
+    date: "14-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1081,
+    id: 1081,
     "online store session": 14098,
     "net return value": "194503.80",
     "total orders": 4715,
@@ -610,11 +609,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19147.06,
     "store search conversion": 68.18,
     "return rate": 13.03,
-    "date": "15-08-2018",
-    "monthYear": "Aug 2018"
+    date: "15-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1057,
+    id: 1057,
     "online store session": 18152,
     "net return value": "180502.40",
     "total orders": 4497,
@@ -623,11 +622,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12513.49,
     "store search conversion": 66.55,
     "return rate": 29.65,
-    "date": "16-08-2018",
-    "monthYear": "Aug 2018"
+    date: "16-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1694,
+    id: 1694,
     "online store session": 12753,
     "net return value": "104715.00",
     "total orders": 3437,
@@ -636,11 +635,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19303.24,
     "store search conversion": 73.17,
     "return rate": 17.64,
-    "date": "17-08-2018",
-    "monthYear": "Aug 2018"
+    date: "17-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1567,
+    id: 1567,
     "online store session": 19173,
     "net return value": "114520.10",
     "total orders": 3315,
@@ -649,11 +648,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12752.08,
     "store search conversion": 29.05,
     "return rate": 28.21,
-    "date": "18-08-2018",
-    "monthYear": "Aug 2018"
+    date: "18-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1447,
+    id: 1447,
     "online store session": 11749,
     "net return value": "194610.40",
     "total orders": 4947,
@@ -662,11 +661,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11779.46,
     "store search conversion": 78.5,
     "return rate": 18.62,
-    "date": "19-08-2018",
-    "monthYear": "Aug 2018"
+    date: "19-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1232,
+    id: 1232,
     "online store session": 13738,
     "net return value": "185556.20",
     "total orders": 4018,
@@ -675,11 +674,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19802.62,
     "store search conversion": 33.42,
     "return rate": 29.4,
-    "date": "20-08-2018",
-    "monthYear": "Aug 2018"
+    date: "20-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1525,
+    id: 1525,
     "online store session": 14451,
     "net return value": "191210.20",
     "total orders": 4490,
@@ -688,11 +687,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16854.95,
     "store search conversion": 43.56,
     "return rate": 25.1,
-    "date": "21-08-2018",
-    "monthYear": "Aug 2018"
+    date: "21-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1699,
+    id: 1699,
     "online store session": 14429,
     "net return value": "100974.60",
     "total orders": 3591,
@@ -701,11 +700,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14445.31,
     "store search conversion": 33.84,
     "return rate": 12.29,
-    "date": "22-08-2018",
-    "monthYear": "Aug 2018"
+    date: "22-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1947,
+    id: 1947,
     "online store session": 11047,
     "net return value": "192379.10",
     "total orders": 4263,
@@ -714,11 +713,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14378.22,
     "store search conversion": 50.04,
     "return rate": 10.97,
-    "date": "28-08-2018",
-    "monthYear": "Aug 2018"
+    date: "28-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1170,
+    id: 1170,
     "online store session": 14203,
     "net return value": "189613.90",
     "total orders": 4655,
@@ -727,11 +726,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12064.11,
     "store search conversion": 76.11,
     "return rate": 22.2,
-    "date": "29-08-2018",
-    "monthYear": "Aug 2018"
+    date: "29-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1279,
+    id: 1279,
     "online store session": 18945,
     "net return value": "199673.90",
     "total orders": 4176,
@@ -740,11 +739,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10525.81,
     "store search conversion": 51.03,
     "return rate": 27.05,
-    "date": "30-08-2018",
-    "monthYear": "Aug 2018"
+    date: "30-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1066,
+    id: 1066,
     "online store session": 12256,
     "net return value": "119293.20",
     "total orders": 3138,
@@ -753,11 +752,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12694.48,
     "store search conversion": 48.57,
     "return rate": 19.63,
-    "date": "31-08-2018",
-    "monthYear": "Aug 2018"
+    date: "31-08-2018",
+    monthYear: "Aug 2018",
   },
   {
-    "id": 1124,
+    id: 1124,
     "online store session": 10520,
     "net return value": "183523.60",
     "total orders": 4562,
@@ -766,11 +765,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12318.26,
     "store search conversion": 58.7,
     "return rate": 29.59,
-    "date": "01-09-2018",
-    "monthYear": "Sep 2018"
+    date: "01-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1238,
+    id: 1238,
     "online store session": 19389,
     "net return value": "161778.20",
     "total orders": 4182,
@@ -779,11 +778,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19300.87,
     "store search conversion": 31.63,
     "return rate": 16.82,
-    "date": "02-09-2018",
-    "monthYear": "Sep 2018"
+    date: "02-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1069,
+    id: 1069,
     "online store session": 19654,
     "net return value": "193445.90",
     "total orders": 4462,
@@ -792,11 +791,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13680.66,
     "store search conversion": 71.07,
     "return rate": 26.97,
-    "date": "04-09-2018",
-    "monthYear": "Sep 2018"
+    date: "04-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1036,
+    id: 1036,
     "online store session": 13606,
     "net return value": "121001.90",
     "total orders": 3385,
@@ -805,11 +804,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16510.26,
     "store search conversion": 68.18,
     "return rate": 24.28,
-    "date": "06-09-2018",
-    "monthYear": "Sep 2018"
+    date: "06-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1778,
+    id: 1778,
     "online store session": 10785,
     "net return value": "183284.90",
     "total orders": 4952,
@@ -818,11 +817,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19745.51,
     "store search conversion": 48.59,
     "return rate": 24.78,
-    "date": "07-09-2018",
-    "monthYear": "Sep 2018"
+    date: "07-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1638,
+    id: 1638,
     "online store session": 10394,
     "net return value": "147435.30",
     "total orders": 4254,
@@ -831,11 +830,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14158.36,
     "store search conversion": 23.36,
     "return rate": 22.6,
-    "date": "14-09-2018",
-    "monthYear": "Sep 2018"
+    date: "14-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1510,
+    id: 1510,
     "online store session": 19175,
     "net return value": "157278.00",
     "total orders": 3037,
@@ -844,11 +843,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11712.74,
     "store search conversion": 22.72,
     "return rate": 24.73,
-    "date": "15-09-2018",
-    "monthYear": "Sep 2018"
+    date: "15-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1331,
+    id: 1331,
     "online store session": 16122,
     "net return value": "195244.30",
     "total orders": 3935,
@@ -857,11 +856,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19721.89,
     "store search conversion": 66.66,
     "return rate": 26.83,
-    "date": "16-09-2018",
-    "monthYear": "Sep 2018"
+    date: "16-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1440,
+    id: 1440,
     "online store session": 13161,
     "net return value": "108171.00",
     "total orders": 4388,
@@ -870,11 +869,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11373.23,
     "store search conversion": 67.14,
     "return rate": 29.78,
-    "date": "17-09-2018",
-    "monthYear": "Sep 2018"
+    date: "17-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1640,
+    id: 1640,
     "online store session": 18449,
     "net return value": "197029.10",
     "total orders": 3128,
@@ -883,11 +882,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14191.27,
     "store search conversion": 66.37,
     "return rate": 23.86,
-    "date": "19-09-2018",
-    "monthYear": "Sep 2018"
+    date: "19-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1615,
+    id: 1615,
     "online store session": 19718,
     "net return value": "136783.70",
     "total orders": 4895,
@@ -896,11 +895,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14123.5,
     "store search conversion": 26.82,
     "return rate": 19.18,
-    "date": "20-09-2018",
-    "monthYear": "Sep 2018"
+    date: "20-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1524,
+    id: 1524,
     "online store session": 12513,
     "net return value": "183546.80",
     "total orders": 3733,
@@ -909,11 +908,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13869.99,
     "store search conversion": 28.78,
     "return rate": 12.39,
-    "date": "21-09-2018",
-    "monthYear": "Sep 2018"
+    date: "21-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1134,
+    id: 1134,
     "online store session": 14293,
     "net return value": "185359.50",
     "total orders": 3948,
@@ -922,11 +921,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17313.24,
     "store search conversion": 50.93,
     "return rate": 11.19,
-    "date": "23-09-2018",
-    "monthYear": "Sep 2018"
+    date: "23-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1187,
+    id: 1187,
     "online store session": 16284,
     "net return value": "160822.40",
     "total orders": 3059,
@@ -935,11 +934,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17553.2,
     "store search conversion": 62.27,
     "return rate": 19.38,
-    "date": "25-09-2018",
-    "monthYear": "Sep 2018"
+    date: "25-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1158,
+    id: 1158,
     "online store session": 14460,
     "net return value": "194327.70",
     "total orders": 3056,
@@ -948,11 +947,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15889.65,
     "store search conversion": 65.14,
     "return rate": 23.79,
-    "date": "26-09-2018",
-    "monthYear": "Sep 2018"
+    date: "26-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1359,
+    id: 1359,
     "online store session": 18651,
     "net return value": "134489.90",
     "total orders": 4320,
@@ -961,11 +960,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14379.3,
     "store search conversion": 79.78,
     "return rate": 28.32,
-    "date": "27-09-2018",
-    "monthYear": "Sep 2018"
+    date: "27-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1092,
+    id: 1092,
     "online store session": 13111,
     "net return value": "100552.10",
     "total orders": 4944,
@@ -974,11 +973,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16806.24,
     "store search conversion": 63.83,
     "return rate": 11.22,
-    "date": "29-09-2018",
-    "monthYear": "Sep 2018"
+    date: "29-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1914,
+    id: 1914,
     "online store session": 14631,
     "net return value": "123984.00",
     "total orders": 3319,
@@ -987,11 +986,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10472.18,
     "store search conversion": 58.28,
     "return rate": 15.51,
-    "date": "30-09-2018",
-    "monthYear": "Sep 2018"
+    date: "30-09-2018",
+    monthYear: "Sep 2018",
   },
   {
-    "id": 1424,
+    id: 1424,
     "online store session": 16276,
     "net return value": "111188.70",
     "total orders": 4242,
@@ -1000,11 +999,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13233.14,
     "store search conversion": 64.72,
     "return rate": 15.42,
-    "date": "01-10-2018",
-    "monthYear": "Oct 2018"
+    date: "01-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1912,
+    id: 1912,
     "online store session": 14137,
     "net return value": "136295.50",
     "total orders": 3614,
@@ -1013,11 +1012,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16699.99,
     "store search conversion": 48.38,
     "return rate": 26.9,
-    "date": "03-10-2018",
-    "monthYear": "Oct 2018"
+    date: "03-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1347,
+    id: 1347,
     "online store session": 17176,
     "net return value": "180891.50",
     "total orders": 3319,
@@ -1026,11 +1025,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11352.82,
     "store search conversion": 52.52,
     "return rate": 22.08,
-    "date": "04-10-2018",
-    "monthYear": "Oct 2018"
+    date: "04-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1183,
+    id: 1183,
     "online store session": 15470,
     "net return value": "177171.10",
     "total orders": 3871,
@@ -1039,11 +1038,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15354.54,
     "store search conversion": 56.06,
     "return rate": 27.05,
-    "date": "06-10-2018",
-    "monthYear": "Oct 2018"
+    date: "06-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1415,
+    id: 1415,
     "online store session": 15417,
     "net return value": "106161.20",
     "total orders": 3697,
@@ -1052,11 +1051,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16283.85,
     "store search conversion": 39.24,
     "return rate": 22.65,
-    "date": "10-10-2018",
-    "monthYear": "Oct 2018"
+    date: "10-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1732,
+    id: 1732,
     "online store session": 11666,
     "net return value": "129496.10",
     "total orders": 3541,
@@ -1065,11 +1064,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12084.24,
     "store search conversion": 48.97,
     "return rate": 27.89,
-    "date": "13-10-2018",
-    "monthYear": "Oct 2018"
+    date: "13-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1368,
+    id: 1368,
     "online store session": 17744,
     "net return value": "198599.80",
     "total orders": 4918,
@@ -1078,11 +1077,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15037.28,
     "store search conversion": 79.9,
     "return rate": 24.5,
-    "date": "14-10-2018",
-    "monthYear": "Oct 2018"
+    date: "14-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1430,
+    id: 1430,
     "online store session": 12596,
     "net return value": "157603.90",
     "total orders": 4771,
@@ -1091,11 +1090,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13907.06,
     "store search conversion": 54.1,
     "return rate": 15.88,
-    "date": "17-10-2018",
-    "monthYear": "Oct 2018"
+    date: "17-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1570,
+    id: 1570,
     "online store session": 11765,
     "net return value": "158780.70",
     "total orders": 3180,
@@ -1104,11 +1103,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13518.52,
     "store search conversion": 60.41,
     "return rate": 14.01,
-    "date": "18-10-2018",
-    "monthYear": "Oct 2018"
+    date: "18-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1661,
+    id: 1661,
     "online store session": 12014,
     "net return value": "178056.50",
     "total orders": 4679,
@@ -1117,11 +1116,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15741.6,
     "store search conversion": 57.07,
     "return rate": 24.02,
-    "date": "20-10-2018",
-    "monthYear": "Oct 2018"
+    date: "20-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1043,
+    id: 1043,
     "online store session": 15578,
     "net return value": "103271.40",
     "total orders": 4193,
@@ -1130,11 +1129,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12249.67,
     "store search conversion": 76.87,
     "return rate": 10.27,
-    "date": "22-10-2018",
-    "monthYear": "Oct 2018"
+    date: "22-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1971,
+    id: 1971,
     "online store session": 16654,
     "net return value": "169141.80",
     "total orders": 4181,
@@ -1143,11 +1142,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19614.83,
     "store search conversion": 23,
     "return rate": 15.19,
-    "date": "23-10-2018",
-    "monthYear": "Oct 2018"
+    date: "23-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1262,
+    id: 1262,
     "online store session": 12385,
     "net return value": "131931.90",
     "total orders": 4675,
@@ -1156,11 +1155,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19599.46,
     "store search conversion": 25.6,
     "return rate": 20.06,
-    "date": "24-10-2018",
-    "monthYear": "Oct 2018"
+    date: "24-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1399,
+    id: 1399,
     "online store session": 17295,
     "net return value": "162434.40",
     "total orders": 3781,
@@ -1169,11 +1168,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10972.36,
     "store search conversion": 66.04,
     "return rate": 10.99,
-    "date": "25-10-2018",
-    "monthYear": "Oct 2018"
+    date: "25-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1346,
+    id: 1346,
     "online store session": 17099,
     "net return value": "119967.60",
     "total orders": 3469,
@@ -1182,11 +1181,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17359.72,
     "store search conversion": 38.17,
     "return rate": 23.77,
-    "date": "27-10-2018",
-    "monthYear": "Oct 2018"
+    date: "27-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1041,
+    id: 1041,
     "online store session": 12623,
     "net return value": "106083.90",
     "total orders": 4330,
@@ -1195,11 +1194,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13823.68,
     "store search conversion": 46.35,
     "return rate": 29.88,
-    "date": "28-10-2018",
-    "monthYear": "Oct 2018"
+    date: "28-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1937,
+    id: 1937,
     "online store session": 18657,
     "net return value": "181499.80",
     "total orders": 4825,
@@ -1208,11 +1207,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14142.75,
     "store search conversion": 57.57,
     "return rate": 18.64,
-    "date": "29-10-2018",
-    "monthYear": "Oct 2018"
+    date: "29-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1628,
+    id: 1628,
     "online store session": 19308,
     "net return value": "192743.80",
     "total orders": 3506,
@@ -1221,11 +1220,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10460.35,
     "store search conversion": 58.77,
     "return rate": 12.85,
-    "date": "31-10-2018",
-    "monthYear": "Oct 2018"
+    date: "31-10-2018",
+    monthYear: "Oct 2018",
   },
   {
-    "id": 1243,
+    id: 1243,
     "online store session": 15614,
     "net return value": "169514.70",
     "total orders": 4523,
@@ -1234,11 +1233,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11945.68,
     "store search conversion": 78,
     "return rate": 11.65,
-    "date": "02-11-2018",
-    "monthYear": "Nov 2018"
+    date: "02-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1594,
+    id: 1594,
     "online store session": 13631,
     "net return value": "123878.80",
     "total orders": 4898,
@@ -1247,11 +1246,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17765.79,
     "store search conversion": 74.53,
     "return rate": 15.68,
-    "date": "04-11-2018",
-    "monthYear": "Nov 2018"
+    date: "04-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1493,
+    id: 1493,
     "online store session": 17708,
     "net return value": "136994.00",
     "total orders": 4964,
@@ -1260,11 +1259,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18916.7,
     "store search conversion": 67.69,
     "return rate": 23.26,
-    "date": "07-11-2018",
-    "monthYear": "Nov 2018"
+    date: "07-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1578,
+    id: 1578,
     "online store session": 12448,
     "net return value": "195256.00",
     "total orders": 4830,
@@ -1273,11 +1272,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11502.11,
     "store search conversion": 25.47,
     "return rate": 12.9,
-    "date": "08-11-2018",
-    "monthYear": "Nov 2018"
+    date: "08-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1304,
+    id: 1304,
     "online store session": 19553,
     "net return value": "155663.00",
     "total orders": 4984,
@@ -1286,11 +1285,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18751.82,
     "store search conversion": 69.18,
     "return rate": 23.43,
-    "date": "11-11-2018",
-    "monthYear": "Nov 2018"
+    date: "11-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1286,
+    id: 1286,
     "online store session": 12536,
     "net return value": "188022.90",
     "total orders": 3161,
@@ -1299,11 +1298,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14032.47,
     "store search conversion": 56.53,
     "return rate": 28.53,
-    "date": "12-11-2018",
-    "monthYear": "Nov 2018"
+    date: "12-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1157,
+    id: 1157,
     "online store session": 17455,
     "net return value": "103596.80",
     "total orders": 4949,
@@ -1312,11 +1311,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16275.89,
     "store search conversion": 27.01,
     "return rate": 14.44,
-    "date": "14-11-2018",
-    "monthYear": "Nov 2018"
+    date: "14-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1385,
+    id: 1385,
     "online store session": 19425,
     "net return value": "197289.80",
     "total orders": 4425,
@@ -1325,11 +1324,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14681.9,
     "store search conversion": 24.91,
     "return rate": 19.77,
-    "date": "15-11-2018",
-    "monthYear": "Nov 2018"
+    date: "15-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1342,
+    id: 1342,
     "online store session": 15349,
     "net return value": "172413.80",
     "total orders": 4663,
@@ -1338,11 +1337,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12730.62,
     "store search conversion": 75.52,
     "return rate": 17.27,
-    "date": "16-11-2018",
-    "monthYear": "Nov 2018"
+    date: "16-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1372,
+    id: 1372,
     "online store session": 19365,
     "net return value": "184556.10",
     "total orders": 3654,
@@ -1351,11 +1350,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10037.05,
     "store search conversion": 37.69,
     "return rate": 16.3,
-    "date": "17-11-2018",
-    "monthYear": "Nov 2018"
+    date: "17-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1019,
+    id: 1019,
     "online store session": 16249,
     "net return value": "185333.70",
     "total orders": 3929,
@@ -1364,11 +1363,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12534.38,
     "store search conversion": 27.99,
     "return rate": 10.5,
-    "date": "18-11-2018",
-    "monthYear": "Nov 2018"
+    date: "18-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1155,
+    id: 1155,
     "online store session": 16174,
     "net return value": "144302.70",
     "total orders": 3998,
@@ -1377,11 +1376,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19643.41,
     "store search conversion": 48.9,
     "return rate": 12.23,
-    "date": "20-11-2018",
-    "monthYear": "Nov 2018"
+    date: "20-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1293,
+    id: 1293,
     "online store session": 16864,
     "net return value": "161364.00",
     "total orders": 3311,
@@ -1390,11 +1389,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13485.91,
     "store search conversion": 74.5,
     "return rate": 22.45,
-    "date": "22-11-2018",
-    "monthYear": "Nov 2018"
+    date: "22-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1095,
+    id: 1095,
     "online store session": 11927,
     "net return value": "138310.30",
     "total orders": 4002,
@@ -1403,11 +1402,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12150.25,
     "store search conversion": 45.39,
     "return rate": 20.53,
-    "date": "23-11-2018",
-    "monthYear": "Nov 2018"
+    date: "23-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1545,
+    id: 1545,
     "online store session": 10097,
     "net return value": "136794.80",
     "total orders": 3961,
@@ -1416,11 +1415,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15153.13,
     "store search conversion": 70.29,
     "return rate": 23.77,
-    "date": "25-11-2018",
-    "monthYear": "Nov 2018"
+    date: "25-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1065,
+    id: 1065,
     "online store session": 18088,
     "net return value": "194513.90",
     "total orders": 3405,
@@ -1429,11 +1428,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15031.17,
     "store search conversion": 38.83,
     "return rate": 19.34,
-    "date": "28-11-2018",
-    "monthYear": "Nov 2018"
+    date: "28-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1613,
+    id: 1613,
     "online store session": 16906,
     "net return value": "107196.50",
     "total orders": 4862,
@@ -1442,11 +1441,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10092.96,
     "store search conversion": 49.07,
     "return rate": 12.03,
-    "date": "29-11-2018",
-    "monthYear": "Nov 2018"
+    date: "29-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1186,
+    id: 1186,
     "online store session": 16367,
     "net return value": "189506.10",
     "total orders": 4753,
@@ -1455,11 +1454,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17867.38,
     "store search conversion": 72.57,
     "return rate": 18.87,
-    "date": "30-11-2018",
-    "monthYear": "Nov 2018"
+    date: "30-11-2018",
+    monthYear: "Nov 2018",
   },
   {
-    "id": 1565,
+    id: 1565,
     "online store session": 17360,
     "net return value": "106969.50",
     "total orders": 3654,
@@ -1468,11 +1467,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17675.47,
     "store search conversion": 73.95,
     "return rate": 16.74,
-    "date": "01-12-2018",
-    "monthYear": "Dec 2018"
+    date: "01-12-2018",
+    monthYear: "Dec 2018",
   },
   {
-    "id": 1216,
+    id: 1216,
     "online store session": 15568,
     "net return value": "140918.00",
     "total orders": 4690,
@@ -1481,11 +1480,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14165.03,
     "store search conversion": 52.79,
     "return rate": 26.68,
-    "date": "03-12-2018",
-    "monthYear": "Dec 2018"
+    date: "03-12-2018",
+    monthYear: "Dec 2018",
   },
   {
-    "id": 1950,
+    id: 1950,
     "online store session": 10163,
     "net return value": "178560.90",
     "total orders": 3176,
@@ -1494,11 +1493,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12163.3,
     "store search conversion": 47.94,
     "return rate": 20.08,
-    "date": "05-12-2018",
-    "monthYear": "Dec 2018"
+    date: "05-12-2018",
+    monthYear: "Dec 2018",
   },
   {
-    "id": 1029,
+    id: 1029,
     "online store session": 14311,
     "net return value": "126734.80",
     "total orders": 4230,
@@ -1507,11 +1506,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10275.67,
     "store search conversion": 55.6,
     "return rate": 29.82,
-    "date": "06-12-2018",
-    "monthYear": "Dec 2018"
+    date: "06-12-2018",
+    monthYear: "Dec 2018",
   },
   {
-    "id": 1906,
+    id: 1906,
     "online store session": 16324,
     "net return value": "159462.30",
     "total orders": 4892,
@@ -1520,11 +1519,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16776.29,
     "store search conversion": 38.24,
     "return rate": 12.41,
-    "date": "07-12-2018",
-    "monthYear": "Dec 2018"
+    date: "07-12-2018",
+    monthYear: "Dec 2018",
   },
   {
-    "id": 1294,
+    id: 1294,
     "online store session": 16730,
     "net return value": "134431.00",
     "total orders": 4259,
@@ -1533,11 +1532,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17817.16,
     "store search conversion": 68.86,
     "return rate": 28.05,
-    "date": "08-12-2018",
-    "monthYear": "Dec 2018"
+    date: "08-12-2018",
+    monthYear: "Dec 2018",
   },
   {
-    "id": 1050,
+    id: 1050,
     "online store session": 19841,
     "net return value": "120567.10",
     "total orders": 4301,
@@ -1546,11 +1545,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13278.12,
     "store search conversion": 61.71,
     "return rate": 11.5,
-    "date": "10-12-2018",
-    "monthYear": "Dec 2018"
+    date: "10-12-2018",
+    monthYear: "Dec 2018",
   },
   {
-    "id": 1298,
+    id: 1298,
     "online store session": 12688,
     "net return value": "118921.80",
     "total orders": 4005,
@@ -1559,11 +1558,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18734,
     "store search conversion": 56.05,
     "return rate": 28.02,
-    "date": "13-12-2018",
-    "monthYear": "Dec 2018"
+    date: "13-12-2018",
+    monthYear: "Dec 2018",
   },
   {
-    "id": 1606,
+    id: 1606,
     "online store session": 11393,
     "net return value": "171973.00",
     "total orders": 4261,
@@ -1572,11 +1571,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11799.96,
     "store search conversion": 27.79,
     "return rate": 28.33,
-    "date": "14-12-2018",
-    "monthYear": "Dec 2018"
+    date: "14-12-2018",
+    monthYear: "Dec 2018",
   },
   {
-    "id": 1102,
+    id: 1102,
     "online store session": 14657,
     "net return value": "101632.10",
     "total orders": 4093,
@@ -1585,11 +1584,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17846.02,
     "store search conversion": 49.69,
     "return rate": 14.26,
-    "date": "21-12-2018",
-    "monthYear": "Dec 2018"
+    date: "21-12-2018",
+    monthYear: "Dec 2018",
   },
   {
-    "id": 1771,
+    id: 1771,
     "online store session": 13269,
     "net return value": "126508.50",
     "total orders": 3105,
@@ -1598,11 +1597,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15178.63,
     "store search conversion": 34.6,
     "return rate": 22.81,
-    "date": "22-12-2018",
-    "monthYear": "Dec 2018"
+    date: "22-12-2018",
+    monthYear: "Dec 2018",
   },
   {
-    "id": 1549,
+    id: 1549,
     "online store session": 14104,
     "net return value": "131033.10",
     "total orders": 3259,
@@ -1611,11 +1610,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11656.59,
     "store search conversion": 23.53,
     "return rate": 27.96,
-    "date": "25-12-2018",
-    "monthYear": "Dec 2018"
+    date: "25-12-2018",
+    monthYear: "Dec 2018",
   },
   {
-    "id": 1362,
+    id: 1362,
     "online store session": 16109,
     "net return value": "139286.40",
     "total orders": 4001,
@@ -1624,11 +1623,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12698.11,
     "store search conversion": 79.22,
     "return rate": 21.1,
-    "date": "26-12-2018",
-    "monthYear": "Dec 2018"
+    date: "26-12-2018",
+    monthYear: "Dec 2018",
   },
   {
-    "id": 1001,
+    id: 1001,
     "online store session": 11458,
     "net return value": "122577.60",
     "total orders": 4904,
@@ -1637,11 +1636,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11867.81,
     "store search conversion": 42.65,
     "return rate": 12.91,
-    "date": "27-12-2018",
-    "monthYear": "Dec 2018"
+    date: "27-12-2018",
+    monthYear: "Dec 2018",
   },
   {
-    "id": 1807,
+    id: 1807,
     "online store session": 10755,
     "net return value": "198165.10",
     "total orders": 4993,
@@ -1650,11 +1649,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17699.22,
     "store search conversion": 79.71,
     "return rate": 23.38,
-    "date": "29-12-2018",
-    "monthYear": "Dec 2018"
+    date: "29-12-2018",
+    monthYear: "Dec 2018",
   },
   {
-    "id": 1646,
+    id: 1646,
     "online store session": 15432,
     "net return value": "140454.60",
     "total orders": 4150,
@@ -1663,11 +1662,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19824.05,
     "store search conversion": 69.55,
     "return rate": 22.32,
-    "date": "01-01-2019",
-    "monthYear": "Jan 2019"
+    date: "01-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1757,
+    id: 1757,
     "online store session": 17522,
     "net return value": "120313.30",
     "total orders": 3316,
@@ -1676,11 +1675,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15176.5,
     "store search conversion": 69.29,
     "return rate": 19,
-    "date": "02-01-2019",
-    "monthYear": "Jan 2019"
+    date: "02-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1728,
+    id: 1728,
     "online store session": 14247,
     "net return value": "125203.00",
     "total orders": 3987,
@@ -1689,11 +1688,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12396.66,
     "store search conversion": 50.55,
     "return rate": 29.4,
-    "date": "05-01-2019",
-    "monthYear": "Jan 2019"
+    date: "05-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1484,
+    id: 1484,
     "online store session": 12172,
     "net return value": "186067.70",
     "total orders": 3716,
@@ -1702,11 +1701,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14071.47,
     "store search conversion": 49.61,
     "return rate": 24.35,
-    "date": "07-01-2019",
-    "monthYear": "Jan 2019"
+    date: "07-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1403,
+    id: 1403,
     "online store session": 16425,
     "net return value": "116004.40",
     "total orders": 4701,
@@ -1715,11 +1714,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14258.28,
     "store search conversion": 50.19,
     "return rate": 26.45,
-    "date": "08-01-2019",
-    "monthYear": "Jan 2019"
+    date: "08-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1932,
+    id: 1932,
     "online store session": 17886,
     "net return value": "171237.50",
     "total orders": 3685,
@@ -1728,11 +1727,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19413.87,
     "store search conversion": 37.46,
     "return rate": 14.26,
-    "date": "10-01-2019",
-    "monthYear": "Jan 2019"
+    date: "10-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1300,
+    id: 1300,
     "online store session": 18272,
     "net return value": "143711.70",
     "total orders": 4764,
@@ -1741,11 +1740,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18212.98,
     "store search conversion": 50.57,
     "return rate": 26.52,
-    "date": "11-01-2019",
-    "monthYear": "Jan 2019"
+    date: "11-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1207,
+    id: 1207,
     "online store session": 18021,
     "net return value": "150994.50",
     "total orders": 3784,
@@ -1754,11 +1753,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16680.52,
     "store search conversion": 28.42,
     "return rate": 24.89,
-    "date": "12-01-2019",
-    "monthYear": "Jan 2019"
+    date: "12-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1122,
+    id: 1122,
     "online store session": 11007,
     "net return value": "176460.20",
     "total orders": 4660,
@@ -1767,11 +1766,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12039.16,
     "store search conversion": 29.44,
     "return rate": 22.81,
-    "date": "15-01-2019",
-    "monthYear": "Jan 2019"
+    date: "15-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1419,
+    id: 1419,
     "online store session": 17794,
     "net return value": "178376.90",
     "total orders": 3735,
@@ -1780,11 +1779,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19947.91,
     "store search conversion": 74.91,
     "return rate": 19.33,
-    "date": "16-01-2019",
-    "monthYear": "Jan 2019"
+    date: "16-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1445,
+    id: 1445,
     "online store session": 19735,
     "net return value": "119241.10",
     "total orders": 4140,
@@ -1793,11 +1792,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10757.5,
     "store search conversion": 51.86,
     "return rate": 10.7,
-    "date": "17-01-2019",
-    "monthYear": "Jan 2019"
+    date: "17-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1990,
+    id: 1990,
     "online store session": 14857,
     "net return value": "146137.70",
     "total orders": 4903,
@@ -1806,11 +1805,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16193.88,
     "store search conversion": 25.72,
     "return rate": 19.34,
-    "date": "18-01-2019",
-    "monthYear": "Jan 2019"
+    date: "18-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1590,
+    id: 1590,
     "online store session": 11805,
     "net return value": "194466.30",
     "total orders": 3443,
@@ -1819,11 +1818,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11771.16,
     "store search conversion": 34.9,
     "return rate": 26.21,
-    "date": "22-01-2019",
-    "monthYear": "Jan 2019"
+    date: "22-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1733,
+    id: 1733,
     "online store session": 17497,
     "net return value": "120286.90",
     "total orders": 4583,
@@ -1832,11 +1831,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13824.61,
     "store search conversion": 77.65,
     "return rate": 20.54,
-    "date": "26-01-2019",
-    "monthYear": "Jan 2019"
+    date: "26-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1402,
+    id: 1402,
     "online store session": 16144,
     "net return value": "121185.30",
     "total orders": 4577,
@@ -1845,11 +1844,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18141.11,
     "store search conversion": 45.19,
     "return rate": 26.65,
-    "date": "27-01-2019",
-    "monthYear": "Jan 2019"
+    date: "27-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1280,
+    id: 1280,
     "online store session": 16711,
     "net return value": "103915.90",
     "total orders": 4442,
@@ -1858,11 +1857,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11126.04,
     "store search conversion": 78.15,
     "return rate": 28.19,
-    "date": "28-01-2019",
-    "monthYear": "Jan 2019"
+    date: "28-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1105,
+    id: 1105,
     "online store session": 13204,
     "net return value": "119190.40",
     "total orders": 4384,
@@ -1871,11 +1870,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15399.82,
     "store search conversion": 47.07,
     "return rate": 28.52,
-    "date": "29-01-2019",
-    "monthYear": "Jan 2019"
+    date: "29-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1303,
+    id: 1303,
     "online store session": 19359,
     "net return value": "192810.90",
     "total orders": 4697,
@@ -1884,11 +1883,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17183.92,
     "store search conversion": 35.57,
     "return rate": 22.95,
-    "date": "30-01-2019",
-    "monthYear": "Jan 2019"
+    date: "30-01-2019",
+    monthYear: "Jan 2019",
   },
   {
-    "id": 1267,
+    id: 1267,
     "online store session": 12024,
     "net return value": "156383.20",
     "total orders": 3088,
@@ -1897,11 +1896,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11721.14,
     "store search conversion": 30.34,
     "return rate": 21.41,
-    "date": "01-02-2019",
-    "monthYear": "Feb 2019"
+    date: "01-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1104,
+    id: 1104,
     "online store session": 10700,
     "net return value": "111244.50",
     "total orders": 3069,
@@ -1910,11 +1909,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14343.8,
     "store search conversion": 73.95,
     "return rate": 25.71,
-    "date": "02-02-2019",
-    "monthYear": "Feb 2019"
+    date: "02-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1581,
+    id: 1581,
     "online store session": 11751,
     "net return value": "144946.50",
     "total orders": 4354,
@@ -1923,11 +1922,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14845.43,
     "store search conversion": 61.64,
     "return rate": 17.63,
-    "date": "05-02-2019",
-    "monthYear": "Feb 2019"
+    date: "05-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1625,
+    id: 1625,
     "online store session": 11323,
     "net return value": "127462.70",
     "total orders": 4537,
@@ -1936,11 +1935,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12788.69,
     "store search conversion": 65.69,
     "return rate": 21.52,
-    "date": "08-02-2019",
-    "monthYear": "Feb 2019"
+    date: "08-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1621,
+    id: 1621,
     "online store session": 18220,
     "net return value": "181332.30",
     "total orders": 4443,
@@ -1949,11 +1948,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10883.73,
     "store search conversion": 70.28,
     "return rate": 29.01,
-    "date": "09-02-2019",
-    "monthYear": "Feb 2019"
+    date: "09-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1045,
+    id: 1045,
     "online store session": 14999,
     "net return value": "151280.30",
     "total orders": 4097,
@@ -1962,11 +1961,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14238.85,
     "store search conversion": 34.58,
     "return rate": 23.1,
-    "date": "11-02-2019",
-    "monthYear": "Feb 2019"
+    date: "11-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1080,
+    id: 1080,
     "online store session": 14877,
     "net return value": "140397.00",
     "total orders": 4142,
@@ -1975,11 +1974,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19857.24,
     "store search conversion": 29.11,
     "return rate": 23.47,
-    "date": "13-02-2019",
-    "monthYear": "Feb 2019"
+    date: "13-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1747,
+    id: 1747,
     "online store session": 15426,
     "net return value": "184925.40",
     "total orders": 3747,
@@ -1988,11 +1987,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16633.91,
     "store search conversion": 60.57,
     "return rate": 10.99,
-    "date": "14-02-2019",
-    "monthYear": "Feb 2019"
+    date: "14-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1658,
+    id: 1658,
     "online store session": 14495,
     "net return value": "147414.80",
     "total orders": 3096,
@@ -2001,11 +2000,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10706.77,
     "store search conversion": 48.24,
     "return rate": 25.47,
-    "date": "15-02-2019",
-    "monthYear": "Feb 2019"
+    date: "15-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1509,
+    id: 1509,
     "online store session": 12205,
     "net return value": "116535.60",
     "total orders": 4376,
@@ -2014,11 +2013,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16937.96,
     "store search conversion": 58.17,
     "return rate": 19.35,
-    "date": "16-02-2019",
-    "monthYear": "Feb 2019"
+    date: "16-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1987,
+    id: 1987,
     "online store session": 17496,
     "net return value": "144236.40",
     "total orders": 4647,
@@ -2027,11 +2026,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15033.22,
     "store search conversion": 76.5,
     "return rate": 15.93,
-    "date": "17-02-2019",
-    "monthYear": "Feb 2019"
+    date: "17-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1277,
+    id: 1277,
     "online store session": 19645,
     "net return value": "130202.20",
     "total orders": 3677,
@@ -2040,11 +2039,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13720.43,
     "store search conversion": 56.58,
     "return rate": 18.09,
-    "date": "19-02-2019",
-    "monthYear": "Feb 2019"
+    date: "19-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1507,
+    id: 1507,
     "online store session": 17431,
     "net return value": "195401.50",
     "total orders": 4270,
@@ -2053,11 +2052,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16170.63,
     "store search conversion": 43.8,
     "return rate": 10.23,
-    "date": "20-02-2019",
-    "monthYear": "Feb 2019"
+    date: "20-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1667,
+    id: 1667,
     "online store session": 12009,
     "net return value": "160015.00",
     "total orders": 3160,
@@ -2066,11 +2065,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14135.59,
     "store search conversion": 37.48,
     "return rate": 20.13,
-    "date": "21-02-2019",
-    "monthYear": "Feb 2019"
+    date: "21-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1255,
+    id: 1255,
     "online store session": 11257,
     "net return value": "117911.10",
     "total orders": 3150,
@@ -2079,11 +2078,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11411.26,
     "store search conversion": 69.7,
     "return rate": 10.44,
-    "date": "24-02-2019",
-    "monthYear": "Feb 2019"
+    date: "24-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1373,
+    id: 1373,
     "online store session": 18859,
     "net return value": "130761.10",
     "total orders": 3323,
@@ -2092,11 +2091,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10914.93,
     "store search conversion": 20.88,
     "return rate": 17.54,
-    "date": "25-02-2019",
-    "monthYear": "Feb 2019"
+    date: "25-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1843,
+    id: 1843,
     "online store session": 14888,
     "net return value": "182684.00",
     "total orders": 4957,
@@ -2105,11 +2104,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19044.39,
     "store search conversion": 76.16,
     "return rate": 23.56,
-    "date": "26-02-2019",
-    "monthYear": "Feb 2019"
+    date: "26-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1955,
+    id: 1955,
     "online store session": 16709,
     "net return value": "188493.10",
     "total orders": 3867,
@@ -2118,11 +2117,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18719.81,
     "store search conversion": 60.29,
     "return rate": 27.22,
-    "date": "28-02-2019",
-    "monthYear": "Feb 2019"
+    date: "28-02-2019",
+    monthYear: "Feb 2019",
   },
   {
-    "id": 1466,
+    id: 1466,
     "online store session": 11344,
     "net return value": "162116.70",
     "total orders": 4539,
@@ -2131,11 +2130,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16368.91,
     "store search conversion": 78.28,
     "return rate": 18.8,
-    "date": "01-03-2019",
-    "monthYear": "Mar 2019"
+    date: "01-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1913,
+    id: 1913,
     "online store session": 15033,
     "net return value": "158809.00",
     "total orders": 4961,
@@ -2144,11 +2143,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14248.56,
     "store search conversion": 20.58,
     "return rate": 27.15,
-    "date": "02-03-2019",
-    "monthYear": "Mar 2019"
+    date: "02-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1505,
+    id: 1505,
     "online store session": 12921,
     "net return value": "147359.40",
     "total orders": 4182,
@@ -2157,11 +2156,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19448.11,
     "store search conversion": 23.48,
     "return rate": 28.17,
-    "date": "04-03-2019",
-    "monthYear": "Mar 2019"
+    date: "04-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1534,
+    id: 1534,
     "online store session": 13104,
     "net return value": "154138.60",
     "total orders": 4667,
@@ -2170,11 +2169,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11026.65,
     "store search conversion": 27.06,
     "return rate": 16.91,
-    "date": "05-03-2019",
-    "monthYear": "Mar 2019"
+    date: "05-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1380,
+    id: 1380,
     "online store session": 14312,
     "net return value": "156086.20",
     "total orders": 3241,
@@ -2183,11 +2182,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10077.51,
     "store search conversion": 59.3,
     "return rate": 14.28,
-    "date": "07-03-2019",
-    "monthYear": "Mar 2019"
+    date: "07-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1609,
+    id: 1609,
     "online store session": 12827,
     "net return value": "198141.90",
     "total orders": 3474,
@@ -2196,11 +2195,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17073.87,
     "store search conversion": 23.03,
     "return rate": 12.62,
-    "date": "08-03-2019",
-    "monthYear": "Mar 2019"
+    date: "08-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1940,
+    id: 1940,
     "online store session": 16723,
     "net return value": "186528.40",
     "total orders": 4764,
@@ -2209,11 +2208,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12700.38,
     "store search conversion": 70.68,
     "return rate": 13.38,
-    "date": "09-03-2019",
-    "monthYear": "Mar 2019"
+    date: "09-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1714,
+    id: 1714,
     "online store session": 14339,
     "net return value": "130706.40",
     "total orders": 4264,
@@ -2222,11 +2221,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16489.54,
     "store search conversion": 47.26,
     "return rate": 15.43,
-    "date": "10-03-2019",
-    "monthYear": "Mar 2019"
+    date: "10-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1408,
+    id: 1408,
     "online store session": 15021,
     "net return value": "189028.10",
     "total orders": 4973,
@@ -2235,11 +2234,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15380.33,
     "store search conversion": 32.68,
     "return rate": 20.19,
-    "date": "11-03-2019",
-    "monthYear": "Mar 2019"
+    date: "11-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1541,
+    id: 1541,
     "online store session": 14368,
     "net return value": "172867.20",
     "total orders": 4932,
@@ -2248,11 +2247,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16016.72,
     "store search conversion": 44.23,
     "return rate": 11.85,
-    "date": "12-03-2019",
-    "monthYear": "Mar 2019"
+    date: "12-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1313,
+    id: 1313,
     "online store session": 14825,
     "net return value": "114326.20",
     "total orders": 4847,
@@ -2261,11 +2260,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17651.65,
     "store search conversion": 78.36,
     "return rate": 15.72,
-    "date": "13-03-2019",
-    "monthYear": "Mar 2019"
+    date: "13-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1803,
+    id: 1803,
     "online store session": 14998,
     "net return value": "122980.90",
     "total orders": 4872,
@@ -2274,11 +2273,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10127.43,
     "store search conversion": 62.71,
     "return rate": 23.52,
-    "date": "15-03-2019",
-    "monthYear": "Mar 2019"
+    date: "15-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1550,
+    id: 1550,
     "online store session": 10883,
     "net return value": "106577.80",
     "total orders": 4935,
@@ -2287,11 +2286,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11621.93,
     "store search conversion": 61.61,
     "return rate": 26.93,
-    "date": "18-03-2019",
-    "monthYear": "Mar 2019"
+    date: "18-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1994,
+    id: 1994,
     "online store session": 11163,
     "net return value": "124362.60",
     "total orders": 3666,
@@ -2300,11 +2299,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13178.15,
     "store search conversion": 26.92,
     "return rate": 24.08,
-    "date": "19-03-2019",
-    "monthYear": "Mar 2019"
+    date: "19-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1301,
+    id: 1301,
     "online store session": 19242,
     "net return value": "193447.00",
     "total orders": 3002,
@@ -2313,11 +2312,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11567.85,
     "store search conversion": 72.49,
     "return rate": 12.25,
-    "date": "21-03-2019",
-    "monthYear": "Mar 2019"
+    date: "21-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1670,
+    id: 1670,
     "online store session": 11404,
     "net return value": "185403.10",
     "total orders": 4889,
@@ -2326,11 +2325,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18991.65,
     "store search conversion": 30.81,
     "return rate": 28,
-    "date": "25-03-2019",
-    "monthYear": "Mar 2019"
+    date: "25-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1135,
+    id: 1135,
     "online store session": 19812,
     "net return value": "117823.60",
     "total orders": 4471,
@@ -2339,11 +2338,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13287.95,
     "store search conversion": 31.74,
     "return rate": 16.28,
-    "date": "26-03-2019",
-    "monthYear": "Mar 2019"
+    date: "26-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1519,
+    id: 1519,
     "online store session": 18202,
     "net return value": "153640.10",
     "total orders": 4897,
@@ -2352,11 +2351,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18764.31,
     "store search conversion": 39.18,
     "return rate": 13.62,
-    "date": "27-03-2019",
-    "monthYear": "Mar 2019"
+    date: "27-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1008,
+    id: 1008,
     "online store session": 18494,
     "net return value": "124471.30",
     "total orders": 4207,
@@ -2365,11 +2364,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16896.18,
     "store search conversion": 73.45,
     "return rate": 22.94,
-    "date": "29-03-2019",
-    "monthYear": "Mar 2019"
+    date: "29-03-2019",
+    monthYear: "Mar 2019",
   },
   {
-    "id": 1003,
+    id: 1003,
     "online store session": 18610,
     "net return value": "166579.80",
     "total orders": 4588,
@@ -2378,11 +2377,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13132.1,
     "store search conversion": 64.17,
     "return rate": 21.75,
-    "date": "02-04-2019",
-    "monthYear": "Apr 2019"
+    date: "02-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1998,
+    id: 1998,
     "online store session": 16781,
     "net return value": "110391.30",
     "total orders": 4664,
@@ -2391,11 +2390,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18190,
     "store search conversion": 36.28,
     "return rate": 21.72,
-    "date": "04-04-2019",
-    "monthYear": "Apr 2019"
+    date: "04-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1054,
+    id: 1054,
     "online store session": 11603,
     "net return value": "112321.20",
     "total orders": 3987,
@@ -2404,11 +2403,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18955.29,
     "store search conversion": 47.88,
     "return rate": 11.76,
-    "date": "06-04-2019",
-    "monthYear": "Apr 2019"
+    date: "06-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1433,
+    id: 1433,
     "online store session": 12729,
     "net return value": "131715.50",
     "total orders": 3603,
@@ -2417,11 +2416,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17281.03,
     "store search conversion": 69.91,
     "return rate": 29.83,
-    "date": "08-04-2019",
-    "monthYear": "Apr 2019"
+    date: "08-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1387,
+    id: 1387,
     "online store session": 18827,
     "net return value": "148689.00",
     "total orders": 4212,
@@ -2430,11 +2429,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19330.42,
     "store search conversion": 72.84,
     "return rate": 28.14,
-    "date": "09-04-2019",
-    "monthYear": "Apr 2019"
+    date: "09-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1423,
+    id: 1423,
     "online store session": 12701,
     "net return value": "150454.70",
     "total orders": 4388,
@@ -2443,11 +2442,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16075.34,
     "store search conversion": 55.35,
     "return rate": 20.19,
-    "date": "10-04-2019",
-    "monthYear": "Apr 2019"
+    date: "10-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1204,
+    id: 1204,
     "online store session": 12104,
     "net return value": "169495.20",
     "total orders": 3666,
@@ -2456,11 +2455,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19066.95,
     "store search conversion": 74.37,
     "return rate": 13.48,
-    "date": "12-04-2019",
-    "monthYear": "Apr 2019"
+    date: "12-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1171,
+    id: 1171,
     "online store session": 13106,
     "net return value": "160030.70",
     "total orders": 3866,
@@ -2469,11 +2468,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13758.55,
     "store search conversion": 59.8,
     "return rate": 15.7,
-    "date": "13-04-2019",
-    "monthYear": "Apr 2019"
+    date: "13-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1033,
+    id: 1033,
     "online store session": 12262,
     "net return value": "176696.30",
     "total orders": 3450,
@@ -2482,11 +2481,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19959.43,
     "store search conversion": 64.87,
     "return rate": 22.13,
-    "date": "14-04-2019",
-    "monthYear": "Apr 2019"
+    date: "14-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1619,
+    id: 1619,
     "online store session": 16657,
     "net return value": "173808.30",
     "total orders": 3599,
@@ -2495,11 +2494,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10737.5,
     "store search conversion": 75.4,
     "return rate": 25.36,
-    "date": "16-04-2019",
-    "monthYear": "Apr 2019"
+    date: "16-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1390,
+    id: 1390,
     "online store session": 13410,
     "net return value": "134324.80",
     "total orders": 3748,
@@ -2508,11 +2507,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15111.88,
     "store search conversion": 77.13,
     "return rate": 27.19,
-    "date": "19-04-2019",
-    "monthYear": "Apr 2019"
+    date: "19-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1576,
+    id: 1576,
     "online store session": 14207,
     "net return value": "120024.10",
     "total orders": 4298,
@@ -2521,11 +2520,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19866.8,
     "store search conversion": 57.11,
     "return rate": 21.74,
-    "date": "24-04-2019",
-    "monthYear": "Apr 2019"
+    date: "24-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1392,
+    id: 1392,
     "online store session": 15976,
     "net return value": "109600.90",
     "total orders": 3840,
@@ -2534,11 +2533,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12717.77,
     "store search conversion": 21.21,
     "return rate": 15.91,
-    "date": "25-04-2019",
-    "monthYear": "Apr 2019"
+    date: "25-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1474,
+    id: 1474,
     "online store session": 16286,
     "net return value": "161175.10",
     "total orders": 3071,
@@ -2547,11 +2546,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13027.87,
     "store search conversion": 52.33,
     "return rate": 26.36,
-    "date": "26-04-2019",
-    "monthYear": "Apr 2019"
+    date: "26-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1078,
+    id: 1078,
     "online store session": 11754,
     "net return value": "130848.20",
     "total orders": 4001,
@@ -2560,11 +2559,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11329.06,
     "store search conversion": 23.21,
     "return rate": 26.22,
-    "date": "27-04-2019",
-    "monthYear": "Apr 2019"
+    date: "27-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1012,
+    id: 1012,
     "online store session": 17450,
     "net return value": "143453.10",
     "total orders": 4638,
@@ -2573,11 +2572,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19497.12,
     "store search conversion": 44.87,
     "return rate": 22.92,
-    "date": "30-04-2019",
-    "monthYear": "Apr 2019"
+    date: "30-04-2019",
+    monthYear: "Apr 2019",
   },
   {
-    "id": 1194,
+    id: 1194,
     "online store session": 13720,
     "net return value": "142144.30",
     "total orders": 3399,
@@ -2586,11 +2585,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13625.94,
     "store search conversion": 58.12,
     "return rate": 26.38,
-    "date": "02-05-2019",
-    "monthYear": "May 2019"
+    date: "02-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1984,
+    id: 1984,
     "online store session": 11843,
     "net return value": "195939.90",
     "total orders": 3377,
@@ -2599,11 +2598,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11851.34,
     "store search conversion": 54.73,
     "return rate": 28.27,
-    "date": "03-05-2019",
-    "monthYear": "May 2019"
+    date: "03-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1112,
+    id: 1112,
     "online store session": 11834,
     "net return value": "176142.80",
     "total orders": 4459,
@@ -2612,11 +2611,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10837.43,
     "store search conversion": 67.99,
     "return rate": 23.15,
-    "date": "06-05-2019",
-    "monthYear": "May 2019"
+    date: "06-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1009,
+    id: 1009,
     "online store session": 19209,
     "net return value": "154088.70",
     "total orders": 4069,
@@ -2625,11 +2624,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13583.36,
     "store search conversion": 22.42,
     "return rate": 22.15,
-    "date": "07-05-2019",
-    "monthYear": "May 2019"
+    date: "07-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1946,
+    id: 1946,
     "online store session": 13367,
     "net return value": "175353.70",
     "total orders": 4995,
@@ -2638,11 +2637,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10747.81,
     "store search conversion": 39.75,
     "return rate": 22.89,
-    "date": "09-05-2019",
-    "monthYear": "May 2019"
+    date: "09-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1780,
+    id: 1780,
     "online store session": 18627,
     "net return value": "130634.20",
     "total orders": 4081,
@@ -2651,11 +2650,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18076.55,
     "store search conversion": 49.65,
     "return rate": 19.65,
-    "date": "10-05-2019",
-    "monthYear": "May 2019"
+    date: "10-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1240,
+    id: 1240,
     "online store session": 13349,
     "net return value": "174649.20",
     "total orders": 3751,
@@ -2664,11 +2663,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10136.05,
     "store search conversion": 36.18,
     "return rate": 19.28,
-    "date": "12-05-2019",
-    "monthYear": "May 2019"
+    date: "12-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1040,
+    id: 1040,
     "online store session": 18101,
     "net return value": "171696.70",
     "total orders": 4707,
@@ -2677,11 +2676,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10901.66,
     "store search conversion": 59.81,
     "return rate": 21.91,
-    "date": "13-05-2019",
-    "monthYear": "May 2019"
+    date: "13-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1538,
+    id: 1538,
     "online store session": 12546,
     "net return value": "124939.70",
     "total orders": 4533,
@@ -2690,11 +2689,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11714.72,
     "store search conversion": 48.69,
     "return rate": 16.84,
-    "date": "14-05-2019",
-    "monthYear": "May 2019"
+    date: "14-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1744,
+    id: 1744,
     "online store session": 19636,
     "net return value": "186113.30",
     "total orders": 3504,
@@ -2703,11 +2702,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17315.36,
     "store search conversion": 52.2,
     "return rate": 14.14,
-    "date": "17-05-2019",
-    "monthYear": "May 2019"
+    date: "17-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1981,
+    id: 1981,
     "online store session": 17576,
     "net return value": "135708.00",
     "total orders": 3297,
@@ -2716,11 +2715,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10792.27,
     "store search conversion": 43.21,
     "return rate": 28.65,
-    "date": "19-05-2019",
-    "monthYear": "May 2019"
+    date: "19-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1201,
+    id: 1201,
     "online store session": 12468,
     "net return value": "165362.90",
     "total orders": 4219,
@@ -2729,11 +2728,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14630.52,
     "store search conversion": 51.25,
     "return rate": 12.72,
-    "date": "20-05-2019",
-    "monthYear": "May 2019"
+    date: "20-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1332,
+    id: 1332,
     "online store session": 11730,
     "net return value": "127731.50",
     "total orders": 4006,
@@ -2742,11 +2741,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13235.49,
     "store search conversion": 28,
     "return rate": 17.31,
-    "date": "22-05-2019",
-    "monthYear": "May 2019"
+    date: "22-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1196,
+    id: 1196,
     "online store session": 13488,
     "net return value": "147684.80",
     "total orders": 4471,
@@ -2755,11 +2754,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18253.32,
     "store search conversion": 70.84,
     "return rate": 25.21,
-    "date": "25-05-2019",
-    "monthYear": "May 2019"
+    date: "25-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1192,
+    id: 1192,
     "online store session": 18520,
     "net return value": "114832.70",
     "total orders": 4576,
@@ -2768,11 +2767,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13524.26,
     "store search conversion": 68.77,
     "return rate": 28.82,
-    "date": "28-05-2019",
-    "monthYear": "May 2019"
+    date: "28-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1352,
+    id: 1352,
     "online store session": 11383,
     "net return value": "196734.10",
     "total orders": 3411,
@@ -2781,11 +2780,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12360.45,
     "store search conversion": 42.26,
     "return rate": 13.6,
-    "date": "30-05-2019",
-    "monthYear": "May 2019"
+    date: "30-05-2019",
+    monthYear: "May 2019",
   },
   {
-    "id": 1164,
+    id: 1164,
     "online store session": 18380,
     "net return value": "111948.50",
     "total orders": 3595,
@@ -2794,11 +2793,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19401.77,
     "store search conversion": 40.91,
     "return rate": 13.79,
-    "date": "01-06-2019",
-    "monthYear": "Jun 2019"
+    date: "01-06-2019",
+    monthYear: "Jun 2019",
   },
   {
-    "id": 1520,
+    id: 1520,
     "online store session": 13012,
     "net return value": "128956.50",
     "total orders": 4287,
@@ -2807,11 +2806,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13976.97,
     "store search conversion": 50.31,
     "return rate": 22.37,
-    "date": "03-06-2019",
-    "monthYear": "Jun 2019"
+    date: "03-06-2019",
+    monthYear: "Jun 2019",
   },
   {
-    "id": 1070,
+    id: 1070,
     "online store session": 15139,
     "net return value": "161375.90",
     "total orders": 3401,
@@ -2820,11 +2819,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18154.05,
     "store search conversion": 62.73,
     "return rate": 29.89,
-    "date": "04-06-2019",
-    "monthYear": "Jun 2019"
+    date: "04-06-2019",
+    monthYear: "Jun 2019",
   },
   {
-    "id": 1278,
+    id: 1278,
     "online store session": 18597,
     "net return value": "156521.00",
     "total orders": 4502,
@@ -2833,11 +2832,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13258.69,
     "store search conversion": 20.5,
     "return rate": 26.39,
-    "date": "05-06-2019",
-    "monthYear": "Jun 2019"
+    date: "05-06-2019",
+    monthYear: "Jun 2019",
   },
   {
-    "id": 1117,
+    id: 1117,
     "online store session": 17345,
     "net return value": "148176.30",
     "total orders": 4523,
@@ -2846,11 +2845,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18832.66,
     "store search conversion": 41.73,
     "return rate": 26.68,
-    "date": "10-06-2019",
-    "monthYear": "Jun 2019"
+    date: "10-06-2019",
+    monthYear: "Jun 2019",
   },
   {
-    "id": 1244,
+    id: 1244,
     "online store session": 12601,
     "net return value": "171636.30",
     "total orders": 3025,
@@ -2859,11 +2858,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16651.41,
     "store search conversion": 24.4,
     "return rate": 20.64,
-    "date": "11-06-2019",
-    "monthYear": "Jun 2019"
+    date: "11-06-2019",
+    monthYear: "Jun 2019",
   },
   {
-    "id": 1951,
+    id: 1951,
     "online store session": 18841,
     "net return value": "152321.50",
     "total orders": 3906,
@@ -2872,11 +2871,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14553.89,
     "store search conversion": 36.65,
     "return rate": 15.58,
-    "date": "13-06-2019",
-    "monthYear": "Jun 2019"
+    date: "13-06-2019",
+    monthYear: "Jun 2019",
   },
   {
-    "id": 1623,
+    id: 1623,
     "online store session": 13414,
     "net return value": "165508.20",
     "total orders": 4744,
@@ -2885,11 +2884,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17400.2,
     "store search conversion": 79.17,
     "return rate": 13.68,
-    "date": "15-06-2019",
-    "monthYear": "Jun 2019"
+    date: "15-06-2019",
+    monthYear: "Jun 2019",
   },
   {
-    "id": 1200,
+    id: 1200,
     "online store session": 12113,
     "net return value": "112630.10",
     "total orders": 4001,
@@ -2898,11 +2897,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13327.03,
     "store search conversion": 62.32,
     "return rate": 12.82,
-    "date": "16-06-2019",
-    "monthYear": "Jun 2019"
+    date: "16-06-2019",
+    monthYear: "Jun 2019",
   },
   {
-    "id": 1811,
+    id: 1811,
     "online store session": 14014,
     "net return value": "120741.70",
     "total orders": 4425,
@@ -2911,11 +2910,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10060.34,
     "store search conversion": 58.09,
     "return rate": 21.9,
-    "date": "17-06-2019",
-    "monthYear": "Jun 2019"
+    date: "17-06-2019",
+    monthYear: "Jun 2019",
   },
   {
-    "id": 1726,
+    id: 1726,
     "online store session": 10081,
     "net return value": "183943.70",
     "total orders": 3842,
@@ -2924,11 +2923,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16216.66,
     "store search conversion": 79.75,
     "return rate": 15.95,
-    "date": "18-06-2019",
-    "monthYear": "Jun 2019"
+    date: "18-06-2019",
+    monthYear: "Jun 2019",
   },
   {
-    "id": 1336,
+    id: 1336,
     "online store session": 14252,
     "net return value": "143475.10",
     "total orders": 4595,
@@ -2937,11 +2936,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15440.58,
     "store search conversion": 25.16,
     "return rate": 20.75,
-    "date": "23-06-2019",
-    "monthYear": "Jun 2019"
+    date: "23-06-2019",
+    monthYear: "Jun 2019",
   },
   {
-    "id": 1469,
+    id: 1469,
     "online store session": 15257,
     "net return value": "173895.60",
     "total orders": 4871,
@@ -2950,11 +2949,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11461.68,
     "store search conversion": 76.12,
     "return rate": 16.09,
-    "date": "25-06-2019",
-    "monthYear": "Jun 2019"
+    date: "25-06-2019",
+    monthYear: "Jun 2019",
   },
   {
-    "id": 1532,
+    id: 1532,
     "online store session": 17595,
     "net return value": "129341.70",
     "total orders": 4371,
@@ -2963,11 +2962,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15824.7,
     "store search conversion": 32.43,
     "return rate": 11.28,
-    "date": "26-06-2019",
-    "monthYear": "Jun 2019"
+    date: "26-06-2019",
+    monthYear: "Jun 2019",
   },
   {
-    "id": 1022,
+    id: 1022,
     "online store session": 16268,
     "net return value": "127553.60",
     "total orders": 4631,
@@ -2976,11 +2975,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18157.05,
     "store search conversion": 32.61,
     "return rate": 21.17,
-    "date": "30-06-2019",
-    "monthYear": "Jun 2019"
+    date: "30-06-2019",
+    monthYear: "Jun 2019",
   },
   {
-    "id": 1381,
+    id: 1381,
     "online store session": 11394,
     "net return value": "179110.40",
     "total orders": 4483,
@@ -2989,11 +2988,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13622.68,
     "store search conversion": 65.24,
     "return rate": 19.13,
-    "date": "01-07-2019",
-    "monthYear": "Jul 2019"
+    date: "01-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1397,
+    id: 1397,
     "online store session": 19461,
     "net return value": "114204.20",
     "total orders": 4686,
@@ -3002,11 +3001,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19251.54,
     "store search conversion": 37.02,
     "return rate": 15.94,
-    "date": "02-07-2019",
-    "monthYear": "Jul 2019"
+    date: "02-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1418,
+    id: 1418,
     "online store session": 10833,
     "net return value": "115029.60",
     "total orders": 4606,
@@ -3015,11 +3014,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16986.07,
     "store search conversion": 74.08,
     "return rate": 25.75,
-    "date": "03-07-2019",
-    "monthYear": "Jul 2019"
+    date: "03-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1819,
+    id: 1819,
     "online store session": 10622,
     "net return value": "105032.80",
     "total orders": 4167,
@@ -3028,11 +3027,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17570.28,
     "store search conversion": 35.73,
     "return rate": 28.31,
-    "date": "05-07-2019",
-    "monthYear": "Jul 2019"
+    date: "05-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1444,
+    id: 1444,
     "online store session": 14195,
     "net return value": "155068.10",
     "total orders": 3545,
@@ -3041,11 +3040,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13155.77,
     "store search conversion": 34.09,
     "return rate": 15.03,
-    "date": "08-07-2019",
-    "monthYear": "Jul 2019"
+    date: "08-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1067,
+    id: 1067,
     "online store session": 12389,
     "net return value": "193423.70",
     "total orders": 4982,
@@ -3054,11 +3053,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13364.06,
     "store search conversion": 66.69,
     "return rate": 12.53,
-    "date": "09-07-2019",
-    "monthYear": "Jul 2019"
+    date: "09-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1014,
+    id: 1014,
     "online store session": 14259,
     "net return value": "122415.60",
     "total orders": 4294,
@@ -3067,11 +3066,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11132.67,
     "store search conversion": 36.76,
     "return rate": 25.94,
-    "date": "11-07-2019",
-    "monthYear": "Jul 2019"
+    date: "11-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1217,
+    id: 1217,
     "online store session": 18088,
     "net return value": "138689.00",
     "total orders": 3248,
@@ -3080,11 +3079,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17259.67,
     "store search conversion": 30.86,
     "return rate": 11.78,
-    "date": "13-07-2019",
-    "monthYear": "Jul 2019"
+    date: "13-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1025,
+    id: 1025,
     "online store session": 17199,
     "net return value": "134324.60",
     "total orders": 3337,
@@ -3093,11 +3092,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12298.03,
     "store search conversion": 57.81,
     "return rate": 27.32,
-    "date": "17-07-2019",
-    "monthYear": "Jul 2019"
+    date: "17-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1128,
+    id: 1128,
     "online store session": 19120,
     "net return value": "107720.70",
     "total orders": 4581,
@@ -3106,11 +3105,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13804.28,
     "store search conversion": 32.51,
     "return rate": 22.04,
-    "date": "18-07-2019",
-    "monthYear": "Jul 2019"
+    date: "18-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1816,
+    id: 1816,
     "online store session": 17893,
     "net return value": "171160.60",
     "total orders": 3744,
@@ -3119,11 +3118,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14873.02,
     "store search conversion": 54.05,
     "return rate": 10.52,
-    "date": "19-07-2019",
-    "monthYear": "Jul 2019"
+    date: "19-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1253,
+    id: 1253,
     "online store session": 18586,
     "net return value": "145995.00",
     "total orders": 3939,
@@ -3132,11 +3131,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14160.5,
     "store search conversion": 46.92,
     "return rate": 12.23,
-    "date": "22-07-2019",
-    "monthYear": "Jul 2019"
+    date: "22-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1246,
+    id: 1246,
     "online store session": 13481,
     "net return value": "184486.70",
     "total orders": 3612,
@@ -3145,11 +3144,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17378.77,
     "store search conversion": 40.85,
     "return rate": 19.29,
-    "date": "23-07-2019",
-    "monthYear": "Jul 2019"
+    date: "23-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1879,
+    id: 1879,
     "online store session": 15258,
     "net return value": "149002.70",
     "total orders": 4054,
@@ -3158,11 +3157,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11153.14,
     "store search conversion": 34.8,
     "return rate": 27.78,
-    "date": "24-07-2019",
-    "monthYear": "Jul 2019"
+    date: "24-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1153,
+    id: 1153,
     "online store session": 16608,
     "net return value": "159137.50",
     "total orders": 3413,
@@ -3171,11 +3170,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11572.94,
     "store search conversion": 35.89,
     "return rate": 23.64,
-    "date": "25-07-2019",
-    "monthYear": "Jul 2019"
+    date: "25-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1478,
+    id: 1478,
     "online store session": 17223,
     "net return value": "139020.80",
     "total orders": 4139,
@@ -3184,11 +3183,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19549.67,
     "store search conversion": 59.19,
     "return rate": 10.29,
-    "date": "26-07-2019",
-    "monthYear": "Jul 2019"
+    date: "26-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1783,
+    id: 1783,
     "online store session": 11946,
     "net return value": "124961.00",
     "total orders": 3527,
@@ -3197,11 +3196,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16520.73,
     "store search conversion": 23.13,
     "return rate": 28.37,
-    "date": "28-07-2019",
-    "monthYear": "Jul 2019"
+    date: "28-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1292,
+    id: 1292,
     "online store session": 15455,
     "net return value": "188397.60",
     "total orders": 4010,
@@ -3210,11 +3209,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12959.14,
     "store search conversion": 32.49,
     "return rate": 11.46,
-    "date": "29-07-2019",
-    "monthYear": "Jul 2019"
+    date: "29-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1180,
+    id: 1180,
     "online store session": 19450,
     "net return value": "116634.90",
     "total orders": 4984,
@@ -3223,11 +3222,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12451.72,
     "store search conversion": 57.32,
     "return rate": 29.39,
-    "date": "30-07-2019",
-    "monthYear": "Jul 2019"
+    date: "30-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1730,
+    id: 1730,
     "online store session": 19504,
     "net return value": "143481.10",
     "total orders": 4745,
@@ -3236,11 +3235,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12244.01,
     "store search conversion": 33.15,
     "return rate": 26.06,
-    "date": "31-07-2019",
-    "monthYear": "Jul 2019"
+    date: "31-07-2019",
+    monthYear: "Jul 2019",
   },
   {
-    "id": 1074,
+    id: 1074,
     "online store session": 11447,
     "net return value": "116758.50",
     "total orders": 3527,
@@ -3249,11 +3248,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15854.3,
     "store search conversion": 69.5,
     "return rate": 29.56,
-    "date": "02-08-2019",
-    "monthYear": "Aug 2019"
+    date: "02-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1013,
+    id: 1013,
     "online store session": 14200,
     "net return value": "166884.60",
     "total orders": 4242,
@@ -3262,11 +3261,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11117.7,
     "store search conversion": 58.79,
     "return rate": 16.73,
-    "date": "03-08-2019",
-    "monthYear": "Aug 2019"
+    date: "03-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1177,
+    id: 1177,
     "online store session": 12585,
     "net return value": "120860.20",
     "total orders": 3442,
@@ -3275,11 +3274,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13856.3,
     "store search conversion": 54.38,
     "return rate": 18.89,
-    "date": "06-08-2019",
-    "monthYear": "Aug 2019"
+    date: "06-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1296,
+    id: 1296,
     "online store session": 12087,
     "net return value": "140818.70",
     "total orders": 4540,
@@ -3288,11 +3287,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17581.2,
     "store search conversion": 75.15,
     "return rate": 11.02,
-    "date": "07-08-2019",
-    "monthYear": "Aug 2019"
+    date: "07-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1047,
+    id: 1047,
     "online store session": 15619,
     "net return value": "158071.40",
     "total orders": 4113,
@@ -3301,11 +3300,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10430.47,
     "store search conversion": 79.46,
     "return rate": 24.8,
-    "date": "08-08-2019",
-    "monthYear": "Aug 2019"
+    date: "08-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1252,
+    id: 1252,
     "online store session": 19973,
     "net return value": "187745.50",
     "total orders": 4784,
@@ -3314,11 +3313,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19200.48,
     "store search conversion": 76.31,
     "return rate": 15.55,
-    "date": "09-08-2019",
-    "monthYear": "Aug 2019"
+    date: "09-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1497,
+    id: 1497,
     "online store session": 17223,
     "net return value": "187186.00",
     "total orders": 4874,
@@ -3327,11 +3326,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10299.49,
     "store search conversion": 46.7,
     "return rate": 24.27,
-    "date": "10-08-2019",
-    "monthYear": "Aug 2019"
+    date: "10-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1166,
+    id: 1166,
     "online store session": 13461,
     "net return value": "170461.10",
     "total orders": 4356,
@@ -3340,11 +3339,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18413.76,
     "store search conversion": 26.33,
     "return rate": 19.43,
-    "date": "11-08-2019",
-    "monthYear": "Aug 2019"
+    date: "11-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1327,
+    id: 1327,
     "online store session": 15731,
     "net return value": "198355.50",
     "total orders": 4061,
@@ -3353,11 +3352,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18601.41,
     "store search conversion": 38.01,
     "return rate": 29.01,
-    "date": "12-08-2019",
-    "monthYear": "Aug 2019"
+    date: "12-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1851,
+    id: 1851,
     "online store session": 13949,
     "net return value": "118961.00",
     "total orders": 3132,
@@ -3366,11 +3365,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15455.94,
     "store search conversion": 62.13,
     "return rate": 15.2,
-    "date": "14-08-2019",
-    "monthYear": "Aug 2019"
+    date: "14-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1482,
+    id: 1482,
     "online store session": 13556,
     "net return value": "101893.20",
     "total orders": 3229,
@@ -3379,11 +3378,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13533.1,
     "store search conversion": 36.86,
     "return rate": 26.8,
-    "date": "15-08-2019",
-    "monthYear": "Aug 2019"
+    date: "15-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1062,
+    id: 1062,
     "online store session": 14827,
     "net return value": "182995.20",
     "total orders": 3330,
@@ -3392,11 +3391,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14193.97,
     "store search conversion": 76.26,
     "return rate": 27.84,
-    "date": "16-08-2019",
-    "monthYear": "Aug 2019"
+    date: "16-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1563,
+    id: 1563,
     "online store session": 16501,
     "net return value": "168132.40",
     "total orders": 3358,
@@ -3405,11 +3404,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19576.31,
     "store search conversion": 73.2,
     "return rate": 24.76,
-    "date": "17-08-2019",
-    "monthYear": "Aug 2019"
+    date: "17-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1358,
+    id: 1358,
     "online store session": 14757,
     "net return value": "173047.80",
     "total orders": 3602,
@@ -3418,11 +3417,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15662.94,
     "store search conversion": 34.89,
     "return rate": 21.65,
-    "date": "18-08-2019",
-    "monthYear": "Aug 2019"
+    date: "18-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1521,
+    id: 1521,
     "online store session": 18496,
     "net return value": "132079.70",
     "total orders": 4556,
@@ -3431,11 +3430,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12754.75,
     "store search conversion": 38.37,
     "return rate": 22.94,
-    "date": "20-08-2019",
-    "monthYear": "Aug 2019"
+    date: "20-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1837,
+    id: 1837,
     "online store session": 13641,
     "net return value": "156936.60",
     "total orders": 4098,
@@ -3444,11 +3443,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17632.03,
     "store search conversion": 66.38,
     "return rate": 10.5,
-    "date": "21-08-2019",
-    "monthYear": "Aug 2019"
+    date: "21-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1114,
+    id: 1114,
     "online store session": 18188,
     "net return value": "170068.00",
     "total orders": 3954,
@@ -3457,11 +3456,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18103.51,
     "store search conversion": 33.95,
     "return rate": 28.14,
-    "date": "23-08-2019",
-    "monthYear": "Aug 2019"
+    date: "23-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1652,
+    id: 1652,
     "online store session": 12915,
     "net return value": "127615.90",
     "total orders": 4136,
@@ -3470,11 +3469,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16794.66,
     "store search conversion": 78.96,
     "return rate": 13.99,
-    "date": "24-08-2019",
-    "monthYear": "Aug 2019"
+    date: "24-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1654,
+    id: 1654,
     "online store session": 13968,
     "net return value": "142776.20",
     "total orders": 4467,
@@ -3483,11 +3482,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14367.37,
     "store search conversion": 49.95,
     "return rate": 27.76,
-    "date": "25-08-2019",
-    "monthYear": "Aug 2019"
+    date: "25-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1864,
+    id: 1864,
     "online store session": 12271,
     "net return value": "153227.30",
     "total orders": 3005,
@@ -3496,11 +3495,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11689.24,
     "store search conversion": 78.13,
     "return rate": 24.4,
-    "date": "27-08-2019",
-    "monthYear": "Aug 2019"
+    date: "27-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1988,
+    id: 1988,
     "online store session": 16301,
     "net return value": "174377.50",
     "total orders": 3447,
@@ -3509,11 +3508,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16324.99,
     "store search conversion": 42.29,
     "return rate": 11.53,
-    "date": "28-08-2019",
-    "monthYear": "Aug 2019"
+    date: "28-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1614,
+    id: 1614,
     "online store session": 10637,
     "net return value": "112558.20",
     "total orders": 3535,
@@ -3522,11 +3521,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14459.8,
     "store search conversion": 78.1,
     "return rate": 28.16,
-    "date": "30-08-2019",
-    "monthYear": "Aug 2019"
+    date: "30-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1400,
+    id: 1400,
     "online store session": 11560,
     "net return value": "156857.70",
     "total orders": 4828,
@@ -3535,11 +3534,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18579.7,
     "store search conversion": 60.51,
     "return rate": 22.51,
-    "date": "31-08-2019",
-    "monthYear": "Aug 2019"
+    date: "31-08-2019",
+    monthYear: "Aug 2019",
   },
   {
-    "id": 1404,
+    id: 1404,
     "online store session": 12065,
     "net return value": "142205.50",
     "total orders": 3913,
@@ -3548,11 +3547,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11050.5,
     "store search conversion": 43.99,
     "return rate": 20.23,
-    "date": "01-09-2019",
-    "monthYear": "Sep 2019"
+    date: "01-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1881,
+    id: 1881,
     "online store session": 14140,
     "net return value": "169989.70",
     "total orders": 3394,
@@ -3561,11 +3560,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12909.74,
     "store search conversion": 25.03,
     "return rate": 22.12,
-    "date": "03-09-2019",
-    "monthYear": "Sep 2019"
+    date: "03-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1887,
+    id: 1887,
     "online store session": 14482,
     "net return value": "109962.20",
     "total orders": 4665,
@@ -3574,11 +3573,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17775.6,
     "store search conversion": 68.87,
     "return rate": 12.26,
-    "date": "04-09-2019",
-    "monthYear": "Sep 2019"
+    date: "04-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1222,
+    id: 1222,
     "online store session": 13640,
     "net return value": "167330.80",
     "total orders": 4195,
@@ -3587,11 +3586,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15220.94,
     "store search conversion": 26.99,
     "return rate": 29.41,
-    "date": "06-09-2019",
-    "monthYear": "Sep 2019"
+    date: "06-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1071,
+    id: 1071,
     "online store session": 12337,
     "net return value": "143972.30",
     "total orders": 4807,
@@ -3600,11 +3599,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10282.03,
     "store search conversion": 30.03,
     "return rate": 21.76,
-    "date": "07-09-2019",
-    "monthYear": "Sep 2019"
+    date: "07-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1289,
+    id: 1289,
     "online store session": 18048,
     "net return value": "174837.40",
     "total orders": 3884,
@@ -3613,11 +3612,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12442.49,
     "store search conversion": 38.02,
     "return rate": 27.46,
-    "date": "08-09-2019",
-    "monthYear": "Sep 2019"
+    date: "08-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1869,
+    id: 1869,
     "online store session": 12647,
     "net return value": "138801.40",
     "total orders": 4490,
@@ -3626,11 +3625,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16654.51,
     "store search conversion": 54.55,
     "return rate": 29.83,
-    "date": "12-09-2019",
-    "monthYear": "Sep 2019"
+    date: "12-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1603,
+    id: 1603,
     "online store session": 11645,
     "net return value": "173598.50",
     "total orders": 4709,
@@ -3639,11 +3638,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19379.12,
     "store search conversion": 46.52,
     "return rate": 29.18,
-    "date": "14-09-2019",
-    "monthYear": "Sep 2019"
+    date: "14-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1068,
+    id: 1068,
     "online store session": 10162,
     "net return value": "111508.70",
     "total orders": 3033,
@@ -3652,11 +3651,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18479.63,
     "store search conversion": 48.03,
     "return rate": 20.82,
-    "date": "15-09-2019",
-    "monthYear": "Sep 2019"
+    date: "15-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1956,
+    id: 1956,
     "online store session": 18177,
     "net return value": "181268.20",
     "total orders": 4757,
@@ -3665,11 +3664,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17679.59,
     "store search conversion": 26.49,
     "return rate": 14.84,
-    "date": "16-09-2019",
-    "monthYear": "Sep 2019"
+    date: "16-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1601,
+    id: 1601,
     "online store session": 19880,
     "net return value": "172384.10",
     "total orders": 4348,
@@ -3678,11 +3677,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10821.37,
     "store search conversion": 50.53,
     "return rate": 14.48,
-    "date": "17-09-2019",
-    "monthYear": "Sep 2019"
+    date: "17-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1094,
+    id: 1094,
     "online store session": 19476,
     "net return value": "108183.20",
     "total orders": 4518,
@@ -3691,11 +3690,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15464.59,
     "store search conversion": 25.1,
     "return rate": 15.84,
-    "date": "18-09-2019",
-    "monthYear": "Sep 2019"
+    date: "18-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1569,
+    id: 1569,
     "online store session": 11008,
     "net return value": "154595.20",
     "total orders": 3715,
@@ -3704,11 +3703,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16021.83,
     "store search conversion": 51.42,
     "return rate": 13.47,
-    "date": "19-09-2019",
-    "monthYear": "Sep 2019"
+    date: "19-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1234,
+    id: 1234,
     "online store session": 18897,
     "net return value": "104253.40",
     "total orders": 4047,
@@ -3717,11 +3716,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15129.49,
     "store search conversion": 68.44,
     "return rate": 24.11,
-    "date": "22-09-2019",
-    "monthYear": "Sep 2019"
+    date: "22-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1175,
+    id: 1175,
     "online store session": 14994,
     "net return value": "179357.20",
     "total orders": 3573,
@@ -3730,11 +3729,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16422.15,
     "store search conversion": 28.5,
     "return rate": 10.58,
-    "date": "23-09-2019",
-    "monthYear": "Sep 2019"
+    date: "23-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1302,
+    id: 1302,
     "online store session": 15112,
     "net return value": "142124.70",
     "total orders": 3836,
@@ -3743,11 +3742,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11623.91,
     "store search conversion": 38.58,
     "return rate": 13.5,
-    "date": "24-09-2019",
-    "monthYear": "Sep 2019"
+    date: "24-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1143,
+    id: 1143,
     "online store session": 12795,
     "net return value": "111298.70",
     "total orders": 3749,
@@ -3756,11 +3755,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12623.35,
     "store search conversion": 37.93,
     "return rate": 15.04,
-    "date": "25-09-2019",
-    "monthYear": "Sep 2019"
+    date: "25-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1583,
+    id: 1583,
     "online store session": 15383,
     "net return value": "175361.10",
     "total orders": 4729,
@@ -3769,11 +3768,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15185.73,
     "store search conversion": 31.79,
     "return rate": 16.17,
-    "date": "26-09-2019",
-    "monthYear": "Sep 2019"
+    date: "26-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1677,
+    id: 1677,
     "online store session": 12547,
     "net return value": "160198.30",
     "total orders": 4940,
@@ -3782,11 +3781,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13490.61,
     "store search conversion": 46.78,
     "return rate": 15.97,
-    "date": "27-09-2019",
-    "monthYear": "Sep 2019"
+    date: "27-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1492,
+    id: 1492,
     "online store session": 12013,
     "net return value": "180613.70",
     "total orders": 3343,
@@ -3795,11 +3794,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17698.67,
     "store search conversion": 25.38,
     "return rate": 19.19,
-    "date": "28-09-2019",
-    "monthYear": "Sep 2019"
+    date: "28-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1460,
+    id: 1460,
     "online store session": 16354,
     "net return value": "181749.00",
     "total orders": 4943,
@@ -3808,11 +3807,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18565.8,
     "store search conversion": 25.96,
     "return rate": 14.83,
-    "date": "30-09-2019",
-    "monthYear": "Sep 2019"
+    date: "30-09-2019",
+    monthYear: "Sep 2019",
   },
   {
-    "id": 1271,
+    id: 1271,
     "online store session": 11079,
     "net return value": "139108.40",
     "total orders": 4130,
@@ -3821,11 +3820,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16187.82,
     "store search conversion": 58.52,
     "return rate": 20.99,
-    "date": "01-10-2019",
-    "monthYear": "Oct 2019"
+    date: "01-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1438,
+    id: 1438,
     "online store session": 13977,
     "net return value": "145049.10",
     "total orders": 4490,
@@ -3834,11 +3833,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12679.67,
     "store search conversion": 72.41,
     "return rate": 17.91,
-    "date": "02-10-2019",
-    "monthYear": "Oct 2019"
+    date: "02-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1339,
+    id: 1339,
     "online store session": 11913,
     "net return value": "151378.80",
     "total orders": 3900,
@@ -3847,11 +3846,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18119.99,
     "store search conversion": 32.5,
     "return rate": 18.09,
-    "date": "03-10-2019",
-    "monthYear": "Oct 2019"
+    date: "03-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1693,
+    id: 1693,
     "online store session": 10919,
     "net return value": "179087.40",
     "total orders": 3354,
@@ -3860,11 +3859,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18602.95,
     "store search conversion": 50.32,
     "return rate": 25.16,
-    "date": "06-10-2019",
-    "monthYear": "Oct 2019"
+    date: "06-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1845,
+    id: 1845,
     "online store session": 18380,
     "net return value": "135903.00",
     "total orders": 3176,
@@ -3873,11 +3872,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17477.22,
     "store search conversion": 60.24,
     "return rate": 26.3,
-    "date": "07-10-2019",
-    "monthYear": "Oct 2019"
+    date: "07-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1011,
+    id: 1011,
     "online store session": 19008,
     "net return value": "159302.30",
     "total orders": 4340,
@@ -3886,11 +3885,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19487.51,
     "store search conversion": 57.19,
     "return rate": 10.56,
-    "date": "08-10-2019",
-    "monthYear": "Oct 2019"
+    date: "08-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1197,
+    id: 1197,
     "online store session": 10997,
     "net return value": "143043.40",
     "total orders": 4034,
@@ -3899,11 +3898,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16469.69,
     "store search conversion": 50.44,
     "return rate": 14.07,
-    "date": "09-10-2019",
-    "monthYear": "Oct 2019"
+    date: "09-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1608,
+    id: 1608,
     "online store session": 19162,
     "net return value": "165389.50",
     "total orders": 3313,
@@ -3912,11 +3911,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14035.37,
     "store search conversion": 55.09,
     "return rate": 14.71,
-    "date": "10-10-2019",
-    "monthYear": "Oct 2019"
+    date: "10-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1456,
+    id: 1456,
     "online store session": 13071,
     "net return value": "144758.70",
     "total orders": 3831,
@@ -3925,11 +3924,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16945.09,
     "store search conversion": 23.21,
     "return rate": 16.59,
-    "date": "13-10-2019",
-    "monthYear": "Oct 2019"
+    date: "13-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1533,
+    id: 1533,
     "online store session": 15556,
     "net return value": "123292.30",
     "total orders": 4857,
@@ -3938,11 +3937,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19671.13,
     "store search conversion": 68.18,
     "return rate": 21.45,
-    "date": "15-10-2019",
-    "monthYear": "Oct 2019"
+    date: "15-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1257,
+    id: 1257,
     "online store session": 12080,
     "net return value": "167116.20",
     "total orders": 3606,
@@ -3951,11 +3950,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15707.33,
     "store search conversion": 56.01,
     "return rate": 24.65,
-    "date": "18-10-2019",
-    "monthYear": "Oct 2019"
+    date: "18-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1103,
+    id: 1103,
     "online store session": 13012,
     "net return value": "132974.10",
     "total orders": 4627,
@@ -3964,11 +3963,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13486.19,
     "store search conversion": 63.18,
     "return rate": 29.93,
-    "date": "19-10-2019",
-    "monthYear": "Oct 2019"
+    date: "19-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1374,
+    id: 1374,
     "online store session": 13390,
     "net return value": "166311.90",
     "total orders": 4961,
@@ -3977,11 +3976,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11981.74,
     "store search conversion": 78.17,
     "return rate": 19.08,
-    "date": "20-10-2019",
-    "monthYear": "Oct 2019"
+    date: "20-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1629,
+    id: 1629,
     "online store session": 18120,
     "net return value": "174263.30",
     "total orders": 4282,
@@ -3990,11 +3989,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12232.5,
     "store search conversion": 25.67,
     "return rate": 16.83,
-    "date": "22-10-2019",
-    "monthYear": "Oct 2019"
+    date: "22-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1361,
+    id: 1361,
     "online store session": 15830,
     "net return value": "157720.30",
     "total orders": 4435,
@@ -4003,11 +4002,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11027.4,
     "store search conversion": 49.68,
     "return rate": 10.79,
-    "date": "24-10-2019",
-    "monthYear": "Oct 2019"
+    date: "24-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1076,
+    id: 1076,
     "online store session": 12247,
     "net return value": "187119.90",
     "total orders": 3644,
@@ -4016,11 +4015,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17689.21,
     "store search conversion": 53.27,
     "return rate": 16.85,
-    "date": "25-10-2019",
-    "monthYear": "Oct 2019"
+    date: "25-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1214,
+    id: 1214,
     "online store session": 18647,
     "net return value": "170832.30",
     "total orders": 3720,
@@ -4029,11 +4028,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16951.92,
     "store search conversion": 67.07,
     "return rate": 14.39,
-    "date": "26-10-2019",
-    "monthYear": "Oct 2019"
+    date: "26-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1943,
+    id: 1943,
     "online store session": 11340,
     "net return value": "164093.70",
     "total orders": 4901,
@@ -4042,11 +4041,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11589.6,
     "store search conversion": 47.54,
     "return rate": 10.01,
-    "date": "27-10-2019",
-    "monthYear": "Oct 2019"
+    date: "27-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1142,
+    id: 1142,
     "online store session": 18577,
     "net return value": "103328.20",
     "total orders": 4234,
@@ -4055,11 +4054,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18723.1,
     "store search conversion": 39.26,
     "return rate": 21.88,
-    "date": "30-10-2019",
-    "monthYear": "Oct 2019"
+    date: "30-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1643,
+    id: 1643,
     "online store session": 13349,
     "net return value": "127162.20",
     "total orders": 4603,
@@ -4068,11 +4067,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18745.79,
     "store search conversion": 70.87,
     "return rate": 27.58,
-    "date": "31-10-2019",
-    "monthYear": "Oct 2019"
+    date: "31-10-2019",
+    monthYear: "Oct 2019",
   },
   {
-    "id": 1130,
+    id: 1130,
     "online store session": 19951,
     "net return value": "137658.40",
     "total orders": 3391,
@@ -4081,11 +4080,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14159.44,
     "store search conversion": 71.89,
     "return rate": 21.28,
-    "date": "01-11-2019",
-    "monthYear": "Nov 2019"
+    date: "01-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1236,
+    id: 1236,
     "online store session": 12203,
     "net return value": "189854.30",
     "total orders": 4868,
@@ -4094,11 +4093,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17836.83,
     "store search conversion": 48.04,
     "return rate": 15.61,
-    "date": "05-11-2019",
-    "monthYear": "Nov 2019"
+    date: "05-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1156,
+    id: 1156,
     "online store session": 11535,
     "net return value": "182126.30",
     "total orders": 3917,
@@ -4107,11 +4106,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17870.05,
     "store search conversion": 47.32,
     "return rate": 20.6,
-    "date": "06-11-2019",
-    "monthYear": "Nov 2019"
+    date: "06-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1508,
+    id: 1508,
     "online store session": 15872,
     "net return value": "136091.90",
     "total orders": 3664,
@@ -4120,11 +4119,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11737.21,
     "store search conversion": 43.12,
     "return rate": 20.54,
-    "date": "07-11-2019",
-    "monthYear": "Nov 2019"
+    date: "07-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1295,
+    id: 1295,
     "online store session": 15293,
     "net return value": "116776.80",
     "total orders": 3716,
@@ -4133,11 +4132,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12954.11,
     "store search conversion": 77.92,
     "return rate": 26.87,
-    "date": "08-11-2019",
-    "monthYear": "Nov 2019"
+    date: "08-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1582,
+    id: 1582,
     "online store session": 15486,
     "net return value": "180750.40",
     "total orders": 4400,
@@ -4146,11 +4145,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12580.9,
     "store search conversion": 36.78,
     "return rate": 11.44,
-    "date": "09-11-2019",
-    "monthYear": "Nov 2019"
+    date: "09-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1355,
+    id: 1355,
     "online store session": 14635,
     "net return value": "157633.30",
     "total orders": 4218,
@@ -4159,11 +4158,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13643.05,
     "store search conversion": 33.31,
     "return rate": 22.45,
-    "date": "10-11-2019",
-    "monthYear": "Nov 2019"
+    date: "10-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1443,
+    id: 1443,
     "online store session": 18002,
     "net return value": "157283.10",
     "total orders": 3200,
@@ -4172,11 +4171,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10288.95,
     "store search conversion": 67.82,
     "return rate": 19.41,
-    "date": "12-11-2019",
-    "monthYear": "Nov 2019"
+    date: "12-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1049,
+    id: 1049,
     "online store session": 18406,
     "net return value": "134630.20",
     "total orders": 4961,
@@ -4185,11 +4184,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13933.04,
     "store search conversion": 77.17,
     "return rate": 13.82,
-    "date": "14-11-2019",
-    "monthYear": "Nov 2019"
+    date: "14-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1351,
+    id: 1351,
     "online store session": 17447,
     "net return value": "184434.70",
     "total orders": 4449,
@@ -4198,11 +4197,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11523.46,
     "store search conversion": 47.23,
     "return rate": 19.42,
-    "date": "15-11-2019",
-    "monthYear": "Nov 2019"
+    date: "15-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1031,
+    id: 1031,
     "online store session": 16456,
     "net return value": "132364.50",
     "total orders": 3186,
@@ -4211,11 +4210,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18929.65,
     "store search conversion": 54.87,
     "return rate": 29.13,
-    "date": "16-11-2019",
-    "monthYear": "Nov 2019"
+    date: "16-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1345,
+    id: 1345,
     "online store session": 10326,
     "net return value": "153523.60",
     "total orders": 3472,
@@ -4224,11 +4223,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19932.01,
     "store search conversion": 34.83,
     "return rate": 12.86,
-    "date": "20-11-2019",
-    "monthYear": "Nov 2019"
+    date: "20-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1389,
+    id: 1389,
     "online store session": 18390,
     "net return value": "182231.30",
     "total orders": 4031,
@@ -4237,11 +4236,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11356.7,
     "store search conversion": 70.33,
     "return rate": 12.29,
-    "date": "22-11-2019",
-    "monthYear": "Nov 2019"
+    date: "22-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1429,
+    id: 1429,
     "online store session": 11545,
     "net return value": "137301.10",
     "total orders": 3162,
@@ -4250,11 +4249,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18378.03,
     "store search conversion": 46.8,
     "return rate": 14.91,
-    "date": "23-11-2019",
-    "monthYear": "Nov 2019"
+    date: "23-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1918,
+    id: 1918,
     "online store session": 11903,
     "net return value": "102193.30",
     "total orders": 3491,
@@ -4263,11 +4262,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10823.28,
     "store search conversion": 51.76,
     "return rate": 20.89,
-    "date": "24-11-2019",
-    "monthYear": "Nov 2019"
+    date: "24-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1233,
+    id: 1233,
     "online store session": 12879,
     "net return value": "143195.70",
     "total orders": 4236,
@@ -4276,11 +4275,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18029,
     "store search conversion": 31.61,
     "return rate": 29.28,
-    "date": "25-11-2019",
-    "monthYear": "Nov 2019"
+    date: "25-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1159,
+    id: 1159,
     "online store session": 13875,
     "net return value": "112586.20",
     "total orders": 3860,
@@ -4289,11 +4288,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18933.71,
     "store search conversion": 59.93,
     "return rate": 21.68,
-    "date": "26-11-2019",
-    "monthYear": "Nov 2019"
+    date: "26-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1737,
+    id: 1737,
     "online store session": 16928,
     "net return value": "191955.10",
     "total orders": 3724,
@@ -4302,11 +4301,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17002.93,
     "store search conversion": 48.59,
     "return rate": 21.3,
-    "date": "27-11-2019",
-    "monthYear": "Nov 2019"
+    date: "27-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1075,
+    id: 1075,
     "online store session": 17362,
     "net return value": "103227.00",
     "total orders": 3905,
@@ -4315,11 +4314,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17192.2,
     "store search conversion": 58.8,
     "return rate": 24.95,
-    "date": "29-11-2019",
-    "monthYear": "Nov 2019"
+    date: "29-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1961,
+    id: 1961,
     "online store session": 16475,
     "net return value": "130960.70",
     "total orders": 3627,
@@ -4328,11 +4327,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15547.8,
     "store search conversion": 60.67,
     "return rate": 21.79,
-    "date": "30-11-2019",
-    "monthYear": "Nov 2019"
+    date: "30-11-2019",
+    monthYear: "Nov 2019",
   },
   {
-    "id": 1274,
+    id: 1274,
     "online store session": 13113,
     "net return value": "160648.40",
     "total orders": 3119,
@@ -4341,11 +4340,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11251.54,
     "store search conversion": 79.6,
     "return rate": 24.23,
-    "date": "01-12-2019",
-    "monthYear": "Dec 2019"
+    date: "01-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1894,
+    id: 1894,
     "online store session": 16110,
     "net return value": "189605.20",
     "total orders": 3010,
@@ -4354,11 +4353,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19697.66,
     "store search conversion": 59.04,
     "return rate": 15.33,
-    "date": "02-12-2019",
-    "monthYear": "Dec 2019"
+    date: "02-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1060,
+    id: 1060,
     "online store session": 11778,
     "net return value": "182686.20",
     "total orders": 4384,
@@ -4367,11 +4366,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15631.82,
     "store search conversion": 58.6,
     "return rate": 28.07,
-    "date": "03-12-2019",
-    "monthYear": "Dec 2019"
+    date: "03-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1132,
+    id: 1132,
     "online store session": 16654,
     "net return value": "164759.30",
     "total orders": 4842,
@@ -4380,11 +4379,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10384.54,
     "store search conversion": 76.06,
     "return rate": 26.24,
-    "date": "06-12-2019",
-    "monthYear": "Dec 2019"
+    date: "06-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1500,
+    id: 1500,
     "online store session": 18122,
     "net return value": "123601.90",
     "total orders": 4418,
@@ -4393,11 +4392,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12991.11,
     "store search conversion": 79.23,
     "return rate": 14.32,
-    "date": "08-12-2019",
-    "monthYear": "Dec 2019"
+    date: "08-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1432,
+    id: 1432,
     "online store session": 14857,
     "net return value": "191442.60",
     "total orders": 4567,
@@ -4406,11 +4405,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17202.05,
     "store search conversion": 36.58,
     "return rate": 25.76,
-    "date": "09-12-2019",
-    "monthYear": "Dec 2019"
+    date: "09-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1770,
+    id: 1770,
     "online store session": 19734,
     "net return value": "107163.70",
     "total orders": 3625,
@@ -4419,11 +4418,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10665.64,
     "store search conversion": 25.41,
     "return rate": 21.92,
-    "date": "12-12-2019",
-    "monthYear": "Dec 2019"
+    date: "12-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1829,
+    id: 1829,
     "online store session": 17454,
     "net return value": "155445.60",
     "total orders": 3679,
@@ -4432,11 +4431,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19283.27,
     "store search conversion": 65.86,
     "return rate": 24.8,
-    "date": "13-12-2019",
-    "monthYear": "Dec 2019"
+    date: "13-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1260,
+    id: 1260,
     "online store session": 14612,
     "net return value": "122920.80",
     "total orders": 4274,
@@ -4445,11 +4444,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19219.11,
     "store search conversion": 70.89,
     "return rate": 20.43,
-    "date": "14-12-2019",
-    "monthYear": "Dec 2019"
+    date: "14-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1152,
+    id: 1152,
     "online store session": 14991,
     "net return value": "167814.80",
     "total orders": 3708,
@@ -4458,11 +4457,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14621.79,
     "store search conversion": 23.49,
     "return rate": 12.61,
-    "date": "15-12-2019",
-    "monthYear": "Dec 2019"
+    date: "15-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1417,
+    id: 1417,
     "online store session": 11226,
     "net return value": "138514.70",
     "total orders": 3282,
@@ -4471,11 +4470,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16188.92,
     "store search conversion": 39.98,
     "return rate": 14.84,
-    "date": "16-12-2019",
-    "monthYear": "Dec 2019"
+    date: "16-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1528,
+    id: 1528,
     "online store session": 10145,
     "net return value": "151922.10",
     "total orders": 3161,
@@ -4484,11 +4483,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13645.51,
     "store search conversion": 36.88,
     "return rate": 25.77,
-    "date": "19-12-2019",
-    "monthYear": "Dec 2019"
+    date: "19-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1690,
+    id: 1690,
     "online store session": 11346,
     "net return value": "196308.60",
     "total orders": 3560,
@@ -4497,11 +4496,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11099.82,
     "store search conversion": 75.81,
     "return rate": 13.38,
-    "date": "23-12-2019",
-    "monthYear": "Dec 2019"
+    date: "23-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1531,
+    id: 1531,
     "online store session": 15776,
     "net return value": "162755.90",
     "total orders": 3023,
@@ -4510,11 +4509,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11013.44,
     "store search conversion": 29.47,
     "return rate": 23.96,
-    "date": "25-12-2019",
-    "monthYear": "Dec 2019"
+    date: "25-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1005,
+    id: 1005,
     "online store session": 19354,
     "net return value": "179820.20",
     "total orders": 4464,
@@ -4523,11 +4522,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11686.74,
     "store search conversion": 46.48,
     "return rate": 16.23,
-    "date": "26-12-2019",
-    "monthYear": "Dec 2019"
+    date: "26-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1639,
+    id: 1639,
     "online store session": 19982,
     "net return value": "152224.30",
     "total orders": 4178,
@@ -4536,11 +4535,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12088.08,
     "store search conversion": 75.35,
     "return rate": 23.71,
-    "date": "30-12-2019",
-    "monthYear": "Dec 2019"
+    date: "30-12-2019",
+    monthYear: "Dec 2019",
   },
   {
-    "id": 1688,
+    id: 1688,
     "online store session": 11659,
     "net return value": "153783.30",
     "total orders": 3330,
@@ -4549,11 +4548,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18651.74,
     "store search conversion": 48.72,
     "return rate": 29.54,
-    "date": "01-01-2020",
-    "monthYear": "Jan 2020"
+    date: "01-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1585,
+    id: 1585,
     "online store session": 19887,
     "net return value": "136968.10",
     "total orders": 4305,
@@ -4562,11 +4561,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16457.72,
     "store search conversion": 58.61,
     "return rate": 23.43,
-    "date": "02-01-2020",
-    "monthYear": "Jan 2020"
+    date: "02-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1193,
+    id: 1193,
     "online store session": 13995,
     "net return value": "149372.60",
     "total orders": 4104,
@@ -4575,11 +4574,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19988.54,
     "store search conversion": 33.25,
     "return rate": 14.1,
-    "date": "03-01-2020",
-    "monthYear": "Jan 2020"
+    date: "03-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1320,
+    id: 1320,
     "online store session": 13685,
     "net return value": "122177.40",
     "total orders": 3942,
@@ -4588,11 +4587,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11626.67,
     "store search conversion": 42.76,
     "return rate": 28.69,
-    "date": "04-01-2020",
-    "monthYear": "Jan 2020"
+    date: "04-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1127,
+    id: 1127,
     "online store session": 12502,
     "net return value": "124309.90",
     "total orders": 3972,
@@ -4601,11 +4600,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15400.51,
     "store search conversion": 53.29,
     "return rate": 10.42,
-    "date": "05-01-2020",
-    "monthYear": "Jan 2020"
+    date: "05-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1002,
+    id: 1002,
     "online store session": 15990,
     "net return value": "139152.00",
     "total orders": 3492,
@@ -4614,11 +4613,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15295.28,
     "store search conversion": 61.15,
     "return rate": 29.75,
-    "date": "06-01-2020",
-    "monthYear": "Jan 2020"
+    date: "06-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1225,
+    id: 1225,
     "online store session": 15185,
     "net return value": "199684.80",
     "total orders": 4275,
@@ -4627,11 +4626,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15702.21,
     "store search conversion": 61.51,
     "return rate": 16.84,
-    "date": "07-01-2020",
-    "monthYear": "Jan 2020"
+    date: "07-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1448,
+    id: 1448,
     "online store session": 15049,
     "net return value": "168829.60",
     "total orders": 3972,
@@ -4640,11 +4639,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18314.71,
     "store search conversion": 79.36,
     "return rate": 19.96,
-    "date": "08-01-2020",
-    "monthYear": "Jan 2020"
+    date: "08-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1793,
+    id: 1793,
     "online store session": 19947,
     "net return value": "140729.80",
     "total orders": 4899,
@@ -4653,11 +4652,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10997.38,
     "store search conversion": 72.77,
     "return rate": 16.41,
-    "date": "09-01-2020",
-    "monthYear": "Jan 2020"
+    date: "09-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1203,
+    id: 1203,
     "online store session": 11379,
     "net return value": "113617.50",
     "total orders": 4656,
@@ -4666,11 +4665,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10975.13,
     "store search conversion": 32.49,
     "return rate": 28.66,
-    "date": "10-01-2020",
-    "monthYear": "Jan 2020"
+    date: "10-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1927,
+    id: 1927,
     "online store session": 12843,
     "net return value": "132274.10",
     "total orders": 3672,
@@ -4679,11 +4678,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13571.06,
     "store search conversion": 58.53,
     "return rate": 25.07,
-    "date": "12-01-2020",
-    "monthYear": "Jan 2020"
+    date: "12-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1871,
+    id: 1871,
     "online store session": 15358,
     "net return value": "144039.10",
     "total orders": 3882,
@@ -4692,11 +4691,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18821.56,
     "store search conversion": 51.77,
     "return rate": 13.53,
-    "date": "13-01-2020",
-    "monthYear": "Jan 2020"
+    date: "13-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1467,
+    id: 1467,
     "online store session": 18278,
     "net return value": "160142.90",
     "total orders": 4484,
@@ -4705,11 +4704,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15337.02,
     "store search conversion": 53.89,
     "return rate": 16.44,
-    "date": "14-01-2020",
-    "monthYear": "Jan 2020"
+    date: "14-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1810,
+    id: 1810,
     "online store session": 13142,
     "net return value": "127641.40",
     "total orders": 4586,
@@ -4718,11 +4717,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10516.82,
     "store search conversion": 21.74,
     "return rate": 21.85,
-    "date": "18-01-2020",
-    "monthYear": "Jan 2020"
+    date: "18-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1835,
+    id: 1835,
     "online store session": 10392,
     "net return value": "195183.40",
     "total orders": 3583,
@@ -4731,11 +4730,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13368.69,
     "store search conversion": 69.75,
     "return rate": 27.57,
-    "date": "19-01-2020",
-    "monthYear": "Jan 2020"
+    date: "19-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1398,
+    id: 1398,
     "online store session": 13735,
     "net return value": "159679.20",
     "total orders": 4481,
@@ -4744,11 +4743,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18495.08,
     "store search conversion": 77.77,
     "return rate": 18.11,
-    "date": "20-01-2020",
-    "monthYear": "Jan 2020"
+    date: "20-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1004,
+    id: 1004,
     "online store session": 16824,
     "net return value": "137683.60",
     "total orders": 3880,
@@ -4757,11 +4756,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17731.64,
     "store search conversion": 33.69,
     "return rate": 16.66,
-    "date": "23-01-2020",
-    "monthYear": "Jan 2020"
+    date: "23-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1020,
+    id: 1020,
     "online store session": 14711,
     "net return value": "162144.40",
     "total orders": 3719,
@@ -4770,11 +4769,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11456.99,
     "store search conversion": 44.62,
     "return rate": 21.62,
-    "date": "24-01-2020",
-    "monthYear": "Jan 2020"
+    date: "24-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1704,
+    id: 1704,
     "online store session": 19282,
     "net return value": "124257.00",
     "total orders": 3489,
@@ -4783,11 +4782,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10649.16,
     "store search conversion": 57.58,
     "return rate": 27.94,
-    "date": "26-01-2020",
-    "monthYear": "Jan 2020"
+    date: "26-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1108,
+    id: 1108,
     "online store session": 12935,
     "net return value": "191677.50",
     "total orders": 3450,
@@ -4796,11 +4795,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12409.49,
     "store search conversion": 40.78,
     "return rate": 12.77,
-    "date": "29-01-2020",
-    "monthYear": "Jan 2020"
+    date: "29-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1037,
+    id: 1037,
     "online store session": 17515,
     "net return value": "183989.40",
     "total orders": 3458,
@@ -4809,11 +4808,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18010.45,
     "store search conversion": 52.41,
     "return rate": 24.28,
-    "date": "31-01-2020",
-    "monthYear": "Jan 2020"
+    date: "31-01-2020",
+    monthYear: "Jan 2020",
   },
   {
-    "id": 1754,
+    id: 1754,
     "online store session": 11197,
     "net return value": "174671.40",
     "total orders": 4229,
@@ -4822,11 +4821,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13459.01,
     "store search conversion": 44.54,
     "return rate": 22.73,
-    "date": "02-02-2020",
-    "monthYear": "Feb 2020"
+    date: "02-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1731,
+    id: 1731,
     "online store session": 15214,
     "net return value": "137014.80",
     "total orders": 4136,
@@ -4835,11 +4834,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13739.06,
     "store search conversion": 74.1,
     "return rate": 14.64,
-    "date": "03-02-2020",
-    "monthYear": "Feb 2020"
+    date: "03-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1900,
+    id: 1900,
     "online store session": 16779,
     "net return value": "124911.80",
     "total orders": 3514,
@@ -4848,11 +4847,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10347.27,
     "store search conversion": 50.54,
     "return rate": 25.55,
-    "date": "04-02-2020",
-    "monthYear": "Feb 2020"
+    date: "04-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1485,
+    id: 1485,
     "online store session": 13023,
     "net return value": "198527.20",
     "total orders": 4899,
@@ -4861,11 +4860,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15443.93,
     "store search conversion": 33.24,
     "return rate": 23.59,
-    "date": "07-02-2020",
-    "monthYear": "Feb 2020"
+    date: "07-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1814,
+    id: 1814,
     "online store session": 11817,
     "net return value": "194685.60",
     "total orders": 4597,
@@ -4874,11 +4873,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11454.02,
     "store search conversion": 63.59,
     "return rate": 12.53,
-    "date": "08-02-2020",
-    "monthYear": "Feb 2020"
+    date: "08-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1034,
+    id: 1034,
     "online store session": 11360,
     "net return value": "157164.70",
     "total orders": 3445,
@@ -4887,11 +4886,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12966.11,
     "store search conversion": 44.67,
     "return rate": 19.23,
-    "date": "09-02-2020",
-    "monthYear": "Feb 2020"
+    date: "09-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1974,
+    id: 1974,
     "online store session": 16067,
     "net return value": "107271.10",
     "total orders": 3590,
@@ -4900,11 +4899,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18846.21,
     "store search conversion": 59.58,
     "return rate": 28.53,
-    "date": "10-02-2020",
-    "monthYear": "Feb 2020"
+    date: "10-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1527,
+    id: 1527,
     "online store session": 14479,
     "net return value": "175906.10",
     "total orders": 4901,
@@ -4913,11 +4912,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13003.73,
     "store search conversion": 52.07,
     "return rate": 10.61,
-    "date": "11-02-2020",
-    "monthYear": "Feb 2020"
+    date: "11-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1093,
+    id: 1093,
     "online store session": 12885,
     "net return value": "181482.90",
     "total orders": 4604,
@@ -4926,11 +4925,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12353.13,
     "store search conversion": 52.86,
     "return rate": 28.52,
-    "date": "12-02-2020",
-    "monthYear": "Feb 2020"
+    date: "12-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1227,
+    id: 1227,
     "online store session": 11702,
     "net return value": "179710.90",
     "total orders": 3716,
@@ -4939,11 +4938,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11028.02,
     "store search conversion": 45.92,
     "return rate": 27.02,
-    "date": "15-02-2020",
-    "monthYear": "Feb 2020"
+    date: "15-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1905,
+    id: 1905,
     "online store session": 19018,
     "net return value": "121454.70",
     "total orders": 3181,
@@ -4952,11 +4951,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17052.19,
     "store search conversion": 32.08,
     "return rate": 17.26,
-    "date": "16-02-2020",
-    "monthYear": "Feb 2020"
+    date: "16-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1129,
+    id: 1129,
     "online store session": 19908,
     "net return value": "118010.00",
     "total orders": 4518,
@@ -4965,11 +4964,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16928.28,
     "store search conversion": 67.93,
     "return rate": 26.2,
-    "date": "17-02-2020",
-    "monthYear": "Feb 2020"
+    date: "17-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1547,
+    id: 1547,
     "online store session": 17751,
     "net return value": "128603.60",
     "total orders": 4139,
@@ -4978,11 +4977,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17712.76,
     "store search conversion": 21.57,
     "return rate": 13.48,
-    "date": "19-02-2020",
-    "monthYear": "Feb 2020"
+    date: "19-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1224,
+    id: 1224,
     "online store session": 14186,
     "net return value": "147770.40",
     "total orders": 3387,
@@ -4991,11 +4990,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19920.24,
     "store search conversion": 44.74,
     "return rate": 13.69,
-    "date": "21-02-2020",
-    "monthYear": "Feb 2020"
+    date: "21-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1441,
+    id: 1441,
     "online store session": 11788,
     "net return value": "141672.80",
     "total orders": 3387,
@@ -5004,11 +5003,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11366.7,
     "store search conversion": 79.53,
     "return rate": 23.19,
-    "date": "23-02-2020",
-    "monthYear": "Feb 2020"
+    date: "23-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1231,
+    id: 1231,
     "online store session": 18019,
     "net return value": "151662.90",
     "total orders": 3592,
@@ -5017,11 +5016,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17322.21,
     "store search conversion": 63.81,
     "return rate": 15.56,
-    "date": "24-02-2020",
-    "monthYear": "Feb 2020"
+    date: "24-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1797,
+    id: 1797,
     "online store session": 14532,
     "net return value": "163025.10",
     "total orders": 3586,
@@ -5030,11 +5029,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18975.57,
     "store search conversion": 43.24,
     "return rate": 22.16,
-    "date": "25-02-2020",
-    "monthYear": "Feb 2020"
+    date: "25-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1489,
+    id: 1489,
     "online store session": 17019,
     "net return value": "112621.70",
     "total orders": 4538,
@@ -5043,11 +5042,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17512.75,
     "store search conversion": 30.52,
     "return rate": 15.33,
-    "date": "26-02-2020",
-    "monthYear": "Feb 2020"
+    date: "26-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1701,
+    id: 1701,
     "online store session": 13084,
     "net return value": "171052.20",
     "total orders": 4787,
@@ -5056,11 +5055,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16267.22,
     "store search conversion": 30.54,
     "return rate": 28.96,
-    "date": "27-02-2020",
-    "monthYear": "Feb 2020"
+    date: "27-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1983,
+    id: 1983,
     "online store session": 18983,
     "net return value": "177001.60",
     "total orders": 4190,
@@ -5069,11 +5068,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16697.41,
     "store search conversion": 58.04,
     "return rate": 15.95,
-    "date": "28-02-2020",
-    "monthYear": "Feb 2020"
+    date: "28-02-2020",
+    monthYear: "Feb 2020",
   },
   {
-    "id": 1526,
+    id: 1526,
     "online store session": 14726,
     "net return value": "108449.10",
     "total orders": 4115,
@@ -5082,11 +5081,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16013.92,
     "store search conversion": 22.15,
     "return rate": 29.54,
-    "date": "02-03-2020",
-    "monthYear": "Mar 2020"
+    date: "02-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1933,
+    id: 1933,
     "online store session": 10837,
     "net return value": "134559.60",
     "total orders": 4531,
@@ -5095,11 +5094,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16409.9,
     "store search conversion": 67.87,
     "return rate": 19.45,
-    "date": "04-03-2020",
-    "monthYear": "Mar 2020"
+    date: "04-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1106,
+    id: 1106,
     "online store session": 12310,
     "net return value": "169640.30",
     "total orders": 4540,
@@ -5108,11 +5107,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12328.25,
     "store search conversion": 33.18,
     "return rate": 12.28,
-    "date": "06-03-2020",
-    "monthYear": "Mar 2020"
+    date: "06-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1867,
+    id: 1867,
     "online store session": 10858,
     "net return value": "151398.80",
     "total orders": 3070,
@@ -5121,11 +5120,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19623.22,
     "store search conversion": 66.26,
     "return rate": 29.86,
-    "date": "08-03-2020",
-    "monthYear": "Mar 2020"
+    date: "08-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1145,
+    id: 1145,
     "online store session": 16515,
     "net return value": "112098.50",
     "total orders": 4366,
@@ -5134,11 +5133,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16533.51,
     "store search conversion": 25.33,
     "return rate": 15.53,
-    "date": "10-03-2020",
-    "monthYear": "Mar 2020"
+    date: "10-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1018,
+    id: 1018,
     "online store session": 16185,
     "net return value": "113987.00",
     "total orders": 3493,
@@ -5147,11 +5146,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13830.56,
     "store search conversion": 26.25,
     "return rate": 10.51,
-    "date": "11-03-2020",
-    "monthYear": "Mar 2020"
+    date: "11-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1706,
+    id: 1706,
     "online store session": 18006,
     "net return value": "125614.90",
     "total orders": 4562,
@@ -5160,11 +5159,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17003.58,
     "store search conversion": 74.04,
     "return rate": 15.07,
-    "date": "12-03-2020",
-    "monthYear": "Mar 2020"
+    date: "12-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1032,
+    id: 1032,
     "online store session": 14894,
     "net return value": "186742.10",
     "total orders": 3390,
@@ -5173,11 +5172,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16833.61,
     "store search conversion": 53.57,
     "return rate": 25.06,
-    "date": "13-03-2020",
-    "monthYear": "Mar 2020"
+    date: "13-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1684,
+    id: 1684,
     "online store session": 11212,
     "net return value": "183996.40",
     "total orders": 3989,
@@ -5186,11 +5185,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10799.15,
     "store search conversion": 40.01,
     "return rate": 25.96,
-    "date": "14-03-2020",
-    "monthYear": "Mar 2020"
+    date: "14-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1273,
+    id: 1273,
     "online store session": 13593,
     "net return value": "128302.30",
     "total orders": 4809,
@@ -5199,11 +5198,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10082.44,
     "store search conversion": 37.92,
     "return rate": 18.23,
-    "date": "15-03-2020",
-    "monthYear": "Mar 2020"
+    date: "15-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1287,
+    id: 1287,
     "online store session": 19006,
     "net return value": "106776.30",
     "total orders": 3080,
@@ -5212,11 +5211,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12231.01,
     "store search conversion": 75.86,
     "return rate": 15.18,
-    "date": "22-03-2020",
-    "monthYear": "Mar 2020"
+    date: "22-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1785,
+    id: 1785,
     "online store session": 13340,
     "net return value": "160015.70",
     "total orders": 3802,
@@ -5225,11 +5224,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12670.14,
     "store search conversion": 38.88,
     "return rate": 18.28,
-    "date": "24-03-2020",
-    "monthYear": "Mar 2020"
+    date: "24-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1167,
+    id: 1167,
     "online store session": 10322,
     "net return value": "193210.20",
     "total orders": 3461,
@@ -5238,11 +5237,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11847.73,
     "store search conversion": 55.86,
     "return rate": 21.51,
-    "date": "26-03-2020",
-    "monthYear": "Mar 2020"
+    date: "26-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1039,
+    id: 1039,
     "online store session": 10995,
     "net return value": "102788.10",
     "total orders": 4863,
@@ -5251,11 +5250,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16726.49,
     "store search conversion": 27.37,
     "return rate": 11.05,
-    "date": "27-03-2020",
-    "monthYear": "Mar 2020"
+    date: "27-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1010,
+    id: 1010,
     "online store session": 16524,
     "net return value": "101179.30",
     "total orders": 3074,
@@ -5264,11 +5263,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17499.22,
     "store search conversion": 73.37,
     "return rate": 11.59,
-    "date": "30-03-2020",
-    "monthYear": "Mar 2020"
+    date: "30-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1657,
+    id: 1657,
     "online store session": 14290,
     "net return value": "129133.90",
     "total orders": 3043,
@@ -5277,11 +5276,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17786.4,
     "store search conversion": 27.84,
     "return rate": 23.23,
-    "date": "31-03-2020",
-    "monthYear": "Mar 2020"
+    date: "31-03-2020",
+    monthYear: "Mar 2020",
   },
   {
-    "id": 1353,
+    id: 1353,
     "online store session": 19899,
     "net return value": "166109.70",
     "total orders": 3477,
@@ -5290,11 +5289,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19601.6,
     "store search conversion": 39.93,
     "return rate": 12.19,
-    "date": "02-04-2020",
-    "monthYear": "Apr 2020"
+    date: "02-04-2020",
+    monthYear: "Apr 2020",
   },
   {
-    "id": 1090,
+    id: 1090,
     "online store session": 10757,
     "net return value": "189849.00",
     "total orders": 4362,
@@ -5303,11 +5302,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16264.16,
     "store search conversion": 79.41,
     "return rate": 27.4,
-    "date": "05-04-2020",
-    "monthYear": "Apr 2020"
+    date: "05-04-2020",
+    monthYear: "Apr 2020",
   },
   {
-    "id": 1311,
+    id: 1311,
     "online store session": 10200,
     "net return value": "103863.50",
     "total orders": 4092,
@@ -5316,11 +5315,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13505.23,
     "store search conversion": 34.27,
     "return rate": 19.82,
-    "date": "08-04-2020",
-    "monthYear": "Apr 2020"
+    date: "08-04-2020",
+    monthYear: "Apr 2020",
   },
   {
-    "id": 1116,
+    id: 1116,
     "online store session": 17175,
     "net return value": "134684.70",
     "total orders": 3104,
@@ -5329,11 +5328,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10711.22,
     "store search conversion": 43.63,
     "return rate": 10.49,
-    "date": "13-04-2020",
-    "monthYear": "Apr 2020"
+    date: "13-04-2020",
+    monthYear: "Apr 2020",
   },
   {
-    "id": 1259,
+    id: 1259,
     "online store session": 16573,
     "net return value": "132596.80",
     "total orders": 3450,
@@ -5342,11 +5341,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17514.11,
     "store search conversion": 35.2,
     "return rate": 26.26,
-    "date": "14-04-2020",
-    "monthYear": "Apr 2020"
+    date: "14-04-2020",
+    monthYear: "Apr 2020",
   },
   {
-    "id": 1209,
+    id: 1209,
     "online store session": 17142,
     "net return value": "171595.00",
     "total orders": 4658,
@@ -5355,11 +5354,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18899.81,
     "store search conversion": 60.31,
     "return rate": 23.58,
-    "date": "15-04-2020",
-    "monthYear": "Apr 2020"
+    date: "15-04-2020",
+    monthYear: "Apr 2020",
   },
   {
-    "id": 1697,
+    id: 1697,
     "online store session": 18549,
     "net return value": "192125.80",
     "total orders": 4673,
@@ -5368,11 +5367,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13566.52,
     "store search conversion": 64.88,
     "return rate": 11.39,
-    "date": "16-04-2020",
-    "monthYear": "Apr 2020"
+    date: "16-04-2020",
+    monthYear: "Apr 2020",
   },
   {
-    "id": 1572,
+    id: 1572,
     "online store session": 14505,
     "net return value": "168878.90",
     "total orders": 3680,
@@ -5381,11 +5380,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11368.38,
     "store search conversion": 33.93,
     "return rate": 29.43,
-    "date": "18-04-2020",
-    "monthYear": "Apr 2020"
+    date: "18-04-2020",
+    monthYear: "Apr 2020",
   },
   {
-    "id": 1612,
+    id: 1612,
     "online store session": 17988,
     "net return value": "126398.40",
     "total orders": 3637,
@@ -5394,11 +5393,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16571.03,
     "store search conversion": 25.29,
     "return rate": 26.22,
-    "date": "19-04-2020",
-    "monthYear": "Apr 2020"
+    date: "19-04-2020",
+    monthYear: "Apr 2020",
   },
   {
-    "id": 1058,
+    id: 1058,
     "online store session": 14917,
     "net return value": "174580.50",
     "total orders": 3509,
@@ -5407,11 +5406,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10115.76,
     "store search conversion": 72.51,
     "return rate": 29.67,
-    "date": "22-04-2020",
-    "monthYear": "Apr 2020"
+    date: "22-04-2020",
+    monthYear: "Apr 2020",
   },
   {
-    "id": 1364,
+    id: 1364,
     "online store session": 17338,
     "net return value": "172153.30",
     "total orders": 3945,
@@ -5420,11 +5419,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12021.54,
     "store search conversion": 43.8,
     "return rate": 28.31,
-    "date": "23-04-2020",
-    "monthYear": "Apr 2020"
+    date: "23-04-2020",
+    monthYear: "Apr 2020",
   },
   {
-    "id": 1268,
+    id: 1268,
     "online store session": 15220,
     "net return value": "160102.50",
     "total orders": 4167,
@@ -5433,11 +5432,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13066.03,
     "store search conversion": 32.08,
     "return rate": 22.57,
-    "date": "24-04-2020",
-    "monthYear": "Apr 2020"
+    date: "24-04-2020",
+    monthYear: "Apr 2020",
   },
   {
-    "id": 1179,
+    id: 1179,
     "online store session": 17610,
     "net return value": "160108.50",
     "total orders": 4696,
@@ -5446,11 +5445,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13706.22,
     "store search conversion": 30.89,
     "return rate": 25.03,
-    "date": "28-04-2020",
-    "monthYear": "Apr 2020"
+    date: "28-04-2020",
+    monthYear: "Apr 2020",
   },
   {
-    "id": 1015,
+    id: 1015,
     "online store session": 16816,
     "net return value": "186186.00",
     "total orders": 4499,
@@ -5459,11 +5458,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10734.06,
     "store search conversion": 45.35,
     "return rate": 29.37,
-    "date": "29-04-2020",
-    "monthYear": "Apr 2020"
+    date: "29-04-2020",
+    monthYear: "Apr 2020",
   },
   {
-    "id": 1027,
+    id: 1027,
     "online store session": 12486,
     "net return value": "123543.90",
     "total orders": 3688,
@@ -5472,11 +5471,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16705.93,
     "store search conversion": 37.61,
     "return rate": 15.9,
-    "date": "30-04-2020",
-    "monthYear": "Apr 2020"
+    date: "30-04-2020",
+    monthYear: "Apr 2020",
   },
   {
-    "id": 1144,
+    id: 1144,
     "online store session": 16442,
     "net return value": "138596.10",
     "total orders": 4108,
@@ -5485,11 +5484,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18873.07,
     "store search conversion": 47.83,
     "return rate": 12.52,
-    "date": "01-05-2020",
-    "monthYear": "May 2020"
+    date: "01-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1111,
+    id: 1111,
     "online store session": 13997,
     "net return value": "180538.90",
     "total orders": 3408,
@@ -5498,11 +5497,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19711.16,
     "store search conversion": 62.92,
     "return rate": 16.38,
-    "date": "02-05-2020",
-    "monthYear": "May 2020"
+    date: "02-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1957,
+    id: 1957,
     "online store session": 14007,
     "net return value": "122668.70",
     "total orders": 4175,
@@ -5511,11 +5510,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12650.9,
     "store search conversion": 46.92,
     "return rate": 13.24,
-    "date": "03-05-2020",
-    "monthYear": "May 2020"
+    date: "03-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1174,
+    id: 1174,
     "online store session": 16303,
     "net return value": "111066.30",
     "total orders": 3518,
@@ -5524,11 +5523,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18016.72,
     "store search conversion": 62.24,
     "return rate": 21.87,
-    "date": "06-05-2020",
-    "monthYear": "May 2020"
+    date: "06-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1317,
+    id: 1317,
     "online store session": 14986,
     "net return value": "125923.90",
     "total orders": 4594,
@@ -5537,11 +5536,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17703.75,
     "store search conversion": 71.27,
     "return rate": 19.27,
-    "date": "07-05-2020",
-    "monthYear": "May 2020"
+    date: "07-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1308,
+    id: 1308,
     "online store session": 10752,
     "net return value": "193609.20",
     "total orders": 4281,
@@ -5550,11 +5549,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10629.72,
     "store search conversion": 66.68,
     "return rate": 17.83,
-    "date": "08-05-2020",
-    "monthYear": "May 2020"
+    date: "08-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1191,
+    id: 1191,
     "online store session": 14722,
     "net return value": "147583.20",
     "total orders": 3970,
@@ -5563,11 +5562,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10785.54,
     "store search conversion": 22.01,
     "return rate": 22.68,
-    "date": "10-05-2020",
-    "monthYear": "May 2020"
+    date: "10-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1083,
+    id: 1083,
     "online store session": 16291,
     "net return value": "183163.00",
     "total orders": 3913,
@@ -5576,11 +5575,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12760.9,
     "store search conversion": 61.59,
     "return rate": 20.82,
-    "date": "11-05-2020",
-    "monthYear": "May 2020"
+    date: "11-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1211,
+    id: 1211,
     "online store session": 16825,
     "net return value": "168665.90",
     "total orders": 4069,
@@ -5589,11 +5588,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17395.72,
     "store search conversion": 52.27,
     "return rate": 16.56,
-    "date": "13-05-2020",
-    "monthYear": "May 2020"
+    date: "13-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1239,
+    id: 1239,
     "online store session": 14445,
     "net return value": "155919.90",
     "total orders": 3935,
@@ -5602,11 +5601,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13945.89,
     "store search conversion": 24.28,
     "return rate": 13.41,
-    "date": "14-05-2020",
-    "monthYear": "May 2020"
+    date: "14-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1878,
+    id: 1878,
     "online store session": 16213,
     "net return value": "179407.00",
     "total orders": 3223,
@@ -5615,11 +5614,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17465.07,
     "store search conversion": 63.09,
     "return rate": 27.37,
-    "date": "15-05-2020",
-    "monthYear": "May 2020"
+    date: "15-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1208,
+    id: 1208,
     "online store session": 13890,
     "net return value": "165390.50",
     "total orders": 4159,
@@ -5628,11 +5627,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10198.02,
     "store search conversion": 45.7,
     "return rate": 12.34,
-    "date": "17-05-2020",
-    "monthYear": "May 2020"
+    date: "17-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1206,
+    id: 1206,
     "online store session": 17626,
     "net return value": "187613.30",
     "total orders": 3044,
@@ -5641,11 +5640,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13205.3,
     "store search conversion": 47.62,
     "return rate": 11.34,
-    "date": "18-05-2020",
-    "monthYear": "May 2020"
+    date: "18-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1897,
+    id: 1897,
     "online store session": 16406,
     "net return value": "168021.60",
     "total orders": 3459,
@@ -5654,11 +5653,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15199.62,
     "store search conversion": 66.14,
     "return rate": 18.19,
-    "date": "19-05-2020",
-    "monthYear": "May 2020"
+    date: "19-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1091,
+    id: 1091,
     "online store session": 17445,
     "net return value": "117174.10",
     "total orders": 4659,
@@ -5667,11 +5666,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19132.07,
     "store search conversion": 61.87,
     "return rate": 13.05,
-    "date": "20-05-2020",
-    "monthYear": "May 2020"
+    date: "20-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1265,
+    id: 1265,
     "online store session": 13690,
     "net return value": "191907.30",
     "total orders": 4355,
@@ -5680,11 +5679,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14283.75,
     "store search conversion": 33.77,
     "return rate": 24.34,
-    "date": "21-05-2020",
-    "monthYear": "May 2020"
+    date: "21-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1269,
+    id: 1269,
     "online store session": 10671,
     "net return value": "140083.90",
     "total orders": 3183,
@@ -5693,11 +5692,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10096.22,
     "store search conversion": 55.74,
     "return rate": 22.74,
-    "date": "23-05-2020",
-    "monthYear": "May 2020"
+    date: "23-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1463,
+    id: 1463,
     "online store session": 14136,
     "net return value": "130875.80",
     "total orders": 3545,
@@ -5706,11 +5705,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14920.73,
     "store search conversion": 70.56,
     "return rate": 26.09,
-    "date": "26-05-2020",
-    "monthYear": "May 2020"
+    date: "26-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1480,
+    id: 1480,
     "online store session": 13826,
     "net return value": "114134.80",
     "total orders": 4775,
@@ -5719,11 +5718,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14105.9,
     "store search conversion": 42.2,
     "return rate": 19.07,
-    "date": "27-05-2020",
-    "monthYear": "May 2020"
+    date: "27-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1632,
+    id: 1632,
     "online store session": 15554,
     "net return value": "124134.60",
     "total orders": 3796,
@@ -5732,11 +5731,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18591.3,
     "store search conversion": 32.23,
     "return rate": 16.21,
-    "date": "28-05-2020",
-    "monthYear": "May 2020"
+    date: "28-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1136,
+    id: 1136,
     "online store session": 15048,
     "net return value": "194848.30",
     "total orders": 3097,
@@ -5745,11 +5744,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19010.2,
     "store search conversion": 39.39,
     "return rate": 25.28,
-    "date": "30-05-2020",
-    "monthYear": "May 2020"
+    date: "30-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1695,
+    id: 1695,
     "online store session": 17800,
     "net return value": "179123.30",
     "total orders": 4579,
@@ -5758,11 +5757,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15490.39,
     "store search conversion": 76.28,
     "return rate": 23.11,
-    "date": "31-05-2020",
-    "monthYear": "May 2020"
+    date: "31-05-2020",
+    monthYear: "May 2020",
   },
   {
-    "id": 1290,
+    id: 1290,
     "online store session": 18491,
     "net return value": "111370.40",
     "total orders": 4713,
@@ -5771,11 +5770,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16814.93,
     "store search conversion": 31.78,
     "return rate": 13.49,
-    "date": "01-06-2020",
-    "monthYear": "Jun 2020"
+    date: "01-06-2020",
+    monthYear: "Jun 2020",
   },
   {
-    "id": 1109,
+    id: 1109,
     "online store session": 12155,
     "net return value": "136490.50",
     "total orders": 4947,
@@ -5784,11 +5783,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13689.46,
     "store search conversion": 78.98,
     "return rate": 11.33,
-    "date": "04-06-2020",
-    "monthYear": "Jun 2020"
+    date: "04-06-2020",
+    monthYear: "Jun 2020",
   },
   {
-    "id": 1281,
+    id: 1281,
     "online store session": 18507,
     "net return value": "174237.30",
     "total orders": 3581,
@@ -5797,11 +5796,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17478.01,
     "store search conversion": 29.51,
     "return rate": 25.8,
-    "date": "05-06-2020",
-    "monthYear": "Jun 2020"
+    date: "05-06-2020",
+    monthYear: "Jun 2020",
   },
   {
-    "id": 1379,
+    id: 1379,
     "online store session": 11834,
     "net return value": "111880.40",
     "total orders": 4246,
@@ -5810,11 +5809,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11914.29,
     "store search conversion": 41.46,
     "return rate": 14.94,
-    "date": "08-06-2020",
-    "monthYear": "Jun 2020"
+    date: "08-06-2020",
+    monthYear: "Jun 2020",
   },
   {
-    "id": 1523,
+    id: 1523,
     "online store session": 14661,
     "net return value": "192400.50",
     "total orders": 4565,
@@ -5823,11 +5822,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12979.98,
     "store search conversion": 57.12,
     "return rate": 28.37,
-    "date": "10-06-2020",
-    "monthYear": "Jun 2020"
+    date: "10-06-2020",
+    monthYear: "Jun 2020",
   },
   {
-    "id": 1617,
+    id: 1617,
     "online store session": 19280,
     "net return value": "185654.90",
     "total orders": 3254,
@@ -5836,11 +5835,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12055.94,
     "store search conversion": 30.01,
     "return rate": 12.62,
-    "date": "12-06-2020",
-    "monthYear": "Jun 2020"
+    date: "12-06-2020",
+    monthYear: "Jun 2020",
   },
   {
-    "id": 1805,
+    id: 1805,
     "online store session": 12487,
     "net return value": "174303.40",
     "total orders": 3118,
@@ -5849,11 +5848,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16918.62,
     "store search conversion": 77.62,
     "return rate": 23.61,
-    "date": "13-06-2020",
-    "monthYear": "Jun 2020"
+    date: "13-06-2020",
+    monthYear: "Jun 2020",
   },
   {
-    "id": 1502,
+    id: 1502,
     "online store session": 19468,
     "net return value": "160741.30",
     "total orders": 3599,
@@ -5862,11 +5861,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12005.56,
     "store search conversion": 37.35,
     "return rate": 13.64,
-    "date": "14-06-2020",
-    "monthYear": "Jun 2020"
+    date: "14-06-2020",
+    monthYear: "Jun 2020",
   },
   {
-    "id": 1453,
+    id: 1453,
     "online store session": 12307,
     "net return value": "139422.90",
     "total orders": 3442,
@@ -5875,11 +5874,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18330.46,
     "store search conversion": 49.73,
     "return rate": 11.66,
-    "date": "21-06-2020",
-    "monthYear": "Jun 2020"
+    date: "21-06-2020",
+    monthYear: "Jun 2020",
   },
   {
-    "id": 1212,
+    id: 1212,
     "online store session": 15627,
     "net return value": "173549.80",
     "total orders": 3007,
@@ -5888,11 +5887,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15009.56,
     "store search conversion": 54.05,
     "return rate": 25.31,
-    "date": "25-06-2020",
-    "monthYear": "Jun 2020"
+    date: "25-06-2020",
+    monthYear: "Jun 2020",
   },
   {
-    "id": 1892,
+    id: 1892,
     "online store session": 15072,
     "net return value": "121940.90",
     "total orders": 4031,
@@ -5901,11 +5900,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10702.88,
     "store search conversion": 35.24,
     "return rate": 13.88,
-    "date": "26-06-2020",
-    "monthYear": "Jun 2020"
+    date: "26-06-2020",
+    monthYear: "Jun 2020",
   },
   {
-    "id": 1592,
+    id: 1592,
     "online store session": 11916,
     "net return value": "144379.20",
     "total orders": 3334,
@@ -5914,11 +5913,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17139.48,
     "store search conversion": 77.72,
     "return rate": 10.89,
-    "date": "27-06-2020",
-    "monthYear": "Jun 2020"
+    date: "27-06-2020",
+    monthYear: "Jun 2020",
   },
   {
-    "id": 1942,
+    id: 1942,
     "online store session": 14447,
     "net return value": "134134.00",
     "total orders": 3583,
@@ -5927,11 +5926,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14695.85,
     "store search conversion": 74.53,
     "return rate": 24.72,
-    "date": "28-06-2020",
-    "monthYear": "Jun 2020"
+    date: "28-06-2020",
+    monthYear: "Jun 2020",
   },
   {
-    "id": 1663,
+    id: 1663,
     "online store session": 10146,
     "net return value": "123128.30",
     "total orders": 4266,
@@ -5940,11 +5939,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14206.79,
     "store search conversion": 77.91,
     "return rate": 11.66,
-    "date": "29-06-2020",
-    "monthYear": "Jun 2020"
+    date: "29-06-2020",
+    monthYear: "Jun 2020",
   },
   {
-    "id": 1546,
+    id: 1546,
     "online store session": 17128,
     "net return value": "188692.90",
     "total orders": 3207,
@@ -5953,11 +5952,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17087.86,
     "store search conversion": 25.47,
     "return rate": 17.15,
-    "date": "30-06-2020",
-    "monthYear": "Jun 2020"
+    date: "30-06-2020",
+    monthYear: "Jun 2020",
   },
   {
-    "id": 1476,
+    id: 1476,
     "online store session": 11065,
     "net return value": "164040.50",
     "total orders": 3359,
@@ -5966,11 +5965,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10539.63,
     "store search conversion": 20.98,
     "return rate": 28.3,
-    "date": "01-07-2020",
-    "monthYear": "Jul 2020"
+    date: "01-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1631,
+    id: 1631,
     "online store session": 14868,
     "net return value": "158722.30",
     "total orders": 3920,
@@ -5979,11 +5978,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11728.67,
     "store search conversion": 58.47,
     "return rate": 23.18,
-    "date": "02-07-2020",
-    "monthYear": "Jul 2020"
+    date: "02-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1991,
+    id: 1991,
     "online store session": 14397,
     "net return value": "133026.20",
     "total orders": 4926,
@@ -5992,11 +5991,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11770.57,
     "store search conversion": 24.22,
     "return rate": 29.18,
-    "date": "03-07-2020",
-    "monthYear": "Jul 2020"
+    date: "03-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1188,
+    id: 1188,
     "online store session": 15411,
     "net return value": "183947.50",
     "total orders": 4381,
@@ -6005,11 +6004,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13370.96,
     "store search conversion": 77.78,
     "return rate": 26.46,
-    "date": "04-07-2020",
-    "monthYear": "Jul 2020"
+    date: "04-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1709,
+    id: 1709,
     "online store session": 11990,
     "net return value": "121432.80",
     "total orders": 3680,
@@ -6018,11 +6017,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10283.91,
     "store search conversion": 24.17,
     "return rate": 11.22,
-    "date": "05-07-2020",
-    "monthYear": "Jul 2020"
+    date: "05-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1536,
+    id: 1536,
     "online store session": 18116,
     "net return value": "157826.00",
     "total orders": 3392,
@@ -6031,11 +6030,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16845.88,
     "store search conversion": 57.08,
     "return rate": 27.21,
-    "date": "10-07-2020",
-    "monthYear": "Jul 2020"
+    date: "10-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1969,
+    id: 1969,
     "online store session": 11686,
     "net return value": "160631.60",
     "total orders": 4951,
@@ -6044,11 +6043,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10404.67,
     "store search conversion": 56.97,
     "return rate": 12.96,
-    "date": "11-07-2020",
-    "monthYear": "Jul 2020"
+    date: "11-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1722,
+    id: 1722,
     "online store session": 11364,
     "net return value": "121540.90",
     "total orders": 4337,
@@ -6057,11 +6056,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18134.56,
     "store search conversion": 54.55,
     "return rate": 14.06,
-    "date": "12-07-2020",
-    "monthYear": "Jul 2020"
+    date: "12-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1746,
+    id: 1746,
     "online store session": 18486,
     "net return value": "172957.80",
     "total orders": 3047,
@@ -6070,11 +6069,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18168.09,
     "store search conversion": 70.88,
     "return rate": 26.71,
-    "date": "13-07-2020",
-    "monthYear": "Jul 2020"
+    date: "13-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1395,
+    id: 1395,
     "online store session": 19465,
     "net return value": "131413.40",
     "total orders": 3055,
@@ -6083,11 +6082,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19139.82,
     "store search conversion": 51.72,
     "return rate": 14.28,
-    "date": "14-07-2020",
-    "monthYear": "Jul 2020"
+    date: "14-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1491,
+    id: 1491,
     "online store session": 17378,
     "net return value": "121799.50",
     "total orders": 4045,
@@ -6096,11 +6095,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11472.24,
     "store search conversion": 28.45,
     "return rate": 16.5,
-    "date": "16-07-2020",
-    "monthYear": "Jul 2020"
+    date: "16-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1137,
+    id: 1137,
     "online store session": 11786,
     "net return value": "102998.70",
     "total orders": 3266,
@@ -6109,11 +6108,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18313.27,
     "store search conversion": 63.17,
     "return rate": 26.4,
-    "date": "18-07-2020",
-    "monthYear": "Jul 2020"
+    date: "18-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1992,
+    id: 1992,
     "online store session": 13393,
     "net return value": "166336.80",
     "total orders": 4893,
@@ -6122,11 +6121,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16724.46,
     "store search conversion": 61.45,
     "return rate": 12.17,
-    "date": "19-07-2020",
-    "monthYear": "Jul 2020"
+    date: "19-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1334,
+    id: 1334,
     "online store session": 13986,
     "net return value": "117550.80",
     "total orders": 3003,
@@ -6135,11 +6134,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12332,
     "store search conversion": 32.31,
     "return rate": 20.61,
-    "date": "20-07-2020",
-    "monthYear": "Jul 2020"
+    date: "20-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1595,
+    id: 1595,
     "online store session": 17014,
     "net return value": "103288.40",
     "total orders": 4156,
@@ -6148,11 +6147,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12171.27,
     "store search conversion": 70.67,
     "return rate": 27.99,
-    "date": "21-07-2020",
-    "monthYear": "Jul 2020"
+    date: "21-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1681,
+    id: 1681,
     "online store session": 18297,
     "net return value": "108875.90",
     "total orders": 4987,
@@ -6161,11 +6160,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10805.95,
     "store search conversion": 66.92,
     "return rate": 16.52,
-    "date": "22-07-2020",
-    "monthYear": "Jul 2020"
+    date: "22-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1030,
+    id: 1030,
     "online store session": 11703,
     "net return value": "115102.10",
     "total orders": 4836,
@@ -6174,11 +6173,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14389.17,
     "store search conversion": 78.03,
     "return rate": 21.13,
-    "date": "23-07-2020",
-    "monthYear": "Jul 2020"
+    date: "23-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1349,
+    id: 1349,
     "online store session": 15189,
     "net return value": "166796.80",
     "total orders": 3279,
@@ -6187,11 +6186,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14246.92,
     "store search conversion": 52.82,
     "return rate": 20.11,
-    "date": "24-07-2020",
-    "monthYear": "Jul 2020"
+    date: "24-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1343,
+    id: 1343,
     "online store session": 15212,
     "net return value": "151610.50",
     "total orders": 3813,
@@ -6200,11 +6199,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19930.69,
     "store search conversion": 78.67,
     "return rate": 16.02,
-    "date": "26-07-2020",
-    "monthYear": "Jul 2020"
+    date: "26-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1542,
+    id: 1542,
     "online store session": 15199,
     "net return value": "130549.20",
     "total orders": 4981,
@@ -6213,11 +6212,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16767.59,
     "store search conversion": 36.01,
     "return rate": 26.51,
-    "date": "28-07-2020",
-    "monthYear": "Jul 2020"
+    date: "28-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1642,
+    id: 1642,
     "online store session": 13239,
     "net return value": "199518.70",
     "total orders": 4722,
@@ -6226,11 +6225,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15250.39,
     "store search conversion": 77.26,
     "return rate": 12.84,
-    "date": "29-07-2020",
-    "monthYear": "Jul 2020"
+    date: "29-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1367,
+    id: 1367,
     "online store session": 16540,
     "net return value": "167703.50",
     "total orders": 3717,
@@ -6239,11 +6238,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15703.08,
     "store search conversion": 68.52,
     "return rate": 15.01,
-    "date": "30-07-2020",
-    "monthYear": "Jul 2020"
+    date: "30-07-2020",
+    monthYear: "Jul 2020",
   },
   {
-    "id": 1044,
+    id: 1044,
     "online store session": 14688,
     "net return value": "128236.70",
     "total orders": 3628,
@@ -6252,11 +6251,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19639.11,
     "store search conversion": 76.48,
     "return rate": 21.03,
-    "date": "09-08-2020",
-    "monthYear": "Aug 2020"
+    date: "09-08-2020",
+    monthYear: "Aug 2020",
   },
   {
-    "id": 1348,
+    id: 1348,
     "online store session": 15816,
     "net return value": "138828.90",
     "total orders": 4569,
@@ -6265,11 +6264,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16348.28,
     "store search conversion": 74.04,
     "return rate": 24.81,
-    "date": "12-08-2020",
-    "monthYear": "Aug 2020"
+    date: "12-08-2020",
+    monthYear: "Aug 2020",
   },
   {
-    "id": 1755,
+    id: 1755,
     "online store session": 17757,
     "net return value": "104598.70",
     "total orders": 3106,
@@ -6278,11 +6277,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17008.61,
     "store search conversion": 40.7,
     "return rate": 10.77,
-    "date": "13-08-2020",
-    "monthYear": "Aug 2020"
+    date: "13-08-2020",
+    monthYear: "Aug 2020",
   },
   {
-    "id": 1247,
+    id: 1247,
     "online store session": 15070,
     "net return value": "192687.20",
     "total orders": 3075,
@@ -6291,11 +6290,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14711.06,
     "store search conversion": 57.79,
     "return rate": 26.09,
-    "date": "14-08-2020",
-    "monthYear": "Aug 2020"
+    date: "14-08-2020",
+    monthYear: "Aug 2020",
   },
   {
-    "id": 1604,
+    id: 1604,
     "online store session": 17629,
     "net return value": "104568.30",
     "total orders": 4608,
@@ -6304,11 +6303,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10983.27,
     "store search conversion": 50.11,
     "return rate": 18.86,
-    "date": "16-08-2020",
-    "monthYear": "Aug 2020"
+    date: "16-08-2020",
+    monthYear: "Aug 2020",
   },
   {
-    "id": 1544,
+    id: 1544,
     "online store session": 11577,
     "net return value": "127386.00",
     "total orders": 4666,
@@ -6317,11 +6316,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19858.52,
     "store search conversion": 49.19,
     "return rate": 17.97,
-    "date": "17-08-2020",
-    "monthYear": "Aug 2020"
+    date: "17-08-2020",
+    monthYear: "Aug 2020",
   },
   {
-    "id": 1249,
+    id: 1249,
     "online store session": 12127,
     "net return value": "177132.10",
     "total orders": 4851,
@@ -6330,11 +6329,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10685.36,
     "store search conversion": 45.37,
     "return rate": 14.37,
-    "date": "20-08-2020",
-    "monthYear": "Aug 2020"
+    date: "20-08-2020",
+    monthYear: "Aug 2020",
   },
   {
-    "id": 1412,
+    id: 1412,
     "online store session": 17998,
     "net return value": "144871.90",
     "total orders": 4586,
@@ -6343,11 +6342,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16050.67,
     "store search conversion": 31.4,
     "return rate": 12.64,
-    "date": "23-08-2020",
-    "monthYear": "Aug 2020"
+    date: "23-08-2020",
+    monthYear: "Aug 2020",
   },
   {
-    "id": 1219,
+    id: 1219,
     "online store session": 19887,
     "net return value": "138418.40",
     "total orders": 3705,
@@ -6356,11 +6355,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10952.41,
     "store search conversion": 42.97,
     "return rate": 25.2,
-    "date": "24-08-2020",
-    "monthYear": "Aug 2020"
+    date: "24-08-2020",
+    monthYear: "Aug 2020",
   },
   {
-    "id": 1028,
+    id: 1028,
     "online store session": 13966,
     "net return value": "194108.70",
     "total orders": 3763,
@@ -6369,11 +6368,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19731.98,
     "store search conversion": 71.78,
     "return rate": 24.37,
-    "date": "25-08-2020",
-    "monthYear": "Aug 2020"
+    date: "25-08-2020",
+    monthYear: "Aug 2020",
   },
   {
-    "id": 1316,
+    id: 1316,
     "online store session": 15329,
     "net return value": "124078.60",
     "total orders": 4510,
@@ -6382,11 +6381,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11822.44,
     "store search conversion": 60.57,
     "return rate": 11.08,
-    "date": "26-08-2020",
-    "monthYear": "Aug 2020"
+    date: "26-08-2020",
+    monthYear: "Aug 2020",
   },
   {
-    "id": 1046,
+    id: 1046,
     "online store session": 14245,
     "net return value": "186283.60",
     "total orders": 4681,
@@ -6395,11 +6394,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13239.75,
     "store search conversion": 66.94,
     "return rate": 12.75,
-    "date": "27-08-2020",
-    "monthYear": "Aug 2020"
+    date: "27-08-2020",
+    monthYear: "Aug 2020",
   },
   {
-    "id": 1439,
+    id: 1439,
     "online store session": 16104,
     "net return value": "153551.70",
     "total orders": 4472,
@@ -6408,11 +6407,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13190.44,
     "store search conversion": 66.06,
     "return rate": 20.58,
-    "date": "28-08-2020",
-    "monthYear": "Aug 2020"
+    date: "28-08-2020",
+    monthYear: "Aug 2020",
   },
   {
-    "id": 1082,
+    id: 1082,
     "online store session": 17790,
     "net return value": "190304.60",
     "total orders": 3086,
@@ -6421,11 +6420,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16983.38,
     "store search conversion": 61.52,
     "return rate": 19.04,
-    "date": "31-08-2020",
-    "monthYear": "Aug 2020"
+    date: "31-08-2020",
+    monthYear: "Aug 2020",
   },
   {
-    "id": 1464,
+    id: 1464,
     "online store session": 11400,
     "net return value": "182098.40",
     "total orders": 3915,
@@ -6434,11 +6433,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13995.44,
     "store search conversion": 76.84,
     "return rate": 12.07,
-    "date": "01-09-2020",
-    "monthYear": "Sep 2020"
+    date: "01-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1118,
+    id: 1118,
     "online store session": 19669,
     "net return value": "159781.00",
     "total orders": 3241,
@@ -6447,11 +6446,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16442.17,
     "store search conversion": 45.23,
     "return rate": 26.32,
-    "date": "02-09-2020",
-    "monthYear": "Sep 2020"
+    date: "02-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1323,
+    id: 1323,
     "online store session": 18439,
     "net return value": "181407.30",
     "total orders": 3116,
@@ -6460,11 +6459,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19387.73,
     "store search conversion": 44.99,
     "return rate": 24.71,
-    "date": "03-09-2020",
-    "monthYear": "Sep 2020"
+    date: "03-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1391,
+    id: 1391,
     "online store session": 17203,
     "net return value": "165057.20",
     "total orders": 3100,
@@ -6473,11 +6472,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14094.65,
     "store search conversion": 46.66,
     "return rate": 19.58,
-    "date": "04-09-2020",
-    "monthYear": "Sep 2020"
+    date: "04-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1218,
+    id: 1218,
     "online store session": 17515,
     "net return value": "116304.30",
     "total orders": 4273,
@@ -6486,11 +6485,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15541.24,
     "store search conversion": 43.27,
     "return rate": 21.94,
-    "date": "09-09-2020",
-    "monthYear": "Sep 2020"
+    date: "09-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1768,
+    id: 1768,
     "online store session": 10173,
     "net return value": "133738.20",
     "total orders": 3699,
@@ -6499,11 +6498,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15365.18,
     "store search conversion": 37.43,
     "return rate": 24.94,
-    "date": "10-09-2020",
-    "monthYear": "Sep 2020"
+    date: "10-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1195,
+    id: 1195,
     "online store session": 19197,
     "net return value": "184184.10",
     "total orders": 4000,
@@ -6512,11 +6511,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16611.53,
     "store search conversion": 54.12,
     "return rate": 23.44,
-    "date": "11-09-2020",
-    "monthYear": "Sep 2020"
+    date: "11-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1673,
+    id: 1673,
     "online store session": 15264,
     "net return value": "128077.90",
     "total orders": 3000,
@@ -6525,11 +6524,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12070.77,
     "store search conversion": 48.33,
     "return rate": 21.11,
-    "date": "12-09-2020",
-    "monthYear": "Sep 2020"
+    date: "12-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1052,
+    id: 1052,
     "online store session": 17692,
     "net return value": "161643.00",
     "total orders": 3500,
@@ -6538,11 +6537,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16415.82,
     "store search conversion": 32.44,
     "return rate": 10.49,
-    "date": "14-09-2020",
-    "monthYear": "Sep 2020"
+    date: "14-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1411,
+    id: 1411,
     "online store session": 13632,
     "net return value": "179135.90",
     "total orders": 4656,
@@ -6551,11 +6550,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14575.57,
     "store search conversion": 44.12,
     "return rate": 28.44,
-    "date": "16-09-2020",
-    "monthYear": "Sep 2020"
+    date: "16-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1376,
+    id: 1376,
     "online store session": 15646,
     "net return value": "175978.80",
     "total orders": 3255,
@@ -6564,11 +6563,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14193.1,
     "store search conversion": 30.18,
     "return rate": 11.83,
-    "date": "18-09-2020",
-    "monthYear": "Sep 2020"
+    date: "18-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1551,
+    id: 1551,
     "online store session": 15937,
     "net return value": "166472.20",
     "total orders": 3456,
@@ -6577,11 +6576,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19718.21,
     "store search conversion": 21.18,
     "return rate": 16.21,
-    "date": "20-09-2020",
-    "monthYear": "Sep 2020"
+    date: "20-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1774,
+    id: 1774,
     "online store session": 13084,
     "net return value": "110253.70",
     "total orders": 3954,
@@ -6590,11 +6589,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11949.08,
     "store search conversion": 66.64,
     "return rate": 28.46,
-    "date": "22-09-2020",
-    "monthYear": "Sep 2020"
+    date: "22-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1499,
+    id: 1499,
     "online store session": 14983,
     "net return value": "184610.90",
     "total orders": 3492,
@@ -6603,11 +6602,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12120.81,
     "store search conversion": 28.75,
     "return rate": 10.37,
-    "date": "24-09-2020",
-    "monthYear": "Sep 2020"
+    date: "24-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1168,
+    id: 1168,
     "online store session": 14480,
     "net return value": "165467.50",
     "total orders": 3511,
@@ -6616,11 +6615,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12708.18,
     "store search conversion": 41.6,
     "return rate": 12.76,
-    "date": "28-09-2020",
-    "monthYear": "Sep 2020"
+    date: "28-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1655,
+    id: 1655,
     "online store session": 12087,
     "net return value": "117445.20",
     "total orders": 4776,
@@ -6629,11 +6628,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18284.35,
     "store search conversion": 39.26,
     "return rate": 23.21,
-    "date": "30-09-2020",
-    "monthYear": "Sep 2020"
+    date: "30-09-2020",
+    monthYear: "Sep 2020",
   },
   {
-    "id": 1098,
+    id: 1098,
     "online store session": 14513,
     "net return value": "148631.00",
     "total orders": 3406,
@@ -6642,11 +6641,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18933.81,
     "store search conversion": 47.27,
     "return rate": 15.18,
-    "date": "02-10-2020",
-    "monthYear": "Oct 2020"
+    date: "02-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1285,
+    id: 1285,
     "online store session": 10913,
     "net return value": "105806.20",
     "total orders": 3234,
@@ -6655,11 +6654,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13644.88,
     "store search conversion": 31.38,
     "return rate": 21.38,
-    "date": "03-10-2020",
-    "monthYear": "Oct 2020"
+    date: "03-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1669,
+    id: 1669,
     "online store session": 14941,
     "net return value": "183388.10",
     "total orders": 4447,
@@ -6668,11 +6667,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19561.71,
     "store search conversion": 23.2,
     "return rate": 11.63,
-    "date": "04-10-2020",
-    "monthYear": "Oct 2020"
+    date: "04-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1844,
+    id: 1844,
     "online store session": 18138,
     "net return value": "150197.70",
     "total orders": 3671,
@@ -6681,11 +6680,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18934.42,
     "store search conversion": 55.37,
     "return rate": 26.57,
-    "date": "06-10-2020",
-    "monthYear": "Oct 2020"
+    date: "06-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1911,
+    id: 1911,
     "online store session": 12844,
     "net return value": "117456.40",
     "total orders": 4298,
@@ -6694,11 +6693,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14000.96,
     "store search conversion": 46.5,
     "return rate": 15.44,
-    "date": "07-10-2020",
-    "monthYear": "Oct 2020"
+    date: "07-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1573,
+    id: 1573,
     "online store session": 11539,
     "net return value": "190482.70",
     "total orders": 4755,
@@ -6707,11 +6706,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18019.26,
     "store search conversion": 55.24,
     "return rate": 16.92,
-    "date": "08-10-2020",
-    "monthYear": "Oct 2020"
+    date: "08-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1133,
+    id: 1133,
     "online store session": 15321,
     "net return value": "108991.50",
     "total orders": 3472,
@@ -6720,11 +6719,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18552.98,
     "store search conversion": 24,
     "return rate": 22.52,
-    "date": "09-10-2020",
-    "monthYear": "Oct 2020"
+    date: "09-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1073,
+    id: 1073,
     "online store session": 17842,
     "net return value": "130695.60",
     "total orders": 4695,
@@ -6733,11 +6732,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16844.79,
     "store search conversion": 66.27,
     "return rate": 11.93,
-    "date": "10-10-2020",
-    "monthYear": "Oct 2020"
+    date: "10-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1160,
+    id: 1160,
     "online store session": 13072,
     "net return value": "125198.50",
     "total orders": 3874,
@@ -6746,11 +6745,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18000.68,
     "store search conversion": 57.79,
     "return rate": 20.6,
-    "date": "11-10-2020",
-    "monthYear": "Oct 2020"
+    date: "11-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1553,
+    id: 1553,
     "online store session": 18994,
     "net return value": "193899.50",
     "total orders": 4132,
@@ -6759,11 +6758,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11381.87,
     "store search conversion": 32.71,
     "return rate": 29.67,
-    "date": "13-10-2020",
-    "monthYear": "Oct 2020"
+    date: "13-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1064,
+    id: 1064,
     "online store session": 11948,
     "net return value": "189352.30",
     "total orders": 3996,
@@ -6772,11 +6771,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14177.01,
     "store search conversion": 62.97,
     "return rate": 28.79,
-    "date": "15-10-2020",
-    "monthYear": "Oct 2020"
+    date: "15-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1017,
+    id: 1017,
     "online store session": 19937,
     "net return value": "123470.30",
     "total orders": 4093,
@@ -6785,11 +6784,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18660.3,
     "store search conversion": 62.4,
     "return rate": 21.17,
-    "date": "16-10-2020",
-    "monthYear": "Oct 2020"
+    date: "16-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1427,
+    id: 1427,
     "online store session": 10691,
     "net return value": "139857.40",
     "total orders": 3083,
@@ -6798,11 +6797,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19075.88,
     "store search conversion": 49.61,
     "return rate": 14.35,
-    "date": "17-10-2020",
-    "monthYear": "Oct 2020"
+    date: "17-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1945,
+    id: 1945,
     "online store session": 16584,
     "net return value": "151874.90",
     "total orders": 3896,
@@ -6811,11 +6810,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16637.83,
     "store search conversion": 60.66,
     "return rate": 21.9,
-    "date": "18-10-2020",
-    "monthYear": "Oct 2020"
+    date: "18-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1637,
+    id: 1637,
     "online store session": 19417,
     "net return value": "100795.30",
     "total orders": 4178,
@@ -6824,11 +6823,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19639.24,
     "store search conversion": 32.09,
     "return rate": 17.2,
-    "date": "19-10-2020",
-    "monthYear": "Oct 2020"
+    date: "19-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1079,
+    id: 1079,
     "online store session": 13683,
     "net return value": "108584.10",
     "total orders": 4872,
@@ -6837,11 +6836,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14577.71,
     "store search conversion": 63.02,
     "return rate": 28.37,
-    "date": "20-10-2020",
-    "monthYear": "Oct 2020"
+    date: "20-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1388,
+    id: 1388,
     "online store session": 16064,
     "net return value": "136525.20",
     "total orders": 3101,
@@ -6850,11 +6849,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18039.85,
     "store search conversion": 63.33,
     "return rate": 29.95,
-    "date": "21-10-2020",
-    "monthYear": "Oct 2020"
+    date: "21-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1588,
+    id: 1588,
     "online store session": 18253,
     "net return value": "179267.40",
     "total orders": 3373,
@@ -6863,11 +6862,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10665.59,
     "store search conversion": 63.76,
     "return rate": 23.18,
-    "date": "22-10-2020",
-    "monthYear": "Oct 2020"
+    date: "22-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1189,
+    id: 1189,
     "online store session": 19014,
     "net return value": "125012.70",
     "total orders": 3655,
@@ -6876,11 +6875,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14975.22,
     "store search conversion": 40.27,
     "return rate": 25.3,
-    "date": "23-10-2020",
-    "monthYear": "Oct 2020"
+    date: "23-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1630,
+    id: 1630,
     "online store session": 19007,
     "net return value": "130336.50",
     "total orders": 4621,
@@ -6889,11 +6888,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12598.05,
     "store search conversion": 25.36,
     "return rate": 26.04,
-    "date": "25-10-2020",
-    "monthYear": "Oct 2020"
+    date: "25-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1997,
+    id: 1997,
     "online store session": 16907,
     "net return value": "140180.00",
     "total orders": 4746,
@@ -6902,11 +6901,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19221.3,
     "store search conversion": 62.98,
     "return rate": 28.44,
-    "date": "27-10-2020",
-    "monthYear": "Oct 2020"
+    date: "27-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1148,
+    id: 1148,
     "online store session": 10018,
     "net return value": "181277.50",
     "total orders": 3434,
@@ -6915,11 +6914,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19384.6,
     "store search conversion": 34.2,
     "return rate": 10.68,
-    "date": "28-10-2020",
-    "monthYear": "Oct 2020"
+    date: "28-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1866,
+    id: 1866,
     "online store session": 10331,
     "net return value": "196382.40",
     "total orders": 3302,
@@ -6928,11 +6927,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14090.47,
     "store search conversion": 20.66,
     "return rate": 21.9,
-    "date": "29-10-2020",
-    "monthYear": "Oct 2020"
+    date: "29-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1647,
+    id: 1647,
     "online store session": 15056,
     "net return value": "179765.40",
     "total orders": 4069,
@@ -6941,11 +6940,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10263.94,
     "store search conversion": 55.02,
     "return rate": 24.12,
-    "date": "30-10-2020",
-    "monthYear": "Oct 2020"
+    date: "30-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1597,
+    id: 1597,
     "online store session": 11150,
     "net return value": "156381.70",
     "total orders": 3149,
@@ -6954,11 +6953,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16043.79,
     "store search conversion": 77.49,
     "return rate": 25.06,
-    "date": "31-10-2020",
-    "monthYear": "Oct 2020"
+    date: "31-10-2020",
+    monthYear: "Oct 2020",
   },
   {
-    "id": 1858,
+    id: 1858,
     "online store session": 12242,
     "net return value": "103959.30",
     "total orders": 3958,
@@ -6967,11 +6966,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12985.83,
     "store search conversion": 65.86,
     "return rate": 23.82,
-    "date": "01-11-2020",
-    "monthYear": "Nov 2020"
+    date: "01-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1710,
+    id: 1710,
     "online store session": 14452,
     "net return value": "103968.20",
     "total orders": 3869,
@@ -6980,11 +6979,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15114.17,
     "store search conversion": 45.38,
     "return rate": 11.42,
-    "date": "04-11-2020",
-    "monthYear": "Nov 2020"
+    date: "04-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1893,
+    id: 1893,
     "online store session": 14062,
     "net return value": "105035.10",
     "total orders": 4071,
@@ -6993,11 +6992,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14167.8,
     "store search conversion": 63.71,
     "return rate": 24.78,
-    "date": "05-11-2020",
-    "monthYear": "Nov 2020"
+    date: "05-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1898,
+    id: 1898,
     "online store session": 13475,
     "net return value": "199859.60",
     "total orders": 3212,
@@ -7006,11 +7005,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19453.97,
     "store search conversion": 49.46,
     "return rate": 28.05,
-    "date": "06-11-2020",
-    "monthYear": "Nov 2020"
+    date: "06-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1131,
+    id: 1131,
     "online store session": 17858,
     "net return value": "140425.90",
     "total orders": 3845,
@@ -7019,11 +7018,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11470,
     "store search conversion": 58.47,
     "return rate": 21.14,
-    "date": "07-11-2020",
-    "monthYear": "Nov 2020"
+    date: "07-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1422,
+    id: 1422,
     "online store session": 13701,
     "net return value": "114692.30",
     "total orders": 3382,
@@ -7032,11 +7031,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10517.29,
     "store search conversion": 79.94,
     "return rate": 22.33,
-    "date": "09-11-2020",
-    "monthYear": "Nov 2020"
+    date: "09-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1326,
+    id: 1326,
     "online store session": 16253,
     "net return value": "101302.00",
     "total orders": 3810,
@@ -7045,11 +7044,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19358.75,
     "store search conversion": 47.1,
     "return rate": 28.6,
-    "date": "12-11-2020",
-    "monthYear": "Nov 2020"
+    date: "12-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1922,
+    id: 1922,
     "online store session": 16393,
     "net return value": "126020.70",
     "total orders": 3938,
@@ -7058,11 +7057,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17357.61,
     "store search conversion": 48.51,
     "return rate": 22.8,
-    "date": "15-11-2020",
-    "monthYear": "Nov 2020"
+    date: "15-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1462,
+    id: 1462,
     "online store session": 11286,
     "net return value": "167927.60",
     "total orders": 4590,
@@ -7071,11 +7070,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18024,
     "store search conversion": 41.88,
     "return rate": 21.33,
-    "date": "17-11-2020",
-    "monthYear": "Nov 2020"
+    date: "17-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1264,
+    id: 1264,
     "online store session": 15434,
     "net return value": "177798.20",
     "total orders": 4967,
@@ -7084,11 +7083,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12519.53,
     "store search conversion": 67.88,
     "return rate": 14.95,
-    "date": "19-11-2020",
-    "monthYear": "Nov 2020"
+    date: "19-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1627,
+    id: 1627,
     "online store session": 12727,
     "net return value": "181339.30",
     "total orders": 4321,
@@ -7097,11 +7096,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14530.75,
     "store search conversion": 50.38,
     "return rate": 28.95,
-    "date": "21-11-2020",
-    "monthYear": "Nov 2020"
+    date: "21-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1620,
+    id: 1620,
     "online store session": 10754,
     "net return value": "184965.50",
     "total orders": 4066,
@@ -7110,11 +7109,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15154.13,
     "store search conversion": 35.76,
     "return rate": 17.35,
-    "date": "22-11-2020",
-    "monthYear": "Nov 2020"
+    date: "22-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1406,
+    id: 1406,
     "online store session": 13860,
     "net return value": "190942.70",
     "total orders": 3359,
@@ -7123,11 +7122,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19573.98,
     "store search conversion": 30.47,
     "return rate": 12.26,
-    "date": "23-11-2020",
-    "monthYear": "Nov 2020"
+    date: "23-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1307,
+    id: 1307,
     "online store session": 15798,
     "net return value": "186325.40",
     "total orders": 3681,
@@ -7136,11 +7135,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16982.22,
     "store search conversion": 20.81,
     "return rate": 26.41,
-    "date": "25-11-2020",
-    "monthYear": "Nov 2020"
+    date: "25-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1223,
+    id: 1223,
     "online store session": 18713,
     "net return value": "116355.90",
     "total orders": 4217,
@@ -7149,11 +7148,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11625.85,
     "store search conversion": 70.23,
     "return rate": 15.19,
-    "date": "27-11-2020",
-    "monthYear": "Nov 2020"
+    date: "27-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1899,
+    id: 1899,
     "online store session": 15404,
     "net return value": "176572.00",
     "total orders": 4688,
@@ -7162,11 +7161,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19668.35,
     "store search conversion": 21.73,
     "return rate": 11.21,
-    "date": "28-11-2020",
-    "monthYear": "Nov 2020"
+    date: "28-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1276,
+    id: 1276,
     "online store session": 15648,
     "net return value": "124644.10",
     "total orders": 4944,
@@ -7175,11 +7174,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16406.15,
     "store search conversion": 46.08,
     "return rate": 23.59,
-    "date": "29-11-2020",
-    "monthYear": "Nov 2020"
+    date: "29-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1517,
+    id: 1517,
     "online store session": 19045,
     "net return value": "166397.50",
     "total orders": 3441,
@@ -7188,11 +7187,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16478.92,
     "store search conversion": 46.92,
     "return rate": 14.21,
-    "date": "30-11-2020",
-    "monthYear": "Nov 2020"
+    date: "30-11-2020",
+    monthYear: "Nov 2020",
   },
   {
-    "id": 1872,
+    id: 1872,
     "online store session": 10037,
     "net return value": "162434.70",
     "total orders": 3529,
@@ -7201,11 +7200,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14522.8,
     "store search conversion": 53.44,
     "return rate": 17.65,
-    "date": "03-12-2020",
-    "monthYear": "Dec 2020"
+    date: "03-12-2020",
+    monthYear: "Dec 2020",
   },
   {
-    "id": 1490,
+    id: 1490,
     "online store session": 10413,
     "net return value": "127906.80",
     "total orders": 3198,
@@ -7214,11 +7213,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18818.98,
     "store search conversion": 62.97,
     "return rate": 27.27,
-    "date": "06-12-2020",
-    "monthYear": "Dec 2020"
+    date: "06-12-2020",
+    monthYear: "Dec 2020",
   },
   {
-    "id": 1140,
+    id: 1140,
     "online store session": 16003,
     "net return value": "119752.70",
     "total orders": 4907,
@@ -7227,11 +7226,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19012.16,
     "store search conversion": 24.78,
     "return rate": 24.2,
-    "date": "07-12-2020",
-    "monthYear": "Dec 2020"
+    date: "07-12-2020",
+    monthYear: "Dec 2020",
   },
   {
-    "id": 1245,
+    id: 1245,
     "online store session": 18114,
     "net return value": "171954.70",
     "total orders": 4499,
@@ -7240,11 +7239,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16055.93,
     "store search conversion": 72.77,
     "return rate": 23.67,
-    "date": "09-12-2020",
-    "monthYear": "Dec 2020"
+    date: "09-12-2020",
+    monthYear: "Dec 2020",
   },
   {
-    "id": 1535,
+    id: 1535,
     "online store session": 13060,
     "net return value": "128649.60",
     "total orders": 4968,
@@ -7253,11 +7252,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11826.25,
     "store search conversion": 43.7,
     "return rate": 20.03,
-    "date": "10-12-2020",
-    "monthYear": "Dec 2020"
+    date: "10-12-2020",
+    monthYear: "Dec 2020",
   },
   {
-    "id": 1344,
+    id: 1344,
     "online store session": 11432,
     "net return value": "100772.80",
     "total orders": 4441,
@@ -7266,11 +7265,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15971.97,
     "store search conversion": 21.09,
     "return rate": 18.3,
-    "date": "12-12-2020",
-    "monthYear": "Dec 2020"
+    date: "12-12-2020",
+    monthYear: "Dec 2020",
   },
   {
-    "id": 1305,
+    id: 1305,
     "online store session": 17716,
     "net return value": "168975.80",
     "total orders": 4800,
@@ -7279,11 +7278,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17996.69,
     "store search conversion": 79.99,
     "return rate": 21.03,
-    "date": "13-12-2020",
-    "monthYear": "Dec 2020"
+    date: "13-12-2020",
+    monthYear: "Dec 2020",
   },
   {
-    "id": 1051,
+    id: 1051,
     "online store session": 17392,
     "net return value": "128780.10",
     "total orders": 4079,
@@ -7292,11 +7291,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10200.21,
     "store search conversion": 45.41,
     "return rate": 19.47,
-    "date": "14-12-2020",
-    "monthYear": "Dec 2020"
+    date: "14-12-2020",
+    monthYear: "Dec 2020",
   },
   {
-    "id": 1656,
+    id: 1656,
     "online store session": 17330,
     "net return value": "122566.30",
     "total orders": 4994,
@@ -7305,11 +7304,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16010.19,
     "store search conversion": 53.79,
     "return rate": 29.55,
-    "date": "15-12-2020",
-    "monthYear": "Dec 2020"
+    date: "15-12-2020",
+    monthYear: "Dec 2020",
   },
   {
-    "id": 1966,
+    id: 1966,
     "online store session": 13677,
     "net return value": "114459.00",
     "total orders": 4798,
@@ -7318,11 +7317,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13341.68,
     "store search conversion": 66.34,
     "return rate": 29.64,
-    "date": "19-12-2020",
-    "monthYear": "Dec 2020"
+    date: "19-12-2020",
+    monthYear: "Dec 2020",
   },
   {
-    "id": 1149,
+    id: 1149,
     "online store session": 10110,
     "net return value": "129819.40",
     "total orders": 4405,
@@ -7331,11 +7330,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19045.66,
     "store search conversion": 36.67,
     "return rate": 27.47,
-    "date": "20-12-2020",
-    "monthYear": "Dec 2020"
+    date: "20-12-2020",
+    monthYear: "Dec 2020",
   },
   {
-    "id": 1063,
+    id: 1063,
     "online store session": 10853,
     "net return value": "136739.90",
     "total orders": 4029,
@@ -7344,11 +7343,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16365.31,
     "store search conversion": 72.81,
     "return rate": 27.72,
-    "date": "21-12-2020",
-    "monthYear": "Dec 2020"
+    date: "21-12-2020",
+    monthYear: "Dec 2020",
   },
   {
-    "id": 1700,
+    id: 1700,
     "online store session": 16509,
     "net return value": "142596.60",
     "total orders": 4373,
@@ -7357,11 +7356,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10007.09,
     "store search conversion": 43.78,
     "return rate": 18.17,
-    "date": "25-12-2020",
-    "monthYear": "Dec 2020"
+    date: "25-12-2020",
+    monthYear: "Dec 2020",
   },
   {
-    "id": 1944,
+    id: 1944,
     "online store session": 18905,
     "net return value": "116587.40",
     "total orders": 4257,
@@ -7370,11 +7369,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14862.27,
     "store search conversion": 28.8,
     "return rate": 19.77,
-    "date": "27-12-2020",
-    "monthYear": "Dec 2020"
+    date: "27-12-2020",
+    monthYear: "Dec 2020",
   },
   {
-    "id": 1325,
+    id: 1325,
     "online store session": 14205,
     "net return value": "177740.70",
     "total orders": 4082,
@@ -7383,11 +7382,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19941.74,
     "store search conversion": 45.56,
     "return rate": 17.45,
-    "date": "31-12-2020",
-    "monthYear": "Dec 2020"
+    date: "31-12-2020",
+    monthYear: "Dec 2020",
   },
   {
-    "id": 1479,
+    id: 1479,
     "online store session": 13488,
     "net return value": "170154.10",
     "total orders": 4994,
@@ -7396,11 +7395,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11174.4,
     "store search conversion": 45.1,
     "return rate": 10.1,
-    "date": "02-01-2021",
-    "monthYear": "Jan 2021"
+    date: "02-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1061,
+    id: 1061,
     "online store session": 11309,
     "net return value": "106321.70",
     "total orders": 3730,
@@ -7409,11 +7408,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19762.47,
     "store search conversion": 27.94,
     "return rate": 13.63,
-    "date": "03-01-2021",
-    "monthYear": "Jan 2021"
+    date: "03-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1587,
+    id: 1587,
     "online store session": 17092,
     "net return value": "113533.50",
     "total orders": 4566,
@@ -7422,11 +7421,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16956.75,
     "store search conversion": 59.4,
     "return rate": 29.18,
-    "date": "04-01-2021",
-    "monthYear": "Jan 2021"
+    date: "04-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1072,
+    id: 1072,
     "online store session": 16774,
     "net return value": "144039.00",
     "total orders": 3634,
@@ -7435,11 +7434,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12822.54,
     "store search conversion": 38.53,
     "return rate": 17.62,
-    "date": "05-01-2021",
-    "monthYear": "Jan 2021"
+    date: "05-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1089,
+    id: 1089,
     "online store session": 13354,
     "net return value": "179802.70",
     "total orders": 3995,
@@ -7448,11 +7447,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12230.71,
     "store search conversion": 36.17,
     "return rate": 22.88,
-    "date": "06-01-2021",
-    "monthYear": "Jan 2021"
+    date: "06-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1470,
+    id: 1470,
     "online store session": 14543,
     "net return value": "112054.70",
     "total orders": 3576,
@@ -7461,11 +7460,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16856.62,
     "store search conversion": 67.49,
     "return rate": 19.92,
-    "date": "07-01-2021",
-    "monthYear": "Jan 2021"
+    date: "07-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1242,
+    id: 1242,
     "online store session": 17227,
     "net return value": "125292.80",
     "total orders": 3706,
@@ -7474,11 +7473,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10449.82,
     "store search conversion": 20.2,
     "return rate": 15.03,
-    "date": "08-01-2021",
-    "monthYear": "Jan 2021"
+    date: "08-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1042,
+    id: 1042,
     "online store session": 10646,
     "net return value": "163375.60",
     "total orders": 4385,
@@ -7487,11 +7486,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12458.13,
     "store search conversion": 72.27,
     "return rate": 21.65,
-    "date": "09-01-2021",
-    "monthYear": "Jan 2021"
+    date: "09-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1589,
+    id: 1589,
     "online store session": 12429,
     "net return value": "132260.20",
     "total orders": 3525,
@@ -7500,11 +7499,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12063.48,
     "store search conversion": 45.29,
     "return rate": 10.59,
-    "date": "10-01-2021",
-    "monthYear": "Jan 2021"
+    date: "10-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1716,
+    id: 1716,
     "online store session": 10453,
     "net return value": "108304.40",
     "total orders": 4083,
@@ -7513,11 +7512,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18302.56,
     "store search conversion": 48.2,
     "return rate": 29.51,
-    "date": "11-01-2021",
-    "monthYear": "Jan 2021"
+    date: "11-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1088,
+    id: 1088,
     "online store session": 10832,
     "net return value": "138350.70",
     "total orders": 4528,
@@ -7526,11 +7525,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17670.59,
     "store search conversion": 48.48,
     "return rate": 11.32,
-    "date": "13-01-2021",
-    "monthYear": "Jan 2021"
+    date: "13-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1413,
+    id: 1413,
     "online store session": 14510,
     "net return value": "150666.90",
     "total orders": 4877,
@@ -7539,11 +7538,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12788.15,
     "store search conversion": 47.05,
     "return rate": 15.13,
-    "date": "14-01-2021",
-    "monthYear": "Jan 2021"
+    date: "14-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1790,
+    id: 1790,
     "online store session": 12884,
     "net return value": "169510.40",
     "total orders": 4925,
@@ -7552,11 +7551,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19695.52,
     "store search conversion": 60.76,
     "return rate": 15.69,
-    "date": "15-01-2021",
-    "monthYear": "Jan 2021"
+    date: "15-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1147,
+    id: 1147,
     "online store session": 12265,
     "net return value": "185972.40",
     "total orders": 4826,
@@ -7565,11 +7564,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16139.55,
     "store search conversion": 34.47,
     "return rate": 25.38,
-    "date": "16-01-2021",
-    "monthYear": "Jan 2021"
+    date: "16-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1173,
+    id: 1173,
     "online store session": 14318,
     "net return value": "161591.10",
     "total orders": 3395,
@@ -7578,11 +7577,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12720.26,
     "store search conversion": 38.84,
     "return rate": 15.11,
-    "date": "17-01-2021",
-    "monthYear": "Jan 2021"
+    date: "17-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1215,
+    id: 1215,
     "online store session": 14765,
     "net return value": "152925.40",
     "total orders": 3359,
@@ -7591,11 +7590,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15332.51,
     "store search conversion": 31.17,
     "return rate": 27.71,
-    "date": "18-01-2021",
-    "monthYear": "Jan 2021"
+    date: "18-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1431,
+    id: 1431,
     "online store session": 18078,
     "net return value": "117058.10",
     "total orders": 4505,
@@ -7604,11 +7603,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13380.97,
     "store search conversion": 63.36,
     "return rate": 27.72,
-    "date": "19-01-2021",
-    "monthYear": "Jan 2021"
+    date: "19-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1561,
+    id: 1561,
     "online store session": 14133,
     "net return value": "101389.10",
     "total orders": 4019,
@@ -7617,11 +7616,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14389.75,
     "store search conversion": 34.88,
     "return rate": 26.36,
-    "date": "20-01-2021",
-    "monthYear": "Jan 2021"
+    date: "20-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1365,
+    id: 1365,
     "online store session": 12931,
     "net return value": "168964.50",
     "total orders": 4154,
@@ -7630,11 +7629,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18513.86,
     "store search conversion": 33.14,
     "return rate": 16.19,
-    "date": "22-01-2021",
-    "monthYear": "Jan 2021"
+    date: "22-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1101,
+    id: 1101,
     "online store session": 13813,
     "net return value": "149276.70",
     "total orders": 4315,
@@ -7643,11 +7642,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18765.81,
     "store search conversion": 72.07,
     "return rate": 27.32,
-    "date": "24-01-2021",
-    "monthYear": "Jan 2021"
+    date: "24-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1007,
+    id: 1007,
     "online store session": 15610,
     "net return value": "194585.00",
     "total orders": 3755,
@@ -7656,11 +7655,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10509.66,
     "store search conversion": 66.87,
     "return rate": 15.76,
-    "date": "27-01-2021",
-    "monthYear": "Jan 2021"
+    date: "27-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1923,
+    id: 1923,
     "online store session": 14724,
     "net return value": "172279.40",
     "total orders": 4033,
@@ -7669,11 +7668,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19783.58,
     "store search conversion": 26.06,
     "return rate": 20.09,
-    "date": "30-01-2021",
-    "monthYear": "Jan 2021"
+    date: "30-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1275,
+    id: 1275,
     "online store session": 15745,
     "net return value": "148085.40",
     "total orders": 3358,
@@ -7682,11 +7681,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18495.56,
     "store search conversion": 42.12,
     "return rate": 19.58,
-    "date": "31-01-2021",
-    "monthYear": "Jan 2021"
+    date: "31-01-2021",
+    monthYear: "Jan 2021",
   },
   {
-    "id": 1261,
+    id: 1261,
     "online store session": 16139,
     "net return value": "168992.70",
     "total orders": 3592,
@@ -7695,11 +7694,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14346.25,
     "store search conversion": 59.79,
     "return rate": 28.37,
-    "date": "01-02-2021",
-    "monthYear": "Feb 2021"
+    date: "01-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1514,
+    id: 1514,
     "online store session": 10041,
     "net return value": "152183.70",
     "total orders": 4229,
@@ -7708,11 +7707,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11679.02,
     "store search conversion": 38.65,
     "return rate": 26.7,
-    "date": "04-02-2021",
-    "monthYear": "Feb 2021"
+    date: "04-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1738,
+    id: 1738,
     "online store session": 13193,
     "net return value": "158476.20",
     "total orders": 4249,
@@ -7721,11 +7720,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10332.07,
     "store search conversion": 23.29,
     "return rate": 29.61,
-    "date": "05-02-2021",
-    "monthYear": "Feb 2021"
+    date: "05-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1288,
+    id: 1288,
     "online store session": 15374,
     "net return value": "196055.00",
     "total orders": 4069,
@@ -7734,11 +7733,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18848.8,
     "store search conversion": 50.91,
     "return rate": 18.03,
-    "date": "06-02-2021",
-    "monthYear": "Feb 2021"
+    date: "06-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1891,
+    id: 1891,
     "online store session": 18085,
     "net return value": "125499.20",
     "total orders": 4198,
@@ -7747,11 +7746,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14351.66,
     "store search conversion": 32.58,
     "return rate": 10.18,
-    "date": "07-02-2021",
-    "monthYear": "Feb 2021"
+    date: "07-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1184,
+    id: 1184,
     "online store session": 11668,
     "net return value": "162511.90",
     "total orders": 3924,
@@ -7760,11 +7759,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17223.91,
     "store search conversion": 53.02,
     "return rate": 26.95,
-    "date": "09-02-2021",
-    "monthYear": "Feb 2021"
+    date: "09-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1378,
+    id: 1378,
     "online store session": 17587,
     "net return value": "116467.70",
     "total orders": 3078,
@@ -7773,11 +7772,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15176.39,
     "store search conversion": 44.87,
     "return rate": 16.75,
-    "date": "11-02-2021",
-    "monthYear": "Feb 2021"
+    date: "11-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1221,
+    id: 1221,
     "online store session": 15410,
     "net return value": "125578.10",
     "total orders": 3694,
@@ -7786,11 +7785,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19102.8,
     "store search conversion": 47.43,
     "return rate": 28.56,
-    "date": "12-02-2021",
-    "monthYear": "Feb 2021"
+    date: "12-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1096,
+    id: 1096,
     "online store session": 12402,
     "net return value": "180222.90",
     "total orders": 3542,
@@ -7799,11 +7798,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17243.91,
     "store search conversion": 56.57,
     "return rate": 16.36,
-    "date": "13-02-2021",
-    "monthYear": "Feb 2021"
+    date: "13-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1210,
+    id: 1210,
     "online store session": 15387,
     "net return value": "104833.90",
     "total orders": 3275,
@@ -7812,11 +7811,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10501.85,
     "store search conversion": 65.14,
     "return rate": 23.81,
-    "date": "14-02-2021",
-    "monthYear": "Feb 2021"
+    date: "14-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1634,
+    id: 1634,
     "online store session": 16344,
     "net return value": "107096.50",
     "total orders": 4037,
@@ -7825,11 +7824,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14705.1,
     "store search conversion": 63.95,
     "return rate": 18.79,
-    "date": "15-02-2021",
-    "monthYear": "Feb 2021"
+    date: "15-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1552,
+    id: 1552,
     "online store session": 18575,
     "net return value": "121654.80",
     "total orders": 3297,
@@ -7838,11 +7837,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13878.6,
     "store search conversion": 40.48,
     "return rate": 21.66,
-    "date": "16-02-2021",
-    "monthYear": "Feb 2021"
+    date: "16-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1799,
+    id: 1799,
     "online store session": 14648,
     "net return value": "142524.50",
     "total orders": 4121,
@@ -7851,11 +7850,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15412.46,
     "store search conversion": 26.36,
     "return rate": 21.09,
-    "date": "17-02-2021",
-    "monthYear": "Feb 2021"
+    date: "17-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1199,
+    id: 1199,
     "online store session": 11847,
     "net return value": "128030.60",
     "total orders": 3167,
@@ -7864,11 +7863,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12691.7,
     "store search conversion": 40.88,
     "return rate": 10.58,
-    "date": "19-02-2021",
-    "monthYear": "Feb 2021"
+    date: "19-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1591,
+    id: 1591,
     "online store session": 10538,
     "net return value": "110956.10",
     "total orders": 4986,
@@ -7877,11 +7876,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14465.55,
     "store search conversion": 37.7,
     "return rate": 15.22,
-    "date": "22-02-2021",
-    "monthYear": "Feb 2021"
+    date: "22-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1386,
+    id: 1386,
     "online store session": 11934,
     "net return value": "112533.00",
     "total orders": 3075,
@@ -7890,11 +7889,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14085.38,
     "store search conversion": 31.29,
     "return rate": 27.43,
-    "date": "23-02-2021",
-    "monthYear": "Feb 2021"
+    date: "23-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1085,
+    id: 1085,
     "online store session": 15310,
     "net return value": "176029.40",
     "total orders": 3242,
@@ -7903,11 +7902,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19442.53,
     "store search conversion": 56.11,
     "return rate": 23.63,
-    "date": "24-02-2021",
-    "monthYear": "Feb 2021"
+    date: "24-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1434,
+    id: 1434,
     "online store session": 10449,
     "net return value": "107667.80",
     "total orders": 4057,
@@ -7916,11 +7915,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13175.16,
     "store search conversion": 63,
     "return rate": 14.02,
-    "date": "27-02-2021",
-    "monthYear": "Feb 2021"
+    date: "27-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1593,
+    id: 1593,
     "online store session": 19976,
     "net return value": "155238.40",
     "total orders": 4665,
@@ -7929,11 +7928,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10306.22,
     "store search conversion": 38.31,
     "return rate": 13.88,
-    "date": "28-02-2021",
-    "monthYear": "Feb 2021"
+    date: "28-02-2021",
+    monthYear: "Feb 2021",
   },
   {
-    "id": 1917,
+    id: 1917,
     "online store session": 19557,
     "net return value": "136065.20",
     "total orders": 3687,
@@ -7942,11 +7941,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16047.97,
     "store search conversion": 47.74,
     "return rate": 10.42,
-    "date": "01-03-2021",
-    "monthYear": "Mar 2021"
+    date: "01-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 1021,
+    id: 1021,
     "online store session": 19998,
     "net return value": "167447.50",
     "total orders": 4325,
@@ -7955,11 +7954,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12653.89,
     "store search conversion": 62.3,
     "return rate": 21.36,
-    "date": "02-03-2021",
-    "monthYear": "Mar 2021"
+    date: "02-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 1636,
+    id: 1636,
     "online store session": 19942,
     "net return value": "157150.10",
     "total orders": 3112,
@@ -7968,11 +7967,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12435.87,
     "store search conversion": 78.5,
     "return rate": 10.26,
-    "date": "03-03-2021",
-    "monthYear": "Mar 2021"
+    date: "03-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 669,
+    id: 669,
     "online store session": 17683,
     "net return value": "14216.90",
     "total orders": 4536,
@@ -7981,11 +7980,11 @@ import { storeType } from "../interfaces";
     "gross sales": 85418.76,
     "store search conversion": 7,
     "return rate": 7.61,
-    "date": "06-03-2021",
-    "monthYear": "Mar 2021"
+    date: "06-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 28,
+    id: 28,
     "online store session": 16707,
     "net return value": "12728.90",
     "total orders": 1370,
@@ -7994,11 +7993,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15007.16,
     "store search conversion": 17.19,
     "return rate": 3.09,
-    "date": "07-03-2021",
-    "monthYear": "Mar 2021"
+    date: "07-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 1516,
+    id: 1516,
     "online store session": 17772,
     "net return value": "191812.80",
     "total orders": 4055,
@@ -8007,11 +8006,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18825.28,
     "store search conversion": 49.59,
     "return rate": 21.27,
-    "date": "08-03-2021",
-    "monthYear": "Mar 2021"
+    date: "08-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 1205,
+    id: 1205,
     "online store session": 16096,
     "net return value": "183067.40",
     "total orders": 3787,
@@ -8020,11 +8019,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10677.83,
     "store search conversion": 38.23,
     "return rate": 22.11,
-    "date": "09-03-2021",
-    "monthYear": "Mar 2021"
+    date: "09-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 666,
+    id: 666,
     "online store session": 21114,
     "net return value": "24917.50",
     "total orders": 2902,
@@ -8033,11 +8032,11 @@ import { storeType } from "../interfaces";
     "gross sales": 86306.69,
     "store search conversion": 28.51,
     "return rate": 0.29,
-    "date": "10-03-2021",
-    "monthYear": "Mar 2021"
+    date: "10-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 152,
+    id: 152,
     "online store session": 23607,
     "net return value": "26596.30",
     "total orders": 3095,
@@ -8046,11 +8045,11 @@ import { storeType } from "../interfaces";
     "gross sales": 34741.38,
     "store search conversion": 22.72,
     "return rate": 8.06,
-    "date": "11-03-2021",
-    "monthYear": "Mar 2021"
+    date: "11-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 1053,
+    id: 1053,
     "online store session": 13802,
     "net return value": "101033.60",
     "total orders": 4122,
@@ -8059,11 +8058,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14340.71,
     "store search conversion": 42.28,
     "return rate": 10.75,
-    "date": "12-03-2021",
-    "monthYear": "Mar 2021"
+    date: "12-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 290,
+    id: 290,
     "online store session": 19332,
     "net return value": "24134.40",
     "total orders": 8060,
@@ -8072,11 +8071,11 @@ import { storeType } from "../interfaces";
     "gross sales": 66975.8,
     "store search conversion": 22.14,
     "return rate": 7.34,
-    "date": "14-03-2021",
-    "monthYear": "Mar 2021"
+    date: "14-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 31,
+    id: 31,
     "online store session": 19630,
     "net return value": "14271.60",
     "total orders": 6514,
@@ -8085,11 +8084,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12605.71,
     "store search conversion": 15.21,
     "return rate": 14.09,
-    "date": "15-03-2021",
-    "monthYear": "Mar 2021"
+    date: "15-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 1857,
+    id: 1857,
     "online store session": 12553,
     "net return value": "117721.80",
     "total orders": 3735,
@@ -8098,11 +8097,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17892.59,
     "store search conversion": 24.82,
     "return rate": 16.28,
-    "date": "16-03-2021",
-    "monthYear": "Mar 2021"
+    date: "16-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 474,
+    id: 474,
     "online store session": 22165,
     "net return value": "11214.00",
     "total orders": 7976,
@@ -8111,11 +8110,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18283.54,
     "store search conversion": 15.43,
     "return rate": 12.86,
-    "date": "17-03-2021",
-    "monthYear": "Mar 2021"
+    date: "17-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 489,
+    id: 489,
     "online store session": 19298,
     "net return value": "20227.60",
     "total orders": 9952,
@@ -8124,11 +8123,11 @@ import { storeType } from "../interfaces";
     "gross sales": 91632.04,
     "store search conversion": 4.43,
     "return rate": 16.2,
-    "date": "19-03-2021",
-    "monthYear": "Mar 2021"
+    date: "19-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 1487,
+    id: 1487,
     "online store session": 14757,
     "net return value": "127793.30",
     "total orders": 4737,
@@ -8137,11 +8136,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15543.65,
     "store search conversion": 42.93,
     "return rate": 12.67,
-    "date": "20-03-2021",
-    "monthYear": "Mar 2021"
+    date: "20-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 201,
+    id: 201,
     "online store session": 20232,
     "net return value": "18855.60",
     "total orders": 6332,
@@ -8150,11 +8149,11 @@ import { storeType } from "../interfaces";
     "gross sales": 85122.07,
     "store search conversion": 0.18,
     "return rate": 13.95,
-    "date": "21-03-2021",
-    "monthYear": "Mar 2021"
+    date: "21-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 252,
+    id: 252,
     "online store session": 18527,
     "net return value": "24639.70",
     "total orders": 8956,
@@ -8163,11 +8162,11 @@ import { storeType } from "../interfaces";
     "gross sales": 29349.77,
     "store search conversion": 12.53,
     "return rate": 18.74,
-    "date": "22-03-2021",
-    "monthYear": "Mar 2021"
+    date: "22-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 1055,
+    id: 1055,
     "online store session": 19065,
     "net return value": "133486.80",
     "total orders": 4673,
@@ -8176,11 +8175,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18000.02,
     "store search conversion": 54.82,
     "return rate": 22.86,
-    "date": "23-03-2021",
-    "monthYear": "Mar 2021"
+    date: "23-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 387,
+    id: 387,
     "online store session": 23345,
     "net return value": "24607.10",
     "total orders": 1972,
@@ -8189,11 +8188,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17134.85,
     "store search conversion": 15.89,
     "return rate": 15.17,
-    "date": "25-03-2021",
-    "monthYear": "Mar 2021"
+    date: "25-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 1035,
+    id: 1035,
     "online store session": 12466,
     "net return value": "103204.70",
     "total orders": 3207,
@@ -8202,11 +8201,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18130.35,
     "store search conversion": 66.39,
     "return rate": 25.4,
-    "date": "26-03-2021",
-    "monthYear": "Mar 2021"
+    date: "26-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 149,
+    id: 149,
     "online store session": 21148,
     "net return value": "20990.20",
     "total orders": 1528,
@@ -8215,11 +8214,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17294.21,
     "store search conversion": 10.87,
     "return rate": 9.58,
-    "date": "27-03-2021",
-    "monthYear": "Mar 2021"
+    date: "27-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 1322,
+    id: 1322,
     "online store session": 12338,
     "net return value": "150420.40",
     "total orders": 3226,
@@ -8228,11 +8227,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12118.51,
     "store search conversion": 73.38,
     "return rate": 25.05,
-    "date": "28-03-2021",
-    "monthYear": "Mar 2021"
+    date: "28-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 78,
+    id: 78,
     "online store session": 22479,
     "net return value": "18087.50",
     "total orders": 6278,
@@ -8241,11 +8240,11 @@ import { storeType } from "../interfaces";
     "gross sales": 24860.55,
     "store search conversion": 23.72,
     "return rate": 16.39,
-    "date": "29-03-2021",
-    "monthYear": "Mar 2021"
+    date: "29-03-2021",
+    monthYear: "Mar 2021",
   },
   {
-    "id": 180,
+    id: 180,
     "online store session": 16167,
     "net return value": "21540.50",
     "total orders": 7392,
@@ -8254,11 +8253,11 @@ import { storeType } from "../interfaces";
     "gross sales": 71473.82,
     "store search conversion": 12.22,
     "return rate": 10.64,
-    "date": "01-04-2021",
-    "monthYear": "Apr 2021"
+    date: "01-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 660,
+    id: 660,
     "online store session": 17943,
     "net return value": "16429.80",
     "total orders": 1795,
@@ -8267,11 +8266,11 @@ import { storeType } from "../interfaces";
     "gross sales": 71549.99,
     "store search conversion": 20.02,
     "return rate": 4.92,
-    "date": "02-04-2021",
-    "monthYear": "Apr 2021"
+    date: "02-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 2000,
+    id: 2000,
     "online store session": 14744,
     "net return value": "197123.10",
     "total orders": 4984,
@@ -8280,11 +8279,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10129,
     "store search conversion": 55.8,
     "return rate": 15.1,
-    "date": "03-04-2021",
-    "monthYear": "Apr 2021"
+    date: "03-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 109,
+    id: 109,
     "online store session": 19449,
     "net return value": "13790.00",
     "total orders": 4308,
@@ -8293,11 +8292,11 @@ import { storeType } from "../interfaces";
     "gross sales": 25879.14,
     "store search conversion": 24.89,
     "return rate": 1.83,
-    "date": "05-04-2021",
-    "monthYear": "Apr 2021"
+    date: "05-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 99,
+    id: 99,
     "online store session": 24343,
     "net return value": "13940.60",
     "total orders": 6618,
@@ -8306,11 +8305,11 @@ import { storeType } from "../interfaces";
     "gross sales": 57225.86,
     "store search conversion": 17.75,
     "return rate": 12.63,
-    "date": "06-04-2021",
-    "monthYear": "Apr 2021"
+    date: "06-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 102,
+    id: 102,
     "online store session": 15654,
     "net return value": "25057.60",
     "total orders": 5517,
@@ -8319,11 +8318,11 @@ import { storeType } from "../interfaces";
     "gross sales": 85853.51,
     "store search conversion": 4.89,
     "return rate": 14.03,
-    "date": "07-04-2021",
-    "monthYear": "Apr 2021"
+    date: "07-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 585,
+    id: 585,
     "online store session": 22759,
     "net return value": "15229.80",
     "total orders": 7999,
@@ -8332,11 +8331,11 @@ import { storeType } from "../interfaces";
     "gross sales": 26978.93,
     "store search conversion": 20.05,
     "return rate": 9.8,
-    "date": "08-04-2021",
-    "monthYear": "Apr 2021"
+    date: "08-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 1228,
+    id: 1228,
     "online store session": 12768,
     "net return value": "156861.90",
     "total orders": 3739,
@@ -8345,11 +8344,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15697.98,
     "store search conversion": 52.99,
     "return rate": 28.01,
-    "date": "09-04-2021",
-    "monthYear": "Apr 2021"
+    date: "09-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 699,
+    id: 699,
     "online store session": 17831,
     "net return value": "15188.80",
     "total orders": 9835,
@@ -8358,11 +8357,11 @@ import { storeType } from "../interfaces";
     "gross sales": 78541.47,
     "store search conversion": 0.72,
     "return rate": 1.72,
-    "date": "10-04-2021",
-    "monthYear": "Apr 2021"
+    date: "10-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 1341,
+    id: 1341,
     "online store session": 13965,
     "net return value": "161637.10",
     "total orders": 3410,
@@ -8371,11 +8370,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16029.52,
     "store search conversion": 79.27,
     "return rate": 28.57,
-    "date": "11-04-2021",
-    "monthYear": "Apr 2021"
+    date: "11-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 166,
+    id: 166,
     "online store session": 22085,
     "net return value": "13542.20",
     "total orders": 1566,
@@ -8384,11 +8383,11 @@ import { storeType } from "../interfaces";
     "gross sales": 28644.92,
     "store search conversion": 29.5,
     "return rate": 15.01,
-    "date": "12-04-2021",
-    "monthYear": "Apr 2021"
+    date: "12-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 350,
+    id: 350,
     "online store session": 22496,
     "net return value": "27275.30",
     "total orders": 4996,
@@ -8397,11 +8396,11 @@ import { storeType } from "../interfaces";
     "gross sales": 65283.14,
     "store search conversion": 29.65,
     "return rate": 9.87,
-    "date": "13-04-2021",
-    "monthYear": "Apr 2021"
+    date: "13-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 8,
+    id: 8,
     "online store session": 16232,
     "net return value": "13539.90",
     "total orders": 7714,
@@ -8410,11 +8409,11 @@ import { storeType } from "../interfaces";
     "gross sales": 51868.77,
     "store search conversion": 9.33,
     "return rate": 9.43,
-    "date": "14-04-2021",
-    "monthYear": "Apr 2021"
+    date: "14-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 1671,
+    id: 1671,
     "online store session": 16268,
     "net return value": "105235.70",
     "total orders": 4973,
@@ -8423,11 +8422,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11099.9,
     "store search conversion": 66.58,
     "return rate": 21.18,
-    "date": "15-04-2021",
-    "monthYear": "Apr 2021"
+    date: "15-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 82,
+    id: 82,
     "online store session": 22221,
     "net return value": "19551.80",
     "total orders": 8209,
@@ -8436,11 +8435,11 @@ import { storeType } from "../interfaces";
     "gross sales": 43026.11,
     "store search conversion": 18.56,
     "return rate": 6.55,
-    "date": "16-04-2021",
-    "monthYear": "Apr 2021"
+    date: "16-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 1123,
+    id: 1123,
     "online store session": 10986,
     "net return value": "120659.40",
     "total orders": 3732,
@@ -8449,11 +8448,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17492.83,
     "store search conversion": 75.91,
     "return rate": 25.47,
-    "date": "17-04-2021",
-    "monthYear": "Apr 2021"
+    date: "17-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 1449,
+    id: 1449,
     "online store session": 14576,
     "net return value": "162257.60",
     "total orders": 3572,
@@ -8462,11 +8461,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12222.2,
     "store search conversion": 54.71,
     "return rate": 16.6,
-    "date": "18-04-2021",
-    "monthYear": "Apr 2021"
+    date: "18-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 120,
+    id: 120,
     "online store session": 24357,
     "net return value": "22117.90",
     "total orders": 9571,
@@ -8475,11 +8474,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13716.03,
     "store search conversion": 28.7,
     "return rate": 10.51,
-    "date": "19-04-2021",
-    "monthYear": "Apr 2021"
+    date: "19-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 930,
+    id: 930,
     "online store session": 15924,
     "net return value": "23008.30",
     "total orders": 8695,
@@ -8488,11 +8487,11 @@ import { storeType } from "../interfaces";
     "gross sales": 57436.22,
     "store search conversion": 16.06,
     "return rate": 19.13,
-    "date": "20-04-2021",
-    "monthYear": "Apr 2021"
+    date: "20-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 847,
+    id: 847,
     "online store session": 24119,
     "net return value": "15864.70",
     "total orders": 4282,
@@ -8501,11 +8500,11 @@ import { storeType } from "../interfaces";
     "gross sales": 71240.26,
     "store search conversion": 20.17,
     "return rate": 18.33,
-    "date": "21-04-2021",
-    "monthYear": "Apr 2021"
+    date: "21-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 1769,
+    id: 1769,
     "online store session": 12185,
     "net return value": "134031.90",
     "total orders": 4240,
@@ -8514,11 +8513,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10742.71,
     "store search conversion": 63.51,
     "return rate": 13.58,
-    "date": "22-04-2021",
-    "monthYear": "Apr 2021"
+    date: "22-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 308,
+    id: 308,
     "online store session": 23001,
     "net return value": "19287.10",
     "total orders": 1231,
@@ -8527,11 +8526,11 @@ import { storeType } from "../interfaces";
     "gross sales": 78624.56,
     "store search conversion": 12.24,
     "return rate": 16.37,
-    "date": "23-04-2021",
-    "monthYear": "Apr 2021"
+    date: "23-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 1048,
+    id: 1048,
     "online store session": 10081,
     "net return value": "134565.30",
     "total orders": 3554,
@@ -8540,11 +8539,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17702.26,
     "store search conversion": 28.1,
     "return rate": 26.63,
-    "date": "24-04-2021",
-    "monthYear": "Apr 2021"
+    date: "24-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 482,
+    id: 482,
     "online store session": 24507,
     "net return value": "21009.60",
     "total orders": 5265,
@@ -8553,11 +8552,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11353.2,
     "store search conversion": 24.66,
     "return rate": 18.02,
-    "date": "25-04-2021",
-    "monthYear": "Apr 2021"
+    date: "25-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 1662,
+    id: 1662,
     "online store session": 19627,
     "net return value": "102624.00",
     "total orders": 4361,
@@ -8566,11 +8565,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16456.9,
     "store search conversion": 49.76,
     "return rate": 28.1,
-    "date": "26-04-2021",
-    "monthYear": "Apr 2021"
+    date: "26-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 1420,
+    id: 1420,
     "online store session": 13019,
     "net return value": "171309.70",
     "total orders": 4808,
@@ -8579,11 +8578,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14983.19,
     "store search conversion": 27.5,
     "return rate": 23.2,
-    "date": "27-04-2021",
-    "monthYear": "Apr 2021"
+    date: "27-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 825,
+    id: 825,
     "online store session": 24833,
     "net return value": "29055.40",
     "total orders": 7327,
@@ -8592,11 +8591,11 @@ import { storeType } from "../interfaces";
     "gross sales": 20761.59,
     "store search conversion": 17.17,
     "return rate": 3.76,
-    "date": "28-04-2021",
-    "monthYear": "Apr 2021"
+    date: "28-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 207,
+    id: 207,
     "online store session": 24147,
     "net return value": "22650.70",
     "total orders": 1344,
@@ -8605,11 +8604,11 @@ import { storeType } from "../interfaces";
     "gross sales": 86921.61,
     "store search conversion": 14.37,
     "return rate": 14.27,
-    "date": "29-04-2021",
-    "monthYear": "Apr 2021"
+    date: "29-04-2021",
+    monthYear: "Apr 2021",
   },
   {
-    "id": 10,
+    id: 10,
     "online store session": 15590,
     "net return value": "10785.70",
     "total orders": 7462,
@@ -8618,11 +8617,11 @@ import { storeType } from "../interfaces";
     "gross sales": 30439.33,
     "store search conversion": 27.77,
     "return rate": 1.51,
-    "date": "01-05-2021",
-    "monthYear": "May 2021"
+    date: "01-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 617,
+    id: 617,
     "online store session": 16533,
     "net return value": "13967.10",
     "total orders": 1920,
@@ -8631,11 +8630,11 @@ import { storeType } from "../interfaces";
     "gross sales": 27836.57,
     "store search conversion": 15.39,
     "return rate": 5.13,
-    "date": "03-05-2021",
-    "monthYear": "May 2021"
+    date: "03-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 238,
+    id: 238,
     "online store session": 21577,
     "net return value": "13030.50",
     "total orders": 9847,
@@ -8644,11 +8643,11 @@ import { storeType } from "../interfaces";
     "gross sales": 48578.19,
     "store search conversion": 21.83,
     "return rate": 3.71,
-    "date": "04-05-2021",
-    "monthYear": "May 2021"
+    date: "04-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 199,
+    id: 199,
     "online store session": 15687,
     "net return value": "13403.00",
     "total orders": 1481,
@@ -8657,11 +8656,11 @@ import { storeType } from "../interfaces";
     "gross sales": 23629.83,
     "store search conversion": 20.27,
     "return rate": 5.93,
-    "date": "05-05-2021",
-    "monthYear": "May 2021"
+    date: "05-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 304,
+    id: 304,
     "online store session": 20323,
     "net return value": "15114.80",
     "total orders": 1584,
@@ -8670,11 +8669,11 @@ import { storeType } from "../interfaces";
     "gross sales": 73192.71,
     "store search conversion": 11.93,
     "return rate": 11.22,
-    "date": "06-05-2021",
-    "monthYear": "May 2021"
+    date: "06-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 266,
+    id: 266,
     "online store session": 20247,
     "net return value": "17951.60",
     "total orders": 8290,
@@ -8683,11 +8682,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14748.1,
     "store search conversion": 8.45,
     "return rate": 11.59,
-    "date": "07-05-2021",
-    "monthYear": "May 2021"
+    date: "07-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 49,
+    id: 49,
     "online store session": 21260,
     "net return value": "14776.30",
     "total orders": 2143,
@@ -8696,11 +8695,11 @@ import { storeType } from "../interfaces";
     "gross sales": 69489.44,
     "store search conversion": 19.81,
     "return rate": 5.19,
-    "date": "10-05-2021",
-    "monthYear": "May 2021"
+    date: "10-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 597,
+    id: 597,
     "online store session": 15025,
     "net return value": "23760.70",
     "total orders": 3227,
@@ -8709,11 +8708,11 @@ import { storeType } from "../interfaces";
     "gross sales": 94589.01,
     "store search conversion": 27.44,
     "return rate": 13.57,
-    "date": "11-05-2021",
-    "monthYear": "May 2021"
+    date: "11-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 147,
+    id: 147,
     "online store session": 15781,
     "net return value": "21709.40",
     "total orders": 8127,
@@ -8722,11 +8721,11 @@ import { storeType } from "../interfaces";
     "gross sales": 43794.57,
     "store search conversion": 27.53,
     "return rate": 14.84,
-    "date": "12-05-2021",
-    "monthYear": "May 2021"
+    date: "12-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 239,
+    id: 239,
     "online store session": 18428,
     "net return value": "20575.70",
     "total orders": 3199,
@@ -8735,11 +8734,11 @@ import { storeType } from "../interfaces";
     "gross sales": 49281.81,
     "store search conversion": 3.24,
     "return rate": 8.66,
-    "date": "13-05-2021",
-    "monthYear": "May 2021"
+    date: "13-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 647,
+    id: 647,
     "online store session": 22595,
     "net return value": "25379.40",
     "total orders": 3759,
@@ -8748,11 +8747,11 @@ import { storeType } from "../interfaces";
     "gross sales": 53824.06,
     "store search conversion": 11.18,
     "return rate": 18.55,
-    "date": "14-05-2021",
-    "monthYear": "May 2021"
+    date: "14-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 1689,
+    id: 1689,
     "online store session": 11131,
     "net return value": "179544.00",
     "total orders": 3170,
@@ -8761,11 +8760,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10056,
     "store search conversion": 33.01,
     "return rate": 27.39,
-    "date": "15-05-2021",
-    "monthYear": "May 2021"
+    date: "15-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 627,
+    id: 627,
     "online store session": 18822,
     "net return value": "25629.00",
     "total orders": 8551,
@@ -8774,11 +8773,11 @@ import { storeType } from "../interfaces";
     "gross sales": 53410.1,
     "store search conversion": 26.79,
     "return rate": 0.47,
-    "date": "19-05-2021",
-    "monthYear": "May 2021"
+    date: "19-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 956,
+    id: 956,
     "online store session": 17188,
     "net return value": "15876.70",
     "total orders": 1264,
@@ -8787,11 +8786,11 @@ import { storeType } from "../interfaces";
     "gross sales": 66583.47,
     "store search conversion": 17.03,
     "return rate": 5.26,
-    "date": "22-05-2021",
-    "monthYear": "May 2021"
+    date: "22-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 310,
+    id: 310,
     "online store session": 23686,
     "net return value": "24578.90",
     "total orders": 1056,
@@ -8800,11 +8799,11 @@ import { storeType } from "../interfaces";
     "gross sales": 94352.77,
     "store search conversion": 7.97,
     "return rate": 2.23,
-    "date": "23-05-2021",
-    "monthYear": "May 2021"
+    date: "23-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 1907,
+    id: 1907,
     "online store session": 15619,
     "net return value": "182072.40",
     "total orders": 4589,
@@ -8813,11 +8812,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14318.92,
     "store search conversion": 43.83,
     "return rate": 11.23,
-    "date": "24-05-2021",
-    "monthYear": "May 2021"
+    date: "24-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 1314,
+    id: 1314,
     "online store session": 13063,
     "net return value": "179646.40",
     "total orders": 4315,
@@ -8826,11 +8825,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12826.76,
     "store search conversion": 42.6,
     "return rate": 25.01,
-    "date": "25-05-2021",
-    "monthYear": "May 2021"
+    date: "25-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 598,
+    id: 598,
     "online store session": 24084,
     "net return value": "13633.20",
     "total orders": 9231,
@@ -8839,11 +8838,11 @@ import { storeType } from "../interfaces";
     "gross sales": 99882.28,
     "store search conversion": 15,
     "return rate": 0.23,
-    "date": "26-05-2021",
-    "monthYear": "May 2021"
+    date: "26-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 717,
+    id: 717,
     "online store session": 15152,
     "net return value": "21785.60",
     "total orders": 1549,
@@ -8852,11 +8851,11 @@ import { storeType } from "../interfaces";
     "gross sales": 49129.98,
     "store search conversion": 16.18,
     "return rate": 10.3,
-    "date": "27-05-2021",
-    "monthYear": "May 2021"
+    date: "27-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 1000,
+    id: 1000,
     "online store session": 18092,
     "net return value": "23835.80",
     "total orders": 4467,
@@ -8865,11 +8864,11 @@ import { storeType } from "../interfaces";
     "gross sales": 58836.2,
     "store search conversion": 19.59,
     "return rate": 13.66,
-    "date": "29-05-2021",
-    "monthYear": "May 2021"
+    date: "29-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 936,
+    id: 936,
     "online store session": 16960,
     "net return value": "15534.00",
     "total orders": 7368,
@@ -8878,11 +8877,11 @@ import { storeType } from "../interfaces";
     "gross sales": 44855.09,
     "store search conversion": 2.4,
     "return rate": 6.85,
-    "date": "30-05-2021",
-    "monthYear": "May 2021"
+    date: "30-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 931,
+    id: 931,
     "online store session": 21519,
     "net return value": "17231.70",
     "total orders": 5161,
@@ -8891,11 +8890,11 @@ import { storeType } from "../interfaces";
     "gross sales": 42153.65,
     "store search conversion": 13.52,
     "return rate": 3.99,
-    "date": "31-05-2021",
-    "monthYear": "May 2021"
+    date: "31-05-2021",
+    monthYear: "May 2021",
   },
   {
-    "id": 106,
+    id: 106,
     "online store session": 18529,
     "net return value": "26003.60",
     "total orders": 2354,
@@ -8904,11 +8903,11 @@ import { storeType } from "../interfaces";
     "gross sales": 51518.88,
     "store search conversion": 21.59,
     "return rate": 6.19,
-    "date": "02-06-2021",
-    "monthYear": "Jun 2021"
+    date: "02-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 268,
+    id: 268,
     "online store session": 19848,
     "net return value": "14783.80",
     "total orders": 4167,
@@ -8917,11 +8916,11 @@ import { storeType } from "../interfaces";
     "gross sales": 43791,
     "store search conversion": 0.64,
     "return rate": 12.9,
-    "date": "04-06-2021",
-    "monthYear": "Jun 2021"
+    date: "04-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 294,
+    id: 294,
     "online store session": 21488,
     "net return value": "24536.90",
     "total orders": 2000,
@@ -8930,11 +8929,11 @@ import { storeType } from "../interfaces";
     "gross sales": 50560.19,
     "store search conversion": 19.55,
     "return rate": 0.31,
-    "date": "05-06-2021",
-    "monthYear": "Jun 2021"
+    date: "05-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 945,
+    id: 945,
     "online store session": 15732,
     "net return value": "28096.30",
     "total orders": 7437,
@@ -8943,11 +8942,11 @@ import { storeType } from "../interfaces";
     "gross sales": 75425.82,
     "store search conversion": 0.22,
     "return rate": 19.88,
-    "date": "07-06-2021",
-    "monthYear": "Jun 2021"
+    date: "07-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 775,
+    id: 775,
     "online store session": 17957,
     "net return value": "12421.80",
     "total orders": 3291,
@@ -8956,11 +8955,11 @@ import { storeType } from "../interfaces";
     "gross sales": 60498.7,
     "store search conversion": 2.45,
     "return rate": 16.96,
-    "date": "08-06-2021",
-    "monthYear": "Jun 2021"
+    date: "08-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 913,
+    id: 913,
     "online store session": 18000,
     "net return value": "29017.70",
     "total orders": 4200,
@@ -8969,11 +8968,11 @@ import { storeType } from "../interfaces";
     "gross sales": 62683.21,
     "store search conversion": 23.47,
     "return rate": 16.73,
-    "date": "09-06-2021",
-    "monthYear": "Jun 2021"
+    date: "09-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 12,
+    id: 12,
     "online store session": 20703,
     "net return value": "21729.20",
     "total orders": 7551,
@@ -8982,11 +8981,11 @@ import { storeType } from "../interfaces";
     "gross sales": 81596.47,
     "store search conversion": 18.5,
     "return rate": 11.6,
-    "date": "12-06-2021",
-    "monthYear": "Jun 2021"
+    date: "12-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 110,
+    id: 110,
     "online store session": 19355,
     "net return value": "29399.90",
     "total orders": 6898,
@@ -8995,11 +8994,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14974.91,
     "store search conversion": 23.76,
     "return rate": 0.47,
-    "date": "13-06-2021",
-    "monthYear": "Jun 2021"
+    date: "13-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 7,
+    id: 7,
     "online store session": 23182,
     "net return value": "28364.50",
     "total orders": 4960,
@@ -9008,11 +9007,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12693.2,
     "store search conversion": 3.16,
     "return rate": 9.56,
-    "date": "14-06-2021",
-    "monthYear": "Jun 2021"
+    date: "14-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 692,
+    id: 692,
     "online store session": 17071,
     "net return value": "18960.00",
     "total orders": 3863,
@@ -9021,11 +9020,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14380.46,
     "store search conversion": 19.52,
     "return rate": 5.08,
-    "date": "15-06-2021",
-    "monthYear": "Jun 2021"
+    date: "15-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 150,
+    id: 150,
     "online store session": 16950,
     "net return value": "25530.70",
     "total orders": 3170,
@@ -9034,11 +9033,11 @@ import { storeType } from "../interfaces";
     "gross sales": 83041.97,
     "store search conversion": 24.87,
     "return rate": 5.1,
-    "date": "16-06-2021",
-    "monthYear": "Jun 2021"
+    date: "16-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 801,
+    id: 801,
     "online store session": 24569,
     "net return value": "18336.70",
     "total orders": 6227,
@@ -9047,11 +9046,11 @@ import { storeType } from "../interfaces";
     "gross sales": 69709.49,
     "store search conversion": 27.72,
     "return rate": 16.66,
-    "date": "17-06-2021",
-    "monthYear": "Jun 2021"
+    date: "17-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 536,
+    id: 536,
     "online store session": 22844,
     "net return value": "27003.80",
     "total orders": 1380,
@@ -9060,11 +9059,11 @@ import { storeType } from "../interfaces";
     "gross sales": 45587.9,
     "store search conversion": 26.53,
     "return rate": 8.07,
-    "date": "19-06-2021",
-    "monthYear": "Jun 2021"
+    date: "19-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 296,
+    id: 296,
     "online store session": 18876,
     "net return value": "19028.90",
     "total orders": 8549,
@@ -9073,11 +9072,11 @@ import { storeType } from "../interfaces";
     "gross sales": 91031.62,
     "store search conversion": 15.99,
     "return rate": 5.92,
-    "date": "20-06-2021",
-    "monthYear": "Jun 2021"
+    date: "20-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 2,
+    id: 2,
     "online store session": 19265,
     "net return value": "18782.00",
     "total orders": 3408,
@@ -9086,11 +9085,11 @@ import { storeType } from "../interfaces";
     "gross sales": 65186.65,
     "store search conversion": 18.44,
     "return rate": 19.19,
-    "date": "22-06-2021",
-    "monthYear": "Jun 2021"
+    date: "22-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 318,
+    id: 318,
     "online store session": 20198,
     "net return value": "11054.80",
     "total orders": 7766,
@@ -9099,11 +9098,11 @@ import { storeType } from "../interfaces";
     "gross sales": 86055.93,
     "store search conversion": 12.36,
     "return rate": 0.66,
-    "date": "23-06-2021",
-    "monthYear": "Jun 2021"
+    date: "23-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 100,
+    id: 100,
     "online store session": 24091,
     "net return value": "23787.30",
     "total orders": 4245,
@@ -9112,11 +9111,11 @@ import { storeType } from "../interfaces";
     "gross sales": 47765.46,
     "store search conversion": 0.81,
     "return rate": 2.44,
-    "date": "25-06-2021",
-    "monthYear": "Jun 2021"
+    date: "25-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 386,
+    id: 386,
     "online store session": 22417,
     "net return value": "26596.90",
     "total orders": 5941,
@@ -9125,11 +9124,11 @@ import { storeType } from "../interfaces";
     "gross sales": 45056.28,
     "store search conversion": 6.63,
     "return rate": 11.71,
-    "date": "26-06-2021",
-    "monthYear": "Jun 2021"
+    date: "26-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 518,
+    id: 518,
     "online store session": 22084,
     "net return value": "20821.40",
     "total orders": 8489,
@@ -9138,11 +9137,11 @@ import { storeType } from "../interfaces";
     "gross sales": 81460.22,
     "store search conversion": 17.25,
     "return rate": 11.68,
-    "date": "27-06-2021",
-    "monthYear": "Jun 2021"
+    date: "27-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 912,
+    id: 912,
     "online store session": 15851,
     "net return value": "29700.20",
     "total orders": 8659,
@@ -9151,11 +9150,11 @@ import { storeType } from "../interfaces";
     "gross sales": 46415.94,
     "store search conversion": 19.53,
     "return rate": 0.56,
-    "date": "28-06-2021",
-    "monthYear": "Jun 2021"
+    date: "28-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 449,
+    id: 449,
     "online store session": 20645,
     "net return value": "17694.50",
     "total orders": 4481,
@@ -9164,11 +9163,11 @@ import { storeType } from "../interfaces";
     "gross sales": 99679.14,
     "store search conversion": 21.52,
     "return rate": 17.74,
-    "date": "29-06-2021",
-    "monthYear": "Jun 2021"
+    date: "29-06-2021",
+    monthYear: "Jun 2021",
   },
   {
-    "id": 291,
+    id: 291,
     "online store session": 24431,
     "net return value": "10783.70",
     "total orders": 9781,
@@ -9177,11 +9176,11 @@ import { storeType } from "../interfaces";
     "gross sales": 38497.69,
     "store search conversion": 7.31,
     "return rate": 9.05,
-    "date": "01-07-2021",
-    "monthYear": "Jul 2021"
+    date: "01-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 968,
+    id: 968,
     "online store session": 16784,
     "net return value": "23291.80",
     "total orders": 9712,
@@ -9190,11 +9189,11 @@ import { storeType } from "../interfaces";
     "gross sales": 67425,
     "store search conversion": 28.9,
     "return rate": 3.15,
-    "date": "03-07-2021",
-    "monthYear": "Jul 2021"
+    date: "03-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 641,
+    id: 641,
     "online store session": 15975,
     "net return value": "17526.30",
     "total orders": 6370,
@@ -9203,11 +9202,11 @@ import { storeType } from "../interfaces";
     "gross sales": 85301.76,
     "store search conversion": 2.29,
     "return rate": 4.71,
-    "date": "04-07-2021",
-    "monthYear": "Jul 2021"
+    date: "04-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 659,
+    id: 659,
     "online store session": 23732,
     "net return value": "15307.20",
     "total orders": 9477,
@@ -9216,11 +9215,11 @@ import { storeType } from "../interfaces";
     "gross sales": 95858.23,
     "store search conversion": 15.32,
     "return rate": 13.62,
-    "date": "06-07-2021",
-    "monthYear": "Jul 2021"
+    date: "06-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 615,
+    id: 615,
     "online store session": 22886,
     "net return value": "20426.70",
     "total orders": 6652,
@@ -9229,11 +9228,11 @@ import { storeType } from "../interfaces";
     "gross sales": 63040.82,
     "store search conversion": 13.06,
     "return rate": 14.52,
-    "date": "07-07-2021",
-    "monthYear": "Jul 2021"
+    date: "07-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 805,
+    id: 805,
     "online store session": 22668,
     "net return value": "21987.60",
     "total orders": 8388,
@@ -9242,11 +9241,11 @@ import { storeType } from "../interfaces";
     "gross sales": 30377.57,
     "store search conversion": 21.33,
     "return rate": 8,
-    "date": "08-07-2021",
-    "monthYear": "Jul 2021"
+    date: "08-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 88,
+    id: 88,
     "online store session": 20938,
     "net return value": "12913.10",
     "total orders": 5560,
@@ -9255,11 +9254,11 @@ import { storeType } from "../interfaces";
     "gross sales": 78663.22,
     "store search conversion": 12.83,
     "return rate": 9.29,
-    "date": "09-07-2021",
-    "monthYear": "Jul 2021"
+    date: "09-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 960,
+    id: 960,
     "online store session": 17193,
     "net return value": "27590.30",
     "total orders": 7141,
@@ -9268,11 +9267,11 @@ import { storeType } from "../interfaces";
     "gross sales": 85276.37,
     "store search conversion": 14.2,
     "return rate": 15.09,
-    "date": "14-07-2021",
-    "monthYear": "Jul 2021"
+    date: "14-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 581,
+    id: 581,
     "online store session": 16323,
     "net return value": "15760.50",
     "total orders": 1710,
@@ -9281,11 +9280,11 @@ import { storeType } from "../interfaces";
     "gross sales": 32288.4,
     "store search conversion": 12.47,
     "return rate": 2.03,
-    "date": "18-07-2021",
-    "monthYear": "Jul 2021"
+    date: "18-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 253,
+    id: 253,
     "online store session": 19231,
     "net return value": "17283.20",
     "total orders": 6775,
@@ -9294,11 +9293,11 @@ import { storeType } from "../interfaces";
     "gross sales": 30028.6,
     "store search conversion": 0.11,
     "return rate": 7.25,
-    "date": "19-07-2021",
-    "monthYear": "Jul 2021"
+    date: "19-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 68,
+    id: 68,
     "online store session": 17339,
     "net return value": "11698.90",
     "total orders": 5497,
@@ -9307,11 +9306,11 @@ import { storeType } from "../interfaces";
     "gross sales": 75069.24,
     "store search conversion": 24.38,
     "return rate": 5.03,
-    "date": "21-07-2021",
-    "monthYear": "Jul 2021"
+    date: "21-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 413,
+    id: 413,
     "online store session": 19166,
     "net return value": "25288.40",
     "total orders": 2085,
@@ -9320,11 +9319,11 @@ import { storeType } from "../interfaces";
     "gross sales": 21188.73,
     "store search conversion": 0.42,
     "return rate": 0.59,
-    "date": "22-07-2021",
-    "monthYear": "Jul 2021"
+    date: "22-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 245,
+    id: 245,
     "online store session": 23139,
     "net return value": "11998.70",
     "total orders": 2344,
@@ -9333,11 +9332,11 @@ import { storeType } from "../interfaces";
     "gross sales": 72981.89,
     "store search conversion": 1.15,
     "return rate": 3.8,
-    "date": "26-07-2021",
-    "monthYear": "Jul 2021"
+    date: "26-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 392,
+    id: 392,
     "online store session": 20414,
     "net return value": "13022.30",
     "total orders": 7184,
@@ -9346,11 +9345,11 @@ import { storeType } from "../interfaces";
     "gross sales": 38639.81,
     "store search conversion": 15.05,
     "return rate": 10.58,
-    "date": "28-07-2021",
-    "monthYear": "Jul 2021"
+    date: "28-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 240,
+    id: 240,
     "online store session": 16224,
     "net return value": "27743.00",
     "total orders": 7017,
@@ -9359,11 +9358,11 @@ import { storeType } from "../interfaces";
     "gross sales": 31017.19,
     "store search conversion": 11.27,
     "return rate": 6.86,
-    "date": "29-07-2021",
-    "monthYear": "Jul 2021"
+    date: "29-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 62,
+    id: 62,
     "online store session": 23757,
     "net return value": "24306.10",
     "total orders": 2480,
@@ -9372,11 +9371,11 @@ import { storeType } from "../interfaces";
     "gross sales": 89919.14,
     "store search conversion": 24.79,
     "return rate": 2.03,
-    "date": "30-07-2021",
-    "monthYear": "Jul 2021"
+    date: "30-07-2021",
+    monthYear: "Jul 2021",
   },
   {
-    "id": 979,
+    id: 979,
     "online store session": 22991,
     "net return value": "26969.30",
     "total orders": 6144,
@@ -9385,11 +9384,11 @@ import { storeType } from "../interfaces";
     "gross sales": 96521.76,
     "store search conversion": 12.95,
     "return rate": 13.61,
-    "date": "02-08-2021",
-    "monthYear": "Aug 2021"
+    date: "02-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 680,
+    id: 680,
     "online store session": 16371,
     "net return value": "17414.70",
     "total orders": 6845,
@@ -9398,11 +9397,11 @@ import { storeType } from "../interfaces";
     "gross sales": 96087.17,
     "store search conversion": 4.08,
     "return rate": 15.91,
-    "date": "03-08-2021",
-    "monthYear": "Aug 2021"
+    date: "03-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 85,
+    id: 85,
     "online store session": 22778,
     "net return value": "10765.90",
     "total orders": 7305,
@@ -9411,11 +9410,11 @@ import { storeType } from "../interfaces";
     "gross sales": 27458.78,
     "store search conversion": 6.99,
     "return rate": 2.68,
-    "date": "04-08-2021",
-    "monthYear": "Aug 2021"
+    date: "04-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 233,
+    id: 233,
     "online store session": 16831,
     "net return value": "26667.40",
     "total orders": 8493,
@@ -9424,11 +9423,11 @@ import { storeType } from "../interfaces";
     "gross sales": 45013.47,
     "store search conversion": 8.51,
     "return rate": 2.39,
-    "date": "05-08-2021",
-    "monthYear": "Aug 2021"
+    date: "05-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 378,
+    id: 378,
     "online store session": 21859,
     "net return value": "20746.60",
     "total orders": 1742,
@@ -9437,11 +9436,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16681.36,
     "store search conversion": 23.17,
     "return rate": 7.03,
-    "date": "06-08-2021",
-    "monthYear": "Aug 2021"
+    date: "06-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 75,
+    id: 75,
     "online store session": 18041,
     "net return value": "17643.50",
     "total orders": 1039,
@@ -9450,11 +9449,11 @@ import { storeType } from "../interfaces";
     "gross sales": 72658.09,
     "store search conversion": 27.32,
     "return rate": 10.81,
-    "date": "08-08-2021",
-    "monthYear": "Aug 2021"
+    date: "08-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 555,
+    id: 555,
     "online store session": 22774,
     "net return value": "25307.20",
     "total orders": 6276,
@@ -9463,11 +9462,11 @@ import { storeType } from "../interfaces";
     "gross sales": 41178.32,
     "store search conversion": 27.66,
     "return rate": 5.6,
-    "date": "09-08-2021",
-    "monthYear": "Aug 2021"
+    date: "09-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 751,
+    id: 751,
     "online store session": 19999,
     "net return value": "16784.10",
     "total orders": 3901,
@@ -9476,11 +9475,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13727,
     "store search conversion": 29.41,
     "return rate": 1.18,
-    "date": "12-08-2021",
-    "monthYear": "Aug 2021"
+    date: "12-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 71,
+    id: 71,
     "online store session": 22736,
     "net return value": "11918.00",
     "total orders": 3015,
@@ -9489,11 +9488,11 @@ import { storeType } from "../interfaces";
     "gross sales": 96796.62,
     "store search conversion": 14.42,
     "return rate": 0.32,
-    "date": "14-08-2021",
-    "monthYear": "Aug 2021"
+    date: "14-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 211,
+    id: 211,
     "online store session": 19313,
     "net return value": "21382.10",
     "total orders": 2806,
@@ -9502,11 +9501,11 @@ import { storeType } from "../interfaces";
     "gross sales": 25227.47,
     "store search conversion": 19.26,
     "return rate": 1.7,
-    "date": "16-08-2021",
-    "monthYear": "Aug 2021"
+    date: "16-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 155,
+    id: 155,
     "online store session": 20804,
     "net return value": "14354.10",
     "total orders": 7603,
@@ -9515,11 +9514,11 @@ import { storeType } from "../interfaces";
     "gross sales": 71330.77,
     "store search conversion": 29.65,
     "return rate": 14.18,
-    "date": "19-08-2021",
-    "monthYear": "Aug 2021"
+    date: "19-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 830,
+    id: 830,
     "online store session": 23343,
     "net return value": "11632.00",
     "total orders": 1495,
@@ -9528,11 +9527,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18625.49,
     "store search conversion": 27.05,
     "return rate": 0.28,
-    "date": "23-08-2021",
-    "monthYear": "Aug 2021"
+    date: "23-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 170,
+    id: 170,
     "online store session": 20988,
     "net return value": "13325.60",
     "total orders": 5057,
@@ -9541,11 +9540,11 @@ import { storeType } from "../interfaces";
     "gross sales": 52385.71,
     "store search conversion": 18.98,
     "return rate": 2.76,
-    "date": "25-08-2021",
-    "monthYear": "Aug 2021"
+    date: "25-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 307,
+    id: 307,
     "online store session": 23798,
     "net return value": "10966.60",
     "total orders": 6601,
@@ -9554,11 +9553,11 @@ import { storeType } from "../interfaces";
     "gross sales": 91914.28,
     "store search conversion": 23.82,
     "return rate": 9.03,
-    "date": "26-08-2021",
-    "monthYear": "Aug 2021"
+    date: "26-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 540,
+    id: 540,
     "online store session": 24695,
     "net return value": "17749.60",
     "total orders": 2661,
@@ -9567,11 +9566,11 @@ import { storeType } from "../interfaces";
     "gross sales": 80872.28,
     "store search conversion": 29.72,
     "return rate": 2.08,
-    "date": "27-08-2021",
-    "monthYear": "Aug 2021"
+    date: "27-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 191,
+    id: 191,
     "online store session": 24485,
     "net return value": "20694.10",
     "total orders": 2604,
@@ -9580,11 +9579,11 @@ import { storeType } from "../interfaces";
     "gross sales": 95102.54,
     "store search conversion": 11.81,
     "return rate": 8.19,
-    "date": "29-08-2021",
-    "monthYear": "Aug 2021"
+    date: "29-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 529,
+    id: 529,
     "online store session": 24422,
     "net return value": "22875.70",
     "total orders": 6984,
@@ -9593,11 +9592,11 @@ import { storeType } from "../interfaces";
     "gross sales": 29056.81,
     "store search conversion": 13.37,
     "return rate": 5.93,
-    "date": "30-08-2021",
-    "monthYear": "Aug 2021"
+    date: "30-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 828,
+    id: 828,
     "online store session": 18648,
     "net return value": "27478.30",
     "total orders": 3272,
@@ -9606,11 +9605,11 @@ import { storeType } from "../interfaces";
     "gross sales": 78178.65,
     "store search conversion": 25.31,
     "return rate": 16.2,
-    "date": "31-08-2021",
-    "monthYear": "Aug 2021"
+    date: "31-08-2021",
+    monthYear: "Aug 2021",
   },
   {
-    "id": 539,
+    id: 539,
     "online store session": 22747,
     "net return value": "24878.40",
     "total orders": 6794,
@@ -9619,11 +9618,11 @@ import { storeType } from "../interfaces";
     "gross sales": 38338.7,
     "store search conversion": 15.47,
     "return rate": 19.75,
-    "date": "02-09-2021",
-    "monthYear": "Sep 2021"
+    date: "02-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 714,
+    id: 714,
     "online store session": 21224,
     "net return value": "13457.50",
     "total orders": 5345,
@@ -9632,11 +9631,11 @@ import { storeType } from "../interfaces";
     "gross sales": 67835.91,
     "store search conversion": 24.03,
     "return rate": 14.83,
-    "date": "03-09-2021",
-    "monthYear": "Sep 2021"
+    date: "03-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 650,
+    id: 650,
     "online store session": 20377,
     "net return value": "18631.20",
     "total orders": 2344,
@@ -9645,11 +9644,11 @@ import { storeType } from "../interfaces";
     "gross sales": 20615.93,
     "store search conversion": 17.37,
     "return rate": 7.9,
-    "date": "05-09-2021",
-    "monthYear": "Sep 2021"
+    date: "05-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 427,
+    id: 427,
     "online store session": 24286,
     "net return value": "27215.60",
     "total orders": 2235,
@@ -9658,11 +9657,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14351.76,
     "store search conversion": 23.92,
     "return rate": 18.37,
-    "date": "06-09-2021",
-    "monthYear": "Sep 2021"
+    date: "06-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 126,
+    id: 126,
     "online store session": 16018,
     "net return value": "26854.80",
     "total orders": 7084,
@@ -9671,11 +9670,11 @@ import { storeType } from "../interfaces";
     "gross sales": 31150.5,
     "store search conversion": 9,
     "return rate": 1.27,
-    "date": "08-09-2021",
-    "monthYear": "Sep 2021"
+    date: "08-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 927,
+    id: 927,
     "online store session": 16836,
     "net return value": "13075.80",
     "total orders": 3066,
@@ -9684,11 +9683,11 @@ import { storeType } from "../interfaces";
     "gross sales": 62633,
     "store search conversion": 9.41,
     "return rate": 2.99,
-    "date": "09-09-2021",
-    "monthYear": "Sep 2021"
+    date: "09-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 385,
+    id: 385,
     "online store session": 18844,
     "net return value": "25819.50",
     "total orders": 7336,
@@ -9697,11 +9696,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15271.79,
     "store search conversion": 8.49,
     "return rate": 13.04,
-    "date": "10-09-2021",
-    "monthYear": "Sep 2021"
+    date: "10-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 814,
+    id: 814,
     "online store session": 19167,
     "net return value": "19026.70",
     "total orders": 5389,
@@ -9710,11 +9709,11 @@ import { storeType } from "../interfaces";
     "gross sales": 89040.59,
     "store search conversion": 29.32,
     "return rate": 18.32,
-    "date": "11-09-2021",
-    "monthYear": "Sep 2021"
+    date: "11-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 156,
+    id: 156,
     "online store session": 24317,
     "net return value": "14680.60",
     "total orders": 7054,
@@ -9723,11 +9722,11 @@ import { storeType } from "../interfaces";
     "gross sales": 39426.05,
     "store search conversion": 20.58,
     "return rate": 16.45,
-    "date": "12-09-2021",
-    "monthYear": "Sep 2021"
+    date: "12-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 914,
+    id: 914,
     "online store session": 22301,
     "net return value": "11501.40",
     "total orders": 8659,
@@ -9736,11 +9735,11 @@ import { storeType } from "../interfaces";
     "gross sales": 34088.04,
     "store search conversion": 0.37,
     "return rate": 17.28,
-    "date": "13-09-2021",
-    "monthYear": "Sep 2021"
+    date: "13-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 260,
+    id: 260,
     "online store session": 20853,
     "net return value": "23531.80",
     "total orders": 2270,
@@ -9749,11 +9748,11 @@ import { storeType } from "../interfaces";
     "gross sales": 58392.12,
     "store search conversion": 27.27,
     "return rate": 2.46,
-    "date": "14-09-2021",
-    "monthYear": "Sep 2021"
+    date: "14-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 776,
+    id: 776,
     "online store session": 17272,
     "net return value": "16183.50",
     "total orders": 9418,
@@ -9762,11 +9761,11 @@ import { storeType } from "../interfaces";
     "gross sales": 82885.18,
     "store search conversion": 1.06,
     "return rate": 13.94,
-    "date": "15-09-2021",
-    "monthYear": "Sep 2021"
+    date: "15-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 594,
+    id: 594,
     "online store session": 18740,
     "net return value": "28456.20",
     "total orders": 5538,
@@ -9775,11 +9774,11 @@ import { storeType } from "../interfaces";
     "gross sales": 44877.92,
     "store search conversion": 17.96,
     "return rate": 17.94,
-    "date": "16-09-2021",
-    "monthYear": "Sep 2021"
+    date: "16-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 5,
+    id: 5,
     "online store session": 23536,
     "net return value": "20438.90",
     "total orders": 9714,
@@ -9788,11 +9787,11 @@ import { storeType } from "../interfaces";
     "gross sales": 61173.74,
     "store search conversion": 15.7,
     "return rate": 15.91,
-    "date": "19-09-2021",
-    "monthYear": "Sep 2021"
+    date: "19-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 148,
+    id: 148,
     "online store session": 17639,
     "net return value": "14170.10",
     "total orders": 5771,
@@ -9801,11 +9800,11 @@ import { storeType } from "../interfaces";
     "gross sales": 81450.9,
     "store search conversion": 0.05,
     "return rate": 10.08,
-    "date": "20-09-2021",
-    "monthYear": "Sep 2021"
+    date: "20-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 354,
+    id: 354,
     "online store session": 17836,
     "net return value": "21467.20",
     "total orders": 3945,
@@ -9814,11 +9813,11 @@ import { storeType } from "../interfaces";
     "gross sales": 50752.77,
     "store search conversion": 29.98,
     "return rate": 6.69,
-    "date": "21-09-2021",
-    "monthYear": "Sep 2021"
+    date: "21-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 462,
+    id: 462,
     "online store session": 23123,
     "net return value": "29141.80",
     "total orders": 4529,
@@ -9827,11 +9826,11 @@ import { storeType } from "../interfaces";
     "gross sales": 26533.01,
     "store search conversion": 18.96,
     "return rate": 11.82,
-    "date": "23-09-2021",
-    "monthYear": "Sep 2021"
+    date: "23-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 804,
+    id: 804,
     "online store session": 20800,
     "net return value": "20892.90",
     "total orders": 6510,
@@ -9840,11 +9839,11 @@ import { storeType } from "../interfaces";
     "gross sales": 86751.34,
     "store search conversion": 28.25,
     "return rate": 4.22,
-    "date": "24-09-2021",
-    "monthYear": "Sep 2021"
+    date: "24-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 208,
+    id: 208,
     "online store session": 16676,
     "net return value": "11515.50",
     "total orders": 3436,
@@ -9853,11 +9852,11 @@ import { storeType } from "../interfaces";
     "gross sales": 23074.84,
     "store search conversion": 29.03,
     "return rate": 5.55,
-    "date": "25-09-2021",
-    "monthYear": "Sep 2021"
+    date: "25-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 370,
+    id: 370,
     "online store session": 24960,
     "net return value": "26491.30",
     "total orders": 2396,
@@ -9866,11 +9865,11 @@ import { storeType } from "../interfaces";
     "gross sales": 20164.08,
     "store search conversion": 15.3,
     "return rate": 16.91,
-    "date": "26-09-2021",
-    "monthYear": "Sep 2021"
+    date: "26-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 752,
+    id: 752,
     "online store session": 24175,
     "net return value": "25112.20",
     "total orders": 6861,
@@ -9879,11 +9878,11 @@ import { storeType } from "../interfaces";
     "gross sales": 47636.78,
     "store search conversion": 21.9,
     "return rate": 10.12,
-    "date": "27-09-2021",
-    "monthYear": "Sep 2021"
+    date: "27-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 571,
+    id: 571,
     "online store session": 21309,
     "net return value": "19572.60",
     "total orders": 1475,
@@ -9892,11 +9891,11 @@ import { storeType } from "../interfaces";
     "gross sales": 53394.53,
     "store search conversion": 26.22,
     "return rate": 1.77,
-    "date": "28-09-2021",
-    "monthYear": "Sep 2021"
+    date: "28-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 357,
+    id: 357,
     "online store session": 15960,
     "net return value": "17628.90",
     "total orders": 2262,
@@ -9905,11 +9904,11 @@ import { storeType } from "../interfaces";
     "gross sales": 36350.86,
     "store search conversion": 18.62,
     "return rate": 5.07,
-    "date": "29-09-2021",
-    "monthYear": "Sep 2021"
+    date: "29-09-2021",
+    monthYear: "Sep 2021",
   },
   {
-    "id": 432,
+    id: 432,
     "online store session": 16963,
     "net return value": "20523.10",
     "total orders": 3894,
@@ -9918,11 +9917,11 @@ import { storeType } from "../interfaces";
     "gross sales": 48367.92,
     "store search conversion": 2.79,
     "return rate": 4.2,
-    "date": "02-10-2021",
-    "monthYear": "Oct 2021"
+    date: "02-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 965,
+    id: 965,
     "online store session": 19774,
     "net return value": "27188.20",
     "total orders": 2249,
@@ -9931,11 +9930,11 @@ import { storeType } from "../interfaces";
     "gross sales": 38152.72,
     "store search conversion": 26.35,
     "return rate": 16.15,
-    "date": "04-10-2021",
-    "monthYear": "Oct 2021"
+    date: "04-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 302,
+    id: 302,
     "online store session": 22907,
     "net return value": "25158.30",
     "total orders": 7091,
@@ -9944,11 +9943,11 @@ import { storeType } from "../interfaces";
     "gross sales": 99834.61,
     "store search conversion": 25.7,
     "return rate": 6.52,
-    "date": "07-10-2021",
-    "monthYear": "Oct 2021"
+    date: "07-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 812,
+    id: 812,
     "online store session": 23675,
     "net return value": "22966.50",
     "total orders": 1057,
@@ -9957,11 +9956,11 @@ import { storeType } from "../interfaces";
     "gross sales": 86892.15,
     "store search conversion": 24.34,
     "return rate": 6.19,
-    "date": "08-10-2021",
-    "monthYear": "Oct 2021"
+    date: "08-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 188,
+    id: 188,
     "online store session": 16435,
     "net return value": "20197.10",
     "total orders": 7414,
@@ -9970,11 +9969,11 @@ import { storeType } from "../interfaces";
     "gross sales": 39520.49,
     "store search conversion": 1.7,
     "return rate": 18.59,
-    "date": "09-10-2021",
-    "monthYear": "Oct 2021"
+    date: "09-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 300,
+    id: 300,
     "online store session": 18291,
     "net return value": "29997.20",
     "total orders": 7784,
@@ -9983,11 +9982,11 @@ import { storeType } from "../interfaces";
     "gross sales": 81932.56,
     "store search conversion": 20.09,
     "return rate": 13.01,
-    "date": "10-10-2021",
-    "monthYear": "Oct 2021"
+    date: "10-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 66,
+    id: 66,
     "online store session": 23342,
     "net return value": "27589.90",
     "total orders": 3741,
@@ -9996,11 +9995,11 @@ import { storeType } from "../interfaces";
     "gross sales": 23059.21,
     "store search conversion": 10.51,
     "return rate": 4.11,
-    "date": "12-10-2021",
-    "monthYear": "Oct 2021"
+    date: "12-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 537,
+    id: 537,
     "online store session": 17832,
     "net return value": "27897.00",
     "total orders": 4870,
@@ -10009,11 +10008,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16784.35,
     "store search conversion": 27.09,
     "return rate": 13.37,
-    "date": "14-10-2021",
-    "monthYear": "Oct 2021"
+    date: "14-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 507,
+    id: 507,
     "online store session": 19895,
     "net return value": "28405.80",
     "total orders": 9536,
@@ -10022,11 +10021,11 @@ import { storeType } from "../interfaces";
     "gross sales": 93559.07,
     "store search conversion": 29.7,
     "return rate": 12.8,
-    "date": "16-10-2021",
-    "monthYear": "Oct 2021"
+    date: "16-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 257,
+    id: 257,
     "online store session": 17520,
     "net return value": "16557.00",
     "total orders": 1731,
@@ -10035,11 +10034,11 @@ import { storeType } from "../interfaces";
     "gross sales": 29053.24,
     "store search conversion": 23.37,
     "return rate": 14.35,
-    "date": "17-10-2021",
-    "monthYear": "Oct 2021"
+    date: "17-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 934,
+    id: 934,
     "online store session": 21376,
     "net return value": "24665.50",
     "total orders": 7465,
@@ -10048,11 +10047,11 @@ import { storeType } from "../interfaces";
     "gross sales": 61704.89,
     "store search conversion": 13.83,
     "return rate": 16.06,
-    "date": "18-10-2021",
-    "monthYear": "Oct 2021"
+    date: "18-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 642,
+    id: 642,
     "online store session": 21677,
     "net return value": "21801.40",
     "total orders": 8587,
@@ -10061,11 +10060,11 @@ import { storeType } from "../interfaces";
     "gross sales": 74312.67,
     "store search conversion": 8.6,
     "return rate": 3.81,
-    "date": "20-10-2021",
-    "monthYear": "Oct 2021"
+    date: "20-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 895,
+    id: 895,
     "online store session": 21579,
     "net return value": "20594.70",
     "total orders": 9722,
@@ -10074,11 +10073,11 @@ import { storeType } from "../interfaces";
     "gross sales": 53607.47,
     "store search conversion": 22.71,
     "return rate": 5.92,
-    "date": "21-10-2021",
-    "monthYear": "Oct 2021"
+    date: "21-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 710,
+    id: 710,
     "online store session": 20342,
     "net return value": "27570.20",
     "total orders": 5582,
@@ -10087,11 +10086,11 @@ import { storeType } from "../interfaces";
     "gross sales": 98557.03,
     "store search conversion": 7,
     "return rate": 2.51,
-    "date": "24-10-2021",
-    "monthYear": "Oct 2021"
+    date: "24-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 783,
+    id: 783,
     "online store session": 17194,
     "net return value": "15747.50",
     "total orders": 7425,
@@ -10100,11 +10099,11 @@ import { storeType } from "../interfaces";
     "gross sales": 66983.38,
     "store search conversion": 6.83,
     "return rate": 17.81,
-    "date": "25-10-2021",
-    "monthYear": "Oct 2021"
+    date: "25-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 605,
+    id: 605,
     "online store session": 20737,
     "net return value": "27978.80",
     "total orders": 7994,
@@ -10113,11 +10112,11 @@ import { storeType } from "../interfaces";
     "gross sales": 87475.93,
     "store search conversion": 6.67,
     "return rate": 9.48,
-    "date": "27-10-2021",
-    "monthYear": "Oct 2021"
+    date: "27-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 243,
+    id: 243,
     "online store session": 15770,
     "net return value": "29122.90",
     "total orders": 8728,
@@ -10126,11 +10125,11 @@ import { storeType } from "../interfaces";
     "gross sales": 86715.03,
     "store search conversion": 23.5,
     "return rate": 15.7,
-    "date": "29-10-2021",
-    "monthYear": "Oct 2021"
+    date: "29-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 526,
+    id: 526,
     "online store session": 15422,
     "net return value": "28878.90",
     "total orders": 2805,
@@ -10139,11 +10138,11 @@ import { storeType } from "../interfaces";
     "gross sales": 60399.11,
     "store search conversion": 3.38,
     "return rate": 3.76,
-    "date": "30-10-2021",
-    "monthYear": "Oct 2021"
+    date: "30-10-2021",
+    monthYear: "Oct 2021",
   },
   {
-    "id": 487,
+    id: 487,
     "online store session": 15709,
     "net return value": "27279.70",
     "total orders": 9366,
@@ -10152,11 +10151,11 @@ import { storeType } from "../interfaces";
     "gross sales": 87269.66,
     "store search conversion": 12.35,
     "return rate": 14.56,
-    "date": "02-11-2021",
-    "monthYear": "Nov 2021"
+    date: "02-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 19,
+    id: 19,
     "online store session": 15533,
     "net return value": "20685.50",
     "total orders": 9897,
@@ -10165,11 +10164,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17076.63,
     "store search conversion": 19.61,
     "return rate": 15.87,
-    "date": "03-11-2021",
-    "monthYear": "Nov 2021"
+    date: "03-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 575,
+    id: 575,
     "online store session": 16410,
     "net return value": "23590.10",
     "total orders": 6687,
@@ -10178,11 +10177,11 @@ import { storeType } from "../interfaces";
     "gross sales": 51067.15,
     "store search conversion": 6.59,
     "return rate": 4.83,
-    "date": "04-11-2021",
-    "monthYear": "Nov 2021"
+    date: "04-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 458,
+    id: 458,
     "online store session": 21021,
     "net return value": "11505.80",
     "total orders": 9787,
@@ -10191,11 +10190,11 @@ import { storeType } from "../interfaces";
     "gross sales": 68693.56,
     "store search conversion": 23.69,
     "return rate": 19.8,
-    "date": "06-11-2021",
-    "monthYear": "Nov 2021"
+    date: "06-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 538,
+    id: 538,
     "online store session": 22477,
     "net return value": "23310.20",
     "total orders": 8543,
@@ -10204,11 +10203,11 @@ import { storeType } from "../interfaces";
     "gross sales": 52314.02,
     "store search conversion": 5.32,
     "return rate": 0.33,
-    "date": "07-11-2021",
-    "monthYear": "Nov 2021"
+    date: "07-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 227,
+    id: 227,
     "online store session": 19291,
     "net return value": "15803.90",
     "total orders": 7791,
@@ -10217,11 +10216,11 @@ import { storeType } from "../interfaces";
     "gross sales": 33014.21,
     "store search conversion": 1.63,
     "return rate": 0.34,
-    "date": "08-11-2021",
-    "monthYear": "Nov 2021"
+    date: "08-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 51,
+    id: 51,
     "online store session": 16273,
     "net return value": "22450.10",
     "total orders": 2145,
@@ -10230,11 +10229,11 @@ import { storeType } from "../interfaces";
     "gross sales": 51198.66,
     "store search conversion": 26.68,
     "return rate": 9.14,
-    "date": "09-11-2021",
-    "monthYear": "Nov 2021"
+    date: "09-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 429,
+    id: 429,
     "online store session": 18697,
     "net return value": "21517.80",
     "total orders": 1563,
@@ -10243,11 +10242,11 @@ import { storeType } from "../interfaces";
     "gross sales": 57340.85,
     "store search conversion": 25.21,
     "return rate": 11.76,
-    "date": "10-11-2021",
-    "monthYear": "Nov 2021"
+    date: "10-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 332,
+    id: 332,
     "online store session": 19580,
     "net return value": "27518.20",
     "total orders": 1134,
@@ -10256,11 +10255,11 @@ import { storeType } from "../interfaces";
     "gross sales": 87990.2,
     "store search conversion": 24.55,
     "return rate": 19.89,
-    "date": "11-11-2021",
-    "monthYear": "Nov 2021"
+    date: "11-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 271,
+    id: 271,
     "online store session": 16345,
     "net return value": "14704.40",
     "total orders": 7660,
@@ -10269,11 +10268,11 @@ import { storeType } from "../interfaces";
     "gross sales": 52397.19,
     "store search conversion": 6.91,
     "return rate": 10.6,
-    "date": "14-11-2021",
-    "monthYear": "Nov 2021"
+    date: "14-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 983,
+    id: 983,
     "online store session": 23097,
     "net return value": "26061.30",
     "total orders": 2725,
@@ -10282,11 +10281,11 @@ import { storeType } from "../interfaces";
     "gross sales": 63268.85,
     "store search conversion": 27.18,
     "return rate": 4.44,
-    "date": "15-11-2021",
-    "monthYear": "Nov 2021"
+    date: "15-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 557,
+    id: 557,
     "online store session": 17930,
     "net return value": "29913.40",
     "total orders": 8324,
@@ -10295,11 +10294,11 @@ import { storeType } from "../interfaces";
     "gross sales": 68261.53,
     "store search conversion": 29.13,
     "return rate": 16.89,
-    "date": "16-11-2021",
-    "monthYear": "Nov 2021"
+    date: "16-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 198,
+    id: 198,
     "online store session": 18380,
     "net return value": "19071.90",
     "total orders": 5632,
@@ -10308,11 +10307,11 @@ import { storeType } from "../interfaces";
     "gross sales": 43391.54,
     "store search conversion": 21.07,
     "return rate": 4.46,
-    "date": "18-11-2021",
-    "monthYear": "Nov 2021"
+    date: "18-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 279,
+    id: 279,
     "online store session": 15893,
     "net return value": "22845.60",
     "total orders": 2388,
@@ -10321,11 +10320,11 @@ import { storeType } from "../interfaces";
     "gross sales": 24685.16,
     "store search conversion": 14.93,
     "return rate": 4.59,
-    "date": "20-11-2021",
-    "monthYear": "Nov 2021"
+    date: "20-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 720,
+    id: 720,
     "online store session": 21563,
     "net return value": "21122.40",
     "total orders": 8332,
@@ -10334,11 +10333,11 @@ import { storeType } from "../interfaces";
     "gross sales": 72374.91,
     "store search conversion": 27.82,
     "return rate": 14.62,
-    "date": "23-11-2021",
-    "monthYear": "Nov 2021"
+    date: "23-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 982,
+    id: 982,
     "online store session": 21718,
     "net return value": "15749.50",
     "total orders": 8878,
@@ -10347,11 +10346,11 @@ import { storeType } from "../interfaces";
     "gross sales": 90343.47,
     "store search conversion": 19.53,
     "return rate": 4.95,
-    "date": "24-11-2021",
-    "monthYear": "Nov 2021"
+    date: "24-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 160,
+    id: 160,
     "online store session": 15214,
     "net return value": "12269.40",
     "total orders": 1092,
@@ -10360,11 +10359,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11781.45,
     "store search conversion": 0.73,
     "return rate": 1.04,
-    "date": "25-11-2021",
-    "monthYear": "Nov 2021"
+    date: "25-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 287,
+    id: 287,
     "online store session": 17822,
     "net return value": "25711.40",
     "total orders": 5256,
@@ -10373,11 +10372,11 @@ import { storeType } from "../interfaces";
     "gross sales": 85233.31,
     "store search conversion": 27.9,
     "return rate": 0.52,
-    "date": "29-11-2021",
-    "monthYear": "Nov 2021"
+    date: "29-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 142,
+    id: 142,
     "online store session": 18034,
     "net return value": "13566.70",
     "total orders": 6950,
@@ -10386,11 +10385,11 @@ import { storeType } from "../interfaces";
     "gross sales": 66297.04,
     "store search conversion": 0.91,
     "return rate": 14.96,
-    "date": "30-11-2021",
-    "monthYear": "Nov 2021"
+    date: "30-11-2021",
+    monthYear: "Nov 2021",
   },
   {
-    "id": 788,
+    id: 788,
     "online store session": 18203,
     "net return value": "12452.20",
     "total orders": 8843,
@@ -10399,11 +10398,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10032.96,
     "store search conversion": 0.85,
     "return rate": 6.47,
-    "date": "02-12-2021",
-    "monthYear": "Dec 2021"
+    date: "02-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 744,
+    id: 744,
     "online store session": 16668,
     "net return value": "23452.00",
     "total orders": 2972,
@@ -10412,11 +10411,11 @@ import { storeType } from "../interfaces";
     "gross sales": 35257.12,
     "store search conversion": 13.03,
     "return rate": 5.98,
-    "date": "07-12-2021",
-    "monthYear": "Dec 2021"
+    date: "07-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 738,
+    id: 738,
     "online store session": 22434,
     "net return value": "18593.50",
     "total orders": 4776,
@@ -10425,11 +10424,11 @@ import { storeType } from "../interfaces";
     "gross sales": 67767.23,
     "store search conversion": 3.3,
     "return rate": 8.42,
-    "date": "08-12-2021",
-    "monthYear": "Dec 2021"
+    date: "08-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 259,
+    id: 259,
     "online store session": 24265,
     "net return value": "24375.10",
     "total orders": 5992,
@@ -10438,11 +10437,11 @@ import { storeType } from "../interfaces";
     "gross sales": 71358.57,
     "store search conversion": 16.43,
     "return rate": 3.5,
-    "date": "09-12-2021",
-    "monthYear": "Dec 2021"
+    date: "09-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 314,
+    id: 314,
     "online store session": 21227,
     "net return value": "23133.70",
     "total orders": 9564,
@@ -10451,11 +10450,11 @@ import { storeType } from "../interfaces";
     "gross sales": 45870.52,
     "store search conversion": 8.3,
     "return rate": 10.98,
-    "date": "10-12-2021",
-    "monthYear": "Dec 2021"
+    date: "10-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 50,
+    id: 50,
     "online store session": 16210,
     "net return value": "27729.10",
     "total orders": 2351,
@@ -10464,11 +10463,11 @@ import { storeType } from "../interfaces";
     "gross sales": 31785.15,
     "store search conversion": 20.65,
     "return rate": 2.35,
-    "date": "11-12-2021",
-    "monthYear": "Dec 2021"
+    date: "11-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 883,
+    id: 883,
     "online store session": 21941,
     "net return value": "19665.20",
     "total orders": 4295,
@@ -10477,11 +10476,11 @@ import { storeType } from "../interfaces";
     "gross sales": 95637.09,
     "store search conversion": 26.65,
     "return rate": 8.29,
-    "date": "12-12-2021",
-    "monthYear": "Dec 2021"
+    date: "12-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 516,
+    id: 516,
     "online store session": 22419,
     "net return value": "22386.20",
     "total orders": 1411,
@@ -10490,11 +10489,11 @@ import { storeType } from "../interfaces";
     "gross sales": 53485.51,
     "store search conversion": 1.08,
     "return rate": 9.57,
-    "date": "14-12-2021",
-    "monthYear": "Dec 2021"
+    date: "14-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 247,
+    id: 247,
     "online store session": 18804,
     "net return value": "10743.30",
     "total orders": 5317,
@@ -10503,11 +10502,11 @@ import { storeType } from "../interfaces";
     "gross sales": 73233.73,
     "store search conversion": 9.06,
     "return rate": 9.19,
-    "date": "16-12-2021",
-    "monthYear": "Dec 2021"
+    date: "16-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 35,
+    id: 35,
     "online store session": 21239,
     "net return value": "15596.30",
     "total orders": 6847,
@@ -10516,11 +10515,11 @@ import { storeType } from "../interfaces";
     "gross sales": 68210.73,
     "store search conversion": 22.58,
     "return rate": 1.42,
-    "date": "17-12-2021",
-    "monthYear": "Dec 2021"
+    date: "17-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 899,
+    id: 899,
     "online store session": 21840,
     "net return value": "14877.80",
     "total orders": 9149,
@@ -10529,11 +10528,11 @@ import { storeType } from "../interfaces";
     "gross sales": 43254.93,
     "store search conversion": 25.52,
     "return rate": 10.74,
-    "date": "21-12-2021",
-    "monthYear": "Dec 2021"
+    date: "21-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 568,
+    id: 568,
     "online store session": 15075,
     "net return value": "14625.60",
     "total orders": 8095,
@@ -10542,11 +10541,11 @@ import { storeType } from "../interfaces";
     "gross sales": 80340.69,
     "store search conversion": 28.83,
     "return rate": 3.38,
-    "date": "23-12-2021",
-    "monthYear": "Dec 2021"
+    date: "23-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 299,
+    id: 299,
     "online store session": 24102,
     "net return value": "20114.70",
     "total orders": 1911,
@@ -10555,11 +10554,11 @@ import { storeType } from "../interfaces";
     "gross sales": 42011.96,
     "store search conversion": 25.14,
     "return rate": 6.01,
-    "date": "24-12-2021",
-    "monthYear": "Dec 2021"
+    date: "24-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 23,
+    id: 23,
     "online store session": 19766,
     "net return value": "16373.40",
     "total orders": 1536,
@@ -10568,11 +10567,11 @@ import { storeType } from "../interfaces";
     "gross sales": 69191.91,
     "store search conversion": 4.76,
     "return rate": 3.32,
-    "date": "25-12-2021",
-    "monthYear": "Dec 2021"
+    date: "25-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 453,
+    id: 453,
     "online store session": 16436,
     "net return value": "20694.20",
     "total orders": 2257,
@@ -10581,11 +10580,11 @@ import { storeType } from "../interfaces";
     "gross sales": 93893.38,
     "store search conversion": 9.36,
     "return rate": 11.82,
-    "date": "26-12-2021",
-    "monthYear": "Dec 2021"
+    date: "26-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 600,
+    id: 600,
     "online store session": 23449,
     "net return value": "17146.00",
     "total orders": 7567,
@@ -10594,11 +10593,11 @@ import { storeType } from "../interfaces";
     "gross sales": 69574.71,
     "store search conversion": 10.04,
     "return rate": 19.6,
-    "date": "27-12-2021",
-    "monthYear": "Dec 2021"
+    date: "27-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 771,
+    id: 771,
     "online store session": 16094,
     "net return value": "11481.90",
     "total orders": 6478,
@@ -10607,11 +10606,11 @@ import { storeType } from "../interfaces";
     "gross sales": 65422.04,
     "store search conversion": 12.57,
     "return rate": 11.89,
-    "date": "28-12-2021",
-    "monthYear": "Dec 2021"
+    date: "28-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 909,
+    id: 909,
     "online store session": 18906,
     "net return value": "15988.50",
     "total orders": 7739,
@@ -10620,11 +10619,11 @@ import { storeType } from "../interfaces";
     "gross sales": 20149.67,
     "store search conversion": 0.1,
     "return rate": 16.48,
-    "date": "29-12-2021",
-    "monthYear": "Dec 2021"
+    date: "29-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 256,
+    id: 256,
     "online store session": 17759,
     "net return value": "13314.80",
     "total orders": 2058,
@@ -10633,11 +10632,11 @@ import { storeType } from "../interfaces";
     "gross sales": 96219.88,
     "store search conversion": 2.47,
     "return rate": 13.78,
-    "date": "30-12-2021",
-    "monthYear": "Dec 2021"
+    date: "30-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 115,
+    id: 115,
     "online store session": 23454,
     "net return value": "22398.00",
     "total orders": 3199,
@@ -10646,11 +10645,11 @@ import { storeType } from "../interfaces";
     "gross sales": 69470.69,
     "store search conversion": 23.32,
     "return rate": 18.86,
-    "date": "31-12-2021",
-    "monthYear": "Dec 2021"
+    date: "31-12-2021",
+    monthYear: "Dec 2021",
   },
   {
-    "id": 90,
+    id: 90,
     "online store session": 22827,
     "net return value": "14027.80",
     "total orders": 2175,
@@ -10659,11 +10658,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11715.92,
     "store search conversion": 21.49,
     "return rate": 11.05,
-    "date": "01-01-2022",
-    "monthYear": "Jan 2022"
+    date: "01-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 172,
+    id: 172,
     "online store session": 24275,
     "net return value": "29541.30",
     "total orders": 2773,
@@ -10672,11 +10671,11 @@ import { storeType } from "../interfaces";
     "gross sales": 54372.45,
     "store search conversion": 19.26,
     "return rate": 11.6,
-    "date": "02-01-2022",
-    "monthYear": "Jan 2022"
+    date: "02-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 335,
+    id: 335,
     "online store session": 17199,
     "net return value": "27486.20",
     "total orders": 3098,
@@ -10685,11 +10684,11 @@ import { storeType } from "../interfaces";
     "gross sales": 94021.7,
     "store search conversion": 20.1,
     "return rate": 10.87,
-    "date": "03-01-2022",
-    "monthYear": "Jan 2022"
+    date: "03-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 153,
+    id: 153,
     "online store session": 24748,
     "net return value": "29652.10",
     "total orders": 8104,
@@ -10698,11 +10697,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10946.93,
     "store search conversion": 2.52,
     "return rate": 1.25,
-    "date": "06-01-2022",
-    "monthYear": "Jan 2022"
+    date: "06-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 179,
+    id: 179,
     "online store session": 20337,
     "net return value": "13743.50",
     "total orders": 9834,
@@ -10711,11 +10710,11 @@ import { storeType } from "../interfaces";
     "gross sales": 57458.4,
     "store search conversion": 28.06,
     "return rate": 19.17,
-    "date": "07-01-2022",
-    "monthYear": "Jan 2022"
+    date: "07-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 159,
+    id: 159,
     "online store session": 23845,
     "net return value": "11086.30",
     "total orders": 7006,
@@ -10724,11 +10723,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19589.44,
     "store search conversion": 12.6,
     "return rate": 6.25,
-    "date": "08-01-2022",
-    "monthYear": "Jan 2022"
+    date: "08-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 388,
+    id: 388,
     "online store session": 18869,
     "net return value": "27018.70",
     "total orders": 2831,
@@ -10737,11 +10736,11 @@ import { storeType } from "../interfaces";
     "gross sales": 42186.27,
     "store search conversion": 25.41,
     "return rate": 10.92,
-    "date": "11-01-2022",
-    "monthYear": "Jan 2022"
+    date: "11-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 14,
+    id: 14,
     "online store session": 15780,
     "net return value": "11878.10",
     "total orders": 1928,
@@ -10750,11 +10749,11 @@ import { storeType } from "../interfaces";
     "gross sales": 29801.87,
     "store search conversion": 10.51,
     "return rate": 2.16,
-    "date": "13-01-2022",
-    "monthYear": "Jan 2022"
+    date: "13-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 36,
+    id: 36,
     "online store session": 22511,
     "net return value": "10760.40",
     "total orders": 5254,
@@ -10763,11 +10762,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16830.18,
     "store search conversion": 18.44,
     "return rate": 5.22,
-    "date": "14-01-2022",
-    "monthYear": "Jan 2022"
+    date: "14-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 395,
+    id: 395,
     "online store session": 17827,
     "net return value": "22315.20",
     "total orders": 9699,
@@ -10776,11 +10775,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14899.27,
     "store search conversion": 5.79,
     "return rate": 0.96,
-    "date": "15-01-2022",
-    "monthYear": "Jan 2022"
+    date: "15-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 421,
+    id: 421,
     "online store session": 21008,
     "net return value": "26247.80",
     "total orders": 1221,
@@ -10789,11 +10788,11 @@ import { storeType } from "../interfaces";
     "gross sales": 63458.52,
     "store search conversion": 15.36,
     "return rate": 5.75,
-    "date": "17-01-2022",
-    "monthYear": "Jan 2022"
+    date: "17-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 326,
+    id: 326,
     "online store session": 19073,
     "net return value": "29726.10",
     "total orders": 1024,
@@ -10802,11 +10801,11 @@ import { storeType } from "../interfaces";
     "gross sales": 76588.52,
     "store search conversion": 5.21,
     "return rate": 3.3,
-    "date": "18-01-2022",
-    "monthYear": "Jan 2022"
+    date: "18-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 937,
+    id: 937,
     "online store session": 16833,
     "net return value": "16647.70",
     "total orders": 2977,
@@ -10815,11 +10814,11 @@ import { storeType } from "../interfaces";
     "gross sales": 73520.55,
     "store search conversion": 28.08,
     "return rate": 17.02,
-    "date": "20-01-2022",
-    "monthYear": "Jan 2022"
+    date: "20-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 887,
+    id: 887,
     "online store session": 19683,
     "net return value": "19546.30",
     "total orders": 5125,
@@ -10828,11 +10827,11 @@ import { storeType } from "../interfaces";
     "gross sales": 87613.56,
     "store search conversion": 19.74,
     "return rate": 15.13,
-    "date": "21-01-2022",
-    "monthYear": "Jan 2022"
+    date: "21-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 111,
+    id: 111,
     "online store session": 24153,
     "net return value": "19872.30",
     "total orders": 2102,
@@ -10841,11 +10840,11 @@ import { storeType } from "../interfaces";
     "gross sales": 31430.23,
     "store search conversion": 24.91,
     "return rate": 8.57,
-    "date": "22-01-2022",
-    "monthYear": "Jan 2022"
+    date: "22-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 737,
+    id: 737,
     "online store session": 20791,
     "net return value": "25652.90",
     "total orders": 2934,
@@ -10854,11 +10853,11 @@ import { storeType } from "../interfaces";
     "gross sales": 84703.15,
     "store search conversion": 15.58,
     "return rate": 6.29,
-    "date": "24-01-2022",
-    "monthYear": "Jan 2022"
+    date: "24-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 735,
+    id: 735,
     "online store session": 22066,
     "net return value": "24816.90",
     "total orders": 8987,
@@ -10867,11 +10866,11 @@ import { storeType } from "../interfaces";
     "gross sales": 32052.77,
     "store search conversion": 21.15,
     "return rate": 19.31,
-    "date": "26-01-2022",
-    "monthYear": "Jan 2022"
+    date: "26-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 415,
+    id: 415,
     "online store session": 21402,
     "net return value": "22984.70",
     "total orders": 9103,
@@ -10880,11 +10879,11 @@ import { storeType } from "../interfaces";
     "gross sales": 52528.3,
     "store search conversion": 27.09,
     "return rate": 0.08,
-    "date": "27-01-2022",
-    "monthYear": "Jan 2022"
+    date: "27-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 161,
+    id: 161,
     "online store session": 21714,
     "net return value": "13816.80",
     "total orders": 7398,
@@ -10893,11 +10892,11 @@ import { storeType } from "../interfaces";
     "gross sales": 91936.09,
     "store search conversion": 22.27,
     "return rate": 3.17,
-    "date": "29-01-2022",
-    "monthYear": "Jan 2022"
+    date: "29-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 45,
+    id: 45,
     "online store session": 15087,
     "net return value": "27562.00",
     "total orders": 1135,
@@ -10906,11 +10905,11 @@ import { storeType } from "../interfaces";
     "gross sales": 33859.88,
     "store search conversion": 13.74,
     "return rate": 5.02,
-    "date": "30-01-2022",
-    "monthYear": "Jan 2022"
+    date: "30-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 629,
+    id: 629,
     "online store session": 22960,
     "net return value": "20276.40",
     "total orders": 4135,
@@ -10919,11 +10918,11 @@ import { storeType } from "../interfaces";
     "gross sales": 82550.26,
     "store search conversion": 22.01,
     "return rate": 4.68,
-    "date": "31-01-2022",
-    "monthYear": "Jan 2022"
+    date: "31-01-2022",
+    monthYear: "Jan 2022",
   },
   {
-    "id": 818,
+    id: 818,
     "online store session": 21323,
     "net return value": "26695.10",
     "total orders": 8083,
@@ -10932,11 +10931,11 @@ import { storeType } from "../interfaces";
     "gross sales": 31778.35,
     "store search conversion": 3.26,
     "return rate": 19.86,
-    "date": "01-02-2022",
-    "monthYear": "Feb 2022"
+    date: "01-02-2022",
+    monthYear: "Feb 2022",
   },
   {
-    "id": 143,
+    id: 143,
     "online store session": 18628,
     "net return value": "26599.80",
     "total orders": 2150,
@@ -10945,11 +10944,11 @@ import { storeType } from "../interfaces";
     "gross sales": 59071.37,
     "store search conversion": 22.85,
     "return rate": 3.01,
-    "date": "03-02-2022",
-    "monthYear": "Feb 2022"
+    date: "03-02-2022",
+    monthYear: "Feb 2022",
   },
   {
-    "id": 258,
+    id: 258,
     "online store session": 19384,
     "net return value": "15644.70",
     "total orders": 3413,
@@ -10958,11 +10957,11 @@ import { storeType } from "../interfaces";
     "gross sales": 50664.82,
     "store search conversion": 21.86,
     "return rate": 2.57,
-    "date": "04-02-2022",
-    "monthYear": "Feb 2022"
+    date: "04-02-2022",
+    monthYear: "Feb 2022",
   },
   {
-    "id": 708,
+    id: 708,
     "online store session": 20506,
     "net return value": "21145.10",
     "total orders": 3106,
@@ -10971,11 +10970,11 @@ import { storeType } from "../interfaces";
     "gross sales": 89711.7,
     "store search conversion": 28.44,
     "return rate": 11.61,
-    "date": "05-02-2022",
-    "monthYear": "Feb 2022"
+    date: "05-02-2022",
+    monthYear: "Feb 2022",
   },
   {
-    "id": 564,
+    id: 564,
     "online store session": 22611,
     "net return value": "20657.70",
     "total orders": 4070,
@@ -10984,11 +10983,11 @@ import { storeType } from "../interfaces";
     "gross sales": 75736.98,
     "store search conversion": 25.11,
     "return rate": 6.12,
-    "date": "07-02-2022",
-    "monthYear": "Feb 2022"
+    date: "07-02-2022",
+    monthYear: "Feb 2022",
   },
   {
-    "id": 212,
+    id: 212,
     "online store session": 16706,
     "net return value": "25324.90",
     "total orders": 3495,
@@ -10997,11 +10996,11 @@ import { storeType } from "../interfaces";
     "gross sales": 72940.62,
     "store search conversion": 5.97,
     "return rate": 10.03,
-    "date": "09-02-2022",
-    "monthYear": "Feb 2022"
+    date: "09-02-2022",
+    monthYear: "Feb 2022",
   },
   {
-    "id": 114,
+    id: 114,
     "online store session": 21075,
     "net return value": "22443.40",
     "total orders": 5345,
@@ -11010,11 +11009,11 @@ import { storeType } from "../interfaces";
     "gross sales": 93440.25,
     "store search conversion": 16.17,
     "return rate": 11.55,
-    "date": "11-02-2022",
-    "monthYear": "Feb 2022"
+    date: "11-02-2022",
+    monthYear: "Feb 2022",
   },
   {
-    "id": 595,
+    id: 595,
     "online store session": 22556,
     "net return value": "29024.40",
     "total orders": 5076,
@@ -11023,11 +11022,11 @@ import { storeType } from "../interfaces";
     "gross sales": 69163.82,
     "store search conversion": 20.91,
     "return rate": 14.92,
-    "date": "15-02-2022",
-    "monthYear": "Feb 2022"
+    date: "15-02-2022",
+    monthYear: "Feb 2022",
   },
   {
-    "id": 633,
+    id: 633,
     "online store session": 24004,
     "net return value": "21654.80",
     "total orders": 9696,
@@ -11036,11 +11035,11 @@ import { storeType } from "../interfaces";
     "gross sales": 99149.26,
     "store search conversion": 1.2,
     "return rate": 1.04,
-    "date": "17-02-2022",
-    "monthYear": "Feb 2022"
+    date: "17-02-2022",
+    monthYear: "Feb 2022",
   },
   {
-    "id": 616,
+    id: 616,
     "online store session": 22451,
     "net return value": "10022.20",
     "total orders": 3547,
@@ -11049,11 +11048,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10361.34,
     "store search conversion": 24.64,
     "return rate": 16.03,
-    "date": "18-02-2022",
-    "monthYear": "Feb 2022"
+    date: "18-02-2022",
+    monthYear: "Feb 2022",
   },
   {
-    "id": 653,
+    id: 653,
     "online store session": 18543,
     "net return value": "19069.20",
     "total orders": 4153,
@@ -11062,11 +11061,11 @@ import { storeType } from "../interfaces";
     "gross sales": 70723.96,
     "store search conversion": 2.02,
     "return rate": 0.81,
-    "date": "20-02-2022",
-    "monthYear": "Feb 2022"
+    date: "20-02-2022",
+    monthYear: "Feb 2022",
   },
   {
-    "id": 640,
+    id: 640,
     "online store session": 23677,
     "net return value": "13363.90",
     "total orders": 9958,
@@ -11075,11 +11074,11 @@ import { storeType } from "../interfaces";
     "gross sales": 82828.72,
     "store search conversion": 16.74,
     "return rate": 15.6,
-    "date": "22-02-2022",
-    "monthYear": "Feb 2022"
+    date: "22-02-2022",
+    monthYear: "Feb 2022",
   },
   {
-    "id": 232,
+    id: 232,
     "online store session": 23274,
     "net return value": "28899.60",
     "total orders": 1373,
@@ -11088,11 +11087,11 @@ import { storeType } from "../interfaces";
     "gross sales": 42386.56,
     "store search conversion": 25.42,
     "return rate": 17.21,
-    "date": "24-02-2022",
-    "monthYear": "Feb 2022"
+    date: "24-02-2022",
+    monthYear: "Feb 2022",
   },
   {
-    "id": 485,
+    id: 485,
     "online store session": 19860,
     "net return value": "19635.00",
     "total orders": 3471,
@@ -11101,11 +11100,11 @@ import { storeType } from "../interfaces";
     "gross sales": 78800.46,
     "store search conversion": 6.58,
     "return rate": 7.18,
-    "date": "25-02-2022",
-    "monthYear": "Feb 2022"
+    date: "25-02-2022",
+    monthYear: "Feb 2022",
   },
   {
-    "id": 955,
+    id: 955,
     "online store session": 22166,
     "net return value": "12830.30",
     "total orders": 9754,
@@ -11114,11 +11113,11 @@ import { storeType } from "../interfaces";
     "gross sales": 88473.76,
     "store search conversion": 9.12,
     "return rate": 3.36,
-    "date": "26-02-2022",
-    "monthYear": "Feb 2022"
+    date: "26-02-2022",
+    monthYear: "Feb 2022",
   },
   {
-    "id": 981,
+    id: 981,
     "online store session": 16544,
     "net return value": "17371.70",
     "total orders": 6877,
@@ -11127,11 +11126,11 @@ import { storeType } from "../interfaces";
     "gross sales": 75761.87,
     "store search conversion": 1.42,
     "return rate": 19.67,
-    "date": "02-03-2022",
-    "monthYear": "Mar 2022"
+    date: "02-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 21,
+    id: 21,
     "online store session": 22969,
     "net return value": "19711.90",
     "total orders": 7063,
@@ -11140,11 +11139,11 @@ import { storeType } from "../interfaces";
     "gross sales": 97778.05,
     "store search conversion": 21.38,
     "return rate": 16.88,
-    "date": "04-03-2022",
-    "monthYear": "Mar 2022"
+    date: "04-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 953,
+    id: 953,
     "online store session": 17547,
     "net return value": "20070.60",
     "total orders": 1617,
@@ -11153,11 +11152,11 @@ import { storeType } from "../interfaces";
     "gross sales": 49308.67,
     "store search conversion": 19.41,
     "return rate": 15.79,
-    "date": "06-03-2022",
-    "monthYear": "Mar 2022"
+    date: "06-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 95,
+    id: 95,
     "online store session": 20928,
     "net return value": "16591.50",
     "total orders": 2860,
@@ -11166,11 +11165,11 @@ import { storeType } from "../interfaces";
     "gross sales": 33941.53,
     "store search conversion": 10.86,
     "return rate": 4.94,
-    "date": "07-03-2022",
-    "monthYear": "Mar 2022"
+    date: "07-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 43,
+    id: 43,
     "online store session": 24490,
     "net return value": "15127.40",
     "total orders": 5583,
@@ -11179,11 +11178,11 @@ import { storeType } from "../interfaces";
     "gross sales": 82236.44,
     "store search conversion": 11.04,
     "return rate": 10.74,
-    "date": "08-03-2022",
-    "monthYear": "Mar 2022"
+    date: "08-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 225,
+    id: 225,
     "online store session": 23542,
     "net return value": "11845.10",
     "total orders": 5110,
@@ -11192,11 +11191,11 @@ import { storeType } from "../interfaces";
     "gross sales": 58221.69,
     "store search conversion": 10.88,
     "return rate": 6.17,
-    "date": "12-03-2022",
-    "monthYear": "Mar 2022"
+    date: "12-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 481,
+    id: 481,
     "online store session": 20020,
     "net return value": "18575.70",
     "total orders": 3548,
@@ -11205,11 +11204,11 @@ import { storeType } from "../interfaces";
     "gross sales": 47132.93,
     "store search conversion": 6.01,
     "return rate": 0.76,
-    "date": "13-03-2022",
-    "monthYear": "Mar 2022"
+    date: "13-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 638,
+    id: 638,
     "online store session": 15614,
     "net return value": "20283.90",
     "total orders": 3597,
@@ -11218,11 +11217,11 @@ import { storeType } from "../interfaces";
     "gross sales": 45556.43,
     "store search conversion": 4.08,
     "return rate": 0.63,
-    "date": "14-03-2022",
-    "monthYear": "Mar 2022"
+    date: "14-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 140,
+    id: 140,
     "online store session": 18087,
     "net return value": "17655.10",
     "total orders": 5856,
@@ -11231,11 +11230,11 @@ import { storeType } from "../interfaces";
     "gross sales": 46514.72,
     "store search conversion": 28.66,
     "return rate": 9.55,
-    "date": "15-03-2022",
-    "monthYear": "Mar 2022"
+    date: "15-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 807,
+    id: 807,
     "online store session": 17343,
     "net return value": "21929.10",
     "total orders": 9916,
@@ -11244,11 +11243,11 @@ import { storeType } from "../interfaces";
     "gross sales": 78115.43,
     "store search conversion": 3.96,
     "return rate": 7.15,
-    "date": "16-03-2022",
-    "monthYear": "Mar 2022"
+    date: "16-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 33,
+    id: 33,
     "online store session": 21700,
     "net return value": "19755.00",
     "total orders": 7778,
@@ -11257,11 +11256,11 @@ import { storeType } from "../interfaces";
     "gross sales": 89589.11,
     "store search conversion": 26.48,
     "return rate": 0.49,
-    "date": "18-03-2022",
-    "monthYear": "Mar 2022"
+    date: "18-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 72,
+    id: 72,
     "online store session": 23537,
     "net return value": "18496.50",
     "total orders": 7980,
@@ -11270,11 +11269,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16087.44,
     "store search conversion": 27.6,
     "return rate": 6.54,
-    "date": "19-03-2022",
-    "monthYear": "Mar 2022"
+    date: "19-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 284,
+    id: 284,
     "online store session": 23882,
     "net return value": "26692.80",
     "total orders": 3406,
@@ -11283,11 +11282,11 @@ import { storeType } from "../interfaces";
     "gross sales": 45775.71,
     "store search conversion": 11.22,
     "return rate": 12.25,
-    "date": "20-03-2022",
-    "monthYear": "Mar 2022"
+    date: "20-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 599,
+    id: 599,
     "online store session": 17363,
     "net return value": "25233.20",
     "total orders": 2985,
@@ -11296,11 +11295,11 @@ import { storeType } from "../interfaces";
     "gross sales": 28424.75,
     "store search conversion": 12.51,
     "return rate": 5.85,
-    "date": "21-03-2022",
-    "monthYear": "Mar 2022"
+    date: "21-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 91,
+    id: 91,
     "online store session": 22752,
     "net return value": "28636.30",
     "total orders": 2978,
@@ -11309,11 +11308,11 @@ import { storeType } from "../interfaces";
     "gross sales": 49849.03,
     "store search conversion": 29.48,
     "return rate": 15.62,
-    "date": "22-03-2022",
-    "monthYear": "Mar 2022"
+    date: "22-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 821,
+    id: 821,
     "online store session": 20784,
     "net return value": "10382.70",
     "total orders": 9472,
@@ -11322,11 +11321,11 @@ import { storeType } from "../interfaces";
     "gross sales": 76941.45,
     "store search conversion": 9.37,
     "return rate": 10.51,
-    "date": "26-03-2022",
-    "monthYear": "Mar 2022"
+    date: "26-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 86,
+    id: 86,
     "online store session": 22668,
     "net return value": "25980.60",
     "total orders": 8131,
@@ -11335,11 +11334,11 @@ import { storeType } from "../interfaces";
     "gross sales": 42799.15,
     "store search conversion": 7.86,
     "return rate": 11.2,
-    "date": "27-03-2022",
-    "monthYear": "Mar 2022"
+    date: "27-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 343,
+    id: 343,
     "online store session": 18018,
     "net return value": "21171.90",
     "total orders": 8064,
@@ -11348,11 +11347,11 @@ import { storeType } from "../interfaces";
     "gross sales": 28498.02,
     "store search conversion": 22.35,
     "return rate": 8.49,
-    "date": "28-03-2022",
-    "monthYear": "Mar 2022"
+    date: "28-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 787,
+    id: 787,
     "online store session": 22219,
     "net return value": "18156.20",
     "total orders": 5258,
@@ -11361,11 +11360,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12221.59,
     "store search conversion": 13,
     "return rate": 19.04,
-    "date": "29-03-2022",
-    "monthYear": "Mar 2022"
+    date: "29-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 614,
+    id: 614,
     "online store session": 18237,
     "net return value": "25225.40",
     "total orders": 1990,
@@ -11374,11 +11373,11 @@ import { storeType } from "../interfaces";
     "gross sales": 46251.64,
     "store search conversion": 13.87,
     "return rate": 3.59,
-    "date": "30-03-2022",
-    "monthYear": "Mar 2022"
+    date: "30-03-2022",
+    monthYear: "Mar 2022",
   },
   {
-    "id": 163,
+    id: 163,
     "online store session": 15532,
     "net return value": "29371.10",
     "total orders": 2209,
@@ -11387,11 +11386,11 @@ import { storeType } from "../interfaces";
     "gross sales": 84431.46,
     "store search conversion": 1.69,
     "return rate": 4.06,
-    "date": "02-04-2022",
-    "monthYear": "Apr 2022"
+    date: "02-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 998,
+    id: 998,
     "online store session": 18813,
     "net return value": "20990.40",
     "total orders": 3487,
@@ -11400,11 +11399,11 @@ import { storeType } from "../interfaces";
     "gross sales": 85345.58,
     "store search conversion": 21.33,
     "return rate": 15.36,
-    "date": "03-04-2022",
-    "monthYear": "Apr 2022"
+    date: "03-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 553,
+    id: 553,
     "online store session": 18853,
     "net return value": "23963.70",
     "total orders": 7288,
@@ -11413,11 +11412,11 @@ import { storeType } from "../interfaces";
     "gross sales": 29389.77,
     "store search conversion": 27.07,
     "return rate": 0.24,
-    "date": "04-04-2022",
-    "monthYear": "Apr 2022"
+    date: "04-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 457,
+    id: 457,
     "online store session": 17318,
     "net return value": "12151.70",
     "total orders": 4643,
@@ -11426,11 +11425,11 @@ import { storeType } from "../interfaces";
     "gross sales": 98947.4,
     "store search conversion": 17.8,
     "return rate": 9.5,
-    "date": "06-04-2022",
-    "monthYear": "Apr 2022"
+    date: "06-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 37,
+    id: 37,
     "online store session": 16982,
     "net return value": "21707.60",
     "total orders": 7373,
@@ -11439,11 +11438,11 @@ import { storeType } from "../interfaces";
     "gross sales": 79598.86,
     "store search conversion": 0.17,
     "return rate": 6.76,
-    "date": "08-04-2022",
-    "monthYear": "Apr 2022"
+    date: "08-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 475,
+    id: 475,
     "online store session": 21283,
     "net return value": "15878.40",
     "total orders": 3935,
@@ -11452,11 +11451,11 @@ import { storeType } from "../interfaces";
     "gross sales": 40322.95,
     "store search conversion": 0.73,
     "return rate": 10.04,
-    "date": "10-04-2022",
-    "monthYear": "Apr 2022"
+    date: "10-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 661,
+    id: 661,
     "online store session": 17616,
     "net return value": "25018.60",
     "total orders": 1796,
@@ -11465,11 +11464,11 @@ import { storeType } from "../interfaces";
     "gross sales": 30358.32,
     "store search conversion": 19.45,
     "return rate": 14.24,
-    "date": "12-04-2022",
-    "monthYear": "Apr 2022"
+    date: "12-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 183,
+    id: 183,
     "online store session": 21939,
     "net return value": "27074.90",
     "total orders": 1974,
@@ -11478,11 +11477,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12335.41,
     "store search conversion": 28.83,
     "return rate": 14.14,
-    "date": "13-04-2022",
-    "monthYear": "Apr 2022"
+    date: "13-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 53,
+    id: 53,
     "online store session": 23593,
     "net return value": "20008.80",
     "total orders": 3029,
@@ -11491,11 +11490,11 @@ import { storeType } from "../interfaces";
     "gross sales": 69725.98,
     "store search conversion": 9.65,
     "return rate": 1.92,
-    "date": "15-04-2022",
-    "monthYear": "Apr 2022"
+    date: "15-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 144,
+    id: 144,
     "online store session": 15317,
     "net return value": "19811.60",
     "total orders": 1455,
@@ -11504,11 +11503,11 @@ import { storeType } from "../interfaces";
     "gross sales": 56510.57,
     "store search conversion": 21.19,
     "return rate": 18.61,
-    "date": "17-04-2022",
-    "monthYear": "Apr 2022"
+    date: "17-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 224,
+    id: 224,
     "online store session": 20953,
     "net return value": "18468.10",
     "total orders": 1941,
@@ -11517,11 +11516,11 @@ import { storeType } from "../interfaces";
     "gross sales": 53996.33,
     "store search conversion": 25.27,
     "return rate": 4.7,
-    "date": "19-04-2022",
-    "monthYear": "Apr 2022"
+    date: "19-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 975,
+    id: 975,
     "online store session": 16306,
     "net return value": "13643.20",
     "total orders": 2702,
@@ -11530,11 +11529,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12387.62,
     "store search conversion": 6.88,
     "return rate": 15.52,
-    "date": "21-04-2022",
-    "monthYear": "Apr 2022"
+    date: "21-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 551,
+    id: 551,
     "online store session": 17794,
     "net return value": "21705.60",
     "total orders": 2453,
@@ -11543,11 +11542,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18593.3,
     "store search conversion": 13.89,
     "return rate": 3.84,
-    "date": "22-04-2022",
-    "monthYear": "Apr 2022"
+    date: "22-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 281,
+    id: 281,
     "online store session": 17352,
     "net return value": "15218.70",
     "total orders": 8669,
@@ -11556,11 +11555,11 @@ import { storeType } from "../interfaces";
     "gross sales": 41085.73,
     "store search conversion": 29.79,
     "return rate": 17.66,
-    "date": "24-04-2022",
-    "monthYear": "Apr 2022"
+    date: "24-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 512,
+    id: 512,
     "online store session": 22232,
     "net return value": "12304.70",
     "total orders": 4305,
@@ -11569,11 +11568,11 @@ import { storeType } from "../interfaces";
     "gross sales": 65894.28,
     "store search conversion": 1.41,
     "return rate": 16.43,
-    "date": "25-04-2022",
-    "monthYear": "Apr 2022"
+    date: "25-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 105,
+    id: 105,
     "online store session": 17801,
     "net return value": "22824.60",
     "total orders": 8185,
@@ -11582,11 +11581,11 @@ import { storeType } from "../interfaces";
     "gross sales": 55748.27,
     "store search conversion": 2.78,
     "return rate": 0,
-    "date": "27-04-2022",
-    "monthYear": "Apr 2022"
+    date: "27-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 40,
+    id: 40,
     "online store session": 17588,
     "net return value": "21187.10",
     "total orders": 2031,
@@ -11595,11 +11594,11 @@ import { storeType } from "../interfaces";
     "gross sales": 41207.46,
     "store search conversion": 22.59,
     "return rate": 11.36,
-    "date": "28-04-2022",
-    "monthYear": "Apr 2022"
+    date: "28-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 128,
+    id: 128,
     "online store session": 24438,
     "net return value": "24941.00",
     "total orders": 4054,
@@ -11608,11 +11607,11 @@ import { storeType } from "../interfaces";
     "gross sales": 73136.95,
     "store search conversion": 0.88,
     "return rate": 11.17,
-    "date": "30-04-2022",
-    "monthYear": "Apr 2022"
+    date: "30-04-2022",
+    monthYear: "Apr 2022",
   },
   {
-    "id": 498,
+    id: 498,
     "online store session": 23493,
     "net return value": "26993.20",
     "total orders": 1772,
@@ -11621,11 +11620,11 @@ import { storeType } from "../interfaces";
     "gross sales": 64906.73,
     "store search conversion": 19.01,
     "return rate": 12.04,
-    "date": "02-05-2022",
-    "monthYear": "May 2022"
+    date: "02-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 928,
+    id: 928,
     "online store session": 15935,
     "net return value": "16320.00",
     "total orders": 9064,
@@ -11634,11 +11633,11 @@ import { storeType } from "../interfaces";
     "gross sales": 33752.78,
     "store search conversion": 14.02,
     "return rate": 14.66,
-    "date": "06-05-2022",
-    "monthYear": "May 2022"
+    date: "06-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 451,
+    id: 451,
     "online store session": 17622,
     "net return value": "16535.70",
     "total orders": 4065,
@@ -11647,11 +11646,11 @@ import { storeType } from "../interfaces";
     "gross sales": 92359.06,
     "store search conversion": 1.14,
     "return rate": 18.47,
-    "date": "07-05-2022",
-    "monthYear": "May 2022"
+    date: "07-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 20,
+    id: 20,
     "online store session": 18872,
     "net return value": "22700.90",
     "total orders": 4399,
@@ -11660,11 +11659,11 @@ import { storeType } from "../interfaces";
     "gross sales": 92793.1,
     "store search conversion": 20.49,
     "return rate": 13.45,
-    "date": "08-05-2022",
-    "monthYear": "May 2022"
+    date: "08-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 306,
+    id: 306,
     "online store session": 23770,
     "net return value": "20975.20",
     "total orders": 1813,
@@ -11673,11 +11672,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19893.23,
     "store search conversion": 28.16,
     "return rate": 4.57,
-    "date": "12-05-2022",
-    "monthYear": "May 2022"
+    date: "12-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 313,
+    id: 313,
     "online store session": 15541,
     "net return value": "18775.80",
     "total orders": 9639,
@@ -11686,11 +11685,11 @@ import { storeType } from "../interfaces";
     "gross sales": 32648.53,
     "store search conversion": 15.64,
     "return rate": 1.38,
-    "date": "13-05-2022",
-    "monthYear": "May 2022"
+    date: "13-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 456,
+    id: 456,
     "online store session": 16559,
     "net return value": "19024.40",
     "total orders": 8841,
@@ -11699,11 +11698,11 @@ import { storeType } from "../interfaces";
     "gross sales": 68284.14,
     "store search conversion": 28.12,
     "return rate": 10.94,
-    "date": "16-05-2022",
-    "monthYear": "May 2022"
+    date: "16-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 129,
+    id: 129,
     "online store session": 24831,
     "net return value": "29459.10",
     "total orders": 5180,
@@ -11712,11 +11711,11 @@ import { storeType } from "../interfaces";
     "gross sales": 39289.28,
     "store search conversion": 21.33,
     "return rate": 12.69,
-    "date": "18-05-2022",
-    "monthYear": "May 2022"
+    date: "18-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 168,
+    id: 168,
     "online store session": 18011,
     "net return value": "24379.70",
     "total orders": 5644,
@@ -11725,11 +11724,11 @@ import { storeType } from "../interfaces";
     "gross sales": 94034.27,
     "store search conversion": 18.45,
     "return rate": 7.42,
-    "date": "19-05-2022",
-    "monthYear": "May 2022"
+    date: "19-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 966,
+    id: 966,
     "online store session": 18731,
     "net return value": "16720.90",
     "total orders": 8383,
@@ -11738,11 +11737,11 @@ import { storeType } from "../interfaces";
     "gross sales": 90696.7,
     "store search conversion": 13.59,
     "return rate": 9.21,
-    "date": "20-05-2022",
-    "monthYear": "May 2022"
+    date: "20-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 42,
+    id: 42,
     "online store session": 21504,
     "net return value": "10199.70",
     "total orders": 6235,
@@ -11751,11 +11750,11 @@ import { storeType } from "../interfaces";
     "gross sales": 94136.15,
     "store search conversion": 18.33,
     "return rate": 3.14,
-    "date": "22-05-2022",
-    "monthYear": "May 2022"
+    date: "22-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 383,
+    id: 383,
     "online store session": 21532,
     "net return value": "15143.30",
     "total orders": 2711,
@@ -11764,11 +11763,11 @@ import { storeType } from "../interfaces";
     "gross sales": 44202,
     "store search conversion": 25.68,
     "return rate": 12.86,
-    "date": "24-05-2022",
-    "monthYear": "May 2022"
+    date: "24-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 204,
+    id: 204,
     "online store session": 15772,
     "net return value": "17640.90",
     "total orders": 5417,
@@ -11777,11 +11776,11 @@ import { storeType } from "../interfaces";
     "gross sales": 23968.45,
     "store search conversion": 15.86,
     "return rate": 18.58,
-    "date": "25-05-2022",
-    "monthYear": "May 2022"
+    date: "25-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 195,
+    id: 195,
     "online store session": 22977,
     "net return value": "29590.80",
     "total orders": 2965,
@@ -11790,11 +11789,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17349.18,
     "store search conversion": 10.65,
     "return rate": 9.9,
-    "date": "26-05-2022",
-    "monthYear": "May 2022"
+    date: "26-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 298,
+    id: 298,
     "online store session": 20505,
     "net return value": "17160.60",
     "total orders": 1297,
@@ -11803,11 +11802,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14833.86,
     "store search conversion": 19.41,
     "return rate": 10.96,
-    "date": "27-05-2022",
-    "monthYear": "May 2022"
+    date: "27-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 74,
+    id: 74,
     "online store session": 19463,
     "net return value": "10088.00",
     "total orders": 6238,
@@ -11816,11 +11815,11 @@ import { storeType } from "../interfaces";
     "gross sales": 91159.99,
     "store search conversion": 26.53,
     "return rate": 4.19,
-    "date": "28-05-2022",
-    "monthYear": "May 2022"
+    date: "28-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 488,
+    id: 488,
     "online store session": 21739,
     "net return value": "17384.70",
     "total orders": 4696,
@@ -11829,11 +11828,11 @@ import { storeType } from "../interfaces";
     "gross sales": 25861.87,
     "store search conversion": 5.68,
     "return rate": 10.2,
-    "date": "31-05-2022",
-    "monthYear": "May 2022"
+    date: "31-05-2022",
+    monthYear: "May 2022",
   },
   {
-    "id": 935,
+    id: 935,
     "online store session": 17845,
     "net return value": "22878.10",
     "total orders": 7428,
@@ -11842,11 +11841,11 @@ import { storeType } from "../interfaces";
     "gross sales": 55995.78,
     "store search conversion": 8.22,
     "return rate": 17.8,
-    "date": "03-06-2022",
-    "monthYear": "Jun 2022"
+    date: "03-06-2022",
+    monthYear: "Jun 2022",
   },
   {
-    "id": 915,
+    id: 915,
     "online store session": 19321,
     "net return value": "28146.60",
     "total orders": 3148,
@@ -11855,11 +11854,11 @@ import { storeType } from "../interfaces";
     "gross sales": 89037.77,
     "store search conversion": 10.8,
     "return rate": 14.03,
-    "date": "06-06-2022",
-    "monthYear": "Jun 2022"
+    date: "06-06-2022",
+    monthYear: "Jun 2022",
   },
   {
-    "id": 89,
+    id: 89,
     "online store session": 24019,
     "net return value": "13014.90",
     "total orders": 1110,
@@ -11868,11 +11867,11 @@ import { storeType } from "../interfaces";
     "gross sales": 45437.79,
     "store search conversion": 8.87,
     "return rate": 10.39,
-    "date": "07-06-2022",
-    "monthYear": "Jun 2022"
+    date: "07-06-2022",
+    monthYear: "Jun 2022",
   },
   {
-    "id": 97,
+    id: 97,
     "online store session": 22153,
     "net return value": "12076.90",
     "total orders": 7477,
@@ -11881,11 +11880,11 @@ import { storeType } from "../interfaces";
     "gross sales": 22903.38,
     "store search conversion": 24.44,
     "return rate": 16.11,
-    "date": "10-06-2022",
-    "monthYear": "Jun 2022"
+    date: "10-06-2022",
+    monthYear: "Jun 2022",
   },
   {
-    "id": 527,
+    id: 527,
     "online store session": 21872,
     "net return value": "24362.60",
     "total orders": 8324,
@@ -11894,11 +11893,11 @@ import { storeType } from "../interfaces";
     "gross sales": 68455.12,
     "store search conversion": 10.72,
     "return rate": 14.49,
-    "date": "12-06-2022",
-    "monthYear": "Jun 2022"
+    date: "12-06-2022",
+    monthYear: "Jun 2022",
   },
   {
-    "id": 492,
+    id: 492,
     "online store session": 24112,
     "net return value": "21720.70",
     "total orders": 1363,
@@ -11907,11 +11906,11 @@ import { storeType } from "../interfaces";
     "gross sales": 42311.09,
     "store search conversion": 14.33,
     "return rate": 2.18,
-    "date": "15-06-2022",
-    "monthYear": "Jun 2022"
+    date: "15-06-2022",
+    monthYear: "Jun 2022",
   },
   {
-    "id": 428,
+    id: 428,
     "online store session": 18656,
     "net return value": "18857.60",
     "total orders": 9893,
@@ -11920,11 +11919,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16899.92,
     "store search conversion": 7.41,
     "return rate": 4.96,
-    "date": "16-06-2022",
-    "monthYear": "Jun 2022"
+    date: "16-06-2022",
+    monthYear: "Jun 2022",
   },
   {
-    "id": 712,
+    id: 712,
     "online store session": 16296,
     "net return value": "12279.90",
     "total orders": 7054,
@@ -11933,11 +11932,11 @@ import { storeType } from "../interfaces";
     "gross sales": 16632.54,
     "store search conversion": 5.06,
     "return rate": 12.28,
-    "date": "18-06-2022",
-    "monthYear": "Jun 2022"
+    date: "18-06-2022",
+    monthYear: "Jun 2022",
   },
   {
-    "id": 251,
+    id: 251,
     "online store session": 21729,
     "net return value": "13315.40",
     "total orders": 2131,
@@ -11946,11 +11945,11 @@ import { storeType } from "../interfaces";
     "gross sales": 85915.78,
     "store search conversion": 13.44,
     "return rate": 19.36,
-    "date": "24-06-2022",
-    "monthYear": "Jun 2022"
+    date: "24-06-2022",
+    monthYear: "Jun 2022",
   },
   {
-    "id": 954,
+    id: 954,
     "online store session": 17681,
     "net return value": "13642.80",
     "total orders": 4013,
@@ -11959,11 +11958,11 @@ import { storeType } from "../interfaces";
     "gross sales": 70176.77,
     "store search conversion": 1.09,
     "return rate": 18.94,
-    "date": "25-06-2022",
-    "monthYear": "Jun 2022"
+    date: "25-06-2022",
+    monthYear: "Jun 2022",
   },
   {
-    "id": 713,
+    id: 713,
     "online store session": 19797,
     "net return value": "19301.90",
     "total orders": 1662,
@@ -11972,11 +11971,11 @@ import { storeType } from "../interfaces";
     "gross sales": 91837.89,
     "store search conversion": 15.15,
     "return rate": 17.17,
-    "date": "27-06-2022",
-    "monthYear": "Jun 2022"
+    date: "27-06-2022",
+    monthYear: "Jun 2022",
   },
   {
-    "id": 452,
+    id: 452,
     "online store session": 20604,
     "net return value": "17957.10",
     "total orders": 4011,
@@ -11985,11 +11984,11 @@ import { storeType } from "../interfaces";
     "gross sales": 57270.68,
     "store search conversion": 27.75,
     "return rate": 6.51,
-    "date": "28-06-2022",
-    "monthYear": "Jun 2022"
+    date: "28-06-2022",
+    monthYear: "Jun 2022",
   },
   {
-    "id": 473,
+    id: 473,
     "online store session": 21486,
     "net return value": "18377.60",
     "total orders": 3991,
@@ -11998,11 +11997,11 @@ import { storeType } from "../interfaces";
     "gross sales": 39752.42,
     "store search conversion": 12.15,
     "return rate": 16.96,
-    "date": "29-06-2022",
-    "monthYear": "Jun 2022"
+    date: "29-06-2022",
+    monthYear: "Jun 2022",
   },
   {
-    "id": 523,
+    id: 523,
     "online store session": 21904,
     "net return value": "25970.20",
     "total orders": 7654,
@@ -12011,11 +12010,11 @@ import { storeType } from "../interfaces";
     "gross sales": 85541.97,
     "store search conversion": 24.43,
     "return rate": 6.51,
-    "date": "30-06-2022",
-    "monthYear": "Jun 2022"
+    date: "30-06-2022",
+    monthYear: "Jun 2022",
   },
   {
-    "id": 784,
+    id: 784,
     "online store session": 19681,
     "net return value": "26129.40",
     "total orders": 5182,
@@ -12024,11 +12023,11 @@ import { storeType } from "../interfaces";
     "gross sales": 99214.61,
     "store search conversion": 0.89,
     "return rate": 3.04,
-    "date": "01-07-2022",
-    "monthYear": "Jul 2022"
+    date: "01-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 70,
+    id: 70,
     "online store session": 22641,
     "net return value": "24551.60",
     "total orders": 9539,
@@ -12037,11 +12036,11 @@ import { storeType } from "../interfaces";
     "gross sales": 21869.18,
     "store search conversion": 17.38,
     "return rate": 9.48,
-    "date": "02-07-2022",
-    "monthYear": "Jul 2022"
+    date: "02-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 888,
+    id: 888,
     "online store session": 16742,
     "net return value": "23125.20",
     "total orders": 8021,
@@ -12050,11 +12049,11 @@ import { storeType } from "../interfaces";
     "gross sales": 52674.51,
     "store search conversion": 7.32,
     "return rate": 13.73,
-    "date": "04-07-2022",
-    "monthYear": "Jul 2022"
+    date: "04-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 137,
+    id: 137,
     "online store session": 23258,
     "net return value": "25912.20",
     "total orders": 9765,
@@ -12063,11 +12062,11 @@ import { storeType } from "../interfaces";
     "gross sales": 77852.39,
     "store search conversion": 5.93,
     "return rate": 10.94,
-    "date": "06-07-2022",
-    "monthYear": "Jul 2022"
+    date: "06-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 165,
+    id: 165,
     "online store session": 21363,
     "net return value": "20638.40",
     "total orders": 7366,
@@ -12076,11 +12075,11 @@ import { storeType } from "../interfaces";
     "gross sales": 91796.29,
     "store search conversion": 13.01,
     "return rate": 5.17,
-    "date": "07-07-2022",
-    "monthYear": "Jul 2022"
+    date: "07-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 269,
+    id: 269,
     "online store session": 22841,
     "net return value": "10771.80",
     "total orders": 4867,
@@ -12089,11 +12088,11 @@ import { storeType } from "../interfaces";
     "gross sales": 27379.83,
     "store search conversion": 29.93,
     "return rate": 13.66,
-    "date": "08-07-2022",
-    "monthYear": "Jul 2022"
+    date: "08-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 234,
+    id: 234,
     "online store session": 22430,
     "net return value": "29518.60",
     "total orders": 5605,
@@ -12102,11 +12101,11 @@ import { storeType } from "../interfaces";
     "gross sales": 36495.49,
     "store search conversion": 3.96,
     "return rate": 13.08,
-    "date": "09-07-2022",
-    "monthYear": "Jul 2022"
+    date: "09-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 1,
+    id: 1,
     "online store session": 22010,
     "net return value": "24724.70",
     "total orders": 2500,
@@ -12115,11 +12114,11 @@ import { storeType } from "../interfaces";
     "gross sales": 70532.04,
     "store search conversion": 8.72,
     "return rate": 10.74,
-    "date": "11-07-2022",
-    "monthYear": "Jul 2022"
+    date: "11-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 794,
+    id: 794,
     "online store session": 17837,
     "net return value": "11125.60",
     "total orders": 9291,
@@ -12128,11 +12127,11 @@ import { storeType } from "../interfaces";
     "gross sales": 51558.13,
     "store search conversion": 29.01,
     "return rate": 13.75,
-    "date": "12-07-2022",
-    "monthYear": "Jul 2022"
+    date: "12-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 777,
+    id: 777,
     "online store session": 16719,
     "net return value": "27236.60",
     "total orders": 4301,
@@ -12141,11 +12140,11 @@ import { storeType } from "../interfaces";
     "gross sales": 50534.49,
     "store search conversion": 3.51,
     "return rate": 12.24,
-    "date": "14-07-2022",
-    "monthYear": "Jul 2022"
+    date: "14-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 289,
+    id: 289,
     "online store session": 15949,
     "net return value": "20000.10",
     "total orders": 2523,
@@ -12154,11 +12153,11 @@ import { storeType } from "../interfaces";
     "gross sales": 33004.71,
     "store search conversion": 9.51,
     "return rate": 13.63,
-    "date": "15-07-2022",
-    "monthYear": "Jul 2022"
+    date: "15-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 582,
+    id: 582,
     "online store session": 15390,
     "net return value": "16573.10",
     "total orders": 6434,
@@ -12167,11 +12166,11 @@ import { storeType } from "../interfaces";
     "gross sales": 32172.01,
     "store search conversion": 20.43,
     "return rate": 12.83,
-    "date": "16-07-2022",
-    "monthYear": "Jul 2022"
+    date: "16-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 278,
+    id: 278,
     "online store session": 15154,
     "net return value": "29594.90",
     "total orders": 9019,
@@ -12180,11 +12179,11 @@ import { storeType } from "../interfaces";
     "gross sales": 58692.63,
     "store search conversion": 17.21,
     "return rate": 9.47,
-    "date": "17-07-2022",
-    "monthYear": "Jul 2022"
+    date: "17-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 878,
+    id: 878,
     "online store session": 21682,
     "net return value": "20256.80",
     "total orders": 3324,
@@ -12193,11 +12192,11 @@ import { storeType } from "../interfaces";
     "gross sales": 89868.92,
     "store search conversion": 2.92,
     "return rate": 17.3,
-    "date": "18-07-2022",
-    "monthYear": "Jul 2022"
+    date: "18-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 355,
+    id: 355,
     "online store session": 22878,
     "net return value": "27783.40",
     "total orders": 1962,
@@ -12206,11 +12205,11 @@ import { storeType } from "../interfaces";
     "gross sales": 59254.76,
     "store search conversion": 13.26,
     "return rate": 5.27,
-    "date": "19-07-2022",
-    "monthYear": "Jul 2022"
+    date: "19-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 976,
+    id: 976,
     "online store session": 23071,
     "net return value": "27253.40",
     "total orders": 2441,
@@ -12219,11 +12218,11 @@ import { storeType } from "../interfaces";
     "gross sales": 41716.61,
     "store search conversion": 15.02,
     "return rate": 0.77,
-    "date": "20-07-2022",
-    "monthYear": "Jul 2022"
+    date: "20-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 92,
+    id: 92,
     "online store session": 20758,
     "net return value": "26353.00",
     "total orders": 9550,
@@ -12232,11 +12231,11 @@ import { storeType } from "../interfaces";
     "gross sales": 65468.35,
     "store search conversion": 4.34,
     "return rate": 9.85,
-    "date": "21-07-2022",
-    "monthYear": "Jul 2022"
+    date: "21-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 906,
+    id: 906,
     "online store session": 21131,
     "net return value": "18885.50",
     "total orders": 3041,
@@ -12245,11 +12244,11 @@ import { storeType } from "../interfaces";
     "gross sales": 78504.11,
     "store search conversion": 29.24,
     "return rate": 12.01,
-    "date": "24-07-2022",
-    "monthYear": "Jul 2022"
+    date: "24-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 730,
+    id: 730,
     "online store session": 19125,
     "net return value": "12707.90",
     "total orders": 3804,
@@ -12258,11 +12257,11 @@ import { storeType } from "../interfaces";
     "gross sales": 79480.96,
     "store search conversion": 15.88,
     "return rate": 12.77,
-    "date": "25-07-2022",
-    "monthYear": "Jul 2022"
+    date: "25-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 124,
+    id: 124,
     "online store session": 23384,
     "net return value": "20420.50",
     "total orders": 2575,
@@ -12271,11 +12270,11 @@ import { storeType } from "../interfaces";
     "gross sales": 29332.72,
     "store search conversion": 13.05,
     "return rate": 3.16,
-    "date": "26-07-2022",
-    "monthYear": "Jul 2022"
+    date: "26-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 365,
+    id: 365,
     "online store session": 19443,
     "net return value": "10882.10",
     "total orders": 6522,
@@ -12284,11 +12283,11 @@ import { storeType } from "../interfaces";
     "gross sales": 95143.2,
     "store search conversion": 6.01,
     "return rate": 7.1,
-    "date": "27-07-2022",
-    "monthYear": "Jul 2022"
+    date: "27-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 580,
+    id: 580,
     "online store session": 23502,
     "net return value": "19075.60",
     "total orders": 5422,
@@ -12297,11 +12296,11 @@ import { storeType } from "../interfaces";
     "gross sales": 24994.54,
     "store search conversion": 25.82,
     "return rate": 19.78,
-    "date": "28-07-2022",
-    "monthYear": "Jul 2022"
+    date: "28-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 584,
+    id: 584,
     "online store session": 19510,
     "net return value": "20198.60",
     "total orders": 3993,
@@ -12310,11 +12309,11 @@ import { storeType } from "../interfaces";
     "gross sales": 30237.48,
     "store search conversion": 18.42,
     "return rate": 8.68,
-    "date": "29-07-2022",
-    "monthYear": "Jul 2022"
+    date: "29-07-2022",
+    monthYear: "Jul 2022",
   },
   {
-    "id": 286,
+    id: 286,
     "online store session": 20653,
     "net return value": "11514.70",
     "total orders": 5605,
@@ -12323,11 +12322,11 @@ import { storeType } from "../interfaces";
     "gross sales": 21061.62,
     "store search conversion": 22.93,
     "return rate": 7.45,
-    "date": "01-08-2022",
-    "monthYear": "Aug 2022"
+    date: "01-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 390,
+    id: 390,
     "online store session": 20806,
     "net return value": "26642.40",
     "total orders": 3991,
@@ -12336,11 +12335,11 @@ import { storeType } from "../interfaces";
     "gross sales": 80718.96,
     "store search conversion": 2.09,
     "return rate": 14.19,
-    "date": "03-08-2022",
-    "monthYear": "Aug 2022"
+    date: "03-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 158,
+    id: 158,
     "online store session": 16386,
     "net return value": "12452.00",
     "total orders": 4965,
@@ -12349,11 +12348,11 @@ import { storeType } from "../interfaces";
     "gross sales": 42514.15,
     "store search conversion": 9.88,
     "return rate": 16.5,
-    "date": "04-08-2022",
-    "monthYear": "Aug 2022"
+    date: "04-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 469,
+    id: 469,
     "online store session": 19329,
     "net return value": "12411.20",
     "total orders": 1341,
@@ -12362,11 +12361,11 @@ import { storeType } from "../interfaces";
     "gross sales": 94932.52,
     "store search conversion": 8.97,
     "return rate": 14.47,
-    "date": "06-08-2022",
-    "monthYear": "Aug 2022"
+    date: "06-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 202,
+    id: 202,
     "online store session": 15922,
     "net return value": "24272.20",
     "total orders": 3027,
@@ -12375,11 +12374,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19164.1,
     "store search conversion": 11.1,
     "return rate": 12.85,
-    "date": "07-08-2022",
-    "monthYear": "Aug 2022"
+    date: "07-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 360,
+    id: 360,
     "online store session": 18878,
     "net return value": "27498.10",
     "total orders": 6945,
@@ -12388,11 +12387,11 @@ import { storeType } from "../interfaces";
     "gross sales": 91190.21,
     "store search conversion": 5.44,
     "return rate": 3.67,
-    "date": "08-08-2022",
-    "monthYear": "Aug 2022"
+    date: "08-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 380,
+    id: 380,
     "online store session": 15747,
     "net return value": "19824.50",
     "total orders": 7267,
@@ -12401,11 +12400,11 @@ import { storeType } from "../interfaces";
     "gross sales": 77916.6,
     "store search conversion": 4,
     "return rate": 15.23,
-    "date": "09-08-2022",
-    "monthYear": "Aug 2022"
+    date: "09-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 890,
+    id: 890,
     "online store session": 24275,
     "net return value": "27989.20",
     "total orders": 1410,
@@ -12414,11 +12413,11 @@ import { storeType } from "../interfaces";
     "gross sales": 43751.75,
     "store search conversion": 3.15,
     "return rate": 1.24,
-    "date": "10-08-2022",
-    "monthYear": "Aug 2022"
+    date: "10-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 905,
+    id: 905,
     "online store session": 15793,
     "net return value": "27263.70",
     "total orders": 5267,
@@ -12427,11 +12426,11 @@ import { storeType } from "../interfaces";
     "gross sales": 85155.56,
     "store search conversion": 10.04,
     "return rate": 14.39,
-    "date": "13-08-2022",
-    "monthYear": "Aug 2022"
+    date: "13-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 850,
+    id: 850,
     "online store session": 20982,
     "net return value": "29240.90",
     "total orders": 6479,
@@ -12440,11 +12439,11 @@ import { storeType } from "../interfaces";
     "gross sales": 23073.2,
     "store search conversion": 25.08,
     "return rate": 13.9,
-    "date": "14-08-2022",
-    "monthYear": "Aug 2022"
+    date: "14-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 438,
+    id: 438,
     "online store session": 16149,
     "net return value": "22132.10",
     "total orders": 5372,
@@ -12453,11 +12452,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11061.43,
     "store search conversion": 23.84,
     "return rate": 10.81,
-    "date": "17-08-2022",
-    "monthYear": "Aug 2022"
+    date: "17-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 464,
+    id: 464,
     "online store session": 17290,
     "net return value": "29744.70",
     "total orders": 6492,
@@ -12466,11 +12465,11 @@ import { storeType } from "../interfaces";
     "gross sales": 52911.84,
     "store search conversion": 22.88,
     "return rate": 18.18,
-    "date": "19-08-2022",
-    "monthYear": "Aug 2022"
+    date: "19-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 604,
+    id: 604,
     "online store session": 21894,
     "net return value": "17994.80",
     "total orders": 8217,
@@ -12479,11 +12478,11 @@ import { storeType } from "../interfaces";
     "gross sales": 64161.99,
     "store search conversion": 9.18,
     "return rate": 6.92,
-    "date": "20-08-2022",
-    "monthYear": "Aug 2022"
+    date: "20-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 658,
+    id: 658,
     "online store session": 17479,
     "net return value": "24097.90",
     "total orders": 6753,
@@ -12492,11 +12491,11 @@ import { storeType } from "../interfaces";
     "gross sales": 38423.77,
     "store search conversion": 26.9,
     "return rate": 4.17,
-    "date": "21-08-2022",
-    "monthYear": "Aug 2022"
+    date: "21-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 519,
+    id: 519,
     "online store session": 17405,
     "net return value": "10340.10",
     "total orders": 6887,
@@ -12505,11 +12504,11 @@ import { storeType } from "../interfaces";
     "gross sales": 46422.74,
     "store search conversion": 5.98,
     "return rate": 11.48,
-    "date": "22-08-2022",
-    "monthYear": "Aug 2022"
+    date: "22-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 65,
+    id: 65,
     "online store session": 24614,
     "net return value": "22717.60",
     "total orders": 4003,
@@ -12518,11 +12517,11 @@ import { storeType } from "../interfaces";
     "gross sales": 31862.06,
     "store search conversion": 12.88,
     "return rate": 19.78,
-    "date": "23-08-2022",
-    "monthYear": "Aug 2022"
+    date: "23-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 55,
+    id: 55,
     "online store session": 16694,
     "net return value": "12513.80",
     "total orders": 7028,
@@ -12531,11 +12530,11 @@ import { storeType } from "../interfaces";
     "gross sales": 75332.74,
     "store search conversion": 25.25,
     "return rate": 17.1,
-    "date": "24-08-2022",
-    "monthYear": "Aug 2022"
+    date: "24-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 130,
+    id: 130,
     "online store session": 21932,
     "net return value": "14302.50",
     "total orders": 8494,
@@ -12544,11 +12543,11 @@ import { storeType } from "../interfaces";
     "gross sales": 93188.3,
     "store search conversion": 0.73,
     "return rate": 5.12,
-    "date": "25-08-2022",
-    "monthYear": "Aug 2022"
+    date: "25-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 688,
+    id: 688,
     "online store session": 21394,
     "net return value": "19977.70",
     "total orders": 8218,
@@ -12557,11 +12556,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11526.87,
     "store search conversion": 10.79,
     "return rate": 19.1,
-    "date": "26-08-2022",
-    "monthYear": "Aug 2022"
+    date: "26-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 273,
+    id: 273,
     "online store session": 19251,
     "net return value": "14812.20",
     "total orders": 9404,
@@ -12570,11 +12569,11 @@ import { storeType } from "../interfaces";
     "gross sales": 31647.88,
     "store search conversion": 16.66,
     "return rate": 8.45,
-    "date": "30-08-2022",
-    "monthYear": "Aug 2022"
+    date: "30-08-2022",
+    monthYear: "Aug 2022",
   },
   {
-    "id": 337,
+    id: 337,
     "online store session": 23393,
     "net return value": "13346.80",
     "total orders": 9402,
@@ -12583,11 +12582,11 @@ import { storeType } from "../interfaces";
     "gross sales": 40585.27,
     "store search conversion": 18,
     "return rate": 11.54,
-    "date": "02-09-2022",
-    "monthYear": "Sep 2022"
+    date: "02-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 27,
+    id: 27,
     "online store session": 22911,
     "net return value": "22747.80",
     "total orders": 4120,
@@ -12596,11 +12595,11 @@ import { storeType } from "../interfaces";
     "gross sales": 37452.14,
     "store search conversion": 23.89,
     "return rate": 19.63,
-    "date": "04-09-2022",
-    "monthYear": "Sep 2022"
+    date: "04-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 921,
+    id: 921,
     "online store session": 18657,
     "net return value": "16959.60",
     "total orders": 8510,
@@ -12609,11 +12608,11 @@ import { storeType } from "../interfaces";
     "gross sales": 60204.93,
     "store search conversion": 4.44,
     "return rate": 8.66,
-    "date": "05-09-2022",
-    "monthYear": "Sep 2022"
+    date: "05-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 244,
+    id: 244,
     "online store session": 15952,
     "net return value": "13631.70",
     "total orders": 1703,
@@ -12622,11 +12621,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18144.42,
     "store search conversion": 17.75,
     "return rate": 11.95,
-    "date": "06-09-2022",
-    "monthYear": "Sep 2022"
+    date: "06-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 352,
+    id: 352,
     "online store session": 22624,
     "net return value": "20442.20",
     "total orders": 9980,
@@ -12635,11 +12634,11 @@ import { storeType } from "../interfaces";
     "gross sales": 39542.22,
     "store search conversion": 0.23,
     "return rate": 10.74,
-    "date": "07-09-2022",
-    "monthYear": "Sep 2022"
+    date: "07-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 767,
+    id: 767,
     "online store session": 23319,
     "net return value": "13938.80",
     "total orders": 8572,
@@ -12648,11 +12647,11 @@ import { storeType } from "../interfaces";
     "gross sales": 81344.84,
     "store search conversion": 11.71,
     "return rate": 7.18,
-    "date": "08-09-2022",
-    "monthYear": "Sep 2022"
+    date: "08-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 410,
+    id: 410,
     "online store session": 20769,
     "net return value": "12991.90",
     "total orders": 9882,
@@ -12661,11 +12660,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18063.14,
     "store search conversion": 11.39,
     "return rate": 17.01,
-    "date": "09-09-2022",
-    "monthYear": "Sep 2022"
+    date: "09-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 250,
+    id: 250,
     "online store session": 18228,
     "net return value": "26691.30",
     "total orders": 4980,
@@ -12674,11 +12673,11 @@ import { storeType } from "../interfaces";
     "gross sales": 85898.7,
     "store search conversion": 28.94,
     "return rate": 2.97,
-    "date": "15-09-2022",
-    "monthYear": "Sep 2022"
+    date: "15-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 534,
+    id: 534,
     "online store session": 16855,
     "net return value": "28453.10",
     "total orders": 2381,
@@ -12687,11 +12686,11 @@ import { storeType } from "../interfaces";
     "gross sales": 86478.31,
     "store search conversion": 22.77,
     "return rate": 17.38,
-    "date": "16-09-2022",
-    "monthYear": "Sep 2022"
+    date: "16-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 60,
+    id: 60,
     "online store session": 21520,
     "net return value": "28413.10",
     "total orders": 3314,
@@ -12700,11 +12699,11 @@ import { storeType } from "../interfaces";
     "gross sales": 66882.83,
     "store search conversion": 20.81,
     "return rate": 0.17,
-    "date": "17-09-2022",
-    "monthYear": "Sep 2022"
+    date: "17-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 649,
+    id: 649,
     "online store session": 16364,
     "net return value": "11784.90",
     "total orders": 7087,
@@ -12713,11 +12712,11 @@ import { storeType } from "../interfaces";
     "gross sales": 53865.83,
     "store search conversion": 10.37,
     "return rate": 13.31,
-    "date": "19-09-2022",
-    "monthYear": "Sep 2022"
+    date: "19-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 560,
+    id: 560,
     "online store session": 20963,
     "net return value": "19117.30",
     "total orders": 1268,
@@ -12726,11 +12725,11 @@ import { storeType } from "../interfaces";
     "gross sales": 88432.2,
     "store search conversion": 23.79,
     "return rate": 7.5,
-    "date": "21-09-2022",
-    "monthYear": "Sep 2022"
+    date: "21-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 363,
+    id: 363,
     "online store session": 22895,
     "net return value": "21531.80",
     "total orders": 9782,
@@ -12739,11 +12738,11 @@ import { storeType } from "../interfaces";
     "gross sales": 29454.87,
     "store search conversion": 22.83,
     "return rate": 18.91,
-    "date": "22-09-2022",
-    "monthYear": "Sep 2022"
+    date: "22-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 107,
+    id: 107,
     "online store session": 21735,
     "net return value": "13942.60",
     "total orders": 6050,
@@ -12752,11 +12751,11 @@ import { storeType } from "../interfaces";
     "gross sales": 73003.65,
     "store search conversion": 2.91,
     "return rate": 9.45,
-    "date": "23-09-2022",
-    "monthYear": "Sep 2022"
+    date: "23-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 541,
+    id: 541,
     "online store session": 23953,
     "net return value": "13601.70",
     "total orders": 5979,
@@ -12765,11 +12764,11 @@ import { storeType } from "../interfaces";
     "gross sales": 85624.28,
     "store search conversion": 11.97,
     "return rate": 12.94,
-    "date": "26-09-2022",
-    "monthYear": "Sep 2022"
+    date: "26-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 736,
+    id: 736,
     "online store session": 17966,
     "net return value": "12889.10",
     "total orders": 3438,
@@ -12778,11 +12777,11 @@ import { storeType } from "../interfaces";
     "gross sales": 86764.4,
     "store search conversion": 23.28,
     "return rate": 8.19,
-    "date": "27-09-2022",
-    "monthYear": "Sep 2022"
+    date: "27-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 194,
+    id: 194,
     "online store session": 24049,
     "net return value": "29366.20",
     "total orders": 4229,
@@ -12791,11 +12790,11 @@ import { storeType } from "../interfaces";
     "gross sales": 33327.93,
     "store search conversion": 4.37,
     "return rate": 1.23,
-    "date": "28-09-2022",
-    "monthYear": "Sep 2022"
+    date: "28-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 77,
+    id: 77,
     "online store session": 20745,
     "net return value": "14621.60",
     "total orders": 4091,
@@ -12804,11 +12803,11 @@ import { storeType } from "../interfaces";
     "gross sales": 49005.44,
     "store search conversion": 14.99,
     "return rate": 9.15,
-    "date": "30-09-2022",
-    "monthYear": "Sep 2022"
+    date: "30-09-2022",
+    monthYear: "Sep 2022",
   },
   {
-    "id": 838,
+    id: 838,
     "online store session": 19496,
     "net return value": "13179.20",
     "total orders": 3611,
@@ -12817,11 +12816,11 @@ import { storeType } from "../interfaces";
     "gross sales": 67534.44,
     "store search conversion": 14.11,
     "return rate": 1.13,
-    "date": "01-10-2022",
-    "monthYear": "Oct 2022"
+    date: "01-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 213,
+    id: 213,
     "online store session": 16590,
     "net return value": "15772.40",
     "total orders": 6122,
@@ -12830,11 +12829,11 @@ import { storeType } from "../interfaces";
     "gross sales": 52579,
     "store search conversion": 23.94,
     "return rate": 17.17,
-    "date": "04-10-2022",
-    "monthYear": "Oct 2022"
+    date: "04-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 726,
+    id: 726,
     "online store session": 23021,
     "net return value": "23429.10",
     "total orders": 8718,
@@ -12843,11 +12842,11 @@ import { storeType } from "../interfaces";
     "gross sales": 42732.52,
     "store search conversion": 29.4,
     "return rate": 9.45,
-    "date": "05-10-2022",
-    "monthYear": "Oct 2022"
+    date: "05-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 504,
+    id: 504,
     "online store session": 15800,
     "net return value": "26959.70",
     "total orders": 9796,
@@ -12856,11 +12855,11 @@ import { storeType } from "../interfaces";
     "gross sales": 56194.67,
     "store search conversion": 24.52,
     "return rate": 3.13,
-    "date": "07-10-2022",
-    "monthYear": "Oct 2022"
+    date: "07-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 911,
+    id: 911,
     "online store session": 24404,
     "net return value": "18094.50",
     "total orders": 4728,
@@ -12869,11 +12868,11 @@ import { storeType } from "../interfaces";
     "gross sales": 99208.67,
     "store search conversion": 27.83,
     "return rate": 10.87,
-    "date": "08-10-2022",
-    "monthYear": "Oct 2022"
+    date: "08-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 119,
+    id: 119,
     "online store session": 22733,
     "net return value": "26599.40",
     "total orders": 1646,
@@ -12882,11 +12881,11 @@ import { storeType } from "../interfaces";
     "gross sales": 49618.16,
     "store search conversion": 14.56,
     "return rate": 14.96,
-    "date": "09-10-2022",
-    "monthYear": "Oct 2022"
+    date: "09-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 164,
+    id: 164,
     "online store session": 22858,
     "net return value": "12402.60",
     "total orders": 5302,
@@ -12895,11 +12894,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18901.16,
     "store search conversion": 27.68,
     "return rate": 5.43,
-    "date": "11-10-2022",
-    "monthYear": "Oct 2022"
+    date: "11-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 377,
+    id: 377,
     "online store session": 22299,
     "net return value": "28651.70",
     "total orders": 1447,
@@ -12908,11 +12907,11 @@ import { storeType } from "../interfaces";
     "gross sales": 80776.04,
     "store search conversion": 27.17,
     "return rate": 3.09,
-    "date": "14-10-2022",
-    "monthYear": "Oct 2022"
+    date: "14-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 59,
+    id: 59,
     "online store session": 16660,
     "net return value": "26032.30",
     "total orders": 9967,
@@ -12921,11 +12920,11 @@ import { storeType } from "../interfaces";
     "gross sales": 65044.41,
     "store search conversion": 3.1,
     "return rate": 7.57,
-    "date": "16-10-2022",
-    "monthYear": "Oct 2022"
+    date: "16-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 739,
+    id: 739,
     "online store session": 21772,
     "net return value": "12784.80",
     "total orders": 1196,
@@ -12934,11 +12933,11 @@ import { storeType } from "../interfaces";
     "gross sales": 45599.72,
     "store search conversion": 14.51,
     "return rate": 15.93,
-    "date": "18-10-2022",
-    "monthYear": "Oct 2022"
+    date: "18-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 819,
+    id: 819,
     "online store session": 17343,
     "net return value": "14761.60",
     "total orders": 9302,
@@ -12947,11 +12946,11 @@ import { storeType } from "../interfaces";
     "gross sales": 40130.88,
     "store search conversion": 10.64,
     "return rate": 18.3,
-    "date": "19-10-2022",
-    "monthYear": "Oct 2022"
+    date: "19-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 707,
+    id: 707,
     "online store session": 22836,
     "net return value": "26844.30",
     "total orders": 3128,
@@ -12960,11 +12959,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19439.71,
     "store search conversion": 18.13,
     "return rate": 3.81,
-    "date": "21-10-2022",
-    "monthYear": "Oct 2022"
+    date: "21-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 34,
+    id: 34,
     "online store session": 15662,
     "net return value": "22907.40",
     "total orders": 6018,
@@ -12973,11 +12972,11 @@ import { storeType } from "../interfaces";
     "gross sales": 86450.41,
     "store search conversion": 4.7,
     "return rate": 5.1,
-    "date": "22-10-2022",
-    "monthYear": "Oct 2022"
+    date: "22-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 626,
+    id: 626,
     "online store session": 15347,
     "net return value": "15755.10",
     "total orders": 4810,
@@ -12986,11 +12985,11 @@ import { storeType } from "../interfaces";
     "gross sales": 21924.6,
     "store search conversion": 25.48,
     "return rate": 9.49,
-    "date": "23-10-2022",
-    "monthYear": "Oct 2022"
+    date: "23-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 543,
+    id: 543,
     "online store session": 15042,
     "net return value": "26699.80",
     "total orders": 8225,
@@ -12999,11 +12998,11 @@ import { storeType } from "../interfaces";
     "gross sales": 49645.77,
     "store search conversion": 17.69,
     "return rate": 19.64,
-    "date": "25-10-2022",
-    "monthYear": "Oct 2022"
+    date: "25-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 760,
+    id: 760,
     "online store session": 17841,
     "net return value": "10203.40",
     "total orders": 5818,
@@ -13012,11 +13011,11 @@ import { storeType } from "../interfaces";
     "gross sales": 48015.97,
     "store search conversion": 10.91,
     "return rate": 6.91,
-    "date": "26-10-2022",
-    "monthYear": "Oct 2022"
+    date: "26-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 509,
+    id: 509,
     "online store session": 18546,
     "net return value": "11852.00",
     "total orders": 6819,
@@ -13025,11 +13024,11 @@ import { storeType } from "../interfaces";
     "gross sales": 98132.56,
     "store search conversion": 8.9,
     "return rate": 16.44,
-    "date": "30-10-2022",
-    "monthYear": "Oct 2022"
+    date: "30-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 4,
+    id: 4,
     "online store session": 18784,
     "net return value": "13216.40",
     "total orders": 6359,
@@ -13038,11 +13037,11 @@ import { storeType } from "../interfaces";
     "gross sales": 29047.32,
     "store search conversion": 12.09,
     "return rate": 6.84,
-    "date": "31-10-2022",
-    "monthYear": "Oct 2022"
+    date: "31-10-2022",
+    monthYear: "Oct 2022",
   },
   {
-    "id": 189,
+    id: 189,
     "online store session": 18231,
     "net return value": "29166.70",
     "total orders": 1996,
@@ -13051,11 +13050,11 @@ import { storeType } from "../interfaces";
     "gross sales": 77236.22,
     "store search conversion": 15.55,
     "return rate": 15.86,
-    "date": "01-11-2022",
-    "monthYear": "Nov 2022"
+    date: "01-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 334,
+    id: 334,
     "online store session": 20802,
     "net return value": "26414.30",
     "total orders": 7400,
@@ -13064,11 +13063,11 @@ import { storeType } from "../interfaces";
     "gross sales": 71442.31,
     "store search conversion": 13.15,
     "return rate": 8.38,
-    "date": "02-11-2022",
-    "monthYear": "Nov 2022"
+    date: "02-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 577,
+    id: 577,
     "online store session": 21803,
     "net return value": "29163.40",
     "total orders": 9795,
@@ -13077,11 +13076,11 @@ import { storeType } from "../interfaces";
     "gross sales": 86115.23,
     "store search conversion": 1.14,
     "return rate": 19.33,
-    "date": "03-11-2022",
-    "monthYear": "Nov 2022"
+    date: "03-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 371,
+    id: 371,
     "online store session": 17936,
     "net return value": "20340.00",
     "total orders": 6957,
@@ -13090,11 +13089,11 @@ import { storeType } from "../interfaces";
     "gross sales": 27506.38,
     "store search conversion": 13.73,
     "return rate": 13.98,
-    "date": "04-11-2022",
-    "monthYear": "Nov 2022"
+    date: "04-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 407,
+    id: 407,
     "online store session": 24746,
     "net return value": "15678.60",
     "total orders": 5991,
@@ -13103,11 +13102,11 @@ import { storeType } from "../interfaces";
     "gross sales": 49880.21,
     "store search conversion": 28.83,
     "return rate": 4.45,
-    "date": "05-11-2022",
-    "monthYear": "Nov 2022"
+    date: "05-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 96,
+    id: 96,
     "online store session": 23268,
     "net return value": "22274.80",
     "total orders": 9461,
@@ -13116,11 +13115,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11663.86,
     "store search conversion": 22.41,
     "return rate": 9.56,
-    "date": "08-11-2022",
-    "monthYear": "Nov 2022"
+    date: "08-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 483,
+    id: 483,
     "online store session": 15866,
     "net return value": "28740.00",
     "total orders": 9067,
@@ -13129,11 +13128,11 @@ import { storeType } from "../interfaces";
     "gross sales": 99877.81,
     "store search conversion": 26.9,
     "return rate": 13.23,
-    "date": "09-11-2022",
-    "monthYear": "Nov 2022"
+    date: "09-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 873,
+    id: 873,
     "online store session": 19458,
     "net return value": "29401.90",
     "total orders": 2359,
@@ -13142,11 +13141,11 @@ import { storeType } from "../interfaces";
     "gross sales": 67210.28,
     "store search conversion": 17.39,
     "return rate": 6.16,
-    "date": "10-11-2022",
-    "monthYear": "Nov 2022"
+    date: "10-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 612,
+    id: 612,
     "online store session": 23963,
     "net return value": "22830.10",
     "total orders": 5498,
@@ -13155,11 +13154,11 @@ import { storeType } from "../interfaces";
     "gross sales": 27559.56,
     "store search conversion": 5.42,
     "return rate": 9.18,
-    "date": "12-11-2022",
-    "monthYear": "Nov 2022"
+    date: "12-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 376,
+    id: 376,
     "online store session": 15913,
     "net return value": "22879.80",
     "total orders": 6055,
@@ -13168,11 +13167,11 @@ import { storeType } from "../interfaces";
     "gross sales": 74056.69,
     "store search conversion": 27.19,
     "return rate": 18.13,
-    "date": "13-11-2022",
-    "monthYear": "Nov 2022"
+    date: "13-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 329,
+    id: 329,
     "online store session": 24478,
     "net return value": "14421.80",
     "total orders": 6118,
@@ -13181,11 +13180,11 @@ import { storeType } from "../interfaces";
     "gross sales": 23816.1,
     "store search conversion": 9.97,
     "return rate": 18.49,
-    "date": "14-11-2022",
-    "monthYear": "Nov 2022"
+    date: "14-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 689,
+    id: 689,
     "online store session": 18767,
     "net return value": "23592.50",
     "total orders": 9319,
@@ -13194,11 +13193,11 @@ import { storeType } from "../interfaces";
     "gross sales": 44957.66,
     "store search conversion": 27.51,
     "return rate": 7.77,
-    "date": "15-11-2022",
-    "monthYear": "Nov 2022"
+    date: "15-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 576,
+    id: 576,
     "online store session": 17168,
     "net return value": "17543.50",
     "total orders": 5620,
@@ -13207,11 +13206,11 @@ import { storeType } from "../interfaces";
     "gross sales": 32901.38,
     "store search conversion": 26.86,
     "return rate": 1.48,
-    "date": "16-11-2022",
-    "monthYear": "Nov 2022"
+    date: "16-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 58,
+    id: 58,
     "online store session": 23644,
     "net return value": "28019.20",
     "total orders": 2648,
@@ -13220,11 +13219,11 @@ import { storeType } from "../interfaces";
     "gross sales": 93396.66,
     "store search conversion": 2.81,
     "return rate": 15.04,
-    "date": "17-11-2022",
-    "monthYear": "Nov 2022"
+    date: "17-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 98,
+    id: 98,
     "online store session": 19716,
     "net return value": "29717.20",
     "total orders": 7813,
@@ -13233,11 +13232,11 @@ import { storeType } from "../interfaces";
     "gross sales": 41009.71,
     "store search conversion": 16.81,
     "return rate": 8.13,
-    "date": "18-11-2022",
-    "monthYear": "Nov 2022"
+    date: "18-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 916,
+    id: 916,
     "online store session": 18548,
     "net return value": "10988.00",
     "total orders": 3784,
@@ -13246,11 +13245,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19121.55,
     "store search conversion": 25.78,
     "return rate": 4.35,
-    "date": "20-11-2022",
-    "monthYear": "Nov 2022"
+    date: "20-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 346,
+    id: 346,
     "online store session": 18535,
     "net return value": "16601.50",
     "total orders": 7976,
@@ -13259,11 +13258,11 @@ import { storeType } from "../interfaces";
     "gross sales": 89367.76,
     "store search conversion": 17.76,
     "return rate": 19.96,
-    "date": "21-11-2022",
-    "monthYear": "Nov 2022"
+    date: "21-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 419,
+    id: 419,
     "online store session": 22588,
     "net return value": "19434.70",
     "total orders": 8129,
@@ -13272,11 +13271,11 @@ import { storeType } from "../interfaces";
     "gross sales": 74923.1,
     "store search conversion": 4.82,
     "return rate": 8.51,
-    "date": "25-11-2022",
-    "monthYear": "Nov 2022"
+    date: "25-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 151,
+    id: 151,
     "online store session": 23987,
     "net return value": "11022.80",
     "total orders": 6949,
@@ -13285,11 +13284,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12571.24,
     "store search conversion": 27.52,
     "return rate": 10.92,
-    "date": "26-11-2022",
-    "monthYear": "Nov 2022"
+    date: "26-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 634,
+    id: 634,
     "online store session": 22131,
     "net return value": "18145.60",
     "total orders": 4740,
@@ -13298,11 +13297,11 @@ import { storeType } from "../interfaces";
     "gross sales": 46410.11,
     "store search conversion": 8.57,
     "return rate": 8.2,
-    "date": "30-11-2022",
-    "monthYear": "Nov 2022"
+    date: "30-11-2022",
+    monthYear: "Nov 2022",
   },
   {
-    "id": 322,
+    id: 322,
     "online store session": 15204,
     "net return value": "14384.50",
     "total orders": 6653,
@@ -13311,11 +13310,11 @@ import { storeType } from "../interfaces";
     "gross sales": 93072.69,
     "store search conversion": 14.95,
     "return rate": 6.88,
-    "date": "01-12-2022",
-    "monthYear": "Dec 2022"
+    date: "01-12-2022",
+    monthYear: "Dec 2022",
   },
   {
-    "id": 447,
+    id: 447,
     "online store session": 15835,
     "net return value": "27155.50",
     "total orders": 7873,
@@ -13324,11 +13323,11 @@ import { storeType } from "../interfaces";
     "gross sales": 62310.2,
     "store search conversion": 16.74,
     "return rate": 4.13,
-    "date": "05-12-2022",
-    "monthYear": "Dec 2022"
+    date: "05-12-2022",
+    monthYear: "Dec 2022",
   },
   {
-    "id": 570,
+    id: 570,
     "online store session": 18403,
     "net return value": "24322.90",
     "total orders": 3450,
@@ -13337,11 +13336,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15065.45,
     "store search conversion": 14.49,
     "return rate": 7.19,
-    "date": "06-12-2022",
-    "monthYear": "Dec 2022"
+    date: "06-12-2022",
+    monthYear: "Dec 2022",
   },
   {
-    "id": 222,
+    id: 222,
     "online store session": 16077,
     "net return value": "17018.30",
     "total orders": 9760,
@@ -13350,11 +13349,11 @@ import { storeType } from "../interfaces";
     "gross sales": 56480.3,
     "store search conversion": 8.69,
     "return rate": 17.27,
-    "date": "07-12-2022",
-    "monthYear": "Dec 2022"
+    date: "07-12-2022",
+    monthYear: "Dec 2022",
   },
   {
-    "id": 104,
+    id: 104,
     "online store session": 17111,
     "net return value": "16755.90",
     "total orders": 6066,
@@ -13363,11 +13362,11 @@ import { storeType } from "../interfaces";
     "gross sales": 55077.82,
     "store search conversion": 6.16,
     "return rate": 15.29,
-    "date": "08-12-2022",
-    "monthYear": "Dec 2022"
+    date: "08-12-2022",
+    monthYear: "Dec 2022",
   },
   {
-    "id": 422,
+    id: 422,
     "online store session": 24211,
     "net return value": "12970.80",
     "total orders": 4430,
@@ -13376,11 +13375,11 @@ import { storeType } from "../interfaces";
     "gross sales": 22368.84,
     "store search conversion": 22.79,
     "return rate": 19.87,
-    "date": "09-12-2022",
-    "monthYear": "Dec 2022"
+    date: "09-12-2022",
+    monthYear: "Dec 2022",
   },
   {
-    "id": 792,
+    id: 792,
     "online store session": 20941,
     "net return value": "13616.40",
     "total orders": 8722,
@@ -13389,11 +13388,11 @@ import { storeType } from "../interfaces";
     "gross sales": 38359.21,
     "store search conversion": 17.62,
     "return rate": 17.3,
-    "date": "10-12-2022",
-    "monthYear": "Dec 2022"
+    date: "10-12-2022",
+    monthYear: "Dec 2022",
   },
   {
-    "id": 210,
+    id: 210,
     "online store session": 16162,
     "net return value": "27283.10",
     "total orders": 5618,
@@ -13402,11 +13401,11 @@ import { storeType } from "../interfaces";
     "gross sales": 42760.02,
     "store search conversion": 28.75,
     "return rate": 13.85,
-    "date": "13-12-2022",
-    "monthYear": "Dec 2022"
+    date: "13-12-2022",
+    monthYear: "Dec 2022",
   },
   {
-    "id": 562,
+    id: 562,
     "online store session": 21334,
     "net return value": "16540.70",
     "total orders": 2425,
@@ -13415,11 +13414,11 @@ import { storeType } from "../interfaces";
     "gross sales": 26383.02,
     "store search conversion": 28.98,
     "return rate": 15.94,
-    "date": "14-12-2022",
-    "monthYear": "Dec 2022"
+    date: "14-12-2022",
+    monthYear: "Dec 2022",
   },
   {
-    "id": 226,
+    id: 226,
     "online store session": 16518,
     "net return value": "17673.10",
     "total orders": 3183,
@@ -13428,11 +13427,11 @@ import { storeType } from "../interfaces";
     "gross sales": 89838.55,
     "store search conversion": 22.46,
     "return rate": 1.67,
-    "date": "15-12-2022",
-    "monthYear": "Dec 2022"
+    date: "15-12-2022",
+    monthYear: "Dec 2022",
   },
   {
-    "id": 135,
+    id: 135,
     "online store session": 18988,
     "net return value": "29461.80",
     "total orders": 7016,
@@ -13441,11 +13440,11 @@ import { storeType } from "../interfaces";
     "gross sales": 27817.33,
     "store search conversion": 8.11,
     "return rate": 18.4,
-    "date": "19-12-2022",
-    "monthYear": "Dec 2022"
+    date: "19-12-2022",
+    monthYear: "Dec 2022",
   },
   {
-    "id": 11,
+    id: 11,
     "online store session": 23648,
     "net return value": "23891.40",
     "total orders": 4982,
@@ -13454,11 +13453,11 @@ import { storeType } from "../interfaces";
     "gross sales": 59306.81,
     "store search conversion": 19.26,
     "return rate": 15.37,
-    "date": "23-12-2022",
-    "monthYear": "Dec 2022"
+    date: "23-12-2022",
+    monthYear: "Dec 2022",
   },
   {
-    "id": 613,
+    id: 613,
     "online store session": 19465,
     "net return value": "27379.80",
     "total orders": 8021,
@@ -13467,11 +13466,11 @@ import { storeType } from "../interfaces";
     "gross sales": 78014.95,
     "store search conversion": 27.41,
     "return rate": 9.04,
-    "date": "26-12-2022",
-    "monthYear": "Dec 2022"
+    date: "26-12-2022",
+    monthYear: "Dec 2022",
   },
   {
-    "id": 610,
+    id: 610,
     "online store session": 18834,
     "net return value": "24313.70",
     "total orders": 3487,
@@ -13480,11 +13479,11 @@ import { storeType } from "../interfaces";
     "gross sales": 39007.88,
     "store search conversion": 5.08,
     "return rate": 13.85,
-    "date": "27-12-2022",
-    "monthYear": "Dec 2022"
+    date: "27-12-2022",
+    monthYear: "Dec 2022",
   },
   {
-    "id": 127,
+    id: 127,
     "online store session": 18301,
     "net return value": "12649.70",
     "total orders": 5788,
@@ -13493,11 +13492,11 @@ import { storeType } from "../interfaces";
     "gross sales": 92797.02,
     "store search conversion": 22.57,
     "return rate": 12.73,
-    "date": "31-12-2022",
-    "monthYear": "Dec 2022"
+    date: "31-12-2022",
+    monthYear: "Dec 2022",
   },
   {
-    "id": 325,
+    id: 325,
     "online store session": 15364,
     "net return value": "12468.90",
     "total orders": 4937,
@@ -13506,11 +13505,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17864.43,
     "store search conversion": 20.63,
     "return rate": 14.6,
-    "date": "01-01-2023",
-    "monthYear": "Jan 2023"
+    date: "01-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 134,
+    id: 134,
     "online store session": 20854,
     "net return value": "13296.80",
     "total orders": 9269,
@@ -13519,11 +13518,11 @@ import { storeType } from "../interfaces";
     "gross sales": 56430.65,
     "store search conversion": 10.86,
     "return rate": 1.43,
-    "date": "02-01-2023",
-    "monthYear": "Jan 2023"
+    date: "02-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 108,
+    id: 108,
     "online store session": 19533,
     "net return value": "11784.80",
     "total orders": 8660,
@@ -13532,11 +13531,11 @@ import { storeType } from "../interfaces";
     "gross sales": 54070.5,
     "store search conversion": 24.83,
     "return rate": 13.29,
-    "date": "03-01-2023",
-    "monthYear": "Jan 2023"
+    date: "03-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 242,
+    id: 242,
     "online store session": 19673,
     "net return value": "19865.40",
     "total orders": 4196,
@@ -13545,11 +13544,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17382.93,
     "store search conversion": 10.23,
     "return rate": 2.07,
-    "date": "05-01-2023",
-    "monthYear": "Jan 2023"
+    date: "05-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 132,
+    id: 132,
     "online store session": 16289,
     "net return value": "17484.60",
     "total orders": 9177,
@@ -13558,11 +13557,11 @@ import { storeType } from "../interfaces";
     "gross sales": 28131.46,
     "store search conversion": 10.7,
     "return rate": 14.49,
-    "date": "07-01-2023",
-    "monthYear": "Jan 2023"
+    date: "07-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 785,
+    id: 785,
     "online store session": 16515,
     "net return value": "10654.80",
     "total orders": 2252,
@@ -13571,11 +13570,11 @@ import { storeType } from "../interfaces";
     "gross sales": 47337.8,
     "store search conversion": 11.93,
     "return rate": 15.11,
-    "date": "09-01-2023",
-    "monthYear": "Jan 2023"
+    date: "09-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 588,
+    id: 588,
     "online store session": 18698,
     "net return value": "26378.50",
     "total orders": 9614,
@@ -13584,11 +13583,11 @@ import { storeType } from "../interfaces";
     "gross sales": 52796.6,
     "store search conversion": 28.13,
     "return rate": 13.4,
-    "date": "10-01-2023",
-    "monthYear": "Jan 2023"
+    date: "10-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 6,
+    id: 6,
     "online store session": 16282,
     "net return value": "29582.10",
     "total orders": 7113,
@@ -13597,11 +13596,11 @@ import { storeType } from "../interfaces";
     "gross sales": 23709.96,
     "store search conversion": 26.35,
     "return rate": 19.23,
-    "date": "11-01-2023",
-    "monthYear": "Jan 2023"
+    date: "11-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 759,
+    id: 759,
     "online store session": 19353,
     "net return value": "15640.70",
     "total orders": 1604,
@@ -13610,11 +13609,11 @@ import { storeType } from "../interfaces";
     "gross sales": 45618.7,
     "store search conversion": 20.96,
     "return rate": 9.15,
-    "date": "12-01-2023",
-    "monthYear": "Jan 2023"
+    date: "12-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 389,
+    id: 389,
     "online store session": 21541,
     "net return value": "18865.40",
     "total orders": 8816,
@@ -13623,11 +13622,11 @@ import { storeType } from "../interfaces";
     "gross sales": 99960.87,
     "store search conversion": 3.86,
     "return rate": 13.29,
-    "date": "13-01-2023",
-    "monthYear": "Jan 2023"
+    date: "13-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 319,
+    id: 319,
     "online store session": 15072,
     "net return value": "28567.30",
     "total orders": 4201,
@@ -13636,11 +13635,11 @@ import { storeType } from "../interfaces";
     "gross sales": 41666.52,
     "store search conversion": 21.14,
     "return rate": 11.11,
-    "date": "14-01-2023",
-    "monthYear": "Jan 2023"
+    date: "14-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 561,
+    id: 561,
     "online store session": 16069,
     "net return value": "21970.70",
     "total orders": 5447,
@@ -13649,11 +13648,11 @@ import { storeType } from "../interfaces";
     "gross sales": 30688.65,
     "store search conversion": 24.9,
     "return rate": 2.69,
-    "date": "17-01-2023",
-    "monthYear": "Jan 2023"
+    date: "17-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 404,
+    id: 404,
     "online store session": 20136,
     "net return value": "23923.00",
     "total orders": 5293,
@@ -13662,11 +13661,11 @@ import { storeType } from "../interfaces";
     "gross sales": 44832.83,
     "store search conversion": 29.79,
     "return rate": 0.7,
-    "date": "18-01-2023",
-    "monthYear": "Jan 2023"
+    date: "18-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 103,
+    id: 103,
     "online store session": 15846,
     "net return value": "16176.80",
     "total orders": 5230,
@@ -13675,11 +13674,11 @@ import { storeType } from "../interfaces";
     "gross sales": 79431.32,
     "store search conversion": 1,
     "return rate": 9.2,
-    "date": "19-01-2023",
-    "monthYear": "Jan 2023"
+    date: "19-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 116,
+    id: 116,
     "online store session": 23831,
     "net return value": "20966.10",
     "total orders": 7568,
@@ -13688,11 +13687,11 @@ import { storeType } from "../interfaces";
     "gross sales": 82996.2,
     "store search conversion": 3.54,
     "return rate": 2.68,
-    "date": "20-01-2023",
-    "monthYear": "Jan 2023"
+    date: "20-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 171,
+    id: 171,
     "online store session": 17592,
     "net return value": "23888.20",
     "total orders": 7712,
@@ -13701,11 +13700,11 @@ import { storeType } from "../interfaces";
     "gross sales": 47698.25,
     "store search conversion": 16.26,
     "return rate": 15.41,
-    "date": "22-01-2023",
-    "monthYear": "Jan 2023"
+    date: "22-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 490,
+    id: 490,
     "online store session": 21159,
     "net return value": "28042.00",
     "total orders": 2423,
@@ -13714,11 +13713,11 @@ import { storeType } from "../interfaces";
     "gross sales": 31410.68,
     "store search conversion": 9.84,
     "return rate": 12.17,
-    "date": "25-01-2023",
-    "monthYear": "Jan 2023"
+    date: "25-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 76,
+    id: 76,
     "online store session": 24927,
     "net return value": "19391.60",
     "total orders": 3923,
@@ -13727,11 +13726,11 @@ import { storeType } from "../interfaces";
     "gross sales": 90463.42,
     "store search conversion": 2.89,
     "return rate": 17.91,
-    "date": "26-01-2023",
-    "monthYear": "Jan 2023"
+    date: "26-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 414,
+    id: 414,
     "online store session": 21512,
     "net return value": "15486.10",
     "total orders": 9175,
@@ -13740,11 +13739,11 @@ import { storeType } from "../interfaces";
     "gross sales": 39405.15,
     "store search conversion": 15.22,
     "return rate": 18.29,
-    "date": "27-01-2023",
-    "monthYear": "Jan 2023"
+    date: "27-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 841,
+    id: 841,
     "online store session": 19814,
     "net return value": "13501.30",
     "total orders": 4623,
@@ -13753,11 +13752,11 @@ import { storeType } from "../interfaces";
     "gross sales": 72607.99,
     "store search conversion": 21,
     "return rate": 9.68,
-    "date": "28-01-2023",
-    "monthYear": "Jan 2023"
+    date: "28-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 697,
+    id: 697,
     "online store session": 15235,
     "net return value": "18882.90",
     "total orders": 7833,
@@ -13766,11 +13765,11 @@ import { storeType } from "../interfaces";
     "gross sales": 82820.51,
     "store search conversion": 5.87,
     "return rate": 3.6,
-    "date": "29-01-2023",
-    "monthYear": "Jan 2023"
+    date: "29-01-2023",
+    monthYear: "Jan 2023",
   },
   {
-    "id": 73,
+    id: 73,
     "online store session": 19585,
     "net return value": "10653.60",
     "total orders": 1006,
@@ -13779,11 +13778,11 @@ import { storeType } from "../interfaces";
     "gross sales": 22569.53,
     "store search conversion": 8.71,
     "return rate": 16.36,
-    "date": "01-02-2023",
-    "monthYear": "Feb 2023"
+    date: "01-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 162,
+    id: 162,
     "online store session": 16597,
     "net return value": "23636.80",
     "total orders": 7664,
@@ -13792,11 +13791,11 @@ import { storeType } from "../interfaces";
     "gross sales": 78580.88,
     "store search conversion": 22.21,
     "return rate": 1.31,
-    "date": "04-02-2023",
-    "monthYear": "Feb 2023"
+    date: "04-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 406,
+    id: 406,
     "online store session": 21269,
     "net return value": "20251.70",
     "total orders": 8948,
@@ -13805,11 +13804,11 @@ import { storeType } from "../interfaces";
     "gross sales": 75413.87,
     "store search conversion": 21.5,
     "return rate": 2.15,
-    "date": "06-02-2023",
-    "monthYear": "Feb 2023"
+    date: "06-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 974,
+    id: 974,
     "online store session": 24035,
     "net return value": "12277.30",
     "total orders": 2165,
@@ -13818,11 +13817,11 @@ import { storeType } from "../interfaces";
     "gross sales": 76138.49,
     "store search conversion": 25.34,
     "return rate": 14.28,
-    "date": "07-02-2023",
-    "monthYear": "Feb 2023"
+    date: "07-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 24,
+    id: 24,
     "online store session": 19580,
     "net return value": "16120.20",
     "total orders": 7491,
@@ -13831,11 +13830,11 @@ import { storeType } from "../interfaces";
     "gross sales": 50957.5,
     "store search conversion": 22,
     "return rate": 16.23,
-    "date": "08-02-2023",
-    "monthYear": "Feb 2023"
+    date: "08-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 727,
+    id: 727,
     "online store session": 17524,
     "net return value": "29442.20",
     "total orders": 6223,
@@ -13844,11 +13843,11 @@ import { storeType } from "../interfaces";
     "gross sales": 25579.52,
     "store search conversion": 14,
     "return rate": 9.28,
-    "date": "10-02-2023",
-    "monthYear": "Feb 2023"
+    date: "10-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 330,
+    id: 330,
     "online store session": 15567,
     "net return value": "10771.90",
     "total orders": 1309,
@@ -13857,11 +13856,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13875.36,
     "store search conversion": 29.05,
     "return rate": 4.43,
-    "date": "12-02-2023",
-    "monthYear": "Feb 2023"
+    date: "12-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 917,
+    id: 917,
     "online store session": 17586,
     "net return value": "28453.70",
     "total orders": 4570,
@@ -13870,11 +13869,11 @@ import { storeType } from "../interfaces";
     "gross sales": 51305.47,
     "store search conversion": 27.6,
     "return rate": 2.54,
-    "date": "13-02-2023",
-    "monthYear": "Feb 2023"
+    date: "13-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 549,
+    id: 549,
     "online store session": 17447,
     "net return value": "23720.60",
     "total orders": 1307,
@@ -13883,11 +13882,11 @@ import { storeType } from "../interfaces";
     "gross sales": 44879.7,
     "store search conversion": 14.64,
     "return rate": 7.52,
-    "date": "14-02-2023",
-    "monthYear": "Feb 2023"
+    date: "14-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 461,
+    id: 461,
     "online store session": 23259,
     "net return value": "12518.90",
     "total orders": 7519,
@@ -13896,11 +13895,11 @@ import { storeType } from "../interfaces";
     "gross sales": 44737.63,
     "store search conversion": 9.02,
     "return rate": 5.98,
-    "date": "15-02-2023",
-    "monthYear": "Feb 2023"
+    date: "15-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 9,
+    id: 9,
     "online store session": 22601,
     "net return value": "19360.60",
     "total orders": 4748,
@@ -13909,11 +13908,11 @@ import { storeType } from "../interfaces";
     "gross sales": 43316.31,
     "store search conversion": 16.96,
     "return rate": 13.06,
-    "date": "16-02-2023",
-    "monthYear": "Feb 2023"
+    date: "16-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 491,
+    id: 491,
     "online store session": 19950,
     "net return value": "27907.50",
     "total orders": 6130,
@@ -13922,11 +13921,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17109.54,
     "store search conversion": 7.12,
     "return rate": 10.76,
-    "date": "17-02-2023",
-    "monthYear": "Feb 2023"
+    date: "17-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 992,
+    id: 992,
     "online store session": 24739,
     "net return value": "11018.80",
     "total orders": 7793,
@@ -13935,11 +13934,11 @@ import { storeType } from "../interfaces";
     "gross sales": 68853.13,
     "store search conversion": 10.64,
     "return rate": 8.5,
-    "date": "18-02-2023",
-    "monthYear": "Feb 2023"
+    date: "18-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 316,
+    id: 316,
     "online store session": 16364,
     "net return value": "16893.10",
     "total orders": 6466,
@@ -13948,11 +13947,11 @@ import { storeType } from "../interfaces";
     "gross sales": 76969.69,
     "store search conversion": 27.49,
     "return rate": 10.87,
-    "date": "19-02-2023",
-    "monthYear": "Feb 2023"
+    date: "19-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 817,
+    id: 817,
     "online store session": 16985,
     "net return value": "25591.60",
     "total orders": 6067,
@@ -13961,11 +13960,11 @@ import { storeType } from "../interfaces";
     "gross sales": 94876.72,
     "store search conversion": 17.79,
     "return rate": 4.38,
-    "date": "20-02-2023",
-    "monthYear": "Feb 2023"
+    date: "20-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 696,
+    id: 696,
     "online store session": 20773,
     "net return value": "22356.90",
     "total orders": 5979,
@@ -13974,11 +13973,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14621.39,
     "store search conversion": 16.89,
     "return rate": 16.99,
-    "date": "21-02-2023",
-    "monthYear": "Feb 2023"
+    date: "21-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 743,
+    id: 743,
     "online store session": 17837,
     "net return value": "21337.00",
     "total orders": 1508,
@@ -13987,11 +13986,11 @@ import { storeType } from "../interfaces";
     "gross sales": 51375.17,
     "store search conversion": 29.26,
     "return rate": 13.28,
-    "date": "22-02-2023",
-    "monthYear": "Feb 2023"
+    date: "22-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 113,
+    id: 113,
     "online store session": 16928,
     "net return value": "23342.20",
     "total orders": 8968,
@@ -14000,11 +13999,11 @@ import { storeType } from "../interfaces";
     "gross sales": 95726.38,
     "store search conversion": 3.91,
     "return rate": 18.82,
-    "date": "23-02-2023",
-    "monthYear": "Feb 2023"
+    date: "23-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 861,
+    id: 861,
     "online store session": 24019,
     "net return value": "12354.50",
     "total orders": 3971,
@@ -14013,11 +14012,11 @@ import { storeType } from "../interfaces";
     "gross sales": 31657.8,
     "store search conversion": 23.2,
     "return rate": 3.45,
-    "date": "26-02-2023",
-    "monthYear": "Feb 2023"
+    date: "26-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 246,
+    id: 246,
     "online store session": 15680,
     "net return value": "14895.10",
     "total orders": 3187,
@@ -14026,11 +14025,11 @@ import { storeType } from "../interfaces";
     "gross sales": 30042.16,
     "store search conversion": 3.44,
     "return rate": 4.3,
-    "date": "27-02-2023",
-    "monthYear": "Feb 2023"
+    date: "27-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 295,
+    id: 295,
     "online store session": 24445,
     "net return value": "16959.20",
     "total orders": 1845,
@@ -14039,11 +14038,11 @@ import { storeType } from "../interfaces";
     "gross sales": 63185.41,
     "store search conversion": 13.05,
     "return rate": 2.04,
-    "date": "28-02-2023",
-    "monthYear": "Feb 2023"
+    date: "28-02-2023",
+    monthYear: "Feb 2023",
   },
   {
-    "id": 677,
+    id: 677,
     "online store session": 21621,
     "net return value": "19975.20",
     "total orders": 7331,
@@ -14052,11 +14051,11 @@ import { storeType } from "../interfaces";
     "gross sales": 47108.97,
     "store search conversion": 29.17,
     "return rate": 8.42,
-    "date": "02-03-2023",
-    "monthYear": "Mar 2023"
+    date: "02-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 486,
+    id: 486,
     "online store session": 24396,
     "net return value": "29398.80",
     "total orders": 7479,
@@ -14065,11 +14064,11 @@ import { storeType } from "../interfaces";
     "gross sales": 90144.17,
     "store search conversion": 13.87,
     "return rate": 2.24,
-    "date": "04-03-2023",
-    "monthYear": "Mar 2023"
+    date: "04-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 853,
+    id: 853,
     "online store session": 22700,
     "net return value": "20309.80",
     "total orders": 1843,
@@ -14078,11 +14077,11 @@ import { storeType } from "../interfaces";
     "gross sales": 91787.07,
     "store search conversion": 25.13,
     "return rate": 18.96,
-    "date": "07-03-2023",
-    "monthYear": "Mar 2023"
+    date: "07-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 187,
+    id: 187,
     "online store session": 17068,
     "net return value": "17959.40",
     "total orders": 4216,
@@ -14091,11 +14090,11 @@ import { storeType } from "../interfaces";
     "gross sales": 92972.24,
     "store search conversion": 28.46,
     "return rate": 1.69,
-    "date": "08-03-2023",
-    "monthYear": "Mar 2023"
+    date: "08-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 136,
+    id: 136,
     "online store session": 16991,
     "net return value": "11817.20",
     "total orders": 9033,
@@ -14104,11 +14103,11 @@ import { storeType } from "../interfaces";
     "gross sales": 66622.78,
     "store search conversion": 24.81,
     "return rate": 11.36,
-    "date": "10-03-2023",
-    "monthYear": "Mar 2023"
+    date: "10-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 220,
+    id: 220,
     "online store session": 22757,
     "net return value": "28503.50",
     "total orders": 8873,
@@ -14117,11 +14116,11 @@ import { storeType } from "../interfaces";
     "gross sales": 91719.1,
     "store search conversion": 8.33,
     "return rate": 17.14,
-    "date": "11-03-2023",
-    "monthYear": "Mar 2023"
+    date: "11-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 802,
+    id: 802,
     "online store session": 16005,
     "net return value": "20994.40",
     "total orders": 5244,
@@ -14130,11 +14129,11 @@ import { storeType } from "../interfaces";
     "gross sales": 35224.76,
     "store search conversion": 24.86,
     "return rate": 12.19,
-    "date": "12-03-2023",
-    "monthYear": "Mar 2023"
+    date: "12-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 949,
+    id: 949,
     "online store session": 17875,
     "net return value": "25506.60",
     "total orders": 7731,
@@ -14143,11 +14142,11 @@ import { storeType } from "../interfaces";
     "gross sales": 99823.16,
     "store search conversion": 9.52,
     "return rate": 12.6,
-    "date": "13-03-2023",
-    "monthYear": "Mar 2023"
+    date: "13-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 511,
+    id: 511,
     "online store session": 17278,
     "net return value": "28515.20",
     "total orders": 9868,
@@ -14156,11 +14155,11 @@ import { storeType } from "../interfaces";
     "gross sales": 74051.44,
     "store search conversion": 8.53,
     "return rate": 4.19,
-    "date": "14-03-2023",
-    "monthYear": "Mar 2023"
+    date: "14-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 944,
+    id: 944,
     "online store session": 16603,
     "net return value": "10538.70",
     "total orders": 5083,
@@ -14169,11 +14168,11 @@ import { storeType } from "../interfaces";
     "gross sales": 43749.11,
     "store search conversion": 29.83,
     "return rate": 13.71,
-    "date": "17-03-2023",
-    "monthYear": "Mar 2023"
+    date: "17-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 797,
+    id: 797,
     "online store session": 20216,
     "net return value": "19765.40",
     "total orders": 4753,
@@ -14182,11 +14181,11 @@ import { storeType } from "../interfaces";
     "gross sales": 38195.22,
     "store search conversion": 28.5,
     "return rate": 11.58,
-    "date": "18-03-2023",
-    "monthYear": "Mar 2023"
+    date: "18-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 521,
+    id: 521,
     "online store session": 15996,
     "net return value": "29914.20",
     "total orders": 8541,
@@ -14195,11 +14194,11 @@ import { storeType } from "../interfaces";
     "gross sales": 61228.21,
     "store search conversion": 23.91,
     "return rate": 8.32,
-    "date": "22-03-2023",
-    "monthYear": "Mar 2023"
+    date: "22-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 138,
+    id: 138,
     "online store session": 23516,
     "net return value": "25545.20",
     "total orders": 8886,
@@ -14208,11 +14207,11 @@ import { storeType } from "../interfaces";
     "gross sales": 99304.78,
     "store search conversion": 12.58,
     "return rate": 4.78,
-    "date": "24-03-2023",
-    "monthYear": "Mar 2023"
+    date: "24-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 375,
+    id: 375,
     "online store session": 22642,
     "net return value": "10168.40",
     "total orders": 6815,
@@ -14221,11 +14220,11 @@ import { storeType } from "../interfaces";
     "gross sales": 86053.16,
     "store search conversion": 16.95,
     "return rate": 0.87,
-    "date": "27-03-2023",
-    "monthYear": "Mar 2023"
+    date: "27-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 683,
+    id: 683,
     "online store session": 17814,
     "net return value": "26168.60",
     "total orders": 7508,
@@ -14234,11 +14233,11 @@ import { storeType } from "../interfaces";
     "gross sales": 36269.79,
     "store search conversion": 14.78,
     "return rate": 11.71,
-    "date": "28-03-2023",
-    "monthYear": "Mar 2023"
+    date: "28-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 197,
+    id: 197,
     "online store session": 23564,
     "net return value": "28478.90",
     "total orders": 4207,
@@ -14247,11 +14246,11 @@ import { storeType } from "../interfaces";
     "gross sales": 60314.42,
     "store search conversion": 12.83,
     "return rate": 15.71,
-    "date": "30-03-2023",
-    "monthYear": "Mar 2023"
+    date: "30-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 864,
+    id: 864,
     "online store session": 17356,
     "net return value": "12551.90",
     "total orders": 1879,
@@ -14260,11 +14259,11 @@ import { storeType } from "../interfaces";
     "gross sales": 67434.61,
     "store search conversion": 24.32,
     "return rate": 9.55,
-    "date": "31-03-2023",
-    "monthYear": "Mar 2023"
+    date: "31-03-2023",
+    monthYear: "Mar 2023",
   },
   {
-    "id": 893,
+    id: 893,
     "online store session": 18894,
     "net return value": "16315.50",
     "total orders": 5325,
@@ -14273,11 +14272,11 @@ import { storeType } from "../interfaces";
     "gross sales": 34046.27,
     "store search conversion": 11.93,
     "return rate": 5.24,
-    "date": "02-04-2023",
-    "monthYear": "Apr 2023"
+    date: "02-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 827,
+    id: 827,
     "online store session": 15914,
     "net return value": "23266.70",
     "total orders": 6398,
@@ -14286,11 +14285,11 @@ import { storeType } from "../interfaces";
     "gross sales": 66251.12,
     "store search conversion": 25.7,
     "return rate": 5.74,
-    "date": "03-04-2023",
-    "monthYear": "Apr 2023"
+    date: "03-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 254,
+    id: 254,
     "online store session": 20348,
     "net return value": "27138.40",
     "total orders": 3132,
@@ -14299,11 +14298,11 @@ import { storeType } from "../interfaces";
     "gross sales": 35687.06,
     "store search conversion": 14.62,
     "return rate": 5.78,
-    "date": "04-04-2023",
-    "monthYear": "Apr 2023"
+    date: "04-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 331,
+    id: 331,
     "online store session": 23377,
     "net return value": "21520.60",
     "total orders": 5671,
@@ -14312,11 +14311,11 @@ import { storeType } from "../interfaces";
     "gross sales": 46109.5,
     "store search conversion": 4.04,
     "return rate": 0.97,
-    "date": "05-04-2023",
-    "monthYear": "Apr 2023"
+    date: "05-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 524,
+    id: 524,
     "online store session": 20385,
     "net return value": "23883.90",
     "total orders": 5949,
@@ -14325,11 +14324,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10133.71,
     "store search conversion": 23.86,
     "return rate": 14.72,
-    "date": "06-04-2023",
-    "monthYear": "Apr 2023"
+    date: "06-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 829,
+    id: 829,
     "online store session": 23267,
     "net return value": "11974.60",
     "total orders": 5673,
@@ -14338,11 +14337,11 @@ import { storeType } from "../interfaces";
     "gross sales": 30115.39,
     "store search conversion": 20.84,
     "return rate": 11.28,
-    "date": "08-04-2023",
-    "monthYear": "Apr 2023"
+    date: "08-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 820,
+    id: 820,
     "online store session": 23608,
     "net return value": "15020.10",
     "total orders": 7967,
@@ -14351,11 +14350,11 @@ import { storeType } from "../interfaces";
     "gross sales": 47435.99,
     "store search conversion": 9.26,
     "return rate": 1.87,
-    "date": "10-04-2023",
-    "monthYear": "Apr 2023"
+    date: "10-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 550,
+    id: 550,
     "online store session": 15249,
     "net return value": "25139.90",
     "total orders": 5797,
@@ -14364,11 +14363,11 @@ import { storeType } from "../interfaces";
     "gross sales": 31198.76,
     "store search conversion": 19.53,
     "return rate": 11.42,
-    "date": "12-04-2023",
-    "monthYear": "Apr 2023"
+    date: "12-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 356,
+    id: 356,
     "online store session": 20586,
     "net return value": "21853.50",
     "total orders": 5394,
@@ -14377,11 +14376,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14186.94,
     "store search conversion": 18.72,
     "return rate": 1.65,
-    "date": "14-04-2023",
-    "monthYear": "Apr 2023"
+    date: "14-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 993,
+    id: 993,
     "online store session": 24843,
     "net return value": "20676.50",
     "total orders": 4235,
@@ -14390,11 +14389,11 @@ import { storeType } from "../interfaces";
     "gross sales": 81225.59,
     "store search conversion": 27.73,
     "return rate": 2.91,
-    "date": "17-04-2023",
-    "monthYear": "Apr 2023"
+    date: "17-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 401,
+    id: 401,
     "online store session": 17086,
     "net return value": "21476.90",
     "total orders": 3551,
@@ -14403,11 +14402,11 @@ import { storeType } from "../interfaces";
     "gross sales": 84532.32,
     "store search conversion": 5.24,
     "return rate": 2.2,
-    "date": "19-04-2023",
-    "monthYear": "Apr 2023"
+    date: "19-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 265,
+    id: 265,
     "online store session": 15457,
     "net return value": "11907.70",
     "total orders": 2307,
@@ -14416,11 +14415,11 @@ import { storeType } from "../interfaces";
     "gross sales": 70261.51,
     "store search conversion": 28.56,
     "return rate": 5.26,
-    "date": "20-04-2023",
-    "monthYear": "Apr 2023"
+    date: "20-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 249,
+    id: 249,
     "online store session": 16091,
     "net return value": "11307.00",
     "total orders": 8077,
@@ -14429,11 +14428,11 @@ import { storeType } from "../interfaces";
     "gross sales": 46554.58,
     "store search conversion": 28.39,
     "return rate": 0.79,
-    "date": "21-04-2023",
-    "monthYear": "Apr 2023"
+    date: "21-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 892,
+    id: 892,
     "online store session": 15078,
     "net return value": "27794.00",
     "total orders": 6088,
@@ -14442,11 +14441,11 @@ import { storeType } from "../interfaces";
     "gross sales": 47937.14,
     "store search conversion": 13.27,
     "return rate": 7.22,
-    "date": "23-04-2023",
-    "monthYear": "Apr 2023"
+    date: "23-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 261,
+    id: 261,
     "online store session": 24232,
     "net return value": "21881.70",
     "total orders": 4255,
@@ -14455,11 +14454,11 @@ import { storeType } from "../interfaces";
     "gross sales": 99589.46,
     "store search conversion": 3.16,
     "return rate": 2.54,
-    "date": "25-04-2023",
-    "monthYear": "Apr 2023"
+    date: "25-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 611,
+    id: 611,
     "online store session": 23177,
     "net return value": "22381.90",
     "total orders": 2395,
@@ -14468,11 +14467,11 @@ import { storeType } from "../interfaces";
     "gross sales": 21499.47,
     "store search conversion": 7.71,
     "return rate": 4.34,
-    "date": "26-04-2023",
-    "monthYear": "Apr 2023"
+    date: "26-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 405,
+    id: 405,
     "online store session": 17977,
     "net return value": "11769.10",
     "total orders": 8047,
@@ -14481,11 +14480,11 @@ import { storeType } from "../interfaces";
     "gross sales": 87583.94,
     "store search conversion": 20.18,
     "return rate": 11.53,
-    "date": "29-04-2023",
-    "monthYear": "Apr 2023"
+    date: "29-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 742,
+    id: 742,
     "online store session": 16636,
     "net return value": "22563.70",
     "total orders": 4142,
@@ -14494,11 +14493,11 @@ import { storeType } from "../interfaces";
     "gross sales": 21122.36,
     "store search conversion": 22.24,
     "return rate": 3.15,
-    "date": "30-04-2023",
-    "monthYear": "Apr 2023"
+    date: "30-04-2023",
+    monthYear: "Apr 2023",
   },
   {
-    "id": 510,
+    id: 510,
     "online store session": 16168,
     "net return value": "15106.10",
     "total orders": 9255,
@@ -14507,11 +14506,11 @@ import { storeType } from "../interfaces";
     "gross sales": 61644.21,
     "store search conversion": 26.59,
     "return rate": 4.56,
-    "date": "03-05-2023",
-    "monthYear": "May 2023"
+    date: "03-05-2023",
+    monthYear: "May 2023",
   },
   {
-    "id": 327,
+    id: 327,
     "online store session": 22243,
     "net return value": "26834.20",
     "total orders": 1490,
@@ -14520,11 +14519,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15966.7,
     "store search conversion": 23.46,
     "return rate": 7.7,
-    "date": "05-05-2023",
-    "monthYear": "May 2023"
+    date: "05-05-2023",
+    monthYear: "May 2023",
   },
   {
-    "id": 834,
+    id: 834,
     "online store session": 20610,
     "net return value": "21513.70",
     "total orders": 1289,
@@ -14533,11 +14532,11 @@ import { storeType } from "../interfaces";
     "gross sales": 49548.74,
     "store search conversion": 11.66,
     "return rate": 7.47,
-    "date": "07-05-2023",
-    "monthYear": "May 2023"
+    date: "07-05-2023",
+    monthYear: "May 2023",
   },
   {
-    "id": 972,
+    id: 972,
     "online store session": 15061,
     "net return value": "27814.10",
     "total orders": 9512,
@@ -14546,11 +14545,11 @@ import { storeType } from "../interfaces";
     "gross sales": 88209.09,
     "store search conversion": 24.48,
     "return rate": 8.7,
-    "date": "08-05-2023",
-    "monthYear": "May 2023"
+    date: "08-05-2023",
+    monthYear: "May 2023",
   },
   {
-    "id": 881,
+    id: 881,
     "online store session": 19412,
     "net return value": "12589.70",
     "total orders": 5029,
@@ -14559,11 +14558,11 @@ import { storeType } from "../interfaces";
     "gross sales": 80449.27,
     "store search conversion": 16.59,
     "return rate": 6.3,
-    "date": "09-05-2023",
-    "monthYear": "May 2023"
+    date: "09-05-2023",
+    monthYear: "May 2023",
   },
   {
-    "id": 558,
+    id: 558,
     "online store session": 18213,
     "net return value": "27324.00",
     "total orders": 1962,
@@ -14572,11 +14571,11 @@ import { storeType } from "../interfaces";
     "gross sales": 87902.05,
     "store search conversion": 9.27,
     "return rate": 11.53,
-    "date": "10-05-2023",
-    "monthYear": "May 2023"
+    date: "10-05-2023",
+    monthYear: "May 2023",
   },
   {
-    "id": 321,
+    id: 321,
     "online store session": 21631,
     "net return value": "15355.30",
     "total orders": 7634,
@@ -14585,11 +14584,11 @@ import { storeType } from "../interfaces";
     "gross sales": 26283.02,
     "store search conversion": 8.21,
     "return rate": 17.63,
-    "date": "11-05-2023",
-    "monthYear": "May 2023"
+    date: "11-05-2023",
+    monthYear: "May 2023",
   },
   {
-    "id": 656,
+    id: 656,
     "online store session": 21328,
     "net return value": "13399.20",
     "total orders": 2126,
@@ -14598,11 +14597,11 @@ import { storeType } from "../interfaces";
     "gross sales": 66462.83,
     "store search conversion": 7,
     "return rate": 18.03,
-    "date": "12-05-2023",
-    "monthYear": "May 2023"
+    date: "12-05-2023",
+    monthYear: "May 2023",
   },
   {
-    "id": 87,
+    id: 87,
     "online store session": 21310,
     "net return value": "10042.90",
     "total orders": 1421,
@@ -14611,11 +14610,11 @@ import { storeType } from "../interfaces";
     "gross sales": 49224.87,
     "store search conversion": 25.8,
     "return rate": 11.81,
-    "date": "14-05-2023",
-    "monthYear": "May 2023"
+    date: "14-05-2023",
+    monthYear: "May 2023",
   },
   {
-    "id": 900,
+    id: 900,
     "online store session": 15178,
     "net return value": "11717.00",
     "total orders": 9876,
@@ -14624,11 +14623,11 @@ import { storeType } from "../interfaces";
     "gross sales": 65072.28,
     "store search conversion": 26.76,
     "return rate": 13.85,
-    "date": "18-05-2023",
-    "monthYear": "May 2023"
+    date: "18-05-2023",
+    monthYear: "May 2023",
   },
   {
-    "id": 61,
+    id: 61,
     "online store session": 16542,
     "net return value": "12005.50",
     "total orders": 7722,
@@ -14637,11 +14636,11 @@ import { storeType } from "../interfaces";
     "gross sales": 34160.42,
     "store search conversion": 5.99,
     "return rate": 3.62,
-    "date": "19-05-2023",
-    "monthYear": "May 2023"
+    date: "19-05-2023",
+    monthYear: "May 2023",
   },
   {
-    "id": 178,
+    id: 178,
     "online store session": 19924,
     "net return value": "17614.50",
     "total orders": 3279,
@@ -14650,11 +14649,11 @@ import { storeType } from "../interfaces";
     "gross sales": 87859.92,
     "store search conversion": 22.92,
     "return rate": 18.51,
-    "date": "22-05-2023",
-    "monthYear": "May 2023"
+    date: "22-05-2023",
+    monthYear: "May 2023",
   },
   {
-    "id": 961,
+    id: 961,
     "online store session": 19768,
     "net return value": "16583.20",
     "total orders": 2113,
@@ -14663,11 +14662,11 @@ import { storeType } from "../interfaces";
     "gross sales": 97612.46,
     "store search conversion": 8.83,
     "return rate": 10.74,
-    "date": "31-05-2023",
-    "monthYear": "May 2023"
+    date: "31-05-2023",
+    monthYear: "May 2023",
   },
   {
-    "id": 117,
+    id: 117,
     "online store session": 24922,
     "net return value": "25405.90",
     "total orders": 6248,
@@ -14676,11 +14675,11 @@ import { storeType } from "../interfaces";
     "gross sales": 56993.12,
     "store search conversion": 11.18,
     "return rate": 17.49,
-    "date": "01-06-2023",
-    "monthYear": "Jun 2023"
+    date: "01-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 228,
+    id: 228,
     "online store session": 21249,
     "net return value": "22515.60",
     "total orders": 4450,
@@ -14689,11 +14688,11 @@ import { storeType } from "../interfaces";
     "gross sales": 83373.22,
     "store search conversion": 29.6,
     "return rate": 12.87,
-    "date": "03-06-2023",
-    "monthYear": "Jun 2023"
+    date: "03-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 17,
+    id: 17,
     "online store session": 15135,
     "net return value": "19971.00",
     "total orders": 9979,
@@ -14702,11 +14701,11 @@ import { storeType } from "../interfaces";
     "gross sales": 57060.28,
     "store search conversion": 21.84,
     "return rate": 6.09,
-    "date": "09-06-2023",
-    "monthYear": "Jun 2023"
+    date: "09-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 123,
+    id: 123,
     "online store session": 18112,
     "net return value": "13127.80",
     "total orders": 5476,
@@ -14715,11 +14714,11 @@ import { storeType } from "../interfaces";
     "gross sales": 12887.7,
     "store search conversion": 18.5,
     "return rate": 14.38,
-    "date": "10-06-2023",
-    "monthYear": "Jun 2023"
+    date: "10-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 479,
+    id: 479,
     "online store session": 20884,
     "net return value": "21495.80",
     "total orders": 6655,
@@ -14728,11 +14727,11 @@ import { storeType } from "../interfaces";
     "gross sales": 65044.47,
     "store search conversion": 12.02,
     "return rate": 0.38,
-    "date": "11-06-2023",
-    "monthYear": "Jun 2023"
+    date: "11-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 57,
+    id: 57,
     "online store session": 20809,
     "net return value": "23185.60",
     "total orders": 4501,
@@ -14741,11 +14740,11 @@ import { storeType } from "../interfaces";
     "gross sales": 42605.34,
     "store search conversion": 11.29,
     "return rate": 12.44,
-    "date": "12-06-2023",
-    "monthYear": "Jun 2023"
+    date: "12-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 94,
+    id: 94,
     "online store session": 17724,
     "net return value": "19222.00",
     "total orders": 3712,
@@ -14754,11 +14753,11 @@ import { storeType } from "../interfaces";
     "gross sales": 29182.43,
     "store search conversion": 18.62,
     "return rate": 5.01,
-    "date": "13-06-2023",
-    "monthYear": "Jun 2023"
+    date: "13-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 141,
+    id: 141,
     "online store session": 18595,
     "net return value": "10846.90",
     "total orders": 5424,
@@ -14767,11 +14766,11 @@ import { storeType } from "../interfaces";
     "gross sales": 48053.12,
     "store search conversion": 8.17,
     "return rate": 0.68,
-    "date": "14-06-2023",
-    "monthYear": "Jun 2023"
+    date: "14-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 236,
+    id: 236,
     "online store session": 19135,
     "net return value": "18549.20",
     "total orders": 6757,
@@ -14780,11 +14779,11 @@ import { storeType } from "../interfaces";
     "gross sales": 84207.12,
     "store search conversion": 17.71,
     "return rate": 1.55,
-    "date": "15-06-2023",
-    "monthYear": "Jun 2023"
+    date: "15-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 333,
+    id: 333,
     "online store session": 15134,
     "net return value": "14238.10",
     "total orders": 4855,
@@ -14793,11 +14792,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11024.91,
     "store search conversion": 1.95,
     "return rate": 16.74,
-    "date": "17-06-2023",
-    "monthYear": "Jun 2023"
+    date: "17-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 513,
+    id: 513,
     "online store session": 18660,
     "net return value": "15865.30",
     "total orders": 4354,
@@ -14806,11 +14805,11 @@ import { storeType } from "../interfaces";
     "gross sales": 74988.9,
     "store search conversion": 1.08,
     "return rate": 1.57,
-    "date": "18-06-2023",
-    "monthYear": "Jun 2023"
+    date: "18-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 275,
+    id: 275,
     "online store session": 20210,
     "net return value": "15345.60",
     "total orders": 5171,
@@ -14819,11 +14818,11 @@ import { storeType } from "../interfaces";
     "gross sales": 54686.95,
     "store search conversion": 17.99,
     "return rate": 13.04,
-    "date": "20-06-2023",
-    "monthYear": "Jun 2023"
+    date: "20-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 531,
+    id: 531,
     "online store session": 19971,
     "net return value": "15320.60",
     "total orders": 4635,
@@ -14832,11 +14831,11 @@ import { storeType } from "../interfaces";
     "gross sales": 56363.59,
     "store search conversion": 0.17,
     "return rate": 10.66,
-    "date": "21-06-2023",
-    "monthYear": "Jun 2023"
+    date: "21-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 347,
+    id: 347,
     "online store session": 21855,
     "net return value": "14539.10",
     "total orders": 8326,
@@ -14845,11 +14844,11 @@ import { storeType } from "../interfaces";
     "gross sales": 84073.21,
     "store search conversion": 27.46,
     "return rate": 1.64,
-    "date": "24-06-2023",
-    "monthYear": "Jun 2023"
+    date: "24-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 79,
+    id: 79,
     "online store session": 20105,
     "net return value": "10635.90",
     "total orders": 1138,
@@ -14858,11 +14857,11 @@ import { storeType } from "../interfaces";
     "gross sales": 64005.22,
     "store search conversion": 0.12,
     "return rate": 8.37,
-    "date": "26-06-2023",
-    "monthYear": "Jun 2023"
+    date: "26-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 29,
+    id: 29,
     "online store session": 16753,
     "net return value": "26266.80",
     "total orders": 2607,
@@ -14871,11 +14870,11 @@ import { storeType } from "../interfaces";
     "gross sales": 68162.94,
     "store search conversion": 2.53,
     "return rate": 12.36,
-    "date": "27-06-2023",
-    "monthYear": "Jun 2023"
+    date: "27-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 173,
+    id: 173,
     "online store session": 21890,
     "net return value": "14409.70",
     "total orders": 5481,
@@ -14884,11 +14883,11 @@ import { storeType } from "../interfaces";
     "gross sales": 34517.45,
     "store search conversion": 6.29,
     "return rate": 10.61,
-    "date": "28-06-2023",
-    "monthYear": "Jun 2023"
+    date: "28-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 591,
+    id: 591,
     "online store session": 16509,
     "net return value": "28809.80",
     "total orders": 3440,
@@ -14897,11 +14896,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17096.3,
     "store search conversion": 17.39,
     "return rate": 1.03,
-    "date": "29-06-2023",
-    "monthYear": "Jun 2023"
+    date: "29-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 559,
+    id: 559,
     "online store session": 15043,
     "net return value": "23683.00",
     "total orders": 4920,
@@ -14910,11 +14909,11 @@ import { storeType } from "../interfaces";
     "gross sales": 37670.97,
     "store search conversion": 17.35,
     "return rate": 10.56,
-    "date": "30-06-2023",
-    "monthYear": "Jun 2023"
+    date: "30-06-2023",
+    monthYear: "Jun 2023",
   },
   {
-    "id": 631,
+    id: 631,
     "online store session": 22721,
     "net return value": "19152.80",
     "total orders": 2382,
@@ -14923,11 +14922,11 @@ import { storeType } from "../interfaces";
     "gross sales": 82363.69,
     "store search conversion": 17.9,
     "return rate": 13.62,
-    "date": "03-07-2023",
-    "monthYear": "Jul 2023"
+    date: "03-07-2023",
+    monthYear: "Jul 2023",
   },
   {
-    "id": 782,
+    id: 782,
     "online store session": 19564,
     "net return value": "28613.90",
     "total orders": 6516,
@@ -14936,11 +14935,11 @@ import { storeType } from "../interfaces";
     "gross sales": 33521.36,
     "store search conversion": 25.84,
     "return rate": 17.33,
-    "date": "04-07-2023",
-    "monthYear": "Jul 2023"
+    date: "04-07-2023",
+    monthYear: "Jul 2023",
   },
   {
-    "id": 701,
+    id: 701,
     "online store session": 21866,
     "net return value": "14929.90",
     "total orders": 5492,
@@ -14949,11 +14948,11 @@ import { storeType } from "../interfaces";
     "gross sales": 71438.82,
     "store search conversion": 16.91,
     "return rate": 1.76,
-    "date": "08-07-2023",
-    "monthYear": "Jul 2023"
+    date: "08-07-2023",
+    monthYear: "Jul 2023",
   },
   {
-    "id": 216,
+    id: 216,
     "online store session": 17250,
     "net return value": "18164.90",
     "total orders": 3820,
@@ -14962,11 +14961,11 @@ import { storeType } from "../interfaces";
     "gross sales": 21586.1,
     "store search conversion": 10.55,
     "return rate": 15.81,
-    "date": "09-07-2023",
-    "monthYear": "Jul 2023"
+    date: "09-07-2023",
+    monthYear: "Jul 2023",
   },
   {
-    "id": 465,
+    id: 465,
     "online store session": 24552,
     "net return value": "16016.80",
     "total orders": 7264,
@@ -14975,11 +14974,11 @@ import { storeType } from "../interfaces";
     "gross sales": 33076.74,
     "store search conversion": 8.85,
     "return rate": 6.65,
-    "date": "13-07-2023",
-    "monthYear": "Jul 2023"
+    date: "13-07-2023",
+    monthYear: "Jul 2023",
   },
   {
-    "id": 54,
+    id: 54,
     "online store session": 24744,
     "net return value": "19545.10",
     "total orders": 7188,
@@ -14988,11 +14987,11 @@ import { storeType } from "../interfaces";
     "gross sales": 60891.02,
     "store search conversion": 10.34,
     "return rate": 0.66,
-    "date": "14-07-2023",
-    "monthYear": "Jul 2023"
+    date: "14-07-2023",
+    monthYear: "Jul 2023",
   },
   {
-    "id": 769,
+    id: 769,
     "online store session": 24437,
     "net return value": "28851.10",
     "total orders": 4174,
@@ -15001,11 +15000,11 @@ import { storeType } from "../interfaces";
     "gross sales": 45811.07,
     "store search conversion": 27.4,
     "return rate": 9.27,
-    "date": "17-07-2023",
-    "monthYear": "Jul 2023"
+    date: "17-07-2023",
+    monthYear: "Jul 2023",
   },
   {
-    "id": 668,
+    id: 668,
     "online store session": 20056,
     "net return value": "18315.70",
     "total orders": 8272,
@@ -15014,11 +15013,11 @@ import { storeType } from "../interfaces";
     "gross sales": 78802.97,
     "store search conversion": 15.45,
     "return rate": 18.01,
-    "date": "18-07-2023",
-    "monthYear": "Jul 2023"
+    date: "18-07-2023",
+    monthYear: "Jul 2023",
   },
   {
-    "id": 267,
+    id: 267,
     "online store session": 20521,
     "net return value": "20575.30",
     "total orders": 4165,
@@ -15027,11 +15026,11 @@ import { storeType } from "../interfaces";
     "gross sales": 83515.09,
     "store search conversion": 8.35,
     "return rate": 16.66,
-    "date": "19-07-2023",
-    "monthYear": "Jul 2023"
+    date: "19-07-2023",
+    monthYear: "Jul 2023",
   },
   {
-    "id": 426,
+    id: 426,
     "online store session": 23965,
     "net return value": "17250.10",
     "total orders": 6950,
@@ -15040,11 +15039,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10416.29,
     "store search conversion": 5.47,
     "return rate": 16.64,
-    "date": "22-07-2023",
-    "monthYear": "Jul 2023"
+    date: "22-07-2023",
+    monthYear: "Jul 2023",
   },
   {
-    "id": 959,
+    id: 959,
     "online store session": 19097,
     "net return value": "17799.20",
     "total orders": 5177,
@@ -15053,11 +15052,11 @@ import { storeType } from "../interfaces";
     "gross sales": 97165.48,
     "store search conversion": 22.66,
     "return rate": 14.9,
-    "date": "24-07-2023",
-    "monthYear": "Jul 2023"
+    date: "24-07-2023",
+    monthYear: "Jul 2023",
   },
   {
-    "id": 621,
+    id: 621,
     "online store session": 23203,
     "net return value": "27500.20",
     "total orders": 1402,
@@ -15066,11 +15065,11 @@ import { storeType } from "../interfaces";
     "gross sales": 50441.52,
     "store search conversion": 25.74,
     "return rate": 7.02,
-    "date": "25-07-2023",
-    "monthYear": "Jul 2023"
+    date: "25-07-2023",
+    monthYear: "Jul 2023",
   },
   {
-    "id": 361,
+    id: 361,
     "online store session": 15708,
     "net return value": "20332.80",
     "total orders": 9358,
@@ -15079,11 +15078,11 @@ import { storeType } from "../interfaces";
     "gross sales": 94216.63,
     "store search conversion": 28.4,
     "return rate": 19.59,
-    "date": "28-07-2023",
-    "monthYear": "Jul 2023"
+    date: "28-07-2023",
+    monthYear: "Jul 2023",
   },
   {
-    "id": 169,
+    id: 169,
     "online store session": 16570,
     "net return value": "23862.90",
     "total orders": 9092,
@@ -15092,11 +15091,11 @@ import { storeType } from "../interfaces";
     "gross sales": 68392.98,
     "store search conversion": 14.86,
     "return rate": 16.01,
-    "date": "01-08-2023",
-    "monthYear": "Aug 2023"
+    date: "01-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 740,
+    id: 740,
     "online store session": 20355,
     "net return value": "22911.50",
     "total orders": 9213,
@@ -15105,11 +15104,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13007.85,
     "store search conversion": 22.76,
     "return rate": 4.05,
-    "date": "02-08-2023",
-    "monthYear": "Aug 2023"
+    date: "02-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 190,
+    id: 190,
     "online store session": 24597,
     "net return value": "22360.70",
     "total orders": 3527,
@@ -15118,11 +15117,11 @@ import { storeType } from "../interfaces";
     "gross sales": 26936.53,
     "store search conversion": 0.04,
     "return rate": 7.15,
-    "date": "09-08-2023",
-    "monthYear": "Aug 2023"
+    date: "09-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 702,
+    id: 702,
     "online store session": 15366,
     "net return value": "11971.00",
     "total orders": 6509,
@@ -15131,11 +15130,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13937.45,
     "store search conversion": 27.89,
     "return rate": 19.87,
-    "date": "10-08-2023",
-    "monthYear": "Aug 2023"
+    date: "10-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 497,
+    id: 497,
     "online store session": 17765,
     "net return value": "26515.20",
     "total orders": 2457,
@@ -15144,11 +15143,11 @@ import { storeType } from "../interfaces";
     "gross sales": 48082.98,
     "store search conversion": 4.18,
     "return rate": 19.81,
-    "date": "11-08-2023",
-    "monthYear": "Aug 2023"
+    date: "11-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 38,
+    id: 38,
     "online store session": 18368,
     "net return value": "17397.50",
     "total orders": 5835,
@@ -15157,11 +15156,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15829.04,
     "store search conversion": 0.71,
     "return rate": 15.48,
-    "date": "12-08-2023",
-    "monthYear": "Aug 2023"
+    date: "12-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 182,
+    id: 182,
     "online store session": 21504,
     "net return value": "12672.60",
     "total orders": 5289,
@@ -15170,11 +15169,11 @@ import { storeType } from "../interfaces";
     "gross sales": 38079.21,
     "store search conversion": 13.13,
     "return rate": 8.57,
-    "date": "13-08-2023",
-    "monthYear": "Aug 2023"
+    date: "13-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 733,
+    id: 733,
     "online store session": 19545,
     "net return value": "28957.90",
     "total orders": 9224,
@@ -15183,11 +15182,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19960.05,
     "store search conversion": 22.71,
     "return rate": 9.05,
-    "date": "14-08-2023",
-    "monthYear": "Aug 2023"
+    date: "14-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 505,
+    id: 505,
     "online store session": 22530,
     "net return value": "12193.10",
     "total orders": 2534,
@@ -15196,11 +15195,11 @@ import { storeType } from "../interfaces";
     "gross sales": 52551.29,
     "store search conversion": 15.7,
     "return rate": 3.46,
-    "date": "15-08-2023",
-    "monthYear": "Aug 2023"
+    date: "15-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 910,
+    id: 910,
     "online store session": 16332,
     "net return value": "14867.20",
     "total orders": 6652,
@@ -15209,11 +15208,11 @@ import { storeType } from "../interfaces";
     "gross sales": 85435.63,
     "store search conversion": 9.15,
     "return rate": 4.51,
-    "date": "16-08-2023",
-    "monthYear": "Aug 2023"
+    date: "16-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 101,
+    id: 101,
     "online store session": 23174,
     "net return value": "16654.10",
     "total orders": 9295,
@@ -15222,11 +15221,11 @@ import { storeType } from "../interfaces";
     "gross sales": 97570.34,
     "store search conversion": 30,
     "return rate": 12.24,
-    "date": "18-08-2023",
-    "monthYear": "Aug 2023"
+    date: "18-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 732,
+    id: 732,
     "online store session": 19745,
     "net return value": "29251.20",
     "total orders": 9753,
@@ -15235,11 +15234,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10786.35,
     "store search conversion": 16.59,
     "return rate": 10.04,
-    "date": "19-08-2023",
-    "monthYear": "Aug 2023"
+    date: "19-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 64,
+    id: 64,
     "online store session": 18734,
     "net return value": "27521.20",
     "total orders": 2654,
@@ -15248,11 +15247,11 @@ import { storeType } from "../interfaces";
     "gross sales": 52191.13,
     "store search conversion": 11.81,
     "return rate": 18.22,
-    "date": "20-08-2023",
-    "monthYear": "Aug 2023"
+    date: "20-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 83,
+    id: 83,
     "online store session": 18506,
     "net return value": "22397.70",
     "total orders": 5570,
@@ -15261,11 +15260,11 @@ import { storeType } from "../interfaces";
     "gross sales": 86844.76,
     "store search conversion": 29.81,
     "return rate": 7.28,
-    "date": "21-08-2023",
-    "monthYear": "Aug 2023"
+    date: "21-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 81,
+    id: 81,
     "online store session": 19517,
     "net return value": "25225.70",
     "total orders": 6358,
@@ -15274,11 +15273,11 @@ import { storeType } from "../interfaces";
     "gross sales": 94682.61,
     "store search conversion": 29.39,
     "return rate": 2.15,
-    "date": "23-08-2023",
-    "monthYear": "Aug 2023"
+    date: "23-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 32,
+    id: 32,
     "online store session": 18254,
     "net return value": "14845.20",
     "total orders": 2795,
@@ -15287,11 +15286,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14020.78,
     "store search conversion": 26.04,
     "return rate": 12,
-    "date": "25-08-2023",
-    "monthYear": "Aug 2023"
+    date: "25-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 448,
+    id: 448,
     "online store session": 23646,
     "net return value": "12823.50",
     "total orders": 9360,
@@ -15300,11 +15299,11 @@ import { storeType } from "../interfaces";
     "gross sales": 55844.99,
     "store search conversion": 28.04,
     "return rate": 4.71,
-    "date": "27-08-2023",
-    "monthYear": "Aug 2023"
+    date: "27-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 994,
+    id: 994,
     "online store session": 15181,
     "net return value": "27774.30",
     "total orders": 4383,
@@ -15313,11 +15312,11 @@ import { storeType } from "../interfaces";
     "gross sales": 98858.65,
     "store search conversion": 26.61,
     "return rate": 13.46,
-    "date": "28-08-2023",
-    "monthYear": "Aug 2023"
+    date: "28-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 724,
+    id: 724,
     "online store session": 21282,
     "net return value": "29103.40",
     "total orders": 9579,
@@ -15326,11 +15325,11 @@ import { storeType } from "../interfaces";
     "gross sales": 89547.6,
     "store search conversion": 7.2,
     "return rate": 14.81,
-    "date": "29-08-2023",
-    "monthYear": "Aug 2023"
+    date: "29-08-2023",
+    monthYear: "Aug 2023",
   },
   {
-    "id": 402,
+    id: 402,
     "online store session": 21017,
     "net return value": "19055.00",
     "total orders": 6947,
@@ -15339,11 +15338,11 @@ import { storeType } from "../interfaces";
     "gross sales": 82178.59,
     "store search conversion": 29.5,
     "return rate": 19.8,
-    "date": "01-09-2023",
-    "monthYear": "Sep 2023"
+    date: "01-09-2023",
+    monthYear: "Sep 2023",
   },
   {
-    "id": 303,
+    id: 303,
     "online store session": 19764,
     "net return value": "12525.40",
     "total orders": 5086,
@@ -15352,11 +15351,11 @@ import { storeType } from "../interfaces";
     "gross sales": 94685.66,
     "store search conversion": 27.02,
     "return rate": 6.24,
-    "date": "05-09-2023",
-    "monthYear": "Sep 2023"
+    date: "05-09-2023",
+    monthYear: "Sep 2023",
   },
   {
-    "id": 56,
+    id: 56,
     "online store session": 20207,
     "net return value": "15453.30",
     "total orders": 5802,
@@ -15365,11 +15364,11 @@ import { storeType } from "../interfaces";
     "gross sales": 21428.79,
     "store search conversion": 10.2,
     "return rate": 12.46,
-    "date": "06-09-2023",
-    "monthYear": "Sep 2023"
+    date: "06-09-2023",
+    monthYear: "Sep 2023",
   },
   {
-    "id": 970,
+    id: 970,
     "online store session": 20596,
     "net return value": "27067.30",
     "total orders": 4608,
@@ -15378,11 +15377,11 @@ import { storeType } from "../interfaces";
     "gross sales": 33072.55,
     "store search conversion": 29.57,
     "return rate": 3.82,
-    "date": "11-09-2023",
-    "monthYear": "Sep 2023"
+    date: "11-09-2023",
+    monthYear: "Sep 2023",
   },
   {
-    "id": 177,
+    id: 177,
     "online store session": 20261,
     "net return value": "13811.90",
     "total orders": 9109,
@@ -15391,11 +15390,11 @@ import { storeType } from "../interfaces";
     "gross sales": 78737.54,
     "store search conversion": 20.88,
     "return rate": 16.87,
-    "date": "12-09-2023",
-    "monthYear": "Sep 2023"
+    date: "12-09-2023",
+    monthYear: "Sep 2023",
   },
   {
-    "id": 670,
+    id: 670,
     "online store session": 16295,
     "net return value": "28278.30",
     "total orders": 4136,
@@ -15404,11 +15403,11 @@ import { storeType } from "../interfaces";
     "gross sales": 65867.95,
     "store search conversion": 21.84,
     "return rate": 11.43,
-    "date": "13-09-2023",
-    "monthYear": "Sep 2023"
+    date: "13-09-2023",
+    monthYear: "Sep 2023",
   },
   {
-    "id": 52,
+    id: 52,
     "online store session": 17992,
     "net return value": "28575.60",
     "total orders": 7380,
@@ -15417,11 +15416,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10398.2,
     "store search conversion": 29.48,
     "return rate": 4.33,
-    "date": "14-09-2023",
-    "monthYear": "Sep 2023"
+    date: "14-09-2023",
+    monthYear: "Sep 2023",
   },
   {
-    "id": 323,
+    id: 323,
     "online store session": 18875,
     "net return value": "11900.60",
     "total orders": 4527,
@@ -15430,11 +15429,11 @@ import { storeType } from "../interfaces";
     "gross sales": 74194.14,
     "store search conversion": 21.58,
     "return rate": 15.99,
-    "date": "15-09-2023",
-    "monthYear": "Sep 2023"
+    date: "15-09-2023",
+    monthYear: "Sep 2023",
   },
   {
-    "id": 694,
+    id: 694,
     "online store session": 15244,
     "net return value": "12820.70",
     "total orders": 2459,
@@ -15443,11 +15442,11 @@ import { storeType } from "../interfaces";
     "gross sales": 57909.23,
     "store search conversion": 13.64,
     "return rate": 19.63,
-    "date": "18-09-2023",
-    "monthYear": "Sep 2023"
+    date: "18-09-2023",
+    monthYear: "Sep 2023",
   },
   {
-    "id": 47,
+    id: 47,
     "online store session": 19621,
     "net return value": "14350.20",
     "total orders": 1768,
@@ -15456,11 +15455,11 @@ import { storeType } from "../interfaces";
     "gross sales": 95432.98,
     "store search conversion": 18.68,
     "return rate": 11.43,
-    "date": "19-09-2023",
-    "monthYear": "Sep 2023"
+    date: "19-09-2023",
+    monthYear: "Sep 2023",
   },
   {
-    "id": 723,
+    id: 723,
     "online store session": 24377,
     "net return value": "28022.10",
     "total orders": 5896,
@@ -15469,11 +15468,11 @@ import { storeType } from "../interfaces";
     "gross sales": 27794.63,
     "store search conversion": 26.55,
     "return rate": 17,
-    "date": "20-09-2023",
-    "monthYear": "Sep 2023"
+    date: "20-09-2023",
+    monthYear: "Sep 2023",
   },
   {
-    "id": 133,
+    id: 133,
     "online store session": 15817,
     "net return value": "21077.70",
     "total orders": 2137,
@@ -15482,11 +15481,11 @@ import { storeType } from "../interfaces";
     "gross sales": 34604.47,
     "store search conversion": 18.71,
     "return rate": 8.97,
-    "date": "21-09-2023",
-    "monthYear": "Sep 2023"
+    date: "21-09-2023",
+    monthYear: "Sep 2023",
   },
   {
-    "id": 358,
+    id: 358,
     "online store session": 21898,
     "net return value": "14937.60",
     "total orders": 9299,
@@ -15495,11 +15494,11 @@ import { storeType } from "../interfaces";
     "gross sales": 80969.39,
     "store search conversion": 1.82,
     "return rate": 0.39,
-    "date": "23-09-2023",
-    "monthYear": "Sep 2023"
+    date: "23-09-2023",
+    monthYear: "Sep 2023",
   },
   {
-    "id": 625,
+    id: 625,
     "online store session": 21484,
     "net return value": "25897.10",
     "total orders": 8270,
@@ -15508,11 +15507,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17235.81,
     "store search conversion": 8.94,
     "return rate": 15.83,
-    "date": "24-09-2023",
-    "monthYear": "Sep 2023"
+    date: "24-09-2023",
+    monthYear: "Sep 2023",
   },
   {
-    "id": 345,
+    id: 345,
     "online store session": 16960,
     "net return value": "23330.70",
     "total orders": 8893,
@@ -15521,11 +15520,11 @@ import { storeType } from "../interfaces";
     "gross sales": 66221,
     "store search conversion": 2.26,
     "return rate": 13.86,
-    "date": "25-09-2023",
-    "monthYear": "Sep 2023"
+    date: "25-09-2023",
+    monthYear: "Sep 2023",
   },
   {
-    "id": 639,
+    id: 639,
     "online store session": 19268,
     "net return value": "23549.70",
     "total orders": 3609,
@@ -15534,11 +15533,11 @@ import { storeType } from "../interfaces";
     "gross sales": 40511.91,
     "store search conversion": 15.77,
     "return rate": 2.95,
-    "date": "01-10-2023",
-    "monthYear": "Oct 2023"
+    date: "01-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 682,
+    id: 682,
     "online store session": 18630,
     "net return value": "19552.40",
     "total orders": 1448,
@@ -15547,11 +15546,11 @@ import { storeType } from "../interfaces";
     "gross sales": 90935.67,
     "store search conversion": 12.77,
     "return rate": 11.06,
-    "date": "05-10-2023",
-    "monthYear": "Oct 2023"
+    date: "05-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 471,
+    id: 471,
     "online store session": 18437,
     "net return value": "17403.70",
     "total orders": 9527,
@@ -15560,11 +15559,11 @@ import { storeType } from "../interfaces";
     "gross sales": 43488.37,
     "store search conversion": 11.37,
     "return rate": 2.93,
-    "date": "06-10-2023",
-    "monthYear": "Oct 2023"
+    date: "06-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 30,
+    id: 30,
     "online store session": 16340,
     "net return value": "15629.00",
     "total orders": 5718,
@@ -15573,11 +15572,11 @@ import { storeType } from "../interfaces";
     "gross sales": 90625.99,
     "store search conversion": 1.84,
     "return rate": 6.23,
-    "date": "09-10-2023",
-    "monthYear": "Oct 2023"
+    date: "09-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 274,
+    id: 274,
     "online store session": 22675,
     "net return value": "22970.10",
     "total orders": 9599,
@@ -15586,11 +15585,11 @@ import { storeType } from "../interfaces";
     "gross sales": 20112.42,
     "store search conversion": 9.23,
     "return rate": 18.94,
-    "date": "11-10-2023",
-    "monthYear": "Oct 2023"
+    date: "11-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 39,
+    id: 39,
     "online store session": 22270,
     "net return value": "17998.40",
     "total orders": 2986,
@@ -15599,11 +15598,11 @@ import { storeType } from "../interfaces";
     "gross sales": 58421.33,
     "store search conversion": 16.11,
     "return rate": 6.36,
-    "date": "14-10-2023",
-    "monthYear": "Oct 2023"
+    date: "14-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 772,
+    id: 772,
     "online store session": 18995,
     "net return value": "24262.40",
     "total orders": 1491,
@@ -15612,11 +15611,11 @@ import { storeType } from "../interfaces";
     "gross sales": 61889.69,
     "store search conversion": 22.69,
     "return rate": 10.85,
-    "date": "15-10-2023",
-    "monthYear": "Oct 2023"
+    date: "15-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 209,
+    id: 209,
     "online store session": 15656,
     "net return value": "17332.70",
     "total orders": 6742,
@@ -15625,11 +15624,11 @@ import { storeType } from "../interfaces";
     "gross sales": 44614.99,
     "store search conversion": 4.1,
     "return rate": 0.76,
-    "date": "18-10-2023",
-    "monthYear": "Oct 2023"
+    date: "18-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 495,
+    id: 495,
     "online store session": 20384,
     "net return value": "11049.90",
     "total orders": 5264,
@@ -15638,11 +15637,11 @@ import { storeType } from "../interfaces";
     "gross sales": 40698.93,
     "store search conversion": 22.49,
     "return rate": 13.39,
-    "date": "19-10-2023",
-    "monthYear": "Oct 2023"
+    date: "19-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 312,
+    id: 312,
     "online store session": 16122,
     "net return value": "24202.40",
     "total orders": 8323,
@@ -15651,11 +15650,11 @@ import { storeType } from "../interfaces";
     "gross sales": 45124.47,
     "store search conversion": 0.72,
     "return rate": 4.04,
-    "date": "20-10-2023",
-    "monthYear": "Oct 2023"
+    date: "20-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 174,
+    id: 174,
     "online store session": 24290,
     "net return value": "13842.80",
     "total orders": 7099,
@@ -15664,11 +15663,11 @@ import { storeType } from "../interfaces";
     "gross sales": 46469.96,
     "store search conversion": 22.88,
     "return rate": 17.86,
-    "date": "23-10-2023",
-    "monthYear": "Oct 2023"
+    date: "23-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 218,
+    id: 218,
     "online store session": 15250,
     "net return value": "15792.20",
     "total orders": 3272,
@@ -15677,11 +15676,11 @@ import { storeType } from "../interfaces";
     "gross sales": 74491,
     "store search conversion": 17.78,
     "return rate": 14.36,
-    "date": "24-10-2023",
-    "monthYear": "Oct 2023"
+    date: "24-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 987,
+    id: 987,
     "online store session": 22749,
     "net return value": "23016.20",
     "total orders": 6606,
@@ -15690,11 +15689,11 @@ import { storeType } from "../interfaces";
     "gross sales": 56739.27,
     "store search conversion": 27.51,
     "return rate": 10.86,
-    "date": "25-10-2023",
-    "monthYear": "Oct 2023"
+    date: "25-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 25,
+    id: 25,
     "online store session": 18107,
     "net return value": "10342.30",
     "total orders": 3223,
@@ -15703,11 +15702,11 @@ import { storeType } from "../interfaces";
     "gross sales": 62347.94,
     "store search conversion": 3.42,
     "return rate": 11.08,
-    "date": "27-10-2023",
-    "monthYear": "Oct 2023"
+    date: "27-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 309,
+    id: 309,
     "online store session": 21736,
     "net return value": "13427.70",
     "total orders": 8119,
@@ -15716,11 +15715,11 @@ import { storeType } from "../interfaces";
     "gross sales": 48859.81,
     "store search conversion": 14.27,
     "return rate": 12.94,
-    "date": "28-10-2023",
-    "monthYear": "Oct 2023"
+    date: "28-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 897,
+    id: 897,
     "online store session": 21915,
     "net return value": "10882.50",
     "total orders": 7880,
@@ -15729,11 +15728,11 @@ import { storeType } from "../interfaces";
     "gross sales": 18560.8,
     "store search conversion": 13.75,
     "return rate": 6.76,
-    "date": "29-10-2023",
-    "monthYear": "Oct 2023"
+    date: "29-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 367,
+    id: 367,
     "online store session": 22817,
     "net return value": "17236.40",
     "total orders": 5661,
@@ -15742,11 +15741,11 @@ import { storeType } from "../interfaces";
     "gross sales": 91550.65,
     "store search conversion": 8.79,
     "return rate": 8.16,
-    "date": "30-10-2023",
-    "monthYear": "Oct 2023"
+    date: "30-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 880,
+    id: 880,
     "online store session": 19829,
     "net return value": "22757.10",
     "total orders": 6550,
@@ -15755,11 +15754,11 @@ import { storeType } from "../interfaces";
     "gross sales": 68752.49,
     "store search conversion": 1.57,
     "return rate": 15.55,
-    "date": "31-10-2023",
-    "monthYear": "Oct 2023"
+    date: "31-10-2023",
+    monthYear: "Oct 2023",
   },
   {
-    "id": 394,
+    id: 394,
     "online store session": 15788,
     "net return value": "28133.50",
     "total orders": 2751,
@@ -15768,11 +15767,11 @@ import { storeType } from "../interfaces";
     "gross sales": 63462.73,
     "store search conversion": 8.51,
     "return rate": 19.74,
-    "date": "01-11-2023",
-    "monthYear": "Nov 2023"
+    date: "01-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 262,
+    id: 262,
     "online store session": 22794,
     "net return value": "27433.80",
     "total orders": 8478,
@@ -15781,11 +15780,11 @@ import { storeType } from "../interfaces";
     "gross sales": 76801.49,
     "store search conversion": 5.81,
     "return rate": 9.55,
-    "date": "02-11-2023",
-    "monthYear": "Nov 2023"
+    date: "02-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 478,
+    id: 478,
     "online store session": 23326,
     "net return value": "27580.00",
     "total orders": 1424,
@@ -15794,11 +15793,11 @@ import { storeType } from "../interfaces";
     "gross sales": 79797.83,
     "store search conversion": 3.84,
     "return rate": 0.53,
-    "date": "04-11-2023",
-    "monthYear": "Nov 2023"
+    date: "04-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 886,
+    id: 886,
     "online store session": 17956,
     "net return value": "23998.10",
     "total orders": 7624,
@@ -15807,11 +15806,11 @@ import { storeType } from "../interfaces";
     "gross sales": 68724.01,
     "store search conversion": 26.37,
     "return rate": 14.88,
-    "date": "05-11-2023",
-    "monthYear": "Nov 2023"
+    date: "05-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 125,
+    id: 125,
     "online store session": 21627,
     "net return value": "27765.10",
     "total orders": 2547,
@@ -15820,11 +15819,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19640.21,
     "store search conversion": 14.01,
     "return rate": 15.68,
-    "date": "06-11-2023",
-    "monthYear": "Nov 2023"
+    date: "06-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 655,
+    id: 655,
     "online store session": 19220,
     "net return value": "16892.80",
     "total orders": 3815,
@@ -15833,11 +15832,11 @@ import { storeType } from "../interfaces";
     "gross sales": 54012.68,
     "store search conversion": 5.83,
     "return rate": 6.99,
-    "date": "08-11-2023",
-    "monthYear": "Nov 2023"
+    date: "08-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 176,
+    id: 176,
     "online store session": 23578,
     "net return value": "13747.70",
     "total orders": 4716,
@@ -15846,11 +15845,11 @@ import { storeType } from "../interfaces";
     "gross sales": 31438.68,
     "store search conversion": 19.09,
     "return rate": 10.01,
-    "date": "10-11-2023",
-    "monthYear": "Nov 2023"
+    date: "10-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 500,
+    id: 500,
     "online store session": 16009,
     "net return value": "22599.50",
     "total orders": 8182,
@@ -15859,11 +15858,11 @@ import { storeType } from "../interfaces";
     "gross sales": 55246.67,
     "store search conversion": 6.96,
     "return rate": 17.5,
-    "date": "11-11-2023",
-    "monthYear": "Nov 2023"
+    date: "11-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 423,
+    id: 423,
     "online store session": 19529,
     "net return value": "21198.60",
     "total orders": 3713,
@@ -15872,11 +15871,11 @@ import { storeType } from "../interfaces";
     "gross sales": 95687.96,
     "store search conversion": 4.6,
     "return rate": 3.48,
-    "date": "13-11-2023",
-    "monthYear": "Nov 2023"
+    date: "13-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 563,
+    id: 563,
     "online store session": 20842,
     "net return value": "29201.10",
     "total orders": 5383,
@@ -15885,11 +15884,11 @@ import { storeType } from "../interfaces";
     "gross sales": 49069.76,
     "store search conversion": 0.08,
     "return rate": 19.26,
-    "date": "14-11-2023",
-    "monthYear": "Nov 2023"
+    date: "14-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 397,
+    id: 397,
     "online store session": 16307,
     "net return value": "18739.80",
     "total orders": 1449,
@@ -15898,11 +15897,11 @@ import { storeType } from "../interfaces";
     "gross sales": 25521.19,
     "store search conversion": 23.91,
     "return rate": 5.84,
-    "date": "17-11-2023",
-    "monthYear": "Nov 2023"
+    date: "17-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 145,
+    id: 145,
     "online store session": 21906,
     "net return value": "27208.30",
     "total orders": 7580,
@@ -15911,11 +15910,11 @@ import { storeType } from "../interfaces";
     "gross sales": 11646.65,
     "store search conversion": 29.52,
     "return rate": 14.58,
-    "date": "19-11-2023",
-    "monthYear": "Nov 2023"
+    date: "19-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 48,
+    id: 48,
     "online store session": 23541,
     "net return value": "17295.30",
     "total orders": 2059,
@@ -15924,11 +15923,11 @@ import { storeType } from "../interfaces";
     "gross sales": 22251.32,
     "store search conversion": 10.53,
     "return rate": 3.51,
-    "date": "22-11-2023",
-    "monthYear": "Nov 2023"
+    date: "22-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 205,
+    id: 205,
     "online store session": 19460,
     "net return value": "20082.60",
     "total orders": 2911,
@@ -15937,11 +15936,11 @@ import { storeType } from "../interfaces";
     "gross sales": 78951.87,
     "store search conversion": 25.41,
     "return rate": 2.23,
-    "date": "23-11-2023",
-    "monthYear": "Nov 2023"
+    date: "23-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 718,
+    id: 718,
     "online store session": 16897,
     "net return value": "12105.70",
     "total orders": 4172,
@@ -15950,11 +15949,11 @@ import { storeType } from "../interfaces";
     "gross sales": 95861.74,
     "store search conversion": 11.28,
     "return rate": 19.05,
-    "date": "24-11-2023",
-    "monthYear": "Nov 2023"
+    date: "24-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 203,
+    id: 203,
     "online store session": 18157,
     "net return value": "25570.50",
     "total orders": 9901,
@@ -15963,11 +15962,11 @@ import { storeType } from "../interfaces";
     "gross sales": 41743.09,
     "store search conversion": 19.78,
     "return rate": 8.13,
-    "date": "25-11-2023",
-    "monthYear": "Nov 2023"
+    date: "25-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 882,
+    id: 882,
     "online store session": 18354,
     "net return value": "15532.50",
     "total orders": 5128,
@@ -15976,11 +15975,11 @@ import { storeType } from "../interfaces";
     "gross sales": 31440.61,
     "store search conversion": 22.3,
     "return rate": 13.47,
-    "date": "26-11-2023",
-    "monthYear": "Nov 2023"
+    date: "26-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 22,
+    id: 22,
     "online store session": 17084,
     "net return value": "25259.10",
     "total orders": 1321,
@@ -15989,11 +15988,11 @@ import { storeType } from "../interfaces";
     "gross sales": 37868.33,
     "store search conversion": 0.8,
     "return rate": 0.27,
-    "date": "27-11-2023",
-    "monthYear": "Nov 2023"
+    date: "27-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 715,
+    id: 715,
     "online store session": 16034,
     "net return value": "24416.40",
     "total orders": 6505,
@@ -16002,11 +16001,11 @@ import { storeType } from "../interfaces";
     "gross sales": 13119.06,
     "store search conversion": 25.65,
     "return rate": 0.88,
-    "date": "28-11-2023",
-    "monthYear": "Nov 2023"
+    date: "28-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 349,
+    id: 349,
     "online store session": 15358,
     "net return value": "29710.40",
     "total orders": 5211,
@@ -16015,11 +16014,11 @@ import { storeType } from "../interfaces";
     "gross sales": 68502.04,
     "store search conversion": 11.52,
     "return rate": 12.19,
-    "date": "30-11-2023",
-    "monthYear": "Nov 2023"
+    date: "30-11-2023",
+    monthYear: "Nov 2023",
   },
   {
-    "id": 13,
+    id: 13,
     "online store session": 16676,
     "net return value": "15357.30",
     "total orders": 7956,
@@ -16028,11 +16027,11 @@ import { storeType } from "../interfaces";
     "gross sales": 25574.56,
     "store search conversion": 3.2,
     "return rate": 12.23,
-    "date": "02-12-2023",
-    "monthYear": "Dec 2023"
+    date: "02-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 157,
+    id: 157,
     "online store session": 20584,
     "net return value": "12996.50",
     "total orders": 1771,
@@ -16041,11 +16040,11 @@ import { storeType } from "../interfaces";
     "gross sales": 49361.21,
     "store search conversion": 16.16,
     "return rate": 14.44,
-    "date": "03-12-2023",
-    "monthYear": "Dec 2023"
+    date: "03-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 15,
+    id: 15,
     "online store session": 15941,
     "net return value": "25913.60",
     "total orders": 5197,
@@ -16054,11 +16053,11 @@ import { storeType } from "../interfaces";
     "gross sales": 74295.37,
     "store search conversion": 12.38,
     "return rate": 15.55,
-    "date": "04-12-2023",
-    "monthYear": "Dec 2023"
+    date: "04-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 338,
+    id: 338,
     "online store session": 19439,
     "net return value": "26887.70",
     "total orders": 2991,
@@ -16067,11 +16066,11 @@ import { storeType } from "../interfaces";
     "gross sales": 83307.81,
     "store search conversion": 11.78,
     "return rate": 8.45,
-    "date": "05-12-2023",
-    "monthYear": "Dec 2023"
+    date: "05-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 311,
+    id: 311,
     "online store session": 20784,
     "net return value": "13141.60",
     "total orders": 7657,
@@ -16080,11 +16079,11 @@ import { storeType } from "../interfaces";
     "gross sales": 44751.62,
     "store search conversion": 3.44,
     "return rate": 8.62,
-    "date": "06-12-2023",
-    "monthYear": "Dec 2023"
+    date: "06-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 167,
+    id: 167,
     "online store session": 22103,
     "net return value": "20406.80",
     "total orders": 8999,
@@ -16093,11 +16092,11 @@ import { storeType } from "../interfaces";
     "gross sales": 38593.88,
     "store search conversion": 6.7,
     "return rate": 3.35,
-    "date": "07-12-2023",
-    "monthYear": "Dec 2023"
+    date: "07-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 476,
+    id: 476,
     "online store session": 24789,
     "net return value": "25732.40",
     "total orders": 8230,
@@ -16106,11 +16105,11 @@ import { storeType } from "../interfaces";
     "gross sales": 15124.94,
     "store search conversion": 27.9,
     "return rate": 9.94,
-    "date": "10-12-2023",
-    "monthYear": "Dec 2023"
+    date: "10-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 870,
+    id: 870,
     "online store session": 23690,
     "net return value": "12292.40",
     "total orders": 4263,
@@ -16119,11 +16118,11 @@ import { storeType } from "../interfaces";
     "gross sales": 86753.27,
     "store search conversion": 28.17,
     "return rate": 8.53,
-    "date": "11-12-2023",
-    "monthYear": "Dec 2023"
+    date: "11-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 353,
+    id: 353,
     "online store session": 21119,
     "net return value": "17386.70",
     "total orders": 7064,
@@ -16132,11 +16131,11 @@ import { storeType } from "../interfaces";
     "gross sales": 85213.27,
     "store search conversion": 19.35,
     "return rate": 6.08,
-    "date": "12-12-2023",
-    "monthYear": "Dec 2023"
+    date: "12-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 276,
+    id: 276,
     "online store session": 20817,
     "net return value": "19496.90",
     "total orders": 4021,
@@ -16145,11 +16144,11 @@ import { storeType } from "../interfaces";
     "gross sales": 14742.4,
     "store search conversion": 4.23,
     "return rate": 11.34,
-    "date": "14-12-2023",
-    "monthYear": "Dec 2023"
+    date: "14-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 430,
+    id: 430,
     "online store session": 19360,
     "net return value": "24314.90",
     "total orders": 4231,
@@ -16158,11 +16157,11 @@ import { storeType } from "../interfaces";
     "gross sales": 92375.85,
     "store search conversion": 16.47,
     "return rate": 15.34,
-    "date": "15-12-2023",
-    "monthYear": "Dec 2023"
+    date: "15-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 297,
+    id: 297,
     "online store session": 24420,
     "net return value": "10792.50",
     "total orders": 7988,
@@ -16171,11 +16170,11 @@ import { storeType } from "../interfaces";
     "gross sales": 41366.92,
     "store search conversion": 8.98,
     "return rate": 10.45,
-    "date": "17-12-2023",
-    "monthYear": "Dec 2023"
+    date: "17-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 196,
+    id: 196,
     "online store session": 18365,
     "net return value": "12712.00",
     "total orders": 8186,
@@ -16184,11 +16183,11 @@ import { storeType } from "../interfaces";
     "gross sales": 79939.73,
     "store search conversion": 27.32,
     "return rate": 16.95,
-    "date": "19-12-2023",
-    "monthYear": "Dec 2023"
+    date: "19-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 420,
+    id: 420,
     "online store session": 16816,
     "net return value": "16660.70",
     "total orders": 9365,
@@ -16197,11 +16196,11 @@ import { storeType } from "../interfaces";
     "gross sales": 75429.82,
     "store search conversion": 14.91,
     "return rate": 11.84,
-    "date": "20-12-2023",
-    "monthYear": "Dec 2023"
+    date: "20-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 894,
+    id: 894,
     "online store session": 23786,
     "net return value": "16716.40",
     "total orders": 3973,
@@ -16210,11 +16209,11 @@ import { storeType } from "../interfaces";
     "gross sales": 20352.51,
     "store search conversion": 0.87,
     "return rate": 15.12,
-    "date": "22-12-2023",
-    "monthYear": "Dec 2023"
+    date: "22-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 608,
+    id: 608,
     "online store session": 24447,
     "net return value": "29439.10",
     "total orders": 9238,
@@ -16223,11 +16222,11 @@ import { storeType } from "../interfaces";
     "gross sales": 36216.94,
     "store search conversion": 14.47,
     "return rate": 6.11,
-    "date": "26-12-2023",
-    "monthYear": "Dec 2023"
+    date: "26-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 46,
+    id: 46,
     "online store session": 23606,
     "net return value": "15456.50",
     "total orders": 5912,
@@ -16236,11 +16235,11 @@ import { storeType } from "../interfaces";
     "gross sales": 66792.34,
     "store search conversion": 11.27,
     "return rate": 1.86,
-    "date": "28-12-2023",
-    "monthYear": "Dec 2023"
+    date: "28-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 139,
+    id: 139,
     "online store session": 20166,
     "net return value": "22018.20",
     "total orders": 7554,
@@ -16249,11 +16248,11 @@ import { storeType } from "../interfaces";
     "gross sales": 94886.63,
     "store search conversion": 2.62,
     "return rate": 8.77,
-    "date": "29-12-2023",
-    "monthYear": "Dec 2023"
+    date: "29-12-2023",
+    monthYear: "Dec 2023",
   },
   {
-    "id": 831,
+    id: 831,
     "online store session": 20833,
     "net return value": "20494.60",
     "total orders": 1087,
@@ -16262,11 +16261,11 @@ import { storeType } from "../interfaces";
     "gross sales": 30663.09,
     "store search conversion": 13.81,
     "return rate": 19.93,
-    "date": "01-01-2024",
-    "monthYear": "Jan 2024"
+    date: "01-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 200,
+    id: 200,
     "online store session": 18600,
     "net return value": "26177.80",
     "total orders": 6554,
@@ -16275,11 +16274,11 @@ import { storeType } from "../interfaces";
     "gross sales": 19515.03,
     "store search conversion": 18.07,
     "return rate": 6.69,
-    "date": "02-01-2024",
-    "monthYear": "Jan 2024"
+    date: "02-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 691,
+    id: 691,
     "online store session": 18153,
     "net return value": "28041.00",
     "total orders": 4924,
@@ -16288,11 +16287,11 @@ import { storeType } from "../interfaces";
     "gross sales": 83031.75,
     "store search conversion": 1.06,
     "return rate": 4.05,
-    "date": "03-01-2024",
-    "monthYear": "Jan 2024"
+    date: "03-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 184,
+    id: 184,
     "online store session": 22382,
     "net return value": "15816.80",
     "total orders": 9251,
@@ -16301,11 +16300,11 @@ import { storeType } from "../interfaces";
     "gross sales": 25637.21,
     "store search conversion": 24.72,
     "return rate": 13.02,
-    "date": "05-01-2024",
-    "monthYear": "Jan 2024"
+    date: "05-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 398,
+    id: 398,
     "online store session": 21571,
     "net return value": "24046.30",
     "total orders": 4973,
@@ -16314,11 +16313,11 @@ import { storeType } from "../interfaces";
     "gross sales": 37270.83,
     "store search conversion": 20.57,
     "return rate": 19.11,
-    "date": "06-01-2024",
-    "monthYear": "Jan 2024"
+    date: "06-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 749,
+    id: 749,
     "online store session": 22406,
     "net return value": "16591.90",
     "total orders": 1070,
@@ -16327,11 +16326,11 @@ import { storeType } from "../interfaces";
     "gross sales": 30298.25,
     "store search conversion": 29.27,
     "return rate": 18.33,
-    "date": "07-01-2024",
-    "monthYear": "Jan 2024"
+    date: "07-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 193,
+    id: 193,
     "online store session": 24767,
     "net return value": "14505.10",
     "total orders": 2880,
@@ -16340,11 +16339,11 @@ import { storeType } from "../interfaces";
     "gross sales": 41787.95,
     "store search conversion": 5.78,
     "return rate": 11.67,
-    "date": "09-01-2024",
-    "monthYear": "Jan 2024"
+    date: "09-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 366,
+    id: 366,
     "online store session": 22210,
     "net return value": "19471.00",
     "total orders": 8416,
@@ -16353,11 +16352,11 @@ import { storeType } from "../interfaces";
     "gross sales": 10067.64,
     "store search conversion": 6.51,
     "return rate": 1.01,
-    "date": "10-01-2024",
-    "monthYear": "Jan 2024"
+    date: "10-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 721,
+    id: 721,
     "online store session": 16806,
     "net return value": "20768.10",
     "total orders": 7559,
@@ -16366,11 +16365,11 @@ import { storeType } from "../interfaces";
     "gross sales": 53065.11,
     "store search conversion": 12.19,
     "return rate": 4.16,
-    "date": "14-01-2024",
-    "monthYear": "Jan 2024"
+    date: "14-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 855,
+    id: 855,
     "online store session": 20763,
     "net return value": "22576.40",
     "total orders": 7555,
@@ -16379,11 +16378,11 @@ import { storeType } from "../interfaces";
     "gross sales": 67749.65,
     "store search conversion": 10.46,
     "return rate": 11.54,
-    "date": "15-01-2024",
-    "monthYear": "Jan 2024"
+    date: "15-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 16,
+    id: 16,
     "online store session": 23085,
     "net return value": "11408.80",
     "total orders": 4365,
@@ -16392,11 +16391,11 @@ import { storeType } from "../interfaces";
     "gross sales": 47698.58,
     "store search conversion": 19.91,
     "return rate": 18.5,
-    "date": "16-01-2024",
-    "monthYear": "Jan 2024"
+    date: "16-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 67,
+    id: 67,
     "online store session": 15992,
     "net return value": "10421.20",
     "total orders": 4394,
@@ -16405,11 +16404,11 @@ import { storeType } from "../interfaces";
     "gross sales": 43610.91,
     "store search conversion": 29.51,
     "return rate": 18.69,
-    "date": "17-01-2024",
-    "monthYear": "Jan 2024"
+    date: "17-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 3,
+    id: 3,
     "online store session": 19932,
     "net return value": "29860.90",
     "total orders": 9633,
@@ -16418,11 +16417,11 @@ import { storeType } from "../interfaces";
     "gross sales": 23810.79,
     "store search conversion": 7.87,
     "return rate": 6.42,
-    "date": "18-01-2024",
-    "monthYear": "Jan 2024"
+    date: "18-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 645,
+    id: 645,
     "online store session": 20071,
     "net return value": "18547.60",
     "total orders": 6461,
@@ -16431,11 +16430,11 @@ import { storeType } from "../interfaces";
     "gross sales": 84120.46,
     "store search conversion": 5.79,
     "return rate": 5.35,
-    "date": "19-01-2024",
-    "monthYear": "Jan 2024"
+    date: "19-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 530,
+    id: 530,
     "online store session": 18624,
     "net return value": "15374.30",
     "total orders": 6443,
@@ -16444,11 +16443,11 @@ import { storeType } from "../interfaces";
     "gross sales": 32353.22,
     "store search conversion": 15.24,
     "return rate": 2.37,
-    "date": "21-01-2024",
-    "monthYear": "Jan 2024"
+    date: "21-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 506,
+    id: 506,
     "online store session": 16449,
     "net return value": "10135.20",
     "total orders": 5912,
@@ -16457,11 +16456,11 @@ import { storeType } from "../interfaces";
     "gross sales": 93144.93,
     "store search conversion": 10.66,
     "return rate": 1.55,
-    "date": "24-01-2024",
-    "monthYear": "Jan 2024"
+    date: "24-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 773,
+    id: 773,
     "online store session": 21740,
     "net return value": "15686.50",
     "total orders": 7668,
@@ -16470,11 +16469,11 @@ import { storeType } from "../interfaces";
     "gross sales": 17345.64,
     "store search conversion": 16.2,
     "return rate": 8.98,
-    "date": "25-01-2024",
-    "monthYear": "Jan 2024"
+    date: "25-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 548,
+    id: 548,
     "online store session": 21047,
     "net return value": "26323.30",
     "total orders": 2708,
@@ -16483,11 +16482,11 @@ import { storeType } from "../interfaces";
     "gross sales": 22521.98,
     "store search conversion": 26.73,
     "return rate": 0.7,
-    "date": "29-01-2024",
-    "monthYear": "Jan 2024"
+    date: "29-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 706,
+    id: 706,
     "online store session": 18867,
     "net return value": "13293.10",
     "total orders": 6401,
@@ -16496,11 +16495,11 @@ import { storeType } from "../interfaces";
     "gross sales": 53924.85,
     "store search conversion": 10.33,
     "return rate": 7.31,
-    "date": "30-01-2024",
-    "monthYear": "Jan 2024"
+    date: "30-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 293,
+    id: 293,
     "online store session": 17751,
     "net return value": "13732.90",
     "total orders": 5716,
@@ -16509,11 +16508,11 @@ import { storeType } from "../interfaces";
     "gross sales": 20779.3,
     "store search conversion": 9.2,
     "return rate": 1.38,
-    "date": "31-01-2024",
-    "monthYear": "Jan 2024"
+    date: "31-01-2024",
+    monthYear: "Jan 2024",
   },
   {
-    "id": 567,
+    id: 567,
     "online store session": 18788,
     "net return value": "20880.60",
     "total orders": 7423,
@@ -16522,11 +16521,11 @@ import { storeType } from "../interfaces";
     "gross sales": 65156.01,
     "store search conversion": 3.85,
     "return rate": 11.62,
-    "date": "08-02-2024",
-    "monthYear": "Feb 2024"
+    date: "08-02-2024",
+    monthYear: "Feb 2024",
   },
   {
-    "id": 84,
+    id: 84,
     "online store session": 24358,
     "net return value": "23783.80",
     "total orders": 2714,
@@ -16535,11 +16534,11 @@ import { storeType } from "../interfaces";
     "gross sales": 88713.68,
     "store search conversion": 19.79,
     "return rate": 12.71,
-    "date": "09-02-2024",
-    "monthYear": "Feb 2024"
+    date: "09-02-2024",
+    monthYear: "Feb 2024",
   },
   {
-    "id": 750,
+    id: 750,
     "online store session": 18441,
     "net return value": "28337.90",
     "total orders": 8397,
@@ -16548,11 +16547,11 @@ import { storeType } from "../interfaces";
     "gross sales": 82463.82,
     "store search conversion": 9.41,
     "return rate": 10.26,
-    "date": "10-02-2024",
-    "monthYear": "Feb 2024"
+    date: "10-02-2024",
+    monthYear: "Feb 2024",
   },
   {
-    "id": 795,
+    id: 795,
     "online store session": 18308,
     "net return value": "25367.30",
     "total orders": 6780,
@@ -16561,11 +16560,11 @@ import { storeType } from "../interfaces";
     "gross sales": 60313.42,
     "store search conversion": 13.42,
     "return rate": 18.29,
-    "date": "11-02-2024",
-    "monthYear": "Feb 2024"
+    date: "11-02-2024",
+    monthYear: "Feb 2024",
   },
   {
-    "id": 747,
+    id: 747,
     "online store session": 21733,
     "net return value": "10733.30",
     "total orders": 4867,
@@ -16574,11 +16573,11 @@ import { storeType } from "../interfaces";
     "gross sales": 84254.53,
     "store search conversion": 20.14,
     "return rate": 14.78,
-    "date": "12-02-2024",
-    "monthYear": "Feb 2024"
+    date: "12-02-2024",
+    monthYear: "Feb 2024",
   },
   {
-    "id": 264,
+    id: 264,
     "online store session": 22789,
     "net return value": "28356.80",
     "total orders": 6695,
@@ -16587,11 +16586,11 @@ import { storeType } from "../interfaces";
     "gross sales": 31778.07,
     "store search conversion": 4.47,
     "return rate": 8.75,
-    "date": "16-02-2024",
-    "monthYear": "Feb 2024"
+    date: "16-02-2024",
+    monthYear: "Feb 2024",
   },
   {
-    "id": 112,
+    id: 112,
     "online store session": 24077,
     "net return value": "20628.10",
     "total orders": 2823,
@@ -16600,11 +16599,11 @@ import { storeType } from "../interfaces";
     "gross sales": 35045.15,
     "store search conversion": 26.45,
     "return rate": 3.62,
-    "date": "19-02-2024",
-    "monthYear": "Feb 2024"
+    date: "19-02-2024",
+    monthYear: "Feb 2024",
   },
   {
-    "id": 860,
+    id: 860,
     "online store session": 16018,
     "net return value": "26400.60",
     "total orders": 2547,
@@ -16613,11 +16612,11 @@ import { storeType } from "../interfaces";
     "gross sales": 23846.44,
     "store search conversion": 19.28,
     "return rate": 6.46,
-    "date": "20-02-2024",
-    "monthYear": "Feb 2024"
+    date: "20-02-2024",
+    monthYear: "Feb 2024",
   },
   {
-    "id": 574,
+    id: 574,
     "online store session": 15294,
     "net return value": "29990.30",
     "total orders": 5742,
@@ -16626,11 +16625,11 @@ import { storeType } from "../interfaces";
     "gross sales": 37386.52,
     "store search conversion": 16.12,
     "return rate": 14.75,
-    "date": "21-02-2024",
-    "monthYear": "Feb 2024"
+    date: "21-02-2024",
+    monthYear: "Feb 2024",
   },
   {
-    "id": 442,
+    id: 442,
     "online store session": 16930,
     "net return value": "29654.80",
     "total orders": 4522,
@@ -16639,11 +16638,11 @@ import { storeType } from "../interfaces";
     "gross sales": 98024.36,
     "store search conversion": 10.95,
     "return rate": 4.48,
-    "date": "22-02-2024",
-    "monthYear": "Feb 2024"
+    date: "22-02-2024",
+    monthYear: "Feb 2024",
   },
   {
-    "id": 41,
+    id: 41,
     "online store session": 22432,
     "net return value": "19901.00",
     "total orders": 2564,
@@ -16652,11 +16651,11 @@ import { storeType } from "../interfaces";
     "gross sales": 21203.85,
     "store search conversion": 9.99,
     "return rate": 16.33,
-    "date": "23-02-2024",
-    "monthYear": "Feb 2024"
+    date: "23-02-2024",
+    monthYear: "Feb 2024",
   },
   {
-    "id": 44,
+    id: 44,
     "online store session": 16552,
     "net return value": "10825.80",
     "total orders": 5998,
@@ -16665,11 +16664,11 @@ import { storeType } from "../interfaces";
     "gross sales": 36364.01,
     "store search conversion": 1.79,
     "return rate": 14.56,
-    "date": "25-02-2024",
-    "monthYear": "Feb 2024"
+    date: "25-02-2024",
+    monthYear: "Feb 2024",
   },
   {
-    "id": 443,
+    id: 443,
     "online store session": 15034,
     "net return value": "23596.50",
     "total orders": 5784,
@@ -16678,11 +16677,11 @@ import { storeType } from "../interfaces";
     "gross sales": 70540.35,
     "store search conversion": 3.78,
     "return rate": 13.19,
-    "date": "27-02-2024",
-    "monthYear": "Feb 2024"
+    date: "27-02-2024",
+    monthYear: "Feb 2024",
   },
   {
-    "id": 637,
+    id: 637,
     "online store session": 19466,
     "net return value": "19888.30",
     "total orders": 3808,
@@ -16691,11 +16690,11 @@ import { storeType } from "../interfaces";
     "gross sales": 27276.21,
     "store search conversion": 8.6,
     "return rate": 7.88,
-    "date": "01-03-2024",
-    "monthYear": "Mar 2024"
+    date: "01-03-2024",
+    monthYear: "Mar 2024",
   },
   {
-    "id": 396,
+    id: 396,
     "online store session": 16512,
     "net return value": "12440.50",
     "total orders": 7231,
@@ -16704,27 +16703,21 @@ import { storeType } from "../interfaces";
     "gross sales": 77446.34,
     "store search conversion": 4.73,
     "return rate": 2.8,
-    "date": "02-03-2024",
-    "monthYear": "Mar 2024"
-  }
-]
+    date: "02-03-2024",
+    monthYear: "Mar 2024",
+  },
+];
 
-let correctdata=data
+let correctdata = data;
 
 correctdata.map((item) => {
   const newValue = Math.floor(Math.random() * (16000 - 10000 + 1)) + 10000;
-  item['net return value'] = newValue.toString();
+  item["net return value"] = newValue.toString();
   return item;
 });
 
 //console.log('corrected data--', correctdata)
 
-const storedataWithMonthYear= correctdata
+const storedataWithMonthYear = correctdata;
 
-
-
-
-
-
-
-export default storedataWithMonthYear
+export default storedataWithMonthYear;

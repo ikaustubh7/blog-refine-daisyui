@@ -105,11 +105,11 @@ function StorepanelStats() {
       const value = sortedDataForChart[sortedDataForChart.length - 1][key];
       const change = lastday - firstday;
       const percentagechange = Math.round((change / firstday) * 100);
-      console.log("key is", key);
+    //  console.log("key is", key);
 
-      console.log(percentagechange);
-      console.log(title);
-      console.log("firstday is ", firstday);
+    //  console.log(percentagechange);
+    //  console.log(title);
+     // console.log("firstday is ", firstday);
 
       let titlearray: {
         id: number;
@@ -135,8 +135,8 @@ function StorepanelStats() {
     //return propsvalue;
   }
 
-  console.log("propsvalue", propsvalue);
-  console.log("current id--", currentid);
+ // console.log("propsvalue", propsvalue);
+ // console.log("current id--", currentid);
 
   const handleMouseOver = useCallback((current: number) => {
     setHoverindex(current);

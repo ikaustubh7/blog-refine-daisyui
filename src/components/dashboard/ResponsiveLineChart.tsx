@@ -7,8 +7,8 @@ import {
   CartesianGrid,
   Tooltip,
   Legend,
-  ResponsiveContainer, 
-  ReferenceLine
+  ResponsiveContainer,
+  ReferenceLine,
 } from "recharts";
 import { useDateRange } from "../../context/Datecontext";
 import storedataWithMonthYear from "../../mockdata/storedata";
@@ -25,7 +25,6 @@ import { storedataType } from "../../interfaces";
 import Arrowicon from "../../ui/Arrowicon";
 import Upperline from "../../ui/Upperline";
 import Lowerline from "../../ui/Lowerline";
-
 
 interface oldDateRange {
   type: DateRange | undefined;
@@ -92,21 +91,23 @@ const ResponsiveLineChart = () => {
         dateRange?.to?.toLocaleDateString("en-GB") ?? ""
       );
 
-      const filteredData:storedataType   = storedataWithMonthYear.filter((item) => {
-        const convertToDate = (dateString: string) => {
-          const parts = dateString.split("-");
-          return new Date(
-            Number(parts[2]),
-            Number(parts[1]) - 1,
-            Number(parts[0])
+      const filteredData: storedataType = storedataWithMonthYear.filter(
+        (item) => {
+          const convertToDate = (dateString: string) => {
+            const parts = dateString.split("-");
+            return new Date(
+              Number(parts[2]),
+              Number(parts[1]) - 1,
+              Number(parts[0])
+            );
+          };
+          const itemDate = convertToDate(item.date);
+          return (
+            itemDate >= convertToDate(formattedFromDate) &&
+            itemDate <= convertToDate(formattedToDate)
           );
-        };
-        const itemDate = convertToDate(item.date);
-        return (
-          itemDate >= convertToDate(formattedFromDate) &&
-          itemDate <= convertToDate(formattedToDate)
-        );
-      });
+        }
+      );
 
       setSortedDataForChart(filteredData);
     };
@@ -191,177 +192,212 @@ const ResponsiveLineChart = () => {
 
   const current = useRecoilValue(clickedCurrent);
   const title = headtitles[current].key;
-  console.log("current", current);
-  console.log(title);
+  //console.log("current", current);
+  //console.log(title);
 
   const combinedData = sortedDataForChart?.map((item, index) => {
     const oldItem = oldDataForChartState[index];
     return {
-      [value.currentRange]: item[title as keyof typeof item ], // Assuming 'title' is a valid property of items in sortedDataForChart
+      [value.currentRange]: item[title as keyof typeof item], // Assuming 'title' is a valid property of items in sortedDataForChart
       pv1: item["monthYear"], // Access 'monthYear' property from the current item
-      [value.previousRange]: oldItem ? oldItem[title as keyof typeof oldItem] : "", // Safely access 'title' from the old data, default to empty string if not found
+      [value.previousRange]: oldItem
+        ? oldItem[title as keyof typeof oldItem]
+        : "", // Safely access 'title' from the old data, default to empty string if not found
       pv2: oldItem ? oldItem["monthYear"] : "", // Safely access 'monthYear' from the old data, default to empty string if not found
     };
   });
 
-  console.log("combineddate", combinedData);
-  console.log(oldDateRange);
+  //console.log("combineddate", combinedData);
+  //console.log(oldDateRange);
 
+  function subtractYear(dateStr: string) {
+    const months = [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ];
+    const [month, year] = dateStr.split(" ");
 
-  function subtractYear(dateStr:string ) {
-    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
-                    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-    const [month, year] = dateStr.split(' ');
-  
     // Get the index of the month for calculations
     const monthIndex = months.indexOf(month);
-  
+
     // Subtract one year
     const newYear = parseInt(year, 10) - 1;
-  
+
     // Calculate new month (handle December wraparound)
-    const newMonthIndex = (monthIndex - 1 + 12) % 12;  
-  
+    const newMonthIndex = (monthIndex - 1 + 12) % 12;
+
     // Construct the new date string
     const newDateStr = `${months[newMonthIndex]} ${newYear}`;
     return newDateStr;
   }
 
   const divStyle = {
-    width: '180px',
-    height: '62px',
-    marginTop: '23px',
-    marginLeft: '17px',
-    padding: '5px',
-    borderRadius: '10px',
-    backgroundColor: 'white',
-    
-    opacity:1
+    width: "180px",
+    height: "62px",
+    marginTop: "23px",
+    marginLeft: "17px",
+    padding: "5px",
+    borderRadius: "10px",
+    backgroundColor: "white",
 
-   
+    opacity: 1,
   };
 
-  
-  const CustomTooltip = ({ active, payload, label }: { active: boolean, payload: any[], label: string  }) => {
+  const CustomTooltip = ({
+    active,
+    payload,
+    label,
+  }: {
+    active: boolean;
+    payload: any[];
+    label: string;
+  }) => {
     if (active && payload && payload.length) {
-
-          const change =((payload[0].value-payload[1].value)/(payload[1].value)*100).toFixed(0).concat('%')          
-
+      const change = (
+        ((payload[0].value - payload[1].value) / payload[1].value) *
+        100
+      )
+        .toFixed(0)
+        .concat("%");
 
       return (
-        <div    style={divStyle} className="flex-col shadow-md  h-[62px]  "  >
-          <div className="flex space-x-[10px] w-[170px] h-[25px]
+        <div style={divStyle} className="flex-col shadow-md  h-[62px]  ">
+          <div
+            className="flex space-x-[10px] w-[170px] h-[25px]
 px-[10px] py-[5x]
 border-radius: 2px  items-center
 
-  ">
+  "
+          >
+            <span className="">
+              <Upperline />
+            </span>
 
-
-            <span className=""  ><Upperline/></span>
-            
-                  <span  className="w-[48px] h-[12px]  font-[Inter]
+            <span
+              className="w-[48px] h-[12px]  font-[Inter]
 text-[10px]
 font-[400]
 leading-[12px]
 tracking-normal  
 text-left
- "  > {`${label}`} </span>
+ "
+            >
+              {" "}
+              {`${label}`}{" "}
+            </span>
 
-
-        <span  className="w-[33px] h-[12px]  font-[Inter]
+            <span
+              className="w-[33px] h-[12px]  font-[Inter]
 text-[10px] font-[500]
 leading-[12px]
 tracking-normal
 text-left
-   " >   {`${payload[0].value}`}      </span>            
-            
-            
-            
-              <span className="w-[29px]
+   "
+            >
+              {" "}
+              {`${payload[0].value}`}{" "}
+            </span>
+
+            <span
+              className="w-[29px]
 h-[15px]
 flex flex-row 
-"   > 
-
-<span className="  w-[12px]
+"
+            >
+              <span
+                className="  w-[12px]
 h-[10px] mt-[2.5px] mb-[2.5px]
- "  > <Arrowicon/>  </span>
+ "
+              >
+                {" "}
+                <Arrowicon />{" "}
+              </span>
 
- <span  className=" w-[15px]
+              <span
+                className=" w-[15px]
 h-[15px]  font-[Inter]
 text-[10px]
 font-[400]
 leading-[15px]
 tracking-normal text-left  text-[#616161]
 
- " >  {change}    
-   </span>
- 
- 
- 
-   </span>  
-            
-            
-            
-             </div>
+ "
+              >
+                {" "}
+                {change}
+              </span>
+            </span>
+          </div>
 
-
-
-          <div className="  w-[129px]
+          <div
+            className="  w-[129px]
 h-[22px] py-[5px] px-[10px]
 space-x-[10px]  items-center flex flex-row
-       "> 
-             <span> <Lowerline/> </span>
-              <span className="w-[48px]
+       "
+          >
+            <span>
+              {" "}
+              <Lowerline />{" "}
+            </span>
+            <span
+              className="w-[48px]
 h-[12px]   font-[Inter]
 text-[10px]
 font-[400]
 leading-[12px] tracking-normal text-left 
 
 
-"   >  {`${subtractYear(label)}`}  </span>
+"
+            >
+              {" "}
+              {`${subtractYear(label)}`}{" "}
+            </span>
 
-
-              <span  className="w-[31px]
+            <span
+              className="w-[31px]
 h-[12px]  font-[Inter]
 text-[10px]
 font-[500]
 leading-[12px] tracking-normal text-left
 
-   "  >    {`${payload[1].value}   `}    </span>
-       
-       
-           </div>
-          
+   "
+            >
+              {" "}
+              {`${payload[1].value}   `}{" "}
+            </span>
+          </div>
         </div>
       );
     }
-  
+
     return null;
   };
-  
 
-
-  if (combinedData == undefined || combinedData.length==0) {
+  if (combinedData == undefined || combinedData.length == 0) {
     return <div>No data found for the selected date range.</div>;
   }
 
-
-
   const spanStyle = {
-    width: '149px',
-    height: '12px',
-    backgroundColor: '#F6F6F7',
-    fontFamily: 'Inter',
-    fontSize: '10px',
+    width: "149px",
+    height: "12px",
+    backgroundColor: "#F6F6F7",
+    fontFamily: "Inter",
+    fontSize: "10px",
     fontWeight: 400,
-    lineHeight: '12px',
-    letterSpacing: 'normal',
-    color: '#70707A',
+    lineHeight: "12px",
+    letterSpacing: "normal",
+    color: "#70707A",
   };
-
-
-  
-  
 
   return (
     <ResponsiveContainer width="100%" height="100%">
@@ -376,29 +412,25 @@ leading-[12px] tracking-normal text-left
           bottom: 5,
         }}
       >
-        
-        <XAxis dataKey="pv1"  axisLine={false}  tickLine={false}  />
-        <YAxis  hide={false} 
-            tickLine={false}
-        axisLine={false}
-        tickFormatter={(value) =>{
-          
-            if (value >1000){
-             return `${value / 1000}K` ;
+        <XAxis dataKey="pv1" axisLine={false} tickLine={false} />
+        <YAxis
+          hide={false}
+          tickLine={false}
+          axisLine={false}
+          tickFormatter={(value) => {
+            if (value > 1000) {
+              return `${value / 1000}K`;
+            } else {
+              return `${value}`;
             }
-           else{
-           return `${value}`
-           }
-        
-        
-         } }
-        
-        
+          }}
         />
-        <Tooltip cursor={{ stroke: "grey", strokeWidth: 1 }}  content={<CustomTooltip
-        active={true} payload={[]} label="Your Label"  
-        
-        />}   />
+        <Tooltip
+          cursor={{ stroke: "grey", strokeWidth: 1 }}
+          content={
+            <CustomTooltip active={true} payload={[]} label="Your Label" />
+          }
+        />
 
         <Legend
           verticalAlign="bottom"
@@ -406,44 +438,15 @@ leading-[12px] tracking-normal text-left
           iconSize={10}
           iconType="plainline"
           formatter={(value, entry) => {
-
-
-            return (
-
-               <span
-              style={spanStyle}
-                
-              >
-                          
-          
-          
-                {value}
-              </span>  
-              
-    );
-  }
-          
-}   
-          
-          
+            return <span style={spanStyle}>{value}</span>;
+          }}
         />
-        <ReferenceLine y={5000}  stroke="#ECF0F1"  />
-        <ReferenceLine y={10000}  stroke="#ECF0F1"  />
-        <ReferenceLine y={20000}  stroke="#ECF0F1"  />
-        
-        <ReferenceLine y={25000}  stroke="#ECF0F1"  />
-        <ReferenceLine y={50}  stroke="#ECF0F1"  />
+        <ReferenceLine y={5000} stroke="#ECF0F1" />
+        <ReferenceLine y={10000} stroke="#ECF0F1" />
+        <ReferenceLine y={20000} stroke="#ECF0F1" />
 
-
-
-
-
-
-        
-
-        
-
-
+        <ReferenceLine y={25000} stroke="#ECF0F1" />
+        <ReferenceLine y={50} stroke="#ECF0F1" />
 
         <Line
           type="monotone"

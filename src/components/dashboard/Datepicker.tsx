@@ -33,7 +33,7 @@ export function DatePickerWithRange({
     // Update the external date range state/context when fromDate or toDate changes
     if (fromDate && toDate) {
       setDateRange({ from: fromDate, to: toDate });
-      console.log('Date range changed:', { from: fromDate, to: toDate });
+      //console.log('Date range changed:', { from: fromDate, to: toDate });
     }
   }, [fromDate, toDate, setDateRange]);
 
@@ -95,7 +95,7 @@ export function DatePickerWithRange({
               initialFocus
               mode="single"
               defaultMonth={fromDate}
-              fromDate={new Date(2018,1,1)}
+              fromDate={new Date(2019,1,1)}
               toMonth={toDate}
               selected={fromDate}
               onSelect={handleSelectFromDate}
@@ -109,6 +109,7 @@ export function DatePickerWithRange({
               mode="single"
               defaultMonth={toDate ? toDate : addDays(new Date(fromDate || new Date()), 1)}
               fromMonth={fromDate}
+              toDate={new Date(2024, 12, 20)}
               selected={toDate}
               onSelect={handleSelectToDate}
               numberOfMonths={1}
