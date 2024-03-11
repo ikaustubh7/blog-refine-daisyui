@@ -15,6 +15,17 @@ Project to add Date Picker Integration for data comparison of two time periods
 
 Run the following command to download the project:
 
+git clone following url - (https://github.com/ikaustubh7/blog-refine-daisyui.git)
+
+
+To install Libraries:
+
+npm install
+
+To start Dev Server :
+
+npm run dev
+
 ReChartJs for Charts:-
 [->](https://recharts.org/en-US/)
 
