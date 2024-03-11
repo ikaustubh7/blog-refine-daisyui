@@ -33,12 +33,12 @@ ReChartJs for Charts:-
 RecoilJs for State Management:-
 [->](https://recoiljs.org/)
 
-- (Least Boiler Code , quick for implementation ) \*
+- (Least Boilerplate Code , quick for implementation ) \*
 
 ShadcnUi for Ui:-
 [->](https://ui.shadcn.com/)
 
-- ( Great Boiler code to start creating complex Ui with state management ) \*
+- ( Great Boilerplate code to start creating complex Ui with state management ) \*
 
 Assumptions made for Project:-
 
