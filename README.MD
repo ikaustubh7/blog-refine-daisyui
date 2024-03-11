@@ -16,16 +16,16 @@ Project to add Date Picker Integration for data comparison of two time periods
 Run the following command to download the project:
 
 ReChartJs for Charts:-
-[Link Text](https://recharts.org/en-US/)
+[->](https://recharts.org/en-US/)
 
  * (Good Documentation and Unopininated Library , low learning curve ) *
 
 RecoilJs for State Management:-
-[Link Text](https://recoiljs.org/)
+[->](https://recoiljs.org/)
  * (Least Boiler Code  , quick for implementation ) * 
 
 ShadcnUi for Ui:-
-[Link Text](https://ui.shadcn.com/)
+[->](https://ui.shadcn.com/)
 * ( Great Boiler code to start creating complex Ui with state management  ) * 
 
 Assumptions made for Project:
